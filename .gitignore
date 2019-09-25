@@ -1,3 +1,5 @@
 .vscode
 
 *.pyc
+
+IMDB_Dataset.csv
