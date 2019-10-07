@@ -8,6 +8,7 @@ if __name__ == '__main__':
     bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
     env = Environment(bert_model, bert_tokenizer)
     agent = Agent(bert_model)
+    expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     for _ in range(1000):
         s = env.reset()
@@ -19,7 +20,7 @@ if __name__ == '__main__':
             time_to_update = agent.store(s, a, c, d, next_s, log_prob)
             if time_to_update:
                 print('updating')
-                expert_chunk = get_expert_chunk()
+                expert_chunk = next(expert_chunk_generator)
                 agent.update(expert_chunk)
                 print('update complete')
             s = next_s

@@ -5,7 +5,7 @@ import random
 from torch.nn import Module, ModuleList
 from torch.nn import Linear, PReLU, BatchNorm1d
 from torch.distributions import Categorical
-from torch.nn import MSELoss
+from torch.nn import MSELoss, CrossEntropyLoss
 from torch.optim import Adam
 from config import *
 from util import *
@@ -30,7 +30,23 @@ class Actor_Critic(Module):
         self.critic_activation = PReLU()
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
+        self.pretrain_loss_function = CrossEntropyLoss()
         self.opt = Adam(self.parameters(), lr=AC_LR)
+
+    def forward(self, s, c):
+        '''
+        IN:
+        s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
+        c: [BATCH_SIZE, CODE_SIZE](torch.FloatTensor)
+        OUT:
+        action_score = [BATCH_SIZE, VOCAB_SIZE]
+        '''
+        s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
+        x = self.a1(self.l1(s_c))
+        for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
+            x = activation(batchnorm((layer(x))))
+        x = self.actor_layer(x)
+        return x
 
     def action_forward(self, s, c, a=None):
         '''
@@ -109,7 +125,20 @@ class Actor_Critic(Module):
         loss = -torch.mean(tmp) + ENTROPY*minus_entropy
         return loss
 
+    def pretrain_loss(self, states, action_ids, codes):
+        '''
+        IN:
+        states: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
+        action_ids: [BATCH_SIZE,](torch.LongTensor)
+        codes: [BATCH_SIZE,](list)(ndarray)
+        '''
+        codes = to_onehot(codes)
+        action_score = self.action_forward(states, codes)
+        loss = self.pretrain_loss_function(action_score, action_ids)
+        return loss
+
     def train_by_loss(self, loss):
+        self.zero_grad()
         loss.backward()
         self.opt.step()
 

@@ -129,3 +129,10 @@ class Agent():
         for _ in range(PPO_STEP):
             self.actor_critic_update()
         self.long_memory.flush()
+
+    def pretrain(self, expert_chunk):
+        expert_states = expert_chunk['states']
+        expert_action_ids = expert_chunk['action_ids']
+        expert_codes = expert_chunk['codes'].reshape((-1,))
+        pretrain_loss = self.actor_critic.pretrain_loss(expert_states, expert_action_ids, expert_codes)
+        self.actor_critic.train_by_loss(pretrain_loss)
