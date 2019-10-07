@@ -1,0 +1,49 @@
+#system info
+DEVICE = 'cpu'
+EXPERT_DIR = './expert_data'
+
+#for bert encoder
+PRETRAINED_WEIGHTS = 'bert-base-uncased'
+
+#for environment
+STATE_SIZE = 768
+CODE_SIZE = 2
+CLS_TOKEN_IDX = 101
+SEP_TOKEN_IDX = 102
+GEN_MAX_LEN = 16
+
+#batch size
+BATCH_SIZE = 64
+
+#for discriminator
+DISC_HIDDEN_UNIT_NUM = 250
+DISC_HIDDEN_LAYER_NUM = 2
+DISC_LR = 1e-4
+WEIGHT_FOR_CODE = 0.5
+DISC_STEP = 7
+
+#for actor_critic
+AC_HIDDEN_UNIT_NUM = 2000
+AC_HIDDEN_UNIT_STRIDE = 1000
+AC_HIDDEN_LAYER_NUM = 2
+AC_LR = 1e-5
+CRITIC_HIDDEN_UNIT_NUM = 500
+TOP_K = 40
+EPSILON = 0.15
+ENTROPY = 1e-1
+ACTOR_COEF = 1
+CRITIC_COEF = 0.1
+PPO_STEP = 7
+
+#for memory
+GAMMA = 0.98
+LAMBDA = 0.95
+THRESHOLD_LEN = 512
+HORIZON_THRESHOLD = 5
+
+#for action_autoencoder
+#not used
+VOCAB_SIZE = 30522
+COMPRESSED_VOCAB_SIZE = 768
+AUTOENCODER_BATCH_SIZE = 128
+AUTOENCODER_SAVE_PATH = './model_save/encoder.pt'
