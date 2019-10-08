@@ -133,7 +133,7 @@ class Actor_Critic(Module):
         codes: [BATCH_SIZE,](list)(ndarray)
         '''
         codes = to_onehot(codes)
-        action_score = self.action_forward(states, codes)
+        action_score = self.forward(states, codes)
         loss = self.pretrain_loss_function(action_score, action_ids)
         return loss
 

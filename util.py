@@ -44,27 +44,32 @@ def get_expert_chunk_list():
     file_lists = random.sample(expert_files, EXPERT_CHUNKS_NUM)
     states_list = []
     actions_list = []
+    action_ids_list = []
     codes_list = []
     for file_name in file_lists:
         file_path = os.path.join(EXPERT_DIR, file_name)
         chunk = np.load(file_path)
         states_list.append(chunk['states'])
         actions_list.append(chunk['actions'])
+        action_ids_list.append(chunk['actions_ids'])
         codes_list.append(chunk['codes'])
     states = np.concatenate(states_list, axis=0)
     actions = np.concatenate(actions_list, axis=0)
+    action_ids = np.concatenate(action_ids_list, axis=0)
     codes = np.concatenate(codes_list, axis=0)
     chunk_length = len(states)
     indice = np.arange(chunk_length)
     np.random.shuffle(indice)
     states = states[indice]
     actions = actions[indice]
+    action_ids = action_ids[indice]
     codes = codes[indice]
     chunk_list = []
     for i in range(chunk_length//EXPERT_CHUNK_LENGTH):
         tmp = dict()
         tmp['states'] = states[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['actions'] = actions[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
+        tmp['action_ids'] = action_ids[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['codes'] = codes[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         chunk_list.append(tmp)
     return chunk_list
