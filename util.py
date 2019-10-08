@@ -31,14 +31,50 @@ def get_bert_model_and_tokenizer():
 def tmp_get_expert_chunk():
     return np.load('./expert_data/tmp.npz')
 
-def get_expert_chunk():
+def get_expert_chunk_generator():
+    chunk_list = get_expert_chunk_list()
+    print(len(chunk_list))
+    while True:
+        for chunk in chunk_list:
+            yield chunk
+        chunk_list = get_expert_chunk_list()
+
+def get_expert_chunk_list():
     expert_files = os.listdir(EXPERT_DIR)
-    file_path = os.path.join(EXPERT_DIR, random.sample(expert_files, 1)[0])
-    return np.load(file_path)
+    file_lists = random.sample(expert_files, EXPERT_CHUNKS_NUM)
+    states_list = []
+    actions_list = []
+    codes_list = []
+    for file_name in file_lists:
+        file_path = os.path.join(EXPERT_DIR, file_name)
+        chunk = np.load(file_path)
+        states_list.append(chunk['states'])
+        actions_list.append(chunk['actions'])
+        codes_list.append(chunk['codes'])
+    states = np.concatenate(states_list, axis=0)
+    actions = np.concatenate(actions_list, axis=0)
+    codes = np.concatenate(codes_list, axis=0)
+    chunk_length = len(states)
+    indice = np.arange(chunk_length)
+    np.random.shuffle(indice)
+    states = states[indice]
+    actions = actions[indice]
+    codes = codes[indice]
+    chunk_list = []
+    for i in range(chunk_length//EXPERT_CHUNK_LENGTH):
+        tmp = dict()
+        tmp['states'] = states[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
+        tmp['actions'] = actions[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
+        tmp['codes'] = codes[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
+        chunk_list.append(tmp)
+    return chunk_list
 
 
 if __name__ == '__main__':
-    a = get_expert_chunk()
-    print(a['states'].shape)
-    print(a['actions'].shape)
-    print(a['codes'].shape)
+    g = get_expert_chunk_generator()
+    for i in range(100):
+        a = next(g)
+        print(i)
+        print(a['states'].shape)
+        print(a['actions'].shape)
+        print(a['codes'].shape)

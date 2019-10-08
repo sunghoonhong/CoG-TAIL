@@ -1,6 +1,8 @@
 #system info
 DEVICE = 'cpu'
 EXPERT_DIR = './expert_data'
+EXPERT_CHUNKS_NUM = 4
+EXPERT_CHUNK_LENGTH = 512
 
 #for bert encoder
 PRETRAINED_WEIGHTS = 'bert-base-uncased'

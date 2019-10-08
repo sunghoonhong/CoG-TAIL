@@ -63,7 +63,9 @@ class Discriminator(Module):
         code_loss = self.code_loss(code_out, code_answer)
         return disc_loss + WEIGHT_FOR_CODE*code_loss
 
+
     def train_by_loss(self, loss):
+        self.zero_grad()
         loss.backward()
         self.opt.step()
 

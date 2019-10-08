@@ -3,3 +3,5 @@
 *.pyc
 
 IMDB_Dataset.csv
+/expert_data
+/expert_data/IMDB_Dataset1.npz
