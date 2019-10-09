@@ -131,6 +131,7 @@ class Agent():
         self.long_memory.flush()
 
     def pretrain(self, expert_chunk):
+        self.actor_critic.train()
         expert_states = expert_chunk['states']
         expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
         expert_codes = expert_chunk['codes'].reshape((-1,))
