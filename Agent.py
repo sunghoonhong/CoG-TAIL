@@ -134,6 +134,8 @@ class Agent():
         expert_states = expert_chunk['states']
         expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
         expert_codes = expert_chunk['codes'].reshape((-1,))
+        expert_weights= expert_chunk['weights']
+        pretrain_loss_function = torch.nn.CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
         expert_chunk_length = len(expert_states)
         expert_indice = np.arange(expert_chunk_length)
         np.random.shuffle(expert_indice)
@@ -145,7 +147,10 @@ class Agent():
             batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_action_ids = torch.as_tensor(expert_action_ids[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
-            pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes)
+            pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes, pretrain_loss_function)
             self.actor_critic.pretrain_by_loss(pretrain_loss)
             loss_sum += pretrain_loss.detach().cpu().numpy()
         return loss_sum/(expert_chunk_length//BATCH_SIZE)
+
+    def pretrain_save(self):
+        torch.save(self.actor_critic.state_dict(), PRETRAIN_SAVEPATH)

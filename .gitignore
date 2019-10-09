@@ -3,5 +3,7 @@
 *.pyc
 
 IMDB_Dataset.csv
+/model_save
 /expert_data
+/expert_data_last
 /expert_data/IMDB_Dataset1.npz

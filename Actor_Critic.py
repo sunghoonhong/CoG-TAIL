@@ -30,7 +30,6 @@ class Actor_Critic(Module):
         self.critic_activation = PReLU()
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
-        self.pretrain_loss_function = CrossEntropyLoss()
         self.opt = Adam(self.parameters(), lr=AC_LR)
         self.pretrain_opt = Adam(self.parameters(), lr=PRETRAIN_LR)
 
@@ -126,16 +125,17 @@ class Actor_Critic(Module):
         loss = -torch.mean(tmp) + ENTROPY*minus_entropy
         return loss
 
-    def pretrain_loss(self, states, action_ids, codes):
+    def pretrain_loss(self, states, action_ids, codes, pretrain_loss_function):
         '''
         IN:
         states: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
         action_ids: [BATCH_SIZE,](torch.LongTensor)
         codes: [BATCH_SIZE,](list)(ndarray)
+        pretrain_loss_function: CrossEntropyLoss with weights
         '''
         codes = to_onehot(codes)
         action_score = self.forward(states, codes)
-        loss = self.pretrain_loss_function(action_score, action_ids)
+        loss = pretrain_loss_function(action_score, action_ids)
         return loss
 
     def train_by_loss(self, loss):

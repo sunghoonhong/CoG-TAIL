@@ -1,8 +1,10 @@
 #system info
 DEVICE = 'cuda:0'
-EXPERT_DIR = './expert_data'
-EXPERT_CHUNKS_NUM = 20
+EXPERT_DIR = './expert_data_last'
+EXPERT_CHUNKS_NUM = 200
 EXPERT_CHUNK_LENGTH = 512
+BAD_TOKENS = [102, 1029, 999, 1012, 1008, 2184]
+#<SEP> ? ! . * 10
 
 #for bert encoder
 PRETRAINED_WEIGHTS = 'bert-base-uncased'
@@ -29,7 +31,7 @@ AC_HIDDEN_UNIT_NUM = 2000
 AC_HIDDEN_UNIT_STRIDE = 1000
 AC_HIDDEN_LAYER_NUM = 2
 AC_LR = 1e-5
-PRETRAIN_LR = 1e-4
+PRETRAIN_LR = 1e-5
 CRITIC_HIDDEN_UNIT_NUM = 500
 TOP_K = 40
 EPSILON = 0.15
@@ -37,6 +39,7 @@ ENTROPY = 1e-1
 ACTOR_COEF = 1
 CRITIC_COEF = 0.1
 PPO_STEP = 7
+PRETRAIN_SAVEPATH = './model_save/pretrain.pt'
 
 #for memory
 GAMMA = 0.98

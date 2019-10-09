@@ -2,6 +2,7 @@ import torch
 import random
 import os
 import numpy as np
+from collections import Counter
 from transformers import BertTokenizer, BertModel
 from config import *
 
@@ -50,24 +51,28 @@ def get_expert_chunk_list():
         chunk = np.load(file_path)
         states_list.append(chunk['states'])
         actions_list.append(chunk['actions'])
-        action_ids_list.append(chunk['actions_ids'])
+        if EXPERT_DIR == './expert_data_last':
+            action_ids_list.append(chunk['action_ids'])
+        elif EXPERT_DIR == './expert_data':
+            action_ids_list.append(chunk['actions_ids'])
+        else:
+            print('error')
+            assert False
         codes_list.append(chunk['codes'])
     states = np.concatenate(states_list, axis=0)
     actions = np.concatenate(actions_list, axis=0)
-    action_ids = np.concatenate(action_ids_list, axis=0)
+    action_ids = np.concatenate(action_ids_list, axis=0).reshape((-1,))
     codes = np.concatenate(codes_list, axis=0)
     chunk_length = len(states)
-    indice = []
-    tmp_set = set()
-    for i in range(chunk_length):
-        if action_ids[i][0] not in tmp_set:
-            tmp_set.add(action_ids[i][0])
-            indice.append(i)
-    states = states[indice]
-    actions = actions[indice]
-    action_ids = action_ids[indice]
-    codes = codes[indice]
-    chunk_length = len(states)
+    weights = np.zeros(VOCAB_SIZE)
+    counter = Counter(action_ids.tolist())
+    for i in range(VOCAB_SIZE):
+        if counter[i] < 2:
+            weights[i] = 1
+        else:
+            weights[i] = 1/counter[i]
+        if i in BAD_TOKENS:
+            weights[i] = 0
     indice = np.arange(chunk_length)
     np.random.shuffle(indice)
     states = states[indice]
@@ -81,8 +86,8 @@ def get_expert_chunk_list():
         tmp['actions'] = actions[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['action_ids'] = action_ids[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['codes'] = codes[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
+        tmp['weights'] = weights
         chunk_list.append(tmp)
-    print('chunk_list_len: ', len(chunk_list))
     return chunk_list
 
 
