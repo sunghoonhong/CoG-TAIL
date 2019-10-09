@@ -146,6 +146,6 @@ class Agent():
             batch_expert_action_ids = torch.as_tensor(expert_action_ids[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes)
-            self.actor_critic.train_by_loss(pretrain_loss)
+            self.actor_critic.pretrain_by_loss(pretrain_loss)
             loss_sum += pretrain_loss.detach().cpu().numpy()
         return loss_sum/(expert_chunk_length//BATCH_SIZE)

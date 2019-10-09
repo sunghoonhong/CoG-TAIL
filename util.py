@@ -33,7 +33,6 @@ def tmp_get_expert_chunk():
 
 def get_expert_chunk_generator():
     chunk_list = get_expert_chunk_list()
-    print(len(chunk_list))
     while True:
         for chunk in chunk_list:
             yield chunk
@@ -58,6 +57,17 @@ def get_expert_chunk_list():
     action_ids = np.concatenate(action_ids_list, axis=0)
     codes = np.concatenate(codes_list, axis=0)
     chunk_length = len(states)
+    indice = []
+    tmp_set = set()
+    for i in range(chunk_length):
+        if action_ids[i][0] not in tmp_set:
+            tmp_set.add(action_ids[i][0])
+            indice.append(i)
+    states = states[indice]
+    actions = actions[indice]
+    action_ids = action_ids[indice]
+    codes = codes[indice]
+    chunk_length = len(states)
     indice = np.arange(chunk_length)
     np.random.shuffle(indice)
     states = states[indice]
@@ -72,6 +82,7 @@ def get_expert_chunk_list():
         tmp['action_ids'] = action_ids[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['codes'] = codes[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         chunk_list.append(tmp)
+    print('chunk_list_len: ', len(chunk_list))
     return chunk_list
 
 

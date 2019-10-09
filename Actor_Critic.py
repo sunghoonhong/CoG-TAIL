@@ -32,6 +32,7 @@ class Actor_Critic(Module):
         self.critic_loss_function = MSELoss()
         self.pretrain_loss_function = CrossEntropyLoss()
         self.opt = Adam(self.parameters(), lr=AC_LR)
+        self.pretrain_opt = Adam(self.parameters(), lr=PRETRAIN_LR)
 
     def forward(self, s, c):
         '''
@@ -141,6 +142,11 @@ class Actor_Critic(Module):
         self.zero_grad()
         loss.backward()
         self.opt.step()
+
+    def pretrain_by_loss(self, loss):
+        self.zero_grad()
+        loss.backward()
+        self.pretrain_opt.step()
 
 if __name__ == '__main__':
     tmp_batch_size = 4
