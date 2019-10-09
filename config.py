@@ -1,7 +1,7 @@
 #system info
 DEVICE = 'cuda:0'
 EXPERT_DIR = './expert_data_last'
-EXPERT_CHUNKS_NUM = 200
+EXPERT_CHUNKS_NUM = 400
 EXPERT_CHUNK_LENGTH = 512
 BAD_TOKENS = [102, 1029, 999, 1012, 1008, 2184]
 #<SEP> ? ! . * 10

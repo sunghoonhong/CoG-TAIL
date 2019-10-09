@@ -70,7 +70,7 @@ class Actor_Critic(Module):
         '''
         top_values, _ = x.topk(TOP_K)
         min_values = top_values[:,-1].unsqueeze(1)
-        x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0), x)
+        x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
         '''
         dist = Categorical(logits=x)
         if a is None:
