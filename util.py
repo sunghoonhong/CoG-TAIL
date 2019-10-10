@@ -70,7 +70,7 @@ def get_expert_chunk_list():
         if counter[i] < 2:
             weights[i] = 1
         else:
-            weights[i] = 1/counter[i]
+            weights[i] = 1/(counter[i]**0.5)
         if i in BAD_TOKENS:
             weights[i] = 0
     indice = np.arange(chunk_length)
