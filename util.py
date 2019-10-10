@@ -98,7 +98,7 @@ def moving_average(loss_list):
     for i in loss_list:
         tmp.append(i)
         if len(tmp) == MOVING_AVERAGE:
-            average_list.append(sum(tmp))
+            average_list.append(sum(tmp)/MOVING_AVERAGE)
             tmp.pop(0)
     return average_list
 
