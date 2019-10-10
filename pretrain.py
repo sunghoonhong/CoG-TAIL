@@ -22,7 +22,8 @@ if __name__ == '__main__':
         loss_list.append(loss)
         if epoch % TEST_NUM == 0 and epoch > 0:
             print('epoch: ', epoch, end=' ')
-            plt.plot(np.arange(len(loss_list)), np.array(loss_list))
+            average_list = moving_average(loss_list)
+            plt.plot(np.arange(len(average_list)), np.array(average_list))
             plt.savefig('pretrain_loss.jpg')
             agent.pretrain_save()
             s = env.reset()
