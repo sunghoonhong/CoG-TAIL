@@ -13,7 +13,7 @@ if __name__ == '__main__':
     model, tokenizer = get_bert_model_and_tokenizer()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     agent = Agent(model)
-    agent.pretrain_load()
+#    agent.pretrain_load()
     env = Environment(model, tokenizer)
     loss_list = []
     expert_chunk_generator = get_expert_chunk_generator()
@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 next_s, r, d, _ = env.step(a)
                 s = next_s
             if epoch == TEST_NUM:
-                f = codecs.open('pretrain_generated_sentence.txt', 'a', "utf-8")
+                f = codecs.open('pretrain_generated_sentence.txt', 'w', "utf-8")
             else:
                 f = codecs.open('pretrain_generated_sentence.txt', 'a', 'utf-8')
             sentence = env.id_to_string()
