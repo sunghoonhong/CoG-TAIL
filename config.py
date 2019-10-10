@@ -47,6 +47,9 @@ LAMBDA = 0.95
 THRESHOLD_LEN = 512
 HORIZON_THRESHOLD = 5
 
+#for statistics
+MOVING_AVERAGE = 50
+
 #for action_autoencoder
 #not used
 VOCAB_SIZE = 30522

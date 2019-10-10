@@ -90,6 +90,18 @@ def get_expert_chunk_list():
         chunk_list.append(tmp)
     return chunk_list
 
+def moving_average(loss_list):
+    if len(loss_list) < MOVING_AVERAGE:
+        return loss_list
+    tmp = []
+    average_list = []
+    for i in loss_list:
+        tmp.append(i)
+        if len(tmp) == MOVING_AVERAGE:
+            average_list.append(sum(tmp))
+            tmp.pop(0)
+    return average_list
+
 
 if __name__ == '__main__':
     g = get_expert_chunk_generator()
