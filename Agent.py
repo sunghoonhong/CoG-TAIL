@@ -155,3 +155,6 @@ class Agent():
 
     def pretrain_save(self):
         torch.save(self.actor_critic.state_dict(), PRETRAIN_SAVEPATH)
+
+    def pretrain_load(self):
+        self.load_state_dict(torch.load(PRETRAIN_SAVEPATH))
