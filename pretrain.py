@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 next_s, r, d, _ = env.step(a)
                 s = next_s
             if epoch == TEST_NUM:
-                f = codecs.open('pretrain_generated_sentence.txt', 'w', "utf-8")
+                f = codecs.open('pretrain_generated_sentence.txt', 'a', "utf-8")
             else:
                 f = codecs.open('pretrain_generated_sentence.txt', 'a', 'utf-8')
             sentence = env.id_to_string()
