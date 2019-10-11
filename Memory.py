@@ -87,7 +87,7 @@ class ShortMemory():
         states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
         disc_out, _ = self.discriminator(states, bert_encoded_actions)
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
-        print('disc out: ', disc_out)
+        print('disc_out: ', disc_out)
         #choose your own reward scheme here!
         #log loss with shift
 #        self.rewards = list(-np.log(disc_out) + np.log(0.5))
@@ -165,7 +165,10 @@ class LongMemory():
             self.bert_encoded_actions = np.concatenate(self.bert_encoded_actions, axis=0)
             self.codes = np.array(self.codes, dtype=np.float)
             self.gaes = np.array(self.gaes, dtype=np.float)
-            self.oracle_values = np.array(self.oracle_values, dtype=np.float)
+            oracle_values = np.array(self.oracle_values, dtype=np.float)
+            m = np.mean(oracle_values)
+            s = np.std(oracle_values)
+            self.oracle_values = (oracle_values - m)/s
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             return True
         else:
