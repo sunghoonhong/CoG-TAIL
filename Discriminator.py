@@ -59,7 +59,7 @@ class Discriminator(Module):
         disc_out, code_out = self.forward(s, a)
         _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
         if verbose:
-            print('disc_out:', list(-np.tan(_disc_out - 0.5)))
+            print('disc_out:', -np.tan(_disc_out - 0.5))
         disc_loss = self.disc_loss(disc_out, is_agent)
         code_loss = self.code_loss(code_out, code_answer)
         return disc_loss + WEIGHT_FOR_CODE*code_loss

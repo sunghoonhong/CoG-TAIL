@@ -49,8 +49,8 @@ class Agent():
         if d or self.horizon_cnt == HORIZON_THRESHOLD:
             self.horizon_cnt = 0
             self.short_memory.set_last_state(next_s)
-            self.actor_critic.train()
-            self.discriminator.train()
+            self.actor_critic.eval()
+            self.discriminator.eval()
             self.short_memory.move_to_long_memory(self.long_memory)
             self.short_memory.flush()
             return self.long_memory.check_update()
@@ -75,17 +75,17 @@ class Agent():
         agent_codes = self.long_memory.codes[agent_indice]
         agent_rewards = self.long_memory.rewards[agent_indice]
         for i in range(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE)):
-            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-            batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-            batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
-            is_agent = torch.zeros(len(batch_expert_states), dtype=torch.float, device=DEVICE)
-            expert_loss = self.discriminator.calculate_loss(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, verbose)
             batch_agent_states = torch.as_tensor(agent_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_agent_actions = torch.as_tensor(agent_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_agent_codes = agent_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             is_agent = torch.ones(len(batch_agent_states), dtype=torch.float, device=DEVICE)
             agent_loss = self.discriminator.calculate_loss(batch_agent_states, batch_agent_actions, is_agent, batch_agent_codes, verbose)
             print('agent_rewards: ', agent_rewards[i*BATCH_SIZE:(i+1)*BATCH_SIZE])
+            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+            batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+            batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
+            is_agent = torch.zeros(len(batch_expert_states), dtype=torch.float, device=DEVICE)
+            expert_loss = self.discriminator.calculate_loss(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, False)
             disc_loss = 0.5*expert_loss + 0.5*agent_loss
             print('d loss: ', disc_loss)
             self.discriminator.train_by_loss(disc_loss)
@@ -159,4 +159,4 @@ class Agent():
         torch.save(self.actor_critic.state_dict(), PRETRAIN_SAVEPATH)
 
     def pretrain_load(self):
-        self.actor_critic.load_state_dict(torch.load(PRETRAIN_SAVEPATH))
+        self.actor_critic.load_state_dict(torch.load(PRETRAIN_SAVEPATH, map_location=torch.device(DEVICE)))

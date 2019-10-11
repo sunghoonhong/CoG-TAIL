@@ -52,9 +52,6 @@ class ShortMemory():
         self.old_log_probs = []
 
     def move_to_long_memory(self, long_memory):
-        if len(self.states) < 2:
-            self.actor_critic.eval()
-            self.discriminator.eval()
         bert_encoded_actions = self.actions_to_bert_encoding()
         states_values, last_state_value = self.get_values()
         self.get_rewards(bert_encoded_actions)
@@ -79,7 +76,6 @@ class ShortMemory():
         codes = to_onehot(self.codes)
         code = to_onehot([self.codes[-1]])
         states_values = self.actor_critic.critic_forward(states, codes).detach().cpu().numpy().reshape((-1,))
-        self.actor_critic.eval()
         last_state_value = self.actor_critic.critic_forward(last_state, code).detach().cpu().numpy()[0][0]
         return states_values, last_state_value
 
@@ -87,7 +83,6 @@ class ShortMemory():
         states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
         disc_out, _ = self.discriminator(states, bert_encoded_actions)
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
-        print('disc_out: ', disc_out)
         #choose your own reward scheme here!
         #log loss with shift
 #        self.rewards = list(-np.log(disc_out) + np.log(0.5))
@@ -170,10 +165,14 @@ class LongMemory():
             self.gaes = np.array(self.gaes, dtype=np.float)
             oracle_values = np.array(self.oracle_values, dtype=np.float)
             m = np.mean(oracle_values)
-            s = np.std(oracle_values)
+            if len(oracle_values) > 1:
+                s = np.std(oracle_values)
+            else:
+                s = 1
             self.oracle_values = (oracle_values - m)/s
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             self.rewards = np.array(self.rewards, dtype=np.float)
+            print(len(self.states), len(self.actions), len(self.bert_encoded_actions), len(self.codes), len(self.gaes), len(self.oracle_values), len(self.old_log_probs), len(self.rewards))
             return True
         else:
             return False
