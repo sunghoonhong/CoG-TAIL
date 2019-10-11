@@ -1,5 +1,6 @@
 import torch
 import random
+import gzip, pickle
 from transformers import BertTokenizer, BertModel
 from copy import copy
 from config import *
@@ -10,8 +11,11 @@ class Environment():
     def __init__(self, bert_model, bert_tokenizer):
         self.bert_model = bert_model
         self.tokenizer = bert_tokenizer
-        self.vocab_size = self.tokenizer.vocab_size
+        self.vocab_size = VOCAB_SIZE
         self.observation_space = STATE_SIZE
+        with gzip.open('Top5000_AtoB.pickle') as f:
+            to_bert_dict = pickle.load(f)
+        self.to_bert_dict = to_bert_dict
     
     def reset(self):
         '''
@@ -44,17 +48,23 @@ class Environment():
         return obs, 0, done, None
 
     def encode(self, sentence):
-        tmp = copy(sentence)
-        tmp.append(SEP_TOKEN_IDX)
-        tmp.insert(0, CLS_TOKEN_IDX)
-        tmp = torch.LongTensor(tmp).view(1, -1).to(DEVICE)
+        original = copy(sentence)
+        original.append(SEP_TOKEN_IDX)
+        original.insert(0, CLS_TOKEN_IDX)
+        converted = []
+        for index in original:
+            converted.append(self.to_bert_dict[index])
+        converted = torch.LongTensor(converted).view(1, -1).to(DEVICE)
         with torch.no_grad():
-            obs = self.bert_model(tmp)[0][0][0]
+            obs = self.bert_model(converted)[0][0][-2]
         return obs
 
     def id_to_string(self):
-        tokens = []
+        converted = []
         for index in self.sentence:
+            converted.append(self.to_bert_dict[index])
+        tokens = []
+        for index in converted:
             token = self.tokenizer._convert_id_to_token(index)
             tokens.append(token)
         return self.tokenizer.convert_tokens_to_string(tokens)

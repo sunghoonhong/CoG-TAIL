@@ -6,13 +6,19 @@ from Memory import ShortMemory, LongMemory
 from util import *
 
 class Agent():
-    def __init__(self, bert_model):
-        self.actor_critic = Actor_Critic().to(DEVICE)
+    def __init__(self, bert_model, expert_weights=None):
+        if expert_weights is not None:
+            pretrain_loss_function = torch.nn.CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
+            self.actor_critic = Actor_Critic(pretrain_loss_function).to(DEVICE)
+        else:
+            default_weights = np.zeros(VOCAB_SIZE)
+            self.actor_critic = Actor_Critic(torch.nn.CrossEntropyLoss(torch.as_tensor(default_weights, dtype=torch.float, device=DEVICE)).to(DEVICE))
         self.discriminator = Discriminator().to(DEVICE)
         self.bert_model = bert_model
         self.short_memory = ShortMemory(self.actor_critic, self.discriminator, bert_model)
         self.long_memory = LongMemory()
         self.horizon_cnt = 0
+        
 
     def get_action(self, state, code):
         '''
@@ -80,7 +86,8 @@ class Agent():
             batch_agent_codes = agent_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             is_agent = torch.ones(len(batch_agent_states), dtype=torch.float, device=DEVICE)
             agent_loss = self.discriminator.calculate_loss(batch_agent_states, batch_agent_actions, is_agent, batch_agent_codes, verbose)
-            print('agent_rewards: ', agent_rewards[i*BATCH_SIZE:(i+1)*BATCH_SIZE])
+            if verbose:
+                print('agent_rewards: ', agent_rewards[i*BATCH_SIZE:(i+1)*BATCH_SIZE])
             batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
@@ -117,17 +124,18 @@ class Agent():
             self.actor_critic.train_by_loss(loss)
 
 
-    def update(self, expert_chunk):
+    def update(self, expert_chunk, update_discriminator):
         expert_states = expert_chunk['states']
         expert_actions = expert_chunk['actions']
         expert_codes = expert_chunk['codes'].reshape((-1,))
         tmp_cnt = 0
-        for _ in range(DISC_STEP):
-            if tmp_cnt == 0:
-                self.discriminator_update(expert_states, expert_actions, expert_codes, True)
-            else:
-                self.discriminator_update(expert_states, expert_actions, expert_codes)
-            tmp_cnt += 1
+        if update_discriminator:
+            for _ in range(DISC_STEP):
+                if tmp_cnt == 0:
+                    self.discriminator_update(expert_states, expert_actions, expert_codes, True)
+                else:
+                    self.discriminator_update(expert_states, expert_actions, expert_codes)
+                tmp_cnt += 1
         for _ in range(PPO_STEP):
             self.actor_critic_update()
         self.long_memory.flush()
@@ -137,8 +145,6 @@ class Agent():
         expert_states = expert_chunk['states']
         expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
         expert_codes = expert_chunk['codes'].reshape((-1,))
-        expert_weights= expert_chunk['weights']
-        pretrain_loss_function = torch.nn.CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
         expert_chunk_length = len(expert_states)
         expert_indice = np.arange(expert_chunk_length)
         np.random.shuffle(expert_indice)
@@ -150,7 +156,7 @@ class Agent():
             batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_action_ids = torch.as_tensor(expert_action_ids[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
-            pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes, pretrain_loss_function)
+            pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes)
             self.actor_critic.pretrain_by_loss(pretrain_loss)
             loss_sum += pretrain_loss.detach().cpu().numpy()
         return loss_sum/(expert_chunk_length//BATCH_SIZE)
@@ -160,3 +166,4 @@ class Agent():
 
     def pretrain_load(self):
         self.actor_critic.load_state_dict(torch.load(PRETRAIN_SAVEPATH, map_location=torch.device(DEVICE)))
+        self.actor_critic.to(DEVICE)

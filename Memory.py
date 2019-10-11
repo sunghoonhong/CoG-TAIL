@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+import gzip, pickle
 from config import *
 from util import *
 
@@ -18,6 +19,9 @@ class ShortMemory():
         self.last_state = None
         self.done = False
         self.old_log_probs = []
+        with gzip.open('Top5000_AtoB.pickle') as f:
+            to_bert_dict = pickle.load(f)
+        self.to_bert_dict = to_bert_dict
 
     def append(self, s, a, c, d, log_prob):
         '''
@@ -65,7 +69,10 @@ class ShortMemory():
         OUT:
         bert_encoded_actions: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
         '''
-        tmp = torch.as_tensor(self.actions, dtype=torch.long, device=DEVICE).view(-1, 1)
+        tmp = []
+        for action in self.actions:
+            tmp.append(self.to_bert_dict[action])
+        tmp = torch.as_tensor(tmp, dtype=torch.long, device=DEVICE).view(-1, 1)
         with torch.no_grad():
             bert_encoded_actions = self.bert_model.embeddings(tmp).squeeze(1)
         return bert_encoded_actions

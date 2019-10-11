@@ -40,7 +40,7 @@ class Discriminator(Module):
         s_a = torch.cat((s, a), dim=1)
         x = self.a1(self.l1(s_a))
         for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
-            x = activation(batchnorm((layer(x))))
+            x = activation(batchnorm(layer(x)))
         disc_out = sigmoid(self.disc_out(x))
         code_out = self.code_out(x)
         return disc_out, code_out
@@ -53,7 +53,6 @@ class Discriminator(Module):
         is_agent: [BATCH_SIZE,](torch.FloatTensor)
         code_answer: [BATCH_SIZE,](ndarray)
         '''
-        self.train()
         is_agent = is_agent.view(-1, 1)
         code_answer = torch.as_tensor(code_answer, dtype=torch.long, device=DEVICE)
         disc_out, code_out = self.forward(s, a)

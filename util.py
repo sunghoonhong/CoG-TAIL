@@ -29,8 +29,13 @@ def get_bert_model_and_tokenizer():
     tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)
     return model.to(DEVICE), tokenizer
 
-def tmp_get_expert_chunk():
-    return np.load('./expert_data/tmp.npz')
+def get_weights_from_dict(dist_dict):
+    tmp = np.zeros(VOCAB_SIZE)
+    for key in dist_dict:
+        tmp[key] = 1/(dist_dict[key])
+        if key in BAD_TOKENS:
+            tmp[key] = 0
+    return tmp
 
 def get_expert_chunk_generator():
     chunk_list = get_expert_chunk_list()
@@ -51,7 +56,7 @@ def get_expert_chunk_list():
         chunk = np.load(file_path)
         states_list.append(chunk['states'])
         actions_list.append(chunk['actions'])
-        if EXPERT_DIR == './expert_data_last':
+        if EXPERT_DIR == './expert_data_last' or EXPERT_DIR == './restricted_expert_data':
             action_ids_list.append(chunk['action_ids'])
         elif EXPERT_DIR == './expert_data':
             action_ids_list.append(chunk['actions_ids'])
@@ -64,15 +69,6 @@ def get_expert_chunk_list():
     action_ids = np.concatenate(action_ids_list, axis=0).reshape((-1,))
     codes = np.concatenate(codes_list, axis=0)
     chunk_length = len(states)
-    weights = np.zeros(VOCAB_SIZE)
-    counter = Counter(action_ids.tolist())
-    for i in range(VOCAB_SIZE):
-        if counter[i] < 2:
-            weights[i] = 1
-        else:
-            weights[i] = 1/(counter[i]**0.5)
-        if i in BAD_TOKENS:
-            weights[i] = 0
     indice = np.arange(chunk_length)
     np.random.shuffle(indice)
     states = states[indice]
@@ -86,7 +82,6 @@ def get_expert_chunk_list():
         tmp['actions'] = actions[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['action_ids'] = action_ids[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
         tmp['codes'] = codes[i*EXPERT_CHUNK_LENGTH:(i+1)*EXPERT_CHUNK_LENGTH]
-        tmp['weights'] = weights
         chunk_list.append(tmp)
     return chunk_list
 

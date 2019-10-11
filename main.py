@@ -12,6 +12,7 @@ if __name__ == '__main__':
     agent.pretrain_load()
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
+    disc_update_cnt = DISC_UPDATE_CNT
     for e in range(1000000):
         s = env.reset()
         c = dist.sample().numpy().item()
@@ -21,9 +22,15 @@ if __name__ == '__main__':
             next_s, r, d, _ = env.step(a)
             time_to_update = agent.store(s, a, c, d, next_s, log_prob)
             if time_to_update:
+                if disc_update_cnt == DISC_UPDATE_CNT:
+                    update_discriminator = True
+                    disc_update_cnt = 0
+                else:
+                    update_discriminator = False
+                    disc_update_cnt += 1
                 print('updating')
                 expert_chunk = next(expert_chunk_generator)
-                agent.update(expert_chunk)
+                agent.update(expert_chunk, update_discriminator)
                 print('update complete')
             s = next_s
 #        print(env.sentence)

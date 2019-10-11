@@ -11,7 +11,7 @@ from config import *
 from util import *
 
 class Actor_Critic(Module):
-    def __init__(self):
+    def __init__(self, pretrain_loss_function=None):
         super().__init__()
         last_hidden_layer_input = AC_HIDDEN_UNIT_NUM + AC_HIDDEN_UNIT_STRIDE*(AC_HIDDEN_LAYER_NUM - 1)
         self.l1 = Linear(STATE_SIZE*CODE_SIZE, AC_HIDDEN_UNIT_NUM)
@@ -31,7 +31,9 @@ class Actor_Critic(Module):
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
         self.opt = Adam(self.parameters(), lr=AC_LR)
-        self.pretrain_opt = Adam(self.parameters(), lr=PRETRAIN_LR)
+        if pretrain_loss_function is not None:
+            self.pretrain_loss_function = pretrain_loss_function
+            self.pretrain_opt = Adam(self.parameters(), lr=PRETRAIN_LR)
 
     def forward(self, s, c):
         '''
@@ -125,7 +127,7 @@ class Actor_Critic(Module):
         loss = -torch.mean(tmp) + ENTROPY*minus_entropy
         return loss
 
-    def pretrain_loss(self, states, action_ids, codes, pretrain_loss_function):
+    def pretrain_loss(self, states, action_ids, codes):
         '''
         IN:
         states: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
@@ -135,7 +137,7 @@ class Actor_Critic(Module):
         '''
         codes = to_onehot(codes)
         action_score = self.forward(states, codes)
-        loss = pretrain_loss_function(action_score, action_ids)
+        loss = self.pretrain_loss_function(action_score, action_ids)
         return loss
 
     def train_by_loss(self, loss):
