@@ -69,11 +69,11 @@ class Actor_Critic(Module):
         for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
             x = activation(batchnorm((layer(x))))
         x = self.actor_layer(x)
-        
+        '''
         top_values, _ = x.topk(TOP_K)
         min_values = top_values[:,-1].unsqueeze(1)
         x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
-        
+        '''
         dist = Categorical(logits=x)
         if a is None:
             sampled = dist.sample()
