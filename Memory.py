@@ -61,7 +61,7 @@ class ShortMemory():
         oracle_values, gaes = self.get_gae(states_values, last_state_value)
         states = np.stack(self.states, axis=0)
         bert_encoded_actions = bert_encoded_actions.cpu().numpy()
-        long_memory.append(states, self.actions, bert_encoded_actions, self.codes, gaes, oracle_values, self.old_log_probs)
+        long_memory.append(states, self.actions, bert_encoded_actions, self.codes, gaes, oracle_values, self.old_log_probs, self.rewards)
 
     def actions_to_bert_encoding(self):
         '''
@@ -127,8 +127,9 @@ class LongMemory():
         self.gaes = []
         self.oracle_values = []
         self.old_log_probs = []
+        self.rewards = []
 
-    def append(self, states, actions, bert_encoded_actions, codes, gaes, oracle_values, old_log_probs):
+    def append(self, states, actions, bert_encoded_actions, codes, gaes, oracle_values, old_log_probs, rewards):
         '''
         IN:
         states: [HORIZON_LENGTH, STATE_SIZE](ndarray)
@@ -147,6 +148,7 @@ class LongMemory():
         self.gaes.extend(gaes)
         self.oracle_values.extend(oracle_values)
         self.old_log_probs.extend(old_log_probs)
+        self.rewards.extend(rewards)
 
     def flush(self):
         self.count = 0
@@ -157,6 +159,7 @@ class LongMemory():
         self.gaes = []
         self.oracle_values = []
         self.old_log_probs = []
+        self.rewards = []
 
     def check_update(self):
         if self.count > THRESHOLD_LEN:
@@ -170,6 +173,7 @@ class LongMemory():
             s = np.std(oracle_values)
             self.oracle_values = (oracle_values - m)/s
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
+            self.rewards = np.array(self.rewards, dtype=np.float)
             return True
         else:
             return False
