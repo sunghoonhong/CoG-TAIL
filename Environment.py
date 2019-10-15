@@ -38,10 +38,8 @@ class Environment():
             done: single boolean value
         '''
         self.sentence.append(action)
-        if len(self.sentence) >= GEN_MAX_LEN or action == SEP_TOKEN_IDX:
+        if len(self.sentence) >= GEN_MAX_LEN:
             done = True
-            if action == SEP_TOKEN_IDX:
-                self.sentence.pop(-1)
         else:
             done = False
         obs = self.encode(self.sentence)

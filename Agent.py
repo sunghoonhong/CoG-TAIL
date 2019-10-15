@@ -97,11 +97,11 @@ class Agent():
             print('d loss: ', disc_loss)
             self.discriminator.train_by_loss(disc_loss)
 
-    def actor_critic_update(self):
+    def actor_critic_update(self, expert_states, expert_action_ids, expert_codes):
         self.actor_critic.train()
         #shuffle agent trajectories
-        chunk_length = self.long_memory.count
-        indice = np.arange(chunk_length)
+        agent_chunk_length = self.long_memory.count
+        indice = np.arange(agent_chunk_length)
         np.random.shuffle(indice)
         states = self.long_memory.states[indice]
         actions = self.long_memory.actions[indice]
@@ -109,7 +109,22 @@ class Agent():
         gaes = self.long_memory.gaes[indice]
         oracle_values = self.long_memory.oracle_values[indice]
         old_log_probs = self.long_memory.old_log_probs[indice]
-        for i in range(chunk_length//BATCH_SIZE):
+        #shuffle expert trajectories
+        expert_chunk_length = len(expert_states)
+        expert_indice = np.arange(expert_chunk_length)
+        np.random.shuffle(expert_indice)
+        expert_states = expert_states[expert_indice]
+        expert_action_ids = expert_action_ids[expert_indice]
+        expert_codes = expert_codes[expert_indice]
+        pretrain_loss_sum = 0
+        for i in range(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE)):
+            #pretrain loss
+            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+            batch_expert_action_ids = torch.as_tensor(expert_action_ids[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
+            batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
+            pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_action_ids, batch_expert_codes)
+            pretrain_loss_sum += pretrain_loss.detach().cpu().numpy()
+            #actor critic loss
             batch_states = torch.as_tensor(states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_actions = torch.as_tensor(actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_codes = codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
@@ -118,17 +133,21 @@ class Agent():
             batch_old_log_probs = torch.as_tensor(old_log_probs[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             critic_loss = self.actor_critic.critic_loss(batch_states, batch_codes, batch_oracle_values)
             actor_loss = self.actor_critic.actor_loss(batch_states, batch_actions, batch_codes, batch_gaes, batch_old_log_probs)
-            loss = ACTOR_COEF*actor_loss + CRITIC_COEF*critic_loss
-            print('a loss: ', actor_loss)
-            print('c loss: ', critic_loss)
+            loss = PRETRAIN_COEF*pretrain_loss + ACTOR_COEF*actor_loss + CRITIC_COEF*critic_loss
+            print('a loss: ', actor_loss, end=' ')
+            print('c loss: ', critic_loss, end=' ')
+            print('p loss: ', pretrain_loss)
             self.actor_critic.train_by_loss(loss)
+        return pretrain_loss_sum/(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE))
 
 
     def update(self, expert_chunk, update_discriminator):
         expert_states = expert_chunk['states']
         expert_actions = expert_chunk['actions']
+        expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
         expert_codes = expert_chunk['codes'].reshape((-1,))
         tmp_cnt = 0
+        pretrain_loss = 0
         if update_discriminator:
             for _ in range(DISC_STEP):
                 if tmp_cnt == 0:
@@ -137,8 +156,9 @@ class Agent():
                     self.discriminator_update(expert_states, expert_actions, expert_codes)
                 tmp_cnt += 1
         for _ in range(PPO_STEP):
-            self.actor_critic_update()
+            pretrain_loss += self.actor_critic_update(expert_states, expert_action_ids, expert_codes)
         self.long_memory.flush()
+        return pretrain_loss/PPO_STEP
 
     def pretrain(self, expert_chunk):
         self.actor_critic.train()

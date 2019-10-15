@@ -1,18 +1,24 @@
 import codecs
 import torch
+import gzip, pickle
+import matplotlib.pyplot as plt
 from Environment import Environment
 from Agent import Agent
 from config import *
 from util import *
 
 if __name__ == '__main__':
+    with gzip.open('Top5000_dist.pickle') as f:
+        dist_dict = pickle.load(f)
+    weights = get_weights_from_dict(dist_dict)
     bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
     env = Environment(bert_model, bert_tokenizer)
-    agent = Agent(bert_model)
-    agent.pretrain_load()
+    agent = Agent(bert_model, weights)
+#    agent.pretrain_load()
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     disc_update_cnt = DISC_UPDATE_CNT
+    pretrain_loss_list = []
     for e in range(1000000):
         s = env.reset()
         c = dist.sample().numpy().item()
@@ -30,11 +36,16 @@ if __name__ == '__main__':
                     disc_update_cnt += 1
                 print('updating')
                 expert_chunk = next(expert_chunk_generator)
-                agent.update(expert_chunk, update_discriminator)
+                pretrain_loss = agent.update(expert_chunk, update_discriminator)
+                pretrain_loss_list.append(pretrain_loss)
                 print('update complete')
             s = next_s
 #        print(env.sentence)
         if e % TRAIN_REPORT_PERIOD == 0:
+            if len(pretrain_loss_list) > MOVING_AVERAGE:
+                average_list = moving_average(pretrain_loss_list)
+                plt.plot(np.arange(len(average_list)), np.array(average_list))
+                plt.savefig('_pretrain_loss.jpg')
             if e == 0:
                 f = codecs.open('train_generated_sentence.txt', 'w', "utf-8")
             else:

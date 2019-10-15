@@ -28,7 +28,8 @@ if __name__ == '__main__':
         if epoch % TEST_NUM == 0 and epoch > 0:
             print('epoch: ', epoch, end=' ')
             average_list = moving_average(loss_list)
-            plt.plot(np.arange(len(average_list)), np.array(average_list))
+            if len(average_list) > 50:
+                plt.plot(np.arange(len(average_list)), np.array(average_list))
             plt.savefig('pretrain_loss.jpg')
             agent.pretrain_save()
             s = env.reset()
