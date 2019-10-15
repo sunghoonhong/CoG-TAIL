@@ -172,13 +172,7 @@ class LongMemory():
             self.encoded_actions = np.concatenate(self.encoded_actions, axis=0)
             self.codes = np.array(self.codes, dtype=np.float)
             self.gaes = np.array(self.gaes, dtype=np.float)
-            oracle_values = np.array(self.oracle_values, dtype=np.float)
-            m = np.mean(oracle_values)
-            if len(oracle_values) > 1:
-                s = np.std(oracle_values)
-            else:
-                s = 1
-            self.oracle_values = (oracle_values - m)/s
+            self.oracle_values = np.array(self.oracle_values, dtype=np.float)
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             self.rewards = np.array(self.rewards, dtype=np.float)
 #            print(len(self.states), len(self.actions), len(self.encoded_actions), len(self.codes), len(self.gaes), len(self.oracle_values), len(self.old_log_probs), len(self.rewards))

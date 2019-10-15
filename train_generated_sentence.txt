@@ -1,1 +1,17 @@
-epoch: 0 code: 0 sentence: this beat complaint maybe talks silent visual lustsc wallace disaster shooting sureso disbelief outstanding treated sticks wearnier heat capturesou china paris helpedso silverx far apartment anthony
+epoch: 0 code: 1 sentence: . meaningful circumstancesized surreal claudeda wilson skip reviewers catholic featuring memory davidnieseres
+epoch: 50 code: 1 sentence: i faith beast complicated suspects tunes gold choice em angle revealing formula cast cl card 60
+epoch: 100 code: 0 sentence: we frank hitchhm randy movies producer playing ideasa exception s pa trainolam
+epoch: 150 code: 1 sentence: but memory fool life underso mistakes best holes actual roy cats danger haven adultsise
+epoch: 200 code: 1 sentence: butentpointzz worker treated selling jennifer kitcheners racism form backdrop 20 5 america
+epoch: 250 code: 1 sentence: a absurd constantly during enough stars remaining universal ins sam dress dear historical ill field suppose
+epoch: 300 code: 1 sentence: ime built alt anne pseudo amazed exactly talking minds warning finest ideal sitting offensive should
+epoch: 350 code: 1 sentence: this eerie headed paint bright hotled um brought returns okay metens harsh their etc
+epoch: 400 code: 0 sentence: it produce desperate evil pitint adding colourize science radio learningid [CLS] know department
+epoch: 450 code: 0 sentence: the h wake jail th uk rip pe motion flawless reed broken brilliantsto thinking regard
+epoch: 500 code: 1 sentence: it promers loving guys youvable bothered sadly 3 bleak flu dub planning sticks speaking
+epoch: 550 code: 1 sentence: while clips clips wrote unpleasant dancing rules california amateur pro green philipping fashioned appears inter
+epoch: 600 code: 1 sentence: characters minutespin beast benefit rendition mansion theme received comments dressed artistonski daniel unfortunately
+epoch: 650 code: 0 sentence: it particular lan unique alexander looselyeb spoken look during cu sk mainstream flight saysmbo
+epoch: 700 code: 1 sentence: amanda gene passedoof appear creating separate gia blind carries normally ages knock washingtonpointvable
+epoch: 750 code: 1 sentence: fourth excuse aspects idea ga romantic previous benefit always brings ashamed benefit mob potential based 17
+epoch: 800 code: 0 sentence: i duty says plane terror continuity appealing concerns mid screenplay beat officers sin lab governmenti
