@@ -6,10 +6,11 @@ from util import *
 
 
 class ShortMemory():
-    def __init__(self, actor_critic, discriminator, bert_model):
+    def __init__(self, actor_critic, discriminator, bert_model, encoder):
         self.actor_critic = actor_critic
         self.discriminator = discriminator
         self.bert_model = bert_model
+        self.encoder = encoder
         self.gamma = GAMMA
         self.lambd = LAMBDA
         self.states = []
@@ -56,18 +57,18 @@ class ShortMemory():
         self.old_log_probs = []
 
     def move_to_long_memory(self, long_memory):
-        bert_encoded_actions = self.actions_to_bert_encoding()
+        encoded_actions = self.actions_to_encoding()
         states_values, last_state_value = self.get_values()
-        self.get_rewards(bert_encoded_actions)
+        self.get_rewards(encoded_actions)
         oracle_values, gaes = self.get_gae(states_values, last_state_value)
         states = np.stack(self.states, axis=0)
-        bert_encoded_actions = bert_encoded_actions.cpu().numpy()
-        long_memory.append(states, self.actions, bert_encoded_actions, self.codes, gaes, oracle_values, self.old_log_probs, self.rewards)
+        encoded_actions = encoded_actions.cpu().numpy()
+        long_memory.append(states, self.actions, encoded_actions, self.codes, gaes, oracle_values, self.old_log_probs, self.rewards)
 
-    def actions_to_bert_encoding(self):
+    def actions_to_encoding(self):
         '''
         OUT:
-        bert_encoded_actions: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
+        encoded_actions: [BATCH_SIZE, COMPRESSED_VOCAB_SIZE](torch.FloatTensor)
         '''
         tmp = []
         for action in self.actions:
@@ -75,7 +76,8 @@ class ShortMemory():
         tmp = torch.as_tensor(tmp, dtype=torch.long, device=DEVICE).view(-1, 1)
         with torch.no_grad():
             bert_encoded_actions = self.bert_model.embeddings(tmp).squeeze(1)
-        return bert_encoded_actions
+            encoded_actions = self.encoder.get_latent_variable(bert_encoded_actions)
+        return encoded_actions
 
     def get_values(self):
         states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
@@ -86,9 +88,9 @@ class ShortMemory():
         last_state_value = self.actor_critic.critic_forward(last_state, code).detach().cpu().numpy()[0][0]
         return states_values, last_state_value
 
-    def get_rewards(self, bert_encoded_actions):
+    def get_rewards(self, encoded_actions):
         states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
-        disc_out, _ = self.discriminator(states, bert_encoded_actions)
+        disc_out, _ = self.discriminator(states, encoded_actions)
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
         #choose your own reward scheme here!
         #log loss with shift
@@ -124,19 +126,19 @@ class LongMemory():
         self.count = 0
         self.states = []
         self.actions = []
-        self.bert_encoded_actions = []
+        self.encoded_actions = []
         self.codes = []
         self.gaes = []
         self.oracle_values = []
         self.old_log_probs = []
         self.rewards = []
 
-    def append(self, states, actions, bert_encoded_actions, codes, gaes, oracle_values, old_log_probs, rewards):
+    def append(self, states, actions, encoded_actions, codes, gaes, oracle_values, old_log_probs, rewards):
         '''
         IN:
         states: [HORIZON_LENGTH, STATE_SIZE](ndarray)
         actions: [HORIZON_LENGTH,](list)
-        bert_encoded_actions: [HORIZON_LENGTH, STATE_SIZE](ndarray)
+        encoded_actions: [HORIZON_LENGTH, COMPRESSED_VOCAB_SIZE](ndarray)
         codes: [HORIZON_LENGTH,](list)
         gaes: [HORIZON_LENGTH,](list)
         oracle_values: [HORIZON_LENGTH,](list)
@@ -145,7 +147,7 @@ class LongMemory():
         self.count += len(states)
         self.states.append(states)
         self.actions.extend(actions)
-        self.bert_encoded_actions.append(bert_encoded_actions)
+        self.encoded_actions.append(encoded_actions)
         self.codes.extend(codes)
         self.gaes.extend(gaes)
         self.oracle_values.extend(oracle_values)
@@ -156,7 +158,7 @@ class LongMemory():
         self.count = 0
         self.states = []
         self.actions = []
-        self.bert_encoded_actions = []
+        self.encoded_actions = []
         self.codes = []
         self.gaes = []
         self.oracle_values = []
@@ -167,7 +169,7 @@ class LongMemory():
         if self.count > THRESHOLD_LEN:
             self.states = np.concatenate(self.states, axis=0)
             self.actions = np.array(self.actions, dtype=np.long)
-            self.bert_encoded_actions = np.concatenate(self.bert_encoded_actions, axis=0)
+            self.encoded_actions = np.concatenate(self.encoded_actions, axis=0)
             self.codes = np.array(self.codes, dtype=np.float)
             self.gaes = np.array(self.gaes, dtype=np.float)
             oracle_values = np.array(self.oracle_values, dtype=np.float)
@@ -179,7 +181,7 @@ class LongMemory():
             self.oracle_values = (oracle_values - m)/s
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             self.rewards = np.array(self.rewards, dtype=np.float)
-            print(len(self.states), len(self.actions), len(self.bert_encoded_actions), len(self.codes), len(self.gaes), len(self.oracle_values), len(self.old_log_probs), len(self.rewards))
+#            print(len(self.states), len(self.actions), len(self.encoded_actions), len(self.codes), len(self.gaes), len(self.oracle_values), len(self.old_log_probs), len(self.rewards))
             return True
         else:
             return False

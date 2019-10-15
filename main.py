@@ -4,16 +4,21 @@ import gzip, pickle
 import matplotlib.pyplot as plt
 from Environment import Environment
 from Agent import Agent
+from Autoencoder import Encoder
 from config import *
 from util import *
 
 if __name__ == '__main__':
+    assert PPO_STEP > DISC_STEP
     with gzip.open('Top5000_dist.pickle') as f:
         dist_dict = pickle.load(f)
+    with gzip.open('Top5000_first_list.pickle') as f:
+        first_list = pickle.load(f)
     weights = get_weights_from_dict(dist_dict)
     bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
-    env = Environment(bert_model, bert_tokenizer)
-    agent = Agent(bert_model, weights)
+    encoder = Encoder(True) #load encoder
+    env = Environment(bert_model, bert_tokenizer, first_list)
+    agent = Agent(bert_model, weights, encoder)
 #    agent.pretrain_load()
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
@@ -35,8 +40,8 @@ if __name__ == '__main__':
                     update_discriminator = False
                     disc_update_cnt += 1
                 print('updating')
-                expert_chunk = next(expert_chunk_generator)
-                pretrain_loss = agent.update(expert_chunk, update_discriminator)
+                expert_chunks = get_n_expert_batch(expert_chunk_generator, PPO_STEP)
+                pretrain_loss = agent.update(expert_chunks, update_discriminator)
                 pretrain_loss_list.append(pretrain_loss)
                 print('update complete')
             s = next_s

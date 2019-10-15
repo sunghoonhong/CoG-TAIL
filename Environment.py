@@ -8,9 +8,10 @@ from util import *
 from Agent import Agent
 
 class Environment():
-    def __init__(self, bert_model, bert_tokenizer):
+    def __init__(self, bert_model, bert_tokenizer, first_list):
         self.bert_model = bert_model
         self.tokenizer = bert_tokenizer
+        self.first_list = first_list
         self.vocab_size = VOCAB_SIZE
         self.observation_space = STATE_SIZE
         with gzip.open('Top5000_AtoB.pickle') as f:
@@ -25,6 +26,8 @@ class Environment():
         obs: [STATE_SIZE,](torch.FloatTensor)
         '''
         self.sentence = []
+        first_index = self.get_first_index()
+        self.sentence.append(first_index)
         obs = self.encode(self.sentence)
         return obs
 
@@ -44,6 +47,12 @@ class Environment():
             done = False
         obs = self.encode(self.sentence)
         return obs, 0, done, None
+
+    def get_first_index(self):
+        r = random.randrange(self.first_list[-1][1])
+        for i in range(len(self.first_list)):
+            if(self.first_list[i][1] <= r and r < self.first_list[i+1][1]):
+                return self.first_list[i][0]
 
     def encode(self, sentence):
         original = copy(sentence)

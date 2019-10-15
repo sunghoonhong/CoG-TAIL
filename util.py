@@ -37,6 +37,16 @@ def get_weights_from_dict(dist_dict):
             tmp[key] = 0
     return tmp
 
+def get_n_expert_batch(generator, n):
+    '''
+    returns a list, consists of n expert batches
+    '''
+    l = []
+    for _ in range(n):
+        expert_batch = next(generator)
+        l.append(expert_batch)
+    return l
+
 def get_expert_chunk_generator():
     chunk_list = get_expert_chunk_list()
     while True:

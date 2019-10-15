@@ -12,11 +12,13 @@ from config import *
 from util import *
 
 class Encoder(Module):
-    def __init__(self):
+    def __init__(self, load_mymodel=False):
         super().__init__()
         self.linear = Linear(STATE_SIZE, AUTOENCODER_HIDDEN_UNIT_NUM)
         self.prelu = PReLU()
         self.out_layer = Linear(AUTOENCODER_HIDDEN_UNIT_NUM, 2*COMPRESSED_VOCAB_SIZE)
+        if load_mymodel:
+            self.load(150000)
 
     def forward(self, x):
         x = self.out_layer(self.prelu(self.linear(x)))
@@ -24,12 +26,22 @@ class Encoder(Module):
         log_s = x[:, COMPRESSED_VOCAB_SIZE:]
         return m, log_s
 
+    def get_latent_variable(self, x):
+        x = self.out_layer(self.prelu(self.linear(x)))
+        m = x[:, :COMPRESSED_VOCAB_SIZE]
+        log_s = x[:, COMPRESSED_VOCAB_SIZE:]
+        s = torch.exp(log_s)
+        dist = MultivariateNormal(m, torch.diag_embed(s))
+        latent_variable = dist.rsample()
+        return latent_variable
+
     def save(self, epoch):
         path = AUTOENCODER_SAVE_PATH + str(epoch) + ".pt"
         torch.save(self.state_dict(), path)
 
-    def load(self):
-        self.load_state_dict(torch.load(AUTOENCODER_SAVE_PATH))
+    def load(self, epoch):
+        self.load_state_dict(torch.load(AUTOENCODER_SAVE_PATH + str(epoch) + ".pt", map_location=torch.device(DEVICE)))
+        self.to(DEVICE)
 
 
 
