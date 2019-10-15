@@ -18,7 +18,7 @@ class Encoder(Module):
         self.prelu = PReLU()
         self.out_layer = Linear(AUTOENCODER_HIDDEN_UNIT_NUM, 2*COMPRESSED_VOCAB_SIZE)
         if load_mymodel:
-            self.load(150000)
+            self.load(50000)
 
     def forward(self, x):
         x = self.out_layer(self.prelu(self.linear(x)))
@@ -79,7 +79,7 @@ if __name__ == '__main__':
         target_cov = torch.diag_embed(torch.ones(AUTOENCODER_BATCH_SIZE, COMPRESSED_VOCAB_SIZE)).to(DEVICE)
         target_dist = MultivariateNormal(target_mean, target_cov)
         parameters = chain(encoder.parameters(), decoder.parameters())
-        opt = Adam(parameters, lr=1e-4)
+        opt = Adam(parameters, lr=1e-3)
         loss_function = CrossEntropyLoss()
         save_epoch = [10000, 25000, 50000, 75000, 100000, 125000, 150000]
         loss_list = []
@@ -93,7 +93,7 @@ if __name__ == '__main__':
             latent_variable = dist.rsample()
             processed = decoder(latent_variable)
             cross_entropy_loss = loss_function(processed, answer)
-            kl_loss = torch.mean(kl_divergence(target_dist, dist))
+            kl_loss = torch.mean(kl_divergence(dist, target_dist))
             loss = cross_entropy_loss + AUTOENCODER_KL_COEF*kl_loss
             encoder.zero_grad()
             decoder.zero_grad()

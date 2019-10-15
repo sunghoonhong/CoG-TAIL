@@ -4,7 +4,7 @@ from torch.nn import Module, ModuleList
 from torch.nn import Linear, LeakyReLU, PReLU, BatchNorm1d
 from torch.nn import BCELoss, CrossEntropyLoss
 from torch.distributions import MultivariateNormal, kl_divergence
-from torch import sigmoid
+from torch import sigmoid, tanh
 from torch.optim import Adam
 from config import *
 
@@ -25,11 +25,10 @@ class Discriminator(Module):
         self.code_out = Linear(DISC_LATENT_SIZE, CODE_SIZE)
         self.disc_loss = BCELoss()
         self.code_loss = CrossEntropyLoss()
-        target_mean = torch.zeros(AUTOENCODER_BATCH_SIZE, COMPRESSED_VOCAB_SIZE).to(DEVICE)
-        target_cov = torch.diag_embed(torch.ones(AUTOENCODER_BATCH_SIZE, COMPRESSED_VOCAB_SIZE)).to(DEVICE)
+        target_mean = torch.zeros(1, COMPRESSED_VOCAB_SIZE).to(DEVICE)
+        target_cov = torch.diag_embed(torch.ones(1, COMPRESSED_VOCAB_SIZE)).to(DEVICE)
         self.target_dist = MultivariateNormal(target_mean, target_cov)
         self.opt = Adam(self.parameters(), lr=DISC_LR)
-
 
     def forward(self, s, a):
         '''
@@ -63,7 +62,7 @@ class Discriminator(Module):
         '''
         s_a = torch.bmm(s.unsqueeze(2), a.unsqueeze(1)).view(-1, STATE_SIZE*COMPRESSED_VOCAB_SIZE)
         x = self.a1(self.l1(s_a))
-        x = self.l3(self.a2(self.l2(s_a)))
+        x = self.l3(self.a2(self.l2(x)))
         m = x[:, :COMPRESSED_VOCAB_SIZE]
         cov = torch.diag_embed(torch.exp(x[:, COMPRESSED_VOCAB_SIZE:]))
         dist = MultivariateNormal(m, cov)
@@ -90,7 +89,7 @@ class Discriminator(Module):
             print('disc_out:', -np.tan(_disc_out - 0.5))
         disc_loss = self.disc_loss(disc_out, is_agent)
         code_loss = self.code_loss(code_out, code_answer)
-        kl_loss = torch.mean(kl_divergence(self.target_dist, dist))
+        kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
         loss = disc_loss + WEIGHT_FOR_CODE*code_loss + kl_coef*kl_loss
         kl_loss = kl_loss.detach().cpu().numpy()
         return loss, kl_loss

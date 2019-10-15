@@ -17,6 +17,7 @@ class Agent():
         self.bert_model = bert_model
         self.short_memory = ShortMemory(self.actor_critic, self.discriminator, bert_model, encoder)
         self.long_memory = LongMemory()
+        self.encoder = encoder
         self.horizon_cnt = 0
         self.kl_coef = 0.1
         
@@ -78,7 +79,7 @@ class Agent():
         agent_indice = np.arange(agent_chunk_length)
         np.random.shuffle(agent_indice)
         agent_states = self.long_memory.states[agent_indice]
-        agent_actions = self.long_memory.bert_encoded_actions[agent_indice]
+        agent_actions = self.long_memory.encoded_actions[agent_indice]
         agent_codes = self.long_memory.codes[agent_indice]
         agent_rewards = self.long_memory.rewards[agent_indice]
         for i in range(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE)):
@@ -91,6 +92,7 @@ class Agent():
             #expert forward
             batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+            batch_expert_actions = self.encoder.get_latent_variable(batch_expert_actions)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             is_agent = torch.zeros(len(batch_expert_states), dtype=torch.float, device=DEVICE)
             expert_loss, kl_expert = self.discriminator.calculate_loss(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, self.kl_coef)
@@ -159,8 +161,7 @@ class Agent():
                 expert_actions = expert_chunk['actions']
                 expert_codes = expert_chunk['codes'].reshape((-1,))
                 self.discriminator_update(expert_states, expert_actions, expert_codes)
-                tmp_cnt += 1
-        for _ in range(PPO_STEP):
+        for i in range(PPO_STEP):
             expert_chunk = expert_chunks[i]
             expert_states = expert_chunk['states']
             expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
