@@ -29,11 +29,7 @@ class Encoder(Module):
     def get_latent_variable(self, x):
         x = self.out_layer(self.prelu(self.linear(x)))
         m = x[:, :COMPRESSED_VOCAB_SIZE]
-        log_s = x[:, COMPRESSED_VOCAB_SIZE:]
-        s = torch.exp(log_s)
-        dist = MultivariateNormal(m, torch.diag_embed(s))
-        latent_variable = dist.rsample()
-        return latent_variable
+        return m
 
     def save(self, epoch):
         path = AUTOENCODER_SAVE_PATH + str(epoch) + ".pt"

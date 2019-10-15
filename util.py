@@ -2,6 +2,7 @@ import torch
 import random
 import os
 import numpy as np
+from torch import softmax
 from collections import Counter
 from transformers import BertTokenizer, BertModel
 from config import *
@@ -107,12 +108,28 @@ def moving_average(loss_list):
             tmp.pop(0)
     return average_list
 
+def sample_gumbel(shape, eps=1e-20):
+    U = torch.rand(shape).to(DEVICE)
+    return -torch.log(-torch.log(U + eps) + eps)
+
+def gumbel_softmax_sample(logits, temperature):
+    y = logits + sample_gumbel(logits.size())
+    return softmax(y / temperature, dim=-1)
+
+def gumbel_softmax(logits, temperature=0.5):
+    """
+    input: [*, n_class]
+    return: [*, n_class] an one-hot vector
+    """
+    y = gumbel_softmax_sample(logits, temperature)
+    shape = y.size()
+    _, ind = y.max(dim=-1)
+    y_hard = torch.zeros_like(y).view(-1, shape[-1])
+    y_hard.scatter_(1, ind.view(-1, 1), 1)
+    y_hard = y_hard.view(*shape)
+    return (y_hard - y).detach() + y
+
 
 if __name__ == '__main__':
-    g = get_expert_chunk_generator()
-    for i in range(100):
-        a = next(g)
-        print(i)
-        print(a['states'].shape)
-        print(a['actions'].shape)
-        print(a['codes'].shape)
+    logits = torch.as_tensor([[-1,0,1],[1,2,0]], dtype=torch.float, device=DEVICE)
+    print(gumbel_softmax(logits, 0.7))

@@ -13,20 +13,14 @@ from util import *
 class Actor_Critic(Module):
     def __init__(self, pretrain_loss_function=None):
         super().__init__()
-        last_hidden_layer_input = AC_HIDDEN_UNIT_NUM + AC_HIDDEN_UNIT_STRIDE*(AC_HIDDEN_LAYER_NUM - 1)
         self.l1 = Linear(STATE_SIZE*CODE_SIZE, AC_HIDDEN_UNIT_NUM)
-        self.b1 = BatchNorm1d(AC_HIDDEN_UNIT_NUM)
         self.a1 = PReLU()
         self.hidden_layers = ModuleList(
-            [Linear(i, i + AC_HIDDEN_UNIT_STRIDE) for i in range(AC_HIDDEN_UNIT_NUM, last_hidden_layer_input + 1, AC_HIDDEN_UNIT_STRIDE)]
-        )
-        self.batchnorm_layers = ModuleList(
-            [BatchNorm1d(i + AC_HIDDEN_UNIT_STRIDE) for i in range(AC_HIDDEN_UNIT_NUM, last_hidden_layer_input + 1, AC_HIDDEN_UNIT_STRIDE)]
+            [Linear(AC_HIDDEN_UNIT_NUM, AC_HIDDEN_UNIT_NUM) for i in range(AC_HIDDEN_LAYER_NUM)]
         )
         self.activation_layers = ModuleList([PReLU() for _ in range(AC_HIDDEN_LAYER_NUM)])
-        self.actor_layer = Linear(last_hidden_layer_input + AC_HIDDEN_UNIT_STRIDE, VOCAB_SIZE)
-        self.critic_hidden_layer = Linear(last_hidden_layer_input + AC_HIDDEN_UNIT_STRIDE, CRITIC_HIDDEN_UNIT_NUM)
-        self.critic_batchnorm = BatchNorm1d(CRITIC_HIDDEN_UNIT_NUM)
+        self.actor_layer = Linear(AC_HIDDEN_UNIT_NUM, VOCAB_SIZE)
+        self.critic_hidden_layer = Linear(AC_HIDDEN_UNIT_NUM, CRITIC_HIDDEN_UNIT_NUM)
         self.critic_activation = PReLU()
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
@@ -41,12 +35,12 @@ class Actor_Critic(Module):
         s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
         c: [BATCH_SIZE, CODE_SIZE](torch.FloatTensor)
         OUT:
-        action_score = [BATCH_SIZE, VOCAB_SIZE]
+        action_logits = [BATCH_SIZE, VOCAB_SIZE]
         '''
         s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         x = self.a1(self.l1(s_c))
-        for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
-            x = activation(batchnorm((layer(x))))
+        for layer, activation in zip(self.hidden_layers, self.activation_layers):
+            x = activation((layer(x)))
         x = self.actor_layer(x)
         return x
 
@@ -66,8 +60,8 @@ class Actor_Critic(Module):
         '''
         s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         x = self.a1(self.l1(s_c))
-        for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
-            x = activation(batchnorm((layer(x))))
+        for layer, activation in zip(self.hidden_layers, self.activation_layers):
+            x = activation((layer(x)))
         x = self.actor_layer(x)
         '''
         top_values, _ = x.topk(TOP_K)
@@ -92,9 +86,9 @@ class Actor_Critic(Module):
         '''
         s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         x = self.a1(self.l1(s_c))
-        for layer, batchnorm, activation in zip(self.hidden_layers, self.batchnorm_layers, self.activation_layers):
-            x = activation(batchnorm((layer(x))))
-        x = self.critic_activation(self.critic_batchnorm(self.critic_hidden_layer(x)))
+        for layer, activation in zip(self.hidden_layers, self.activation_layers):
+            x = activation((layer(x)))
+        x = self.critic_activation(self.critic_hidden_layer(x))
         x = self.critic_layer(x)
         return x
 

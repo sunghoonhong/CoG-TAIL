@@ -1,23 +1,28 @@
 import numpy as np
 import torch
+from torch.nn import CrossEntropyLoss
 from Actor_Critic import Actor_Critic
 from Discriminator import Discriminator
+from Autoencoder import Encoder
+from ActionEncoder import ActionEncoder
 from Memory import ShortMemory, LongMemory
 from util import *
 
 class Agent():
-    def __init__(self, bert_model, expert_weights=None, encoder=None):
+    def __init__(self, bert_model, expert_weights=None):
         if expert_weights is not None:
-            pretrain_loss_function = torch.nn.CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
+            pretrain_loss_function = CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
             self.actor_critic = Actor_Critic(pretrain_loss_function).to(DEVICE)
         else:
             default_weights = np.zeros(VOCAB_SIZE)
-            self.actor_critic = Actor_Critic(torch.nn.CrossEntropyLoss(torch.as_tensor(default_weights, dtype=torch.float, device=DEVICE)).to(DEVICE))
+            self.actor_critic = Actor_Critic(CrossEntropyLoss(torch.as_tensor(default_weights, dtype=torch.float, device=DEVICE)).to(DEVICE))
         self.discriminator = Discriminator().to(DEVICE)
         self.bert_model = bert_model
-        self.short_memory = ShortMemory(self.actor_critic, self.discriminator, bert_model, encoder)
+        self.encoder = Encoder(True)
+        self.actionencoder = ActionEncoder(True)
+        self.short_memory = ShortMemory(self.actor_critic, self.discriminator, bert_model, self.encoder)
         self.long_memory = LongMemory()
-        self.encoder = encoder
+        self.info_loss_function = CrossEntropyLoss()
         self.horizon_cnt = 0
         self.kl_coef = 0.1
         
@@ -138,10 +143,19 @@ class Agent():
             batch_old_log_probs = torch.as_tensor(old_log_probs[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             critic_loss = self.actor_critic.critic_loss(batch_states, batch_codes, batch_oracle_values)
             actor_loss = self.actor_critic.actor_loss(batch_states, batch_actions, batch_codes, batch_gaes, batch_old_log_probs)
-            loss = PRETRAIN_COEF*pretrain_loss + ACTOR_COEF*actor_loss + CRITIC_COEF*critic_loss
+            #info loss
+            one_hot_codes = to_onehot(batch_codes)
+            action_logits = self.actor_critic(batch_states, one_hot_codes)
+            one_hot_action = gumbel_softmax(action_logits)
+            encoded_action = self.actionencoder(one_hot_action)
+            _, code_out = self.discriminator(batch_states, encoded_action)
+            info_loss = self.info_loss_function(code_out, torch.as_tensor(batch_codes, dtype=torch.long, device=DEVICE))
+            #integrated loss
+            loss = PRETRAIN_COEF*pretrain_loss + ACTOR_COEF*actor_loss + CRITIC_COEF*critic_loss + INFO_COEF*info_loss
             print('a loss: ', actor_loss, end=' ')
             print('c loss: ', critic_loss, end=' ')
-            print('p loss: ', pretrain_loss)
+            print('p loss: ', pretrain_loss, end=' ')
+            print('info loss: ', info_loss)
             self.actor_critic.train_by_loss(loss)
         return pretrain_loss_sum/(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE))
 

@@ -16,9 +16,8 @@ if __name__ == '__main__':
         first_list = pickle.load(f)
     weights = get_weights_from_dict(dist_dict)
     bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
-    encoder = Encoder(True) #load encoder
     env = Environment(bert_model, bert_tokenizer, first_list)
-    agent = Agent(bert_model, weights, encoder)
+    agent = Agent(bert_model, weights)
 #    agent.pretrain_load()
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
