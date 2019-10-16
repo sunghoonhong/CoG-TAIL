@@ -100,6 +100,10 @@ class Discriminator(Module):
         loss.backward()
         self.opt.step()
 
+    def save(self, epoch):
+        path = MODEL_SAVEPATH + str(epoch) + "disc" + ".pt"
+        torch.save(self.state_dict(), path)
+
 if __name__ == '__main__':
     tmp_batch = 10
     tmp_state = torch.randn(tmp_batch, STATE_SIZE)

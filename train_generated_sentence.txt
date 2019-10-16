@@ -1,17 +1,39 @@
-epoch: 0 code: 1 sentence: . meaningful circumstancesized surreal claudeda wilson skip reviewers catholic featuring memory davidnieseres
-epoch: 50 code: 1 sentence: i faith beast complicated suspects tunes gold choice em angle revealing formula cast cl card 60
-epoch: 100 code: 0 sentence: we frank hitchhm randy movies producer playing ideasa exception s pa trainolam
-epoch: 150 code: 1 sentence: but memory fool life underso mistakes best holes actual roy cats danger haven adultsise
-epoch: 200 code: 1 sentence: butentpointzz worker treated selling jennifer kitcheners racism form backdrop 20 5 america
-epoch: 250 code: 1 sentence: a absurd constantly during enough stars remaining universal ins sam dress dear historical ill field suppose
-epoch: 300 code: 1 sentence: ime built alt anne pseudo amazed exactly talking minds warning finest ideal sitting offensive should
-epoch: 350 code: 1 sentence: this eerie headed paint bright hotled um brought returns okay metens harsh their etc
-epoch: 400 code: 0 sentence: it produce desperate evil pitint adding colourize science radio learningid [CLS] know department
-epoch: 450 code: 0 sentence: the h wake jail th uk rip pe motion flawless reed broken brilliantsto thinking regard
-epoch: 500 code: 1 sentence: it promers loving guys youvable bothered sadly 3 bleak flu dub planning sticks speaking
-epoch: 550 code: 1 sentence: while clips clips wrote unpleasant dancing rules california amateur pro green philipping fashioned appears inter
-epoch: 600 code: 1 sentence: characters minutespin beast benefit rendition mansion theme received comments dressed artistonski daniel unfortunately
-epoch: 650 code: 0 sentence: it particular lan unique alexander looselyeb spoken look during cu sk mainstream flight saysmbo
-epoch: 700 code: 1 sentence: amanda gene passedoof appear creating separate gia blind carries normally ages knock washingtonpointvable
-epoch: 750 code: 1 sentence: fourth excuse aspects idea ga romantic previous benefit always brings ashamed benefit mob potential based 17
-epoch: 800 code: 0 sentence: i duty says plane terror continuity appealing concerns mid screenplay beat officers sin lab governmenti
+epoch: 0 code: 0 sentence: i angeles rogerge reviewsven based entertaining desperately filmmaker francis also mouth complex faces perfection
+epoch: 50 code: 1 sentence: again pick kurt con sings superior creating week personallykin service please avoid toward religion earth
+epoch: 100 code: 0 sentence: the believing better original chi intense mike dorothy guts entertainment given knowledge victoria other demons huh
+epoch: 150 code: 1 sentence: none actingmy ring old unless old woo compare guide bored brains wa rules start stunts
+epoch: 200 code: 0 sentence: the daring mix ph dick natural cases figure pulp currently amazed plot officer gagyn pleasant
+epoch: 250 code: 0 sentence: if romanticib jakeckyton meeting disease mania regarding impression playsciescar jumps mental
+epoch: 300 code: 0 sentence: who setting ed groupendting anyone sex getting wonders figured new asleepducious believes
+epoch: 350 code: 1 sentence: they tastetra susan racial variety whenever loses appealing worse follow bridge player parent charismatic sense
+epoch: 400 code: 1 sentence: itay describeku foot after watching adding throw stands oz stars prison assume tim cab
+epoch: 450 code: 0 sentence: the symbolism lover henry michael sports jar followed keeps moore philipome louis horror yu accused
+epoch: 500 code: 0 sentence: 7 arrive add workers bitter divorce slightly involvedtitles dressed release spoken pen idea chan prison
+epoch: 550 code: 1 sentence: it hamlet succeed wild structure shoes aka produce th matter inspiring segment compare wrestling characterten
+epoch: 600 code: 1 sentence: now choices proper larger paying weberi crowd effect bel buff fantasy continue smokeome thanks
+epoch: 650 code: 0 sentence: that revolves believed leading media freshani # everyone complain teenagers um victoria angelvingction
+epoch: 700 code: 1 sentence: to directed billy military neither jump ah underground animation hammer turkey chosen nine simplyura years
+epoch: 750 code: 1 sentence: the gangster moment stewart freddy politics numerous betty imp church ) surrounding ones forgotten australia shouldn
+epoch: 800 code: 0 sentence: the lacks killer frequently tack connect 17 visually sword mock musicals forget closing jetily doo
+epoch: 850 code: 0 sentence: cinematography cliffned addedland trying helps interviews murphy bpoint performing grey adults trap 18
+epoch: 900 code: 1 sentence: i final partnerys secretary bottom saw knock seek starts dry myself nonetheless jamie iron nearby
+epoch: 950 code: 0 sentence: it useslk shocking playing geek featured batmanons if crazy america bitterern thinking fool
+epoch: 1000 code: 1 sentence: no historyhi sci bit mouth screaming aheadear returning st rage peck brian incredible lessons
+epoch: 1050 code: 1 sentence: this described lesbian ouray aren pretendtretly revealingini clint bobible failsgen
+epoch: 1100 code: 0 sentence: the 9 fighter obviously entertained holy elsewhere broadcast physicallytionlyppet amongst hill racism killings
+epoch: 1150 code: 0 sentence: simply card fine zombies amazing alex throw reward performing bu violence ] legs rest sar cave
+epoch: 1200 code: 1 sentence: itprtaking craig 2006fa todd trigs soap single surroundedted ratedpired throughout
+epoch: 1250 code: 1 sentence: terrible anyone scar meanwhile audio abandoned rein modern ki blandture rolling independent engaging itself incredible
+epoch: 1300 code: 1 sentence: why catholic corn * desperately develop display happens bugs none boat talespa membersern bear
+epoch: 1350 code: 0 sentence: overall opportunity shy feet orderebtz med super sand pro release critical piano according edward
+epoch: 1400 code: 1 sentence: eddie mat allow2 strangereem godfather bitter heart favor rise washingtonin extraordinaryersonqui
+epoch: 1450 code: 0 sentence: it protectville conclusion portraying acceptedard patrick author yourbeat ra ~ski fired because
+epoch: 1500 code: 1 sentence: it core strong stay halfway gem rough sold staged theatre inner chairner hearted air scare
+epoch: 1550 code: 0 sentence: it saw blonde combined roberts enter fe annoyed track twin parkerening pal rod fur form
+epoch: 1600 code: 0 sentence: any personality cares coverph nude 24 revolution climax gorgeous stops stusomebl rights cash
+epoch: 1650 code: 1 sentence: a flash ship court bible virgin existence spell ’ bros watch police detective australia rap com
+epoch: 1700 code: 0 sentence: soction laughed getting vincent christmas stood final pregnant det intellectual demons purely seasons fix halfway
+epoch: 1750 code: 1 sentence: not victorbacktem fashion admit finest deadly excellent modernac ford produce importantly scared female
+epoch: 1800 code: 0 sentence: what desert hers mistake survive gritff blowsit seven meaningful team literally techniqueook presentation
+epoch: 1850 code: 0 sentence: so set throws award comicalily physical think answers repeated cry bride formateningwo some
+epoch: 1900 code: 1 sentence: this listen issues tool sequence sp involves greatlyndo facts met english ri understoodah basic

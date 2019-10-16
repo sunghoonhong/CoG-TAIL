@@ -58,5 +58,7 @@ if __name__ == '__main__':
             print(sentence)
             f.write('epoch: ' + str(e) + ' code: ' + str(c) + ' sentence: ' + sentence + '\n')
             f.close()
+        if e % MODEL_SAVE_PERIOD == 0:
+            agent.save(e)
 
 

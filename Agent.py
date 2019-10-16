@@ -211,3 +211,7 @@ class Agent():
     def pretrain_load(self):
         self.actor_critic.load_state_dict(torch.load(PRETRAIN_SAVEPATH, map_location=torch.device(DEVICE)))
         self.actor_critic.to(DEVICE)
+
+    def save(self, epoch):
+        self.actor_critic.save(epoch)
+        self.discriminator.save(epoch)
