@@ -1,5 +1,5 @@
 #system info
-DEVICE = 'cuda:0'
+DEVICE = 'cpu'
 EXPERT_DIR = './restricted_expert_data'
 EXPERT_CHUNKS_NUM = 400
 EXPERT_CHUNK_LENGTH = 512
