@@ -40,13 +40,12 @@ class Discriminator(Module):
             disc_out: [BATCH_SIZE, 1](torch.FloatTensor)(sigmoid_normalized)
             code_out: [BATCH_SIZE, CODE_SIZE](torch.FloatTensor)(unnormalized_score)
         '''
+        #no sampling
         s_a = torch.bmm(s.unsqueeze(2), a.unsqueeze(1)).view(-1, STATE_SIZE*COMPRESSED_VOCAB_SIZE)
         x = self.a1(self.l1(s_a))
         x = self.l3(self.a2(self.l2(x)))
         m = x[:, :COMPRESSED_VOCAB_SIZE]
-        cov = torch.diag_embed(torch.exp(x[:, COMPRESSED_VOCAB_SIZE:]))
-        dist = MultivariateNormal(m, cov)
-        latent_variable = dist.rsample()
+        latent_variable = m
         disc_out = sigmoid(self.disc_out(latent_variable))
         code_out = self.code_out(latent_variable)
         return disc_out, code_out
@@ -68,7 +67,7 @@ class Discriminator(Module):
         dist = MultivariateNormal(m, cov)
         return dist
 
-    def calculate_loss(self, s, a, is_agent, code_answer, kl_coef, verbose=False):
+    def calculate_loss_with_code(self, s, a, is_agent, code_answer, kl_coef, verbose=False):
         '''
         IN:
         s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
@@ -81,7 +80,7 @@ class Discriminator(Module):
         is_agent = is_agent.view(-1, 1)
         code_answer = torch.as_tensor(code_answer, dtype=torch.long, device=DEVICE)
         dist = self.get_distribution(s, a)
-        latent_variable = dist.rsample()
+        latent_variable = dist.mean
         disc_out = sigmoid(self.disc_out(latent_variable))
         code_out = self.code_out(latent_variable)
         _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
@@ -91,6 +90,28 @@ class Discriminator(Module):
         code_loss = self.code_loss(code_out, code_answer)
         kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
         loss = disc_loss + WEIGHT_FOR_CODE*code_loss + kl_coef*kl_loss
+        kl_loss = kl_loss.detach().cpu().numpy()
+        return loss, kl_loss
+
+    def calculate_loss_without_code(self, s, a, is_agent, kl_coef, verbose=False):
+        '''
+        IN:
+        s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
+        a: [BATCH_SIZE, COMPRESSED_VOCAB_SIZE](torch.FloatTensor)
+        is_agent: [BATCH_SIZE,](torch.FloatTensor)
+        OUT:
+        loss, kl_loss
+        '''
+        is_agent = is_agent.view(-1, 1)
+        dist = self.get_distribution(s, a)
+        latent_variable = dist.mean
+        disc_out = sigmoid(self.disc_out(latent_variable))
+        _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
+        if verbose:
+            print('disc_out:', -np.tan(_disc_out - 0.5))
+        disc_loss = self.disc_loss(disc_out, is_agent)
+        kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
+        loss = disc_loss + kl_coef*kl_loss
         kl_loss = kl_loss.detach().cpu().numpy()
         return loss, kl_loss
 

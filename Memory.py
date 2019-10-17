@@ -175,6 +175,8 @@ class LongMemory():
             self.oracle_values = np.array(self.oracle_values, dtype=np.float)
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             self.rewards = np.array(self.rewards, dtype=np.float)
+            print('reward avg: ', np.mean(self.rewards))
+            REWARD_LIST.append(np.mean(self.rewards))
 #            print(len(self.states), len(self.actions), len(self.encoded_actions), len(self.codes), len(self.gaes), len(self.oracle_values), len(self.old_log_probs), len(self.rewards))
             return True
         else:

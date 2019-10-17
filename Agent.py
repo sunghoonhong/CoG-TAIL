@@ -85,22 +85,21 @@ class Agent():
         np.random.shuffle(agent_indice)
         agent_states = self.long_memory.states[agent_indice]
         agent_actions = self.long_memory.encoded_actions[agent_indice]
-        agent_codes = self.long_memory.codes[agent_indice]
-        agent_rewards = self.long_memory.rewards[agent_indice]
+#        agent_codes = self.long_memory.codes[agent_indice]
         for i in range(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE)):
             #agent forward
             batch_agent_states = torch.as_tensor(agent_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_agent_actions = torch.as_tensor(agent_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-            batch_agent_codes = agent_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
+#            batch_agent_codes = agent_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             is_agent = torch.ones(len(batch_agent_states), dtype=torch.float, device=DEVICE)
-            agent_loss, kl_agent = self.discriminator.calculate_loss(batch_agent_states, batch_agent_actions, is_agent, batch_agent_codes, self.kl_coef)
+            agent_loss, kl_agent = self.discriminator.calculate_loss_without_code(batch_agent_states, batch_agent_actions, is_agent, self.kl_coef)
             #expert forward
             batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
             batch_expert_actions = self.encoder.get_latent_variable(batch_expert_actions)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             is_agent = torch.zeros(len(batch_expert_states), dtype=torch.float, device=DEVICE)
-            expert_loss, kl_expert = self.discriminator.calculate_loss(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, self.kl_coef)
+            expert_loss, kl_expert = self.discriminator.calculate_loss_with_code(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, self.kl_coef)
             kl = 0.5*kl_agent + 0.5*kl_expert
             self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
             disc_loss = 0.5*expert_loss + 0.5*agent_loss
@@ -213,5 +212,12 @@ class Agent():
         self.actor_critic.to(DEVICE)
 
     def save(self, epoch):
+        epoch += 55000
         self.actor_critic.save(epoch)
         self.discriminator.save(epoch)
+
+    def load(self, epoch):
+        self.actor_critic.load_state_dict(torch.load(MODEL_SAVEPATH + str(epoch) + 'ac.pt', map_location=torch.device(DEVICE)))
+        self.actor_critic.to(DEVICE)
+        self.discriminator.load_state_dict(torch.load(MODEL_SAVEPATH + str(epoch) + 'disc.pt', map_location=torch.device(DEVICE)))
+        self.discriminator.to(DEVICE)

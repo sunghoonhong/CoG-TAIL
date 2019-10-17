@@ -1,100 +1,1022 @@
-epoch: 100 code: 1 sentence: locations graphic days movie fun cartoon previewtic them day stars performances stars thought list face them charm charm 5 face fx idea movie else lesson list months 8 there fun treat
-epoch: 200 code: 1 sentence: buy preview entertainment different boring entertainment 5 sucks different list treat laughs 8titles watching watching treat dvd ending network list movie seen series asleep either cried entertainment moments fun 5 seen
-epoch: 300 code: 1 sentence: 5 else buy again me cried now recommended crap eitherzz recommended lesson recommended watch laughs done time magic hilarious now preview classic entertainment horrific magic laughs wrong happen entertainment end reasons
-epoch: 400 code: 1 sentence: unbelievable anyway happen / wow time now laughsable ridiculous time ever now fun acting well dull right disappointmentable ourselves favorites genre favorites disappointment wrong life cares imagination disappointed worse watch
-epoch: 500 code: 1 sentence: seen magic 9 favorites stars well documentary superb favorites happen joke mrs laughs magic spectacular movie movie happen / laughs funny scared moments disappointment anymore funny time wow well spectacular disappointment disappointed
-epoch: 600 code: 0 sentence: rubbish huh starszz oh 1 sake seriously unbelievable disappointment 4 itself wow entertainment 1 3 disappointed pathetic crap stupid unbelievable crap sucks pass joke script here disappointment seriously joke stupid yes
-epoch: 700 code: 1 sentence: documentary amazing recommended documentary guessing anymore none opinion disappointed 9 well happen stars anymore opinion superb masterpiece wrong apart opinion amazing storyline 8 amazing well today anymore everyone entertainment recommended 9 dvd
-epoch: 800 code: 1 sentence: anyone flaw however wow admit recommended preview movie guessing personally thinking day rental ago cares it sequel anyone scenery anymore amazing mrs stunning excellent romance rental ages 8 i favorites anyway excellent
-epoch: 900 code: 1 sentence: guess + seriously seriously happening again thumbs documentary huh happen cares honestly entertaining mrs mrs pass ending disappointed happening period else amazing days actress cares anyway awards disappointment wow else disappointment 0
-epoch: 1000 code: 1 sentence: opinion however surprise anyone 9 honestly everyone check thought well me it 9 yes seen saw period ps 8 also check anyway yes + laughing seriously viewing dvd amazing dvd check thumbs
-epoch: 1100 code: 0 sentence: everything oh basically oh i everyone anyway now well u yes there sometimes basically think she oh sorry everything ok yes everything why now guess however it yeah yes oh he however
-epoch: 1200 code: 1 sentence: guess well loved 8 + recommend entertained period cried charming know recommend viewing surprise laughing opinion gem stars finish cried expect surprised okay cried stars there yes warned 8 surprised + rental
-epoch: 1300 code: 0 sentence: don cares however okay yeah wow seriously however oh perhaps sorry everyone perhaps mean there sure am sure there mean personally hmm honestly hey everyone please honestly please okay okay ok trust
-epoch: 1400 code: 1 sentence: favor mrs sure bored granted period recommended recommended anyway unbelievable recommended surprise entertained bored hilarious time either check movie actor recommended cried unbelievable explanation break alright gem done hilarious else movie warned
-epoch: 1500 code: 0 sentence: honestly anyway either asleep otherwise ok it unfortunately seriously oh please guess there neither however don avoid 1 unfortunately please we yeah c sorry why however 2 guess avoid 1 unfortunately plus
-epoch: 1600 code: 0 sentence: know however oh why am ? ha why yes f ye wow u there whyz sorry oh why whyser unfortunately yes however why san room sorry trust oh instead terrible
-epoch: 1700 code: 1 sentence: unfortunately personally unfortunately guess honestly unfortunately now impressed honestly plus suicide again highly 99 disappointed recommended reasons entertained p recommended seriously again thought sallydos disaster guess now whyqui marriage gem
-epoch: 1800 code: 1 sentence: surprised please anyway terrific impressed entertained + impressed p seeore entertained enjoy anyway favorites documentary surprised guess favorites job library again ratek now anyway action done evening suicide impressed experience
-epoch: 1900 code: 0 sentence: guess wow technology wanted unfortunately mean okay sure seriously please it guess unfortunately sure wow oh trust yet besides none > please sure guess ok sure otherwise did disappointment guess surely apparently
-epoch: 2000 code: 1 sentence: entertained seriously cannot anyway favorites wrong appreciated disaster happen disappointment suicide heart wow seriously mess average library again ask interested rocks films ratings movie again mean dvd again wanted appreciated lucky time
-epoch: 2100 code: 0 sentence: seriously mean warm > oh alien oh deeply yes seriously although seriously check anyway suicide yeah please yes check however overall otherwise seriously ice period liked seriously otherwise expectations check ye please
-epoch: 2200 code: 0 sentence: terrible faces thoughcom okay avoid yet highly please wow seriously seriouslyus j seriously p wow ag okay avoidtes huh mean claus > seriously > unfortunately 4 anyway franco distance
-epoch: 2300 code: 1 sentence: seriously again emma norman stunning v brother mannay seriously failed laughed jim company recommended cried > remember you laughed sorryder recommended guess remember perhaps know cannot cried lucky terrific guess
-epoch: 2400 code: 0 sentence: sucks gun okay none mrs wowion garbage capt average capt 0 guesstch patheticl sucks head j crap promising fest disaster disappointment 2 talent costs huh canada viewerdity restaurant
-epoch: 2500 code: 1 sentence: responsible cried sorry terrific 4 watching suicideid 5 linda hatred trick end ever 9 ram process bust whatever sally sally 0 brilliant weight cried ok times personally cried yet cried yet
-epoch: 2600 code: 1 sentence: once okay pulp lesson plusmed terrific decade jason suicide color bust killers stated trickidid ) anymore + anyway anymoreup yorkup remember alright enjoy anyone mean degree bust
-epoch: 2700 code: 1 sentence: stars heard hardcoreion suppose am createdk 0 recommended alright hysterical murdered alright hate terrific anymore alright buried opposite comedy messup thing tune search brilliant living genre hadn enjoy seen
-epoch: 2800 code: 1 sentence: anymore anyway forever stars + cried surprise anyone ) anymore enjoy realize realize 5 wow forever bela + okay anymore stars anymorebit evening am amazing expected talent appreciated cried cried +
-epoch: 2900 code: 1 sentence: soldier comickct results summer sitcom london london =k + viewing > cried anymore higher essential surprised > oh anymore segments anyone personally impressive quickly lake alright stars seenbble
-epoch: 3000 code: 0 sentence: boring mumearing fighting excitementlk disappointed costs film pathetic disappointment patheticrated happening comedy seriously end sucked charming jokes movie garbage unnecessary seriously promising areas boring mrs ridiculous walterdown nonsense
-epoch: 3100 code: 0 sentence: promising morning ze butt right project sat seriously powers zeam michelle effort mann asked costs pathetic promising mrs seriously bugsy quickly dangerous neither f promising promising sayord fff
-epoch: 3200 code: 1 sentence: jewish legcrow likes worthless above haven liked pot pitt rev se spell br jasonqui =brickbrickbrick dust france once conflict laughed rented locked performing remember jason instead laughed
-epoch: 3300 code: 1 sentence: yourself personally suggest laughed give bother sure capital wait give statement sure plague either cried disappointed disappointed portraying wow promising suggest cried surprised dig quickly ignore remember enjoyed guess say liked remember
-epoch: 3400 code: 0 sentence: awful disaster reminds captain ru 2 rented des disaster wrong outrageous roledown sucks afm sucks adds movies rubbish anymore bother effects disaster anymore book cleancre disappointment stupid advantagecre
-epoch: 3500 code: 0 sentence: disappointed along continuestro likely unable know um today 4cu costs boring promisingid disappointment money kirk disaster terrible anymore stupid shoes wasted ugly costs costs worse flat pathetic awful horrible
-epoch: 3600 code: 0 sentence: ok bran 60s 24zzffow apparently jackie space qui yetid seen dull laid walker charlie matters tough broke 2 insteadickff 000metidickdowndown concerns
-epoch: 3700 code: 1 sentence: throughout thought rubber lisa seen movie asleep againcious angry huh lead sex say laughed future promising laughed anymore happened stink huh releaseid rented throat end happen nick areastaking seen
-epoch: 3800 code: 1 sentence: showing avoid savage 4 personally rating stage th core fortune luckily national conclusion anymore promising wow documentary starsid dislikecre alright huh disco future vs 2 chase vs well included asleep
-epoch: 3900 code: 1 sentence: visthigent v truedsg four mentalg albert rev described nearby bed woo patrick angry effort journey spider sons plot mrs entertained nationalans theatretaking disappointed store entertained
-epoch: 4000 code: 1 sentence: ashamedget tack warning zone say day $ certain wealthy + anymore bollywood ku series screening + days tears kane days season library laughed anymore company mill ps future anyway entertaineda
-epoch: 4100 code: 0 sentence: sucks ugly deadly dealing mix miss beloved included asleep seriously pinkype watch anywhere seen inevitable sight born olingly theater disappointment horrible acceptedpre suits laughter couldn saidso disappointed catch
-epoch: 4200 code: 1 sentence: however literally blind cynical western instance bumren enjoying remote futurevnch just special lovers entertained appreciated india victor wave / ] future criminals comments commentstaking suggest remember makes laughed
-epoch: 4300 code: 0 sentence: roberts pro ridiculous form hooked editing annoying members money badly kudowncious anymore favorites starring stringble rented disturbing device intriguing in lying store saw cynicalitte anyway ending horrible personality
-epoch: 4400 code: 1 sentence: perhaps initially hangah joan event entertainingvo cheek anti amazingica / th areas shoot relief masterpiece stuck prep eng hired popular stunning visuals bottom promise notorious fights levels times moved
-epoch: 4500 code: 0 sentence: briefwhile cousin barbara em ramon lie called european remember elements eng likely lord both 7ghck thoughwn law sucks disappointedo guess 1990 readnic rentedalikiino
-epoch: 4600 code: 0 sentence: ##rp prior realized development terrible enters beautifully window aspects laughed thinket extraordinary incident seen naturallybit saw literally un 5 opinioncre asleep mean heard disappointed film movie garbage timeim
-epoch: 4700 code: 0 sentence: actress worse writer worthless we theatre asleep understand four cher lucy thought parent rating states hate disappointed book seen blown whatsoever story years expectations avoid rented store think scenario table movie theaters
-epoch: 4800 code: 0 sentence: hornet laughed there pulled capital pilot relationships impressed decade talked statement impactical seahh couldn selfish code scriptcy wow starts answer ruined angels sorry girls best crap crap stars
-epoch: 4900 code: 1 sentence: urea interviewswhile er parents terror upper kill laid liberal drive casting kiss scares sisterv footagecus nominated virtually ordinary traditionaldom tame francering wonderedo lovers levels bela
-epoch: 5000 code: 1 sentence: wife reynolds lesstaking werewolfpi revolution hand store expectedote accents kinds 3 enjoyable story laughingli absurd truth library it outs blown unless watched invisible magnificentoon watching teenagers action
-epoch: 5100 code: 1 sentence: jones things adult group anywayook austen - evening library twiceent taking seasons store rabbit alone surprised hudson constant ru vote suggest guess mont excellent evening agov offered stateick
-epoch: 5200 code: 0 sentence: end asking checking stealing horrible holyck immediately hideous tone messages waste bloody failure boring outside predictable michael patheticxious expectationseresors scriptcious ended horrible stronglyype sequelable cable
-epoch: 5300 code: 1 sentence: house standing l level pseudo fore dancing cable care surprisedsenher swedish sa seen opposite library gee bum prop courage tu hmm spoil lust planet filming ) person enjoyable lots store
-epoch: 5400 code: 0 sentence: easily liesadi alberteem dim debut snake wax fiction know + flashbacks sequel movie trouble parody cried ten performancesdity costs annoying disappointinghm stuff stars laughs garbage edited tension costs
-epoch: 5500 code: 0 sentence: wasteub ghosts knew bank californiav particular myself feature bell costsmm hourspired awful averageistic awfulio = dumbmal 3 entertainment costs = direction boredom waste costs worthless
-epoch: 5600 code: 0 sentence: jealous jon notch stolen snake + studios bother jealous feeling hiding mer horrible sucks greeniri expectations budgetmal entertainment waste = development wreck garbage disappointing disappointment mess bother racist future =
-epoch: 5700 code: 0 sentence: awe bored thoughts craft dorothyster learns stars 4 eating depicted sequel boring putting others expected remote stars happen corrupt sides film asleep review floorved recommendtri remember appeared fest now
-epoch: 5800 code: 1 sentence: raw pace fall aspect throw virus police adds bound traditional = script vs ghosts street thank decide angry italian deal jean calls media recommendedast ~ gem randy boy way execution cinematography
-epoch: 5900 code: 1 sentence: without baby robertsuliins yes prettyues scripted till recommended near magnificent usa insaneuili wanted ninja / = some demands don staff community now hardlyula inevitable disappointed chance
-epoch: 6000 code: 0 sentence: unpleasant hated condition trilogyten mono else 9 know lust train deaths book soundtrack problem else desperatelymar crap costs pointless stink trash rubbish boring finish miss know river animated 4 sequel
-epoch: 6100 code: 0 sentence: commit soundedip suspense interib imaginative victimscious escape island 5 ti detective says satan questions depicted script = guess filmmaker excitedtes mess bought mistakes rubbish better directing rentalless
-epoch: 6200 code: 1 sentence: hard son channel forever order tragedy o yeah chains pseudo briefly beginning ten trailer ago era installment elizabeth whole lisa arrive thirty replacedef succeeds picture theatre documentary ending beginning modest suffers
-epoch: 6300 code: 1 sentence: lane cure lonely teachvable hiredow rental make beaten either man prom sounds 7 golden million recommendeduf rememberag adventures snowening criedept reasons festival mob viewing gem costs
-epoch: 6400 code: 1 sentence: abusepoint hood within complex encounters simple stil hire angeles blows controversial dimensional forth # information store recommendedial stage theater conceptk cab regarding library recall watched entertained helpstious extraordinary
-epoch: 6500 code: 0 sentence: fresh trust proveland range george thosewatch rose remarkable supposed drama costsfor late zero therefore winner committed emily sequenceized costsible health disappointment engaged feton m dragged una
-epoch: 6600 code: 0 sentence: bus mach began heart nobody field tragictable / dear saw cole moon 99 ok zombie dancing planning yeah avoidnes rented hipnia glad wishes reviews support ashamedix robertsid
-epoch: 6700 code: 1 sentence: dish across darblingbid match = but thing released 9 barbara manneruli featured hmmnu juvenile equallytan ? argentmalef credibility brain bad twists future ski reviewers recommended
-epoch: 6800 code: 0 sentence: 9 24 13 decision bayien spite juvenile loved expected block theater takes nevertheless bride comments opinion bruno guess simply women review regret / portrayal film rental opinionna complaintha recommend
-epoch: 6900 code: 0 sentence: enemy lives crime magical handleppos feeling corn ’ limited premiserous outbal ke wonderful uses parody 7 screenplay script huh shoeseative disaster bud overcome awards opinion wrong
-epoch: 7000 code: 0 sentence: jr blues winninguf jobs boring er bad reward theatre cinematic carrying miss early mistake hers anybodycha humbl late laughed disappointment biggest any 1 store guess hood top reasonably terrible
-epoch: 7100 code: 0 sentence: laid captured rival pity house forget offers lord negative angles presumably frafield agree careers dressed fail terrible yet audio ring mean fate by cy cheer / sucks closet signs bad disappointment
-epoch: 7200 code: 1 sentence: wonders double explicit sidney flaws uno main head crazy para bits presentation ago fbi decfire winner criminals sitting ta couldn madonna children child storeski holds episodes days surprised sean trying
-epoch: 7300 code: 0 sentence: ##ving miller crisistable continued free yearsers bank wrote battle pl larry profpt changing scale flow direction laughteris selfish teach 2004 starscious disappointed grew 2 inevitablefold again
-epoch: 7400 code: 1 sentence: math strikesver cruiseen marks perfect killed oscar french sara during canadian personally opportunity helpedear painting pahas himself chick discover huge na followed explanation hadn fall trailer top fan
-epoch: 7500 code: 1 sentence: spoil scientists importantly wrongtive remain even spirit characters nasty evidence vote reputation rock 80 kiss aa street reel task luck genuinelyuf hands lives noirag fanspinard saturdayman
-epoch: 7600 code: 0 sentence: vacation eastwoodily tremendous serial fourth synlloian jumping song neither adapt devski costsingerdown wrong provide god halfut cinematography fill living asleep 1960zz nut nelson brains
-epoch: 7700 code: 1 sentence: california amazing mill rat soap theater plots pan do traveling haunted st br near claire missingrated thin reveal pulls old film soldier corner make sophisticatedlatbeatho vehicle colonel ultra
-epoch: 7800 code: 1 sentence: accept gotta za magical physical austen wit boring divorce exploitation controlmir s show stopped take solve locations parody hollywood disbelief outstanding ordinary pleasantly code hilarious minimal moviedb understand high shooting
-epoch: 7900 code: 1 sentence: lynch interview pay coveredance spy easily doll robtion rolling overstro corpse fact web don release garbage 0 history recommendedei discovered intriguing apartment afterwards served am sees faces vincent
-epoch: 8000 code: 1 sentence: picking experienced comics meaning this loversup communitynn feature qualities remembered scenery false ben admire essentially ol skip strip bog generally angeles expectations rating sent agree amount confusing directors trailer sequel
-epoch: 8100 code: 1 sentence: predict gag halfway card professional call window seriously 18 1990 practically climax complaint bill years f traveling metal createsticyl fond bird advice planet southern scientist every dramatic category soundtrack extent
-epoch: 8200 code: 1 sentence: innocence arms successful wet selling anyone writer pehi grow thomas keepingera highly gone swear reason son os foolring kube trailer computer boredom purelyaw future weekend unfortunatelyoma
-epoch: 8300 code: 1 sentence: brothers vision taylor jane suffering burtped flight rules teeth canadian attempted chopwn presentedarated emperor social modest factory older dealt station ending seenohright madness delight lord checking
-epoch: 8400 code: 1 sentence: rage laura eventuallyet astonishing force equal splendid stone wittyshing hey process national rex viewed writers mean treatpl michael mitchell hooked surprising ultimately expectations dvd enjoy expectations recommend opened asleep
-epoch: 8500 code: 0 sentence: understood steve experienced costumes 80s sleeping messages animation angel laughs conclusion happen cy struggles grow hits stayedluura expectations disappointed ones daughter 4 sorts mitch crap regret decade worse recommended list
-epoch: 8600 code: 0 sentence: tech quote prep thumbs what remind neitherpar pi entertainment opinion 9 pit tarzan happened myz bbc money ty withns happens v minute pin consider comments snake happens charlie style
-epoch: 8700 code: 1 sentence: morning tried beings returned die hour creepy wild fight steal borele opinion audience tilluloder enjoyable dayating seemger fashioned bringsplay disappointment book disappointedyp delivered father torture
-epoch: 8800 code: 1 sentence: jr nos talents 1990 acting belief psychological touches answer kills surprisingly tension urban intolock commercials recommendedx angles beings acps visuals slick pointshohn funny laughing bitch service wait
-epoch: 8900 code: 1 sentence: devi visual bug 10 front washington fortunately 2 entertainment theme ll forward agoorsish future mom breaks reel note cast soundtrack theme han bitch requires battle india else theory modest cash
-epoch: 9000 code: 0 sentence: ##the atmospheric hated positive rocks grandfather carry outs swedish alan sexuality marriage problem by twice kn else lyrics end accent travel enjoy chicago 70s editing hell begin chicago positive ki disappointment asleep
-epoch: 9100 code: 1 sentence: century anna road message kong tag caineco further 7 yeah annoyed meant rating pi 1 personally crack does fell ur trap grewum roles game stuff entertainingbid desire + oliver
-epoch: 9200 code: 0 sentence: device shame marie band screening code blair save loser 5 incredible franchise asleep contextxious local favor pleasure mis propaganda happened listed sake lines anymoreiest consider opinion reviewghbeat en
-epoch: 9300 code: 1 sentence: grew n 1970s helps acting taylor condition caineagh box knight brutal meanwhile nthi + + friendly red effort deserves beer meanzz jobs you works conclusion conclusion begin distant attempt
-epoch: 9400 code: 1 sentence: complete packed mann tom moralxiousstick die decision laura prefer dramatic 9 shall lesser dan subtlesse 60s begin lot took show smile inspiringnia stuff enjoyment fly begin usa job
-epoch: 9500 code: 0 sentence: glimpseub wit pull fur impact dig pre portrait potentialghinoma circumstances nightap locationsknu your portraying dee boo impressionj miss recognize walldityreal written recommended
-epoch: 9600 code: 0 sentence: terrible walls skip chance completely cure cultoon jeff claire causesdu told yellow goal teenage theory executedntra guess listening butt living dry advicej compare me franchisest stayed
-epoch: 9700 code: 0 sentence: waste sensation thansa extreme hipgh afraid etc broad art problem wars behavior choicesmypid animalsqua fatal dancing usa 0 4 theater picture episode budget ending mistake asleep anymore
-epoch: 9800 code: 1 sentence: quickisi boredom la two regular strike dance enter city leonhe glimpse interaction ending movieser somewhat convey acting hatednch bo expectationsran great acceptans doubt shame numerous review
-epoch: 9900 code: 1 sentence: timingvable written aware relationship got ab hong smoke canadian imaginative editing minutes waveley ainsen nonetheless comical elderly fire cuor sinatra capt east joe former beauty award him films
-epoch: 10000 code: 0 sentence: sing flesh beginning cheek sub fortunately annoyed day flick sl watching anymore ge tear needles 2 opinion bookeckpiro castle fifteen wine traditional knowgh ring know listening making amateur
+epoch: 100 code: 1 sentence: basically source cast frame remotelytive metlu gripping supernatural tricks animationter a chopgh
+epoch: 200 code: 1 sentence: we jack nose direct anymore premise bringing agree trail ze borece claim everywhere how negative
+epoch: 300 code: 0 sentence: dueball wrestling bull pol kill skip excuse name hu reveal ramon 2000 malets songs
+epoch: 400 code: 0 sentence: as message granted slaughter ga impress budrun drugs caused 60s understanding develop thirdva minded
+epoch: 500 code: 0 sentence: the skills civil outstanding nicely smoking phone cold hai spike main sleeping white focus individuals constantly
+epoch: 600 code: 0 sentence: a indiacreony williamsend weak were amusing chasesuit book boredom rushed mustolo
+epoch: 700 code: 1 sentence: hmm decent international dated vision recommend stillp americary jar existent suppose by inspiration kidnap
+epoch: 800 code: 1 sentence: i right thing teeth expect performances loses society powerful theater played film asking irritating revealed outrageous
+epoch: 900 code: 1 sentence: che ya casting clues wearsuckworth willis chill coincidence 24 hanging raised striking century hearted
+epoch: 1000 code: 0 sentence: there angry chillinginssen modernwe normally locked reputation cellrtise super henry corpse
+epoch: 1100 code: 0 sentence: hopefully fire killing tall boreil sheer franklyoint c discover war working insultingoof holmes
+epoch: 1200 code: 1 sentence: feel copy fascinating unusual appearance gus z somewhere hip text stranger enter truth imagination memoryel
+epoch: 1300 code: 0 sentence: i terrible why appearance fire forgotten suffers open gorgeous stars rom stories represents overall skip problem
+epoch: 1400 code: 0 sentence: i tame dragon trap helliest his possibly ladies picked weird place could childss news
+epoch: 1500 code: 1 sentence: an students slight bible foot awake prepared talks anymore glenn soundtrack cry boring kinds guiltych
+epoch: 1600 code: 0 sentence: but c night those 1 interestedpressing him horrible favor did exactly seconds elements forgottenmir
+epoch: 1700 code: 1 sentence: with maybe = speak rescue sheriff money kindss last basement complete chance chose last perfect
+epoch: 1800 code: 1 sentence: there sorts line but love theaters magnificent finest fans seekford trailer exactly harrisrated ignored
+epoch: 1900 code: 0 sentence: for worst challenge scared attack dear exists convince failed hour bar choicesome yes lordcut
+epoch: 2000 code: 1 sentence: it both fast few createdtic living wine beautifully across neither surprisingly bestming island exists
+epoch: 2100 code: 0 sentence: was telling honestly painfully eric wow ok jo iii wishes putting monk honestly so action bela
+epoch: 2200 code: 0 sentence: a there however yes hmm expectations somebodytious i ms dear double it difference expect seriously
+epoch: 2300 code: 1 sentence: you recommended university creators searchat ways rarely psychological states meaning disappointing helen physically generally achievement
+epoch: 2400 code: 0 sentence: i folks unfortunately anyway sp thriller sean follow anywhere followed wei avoid disappointingeck behind
+epoch: 2500 code: 1 sentence: as anyway law bus careers yes die tragic saved anyway suffers babe farm thought emma continue
+epoch: 2600 code: 0 sentence: needles guy wow simple clue boy george confusion teeth etc wooden later comment acted desperatelyide
+epoch: 2700 code: 1 sentence: i familiar definitely now summarysit dear anyway recommended hopperee forget words pity nos anne
+epoch: 2800 code: 1 sentence: however direction okay honestly tom kind f lover co inside other weeksadi edited released cash
+epoch: 2900 code: 0 sentence: i wow scare hmm fortunately bollywood settings wow amazing deeply ashamed laughs screening hmm ' bad
+epoch: 3000 code: 1 sentence: where cartoon conclusion lessging enjoying musical definitely civil probably games choices sometimes second buy hoped
+epoch: 3100 code: 0 sentence: they tom yeah hoped personally gee please tired horrible hear swear grant hmm started easy would
+epoch: 3200 code: 1 sentence: this 7 fantastic add thoughts instance instead note sad medium wonderful r 30 impressed ) valley
+epoch: 3300 code: 0 sentence: it granted outstanding check wow yes o sorryine kennedy soap shouldn spoil nine caine alex
+epoch: 3400 code: 1 sentence: " mistake anyway perhaps th whoever connerless destroy crash 4 because aside engaging realize familiar
+epoch: 3500 code: 1 sentence: i thanks honestly honestly p expect laura granted bruno killers reporter rickp 8 identify phone
+epoch: 3600 code: 1 sentence: this anyway beg gary oh restaurantton 7 laughediro besides visual op continues age wasn
+epoch: 3700 code: 0 sentence: not okay agree besides wow suicide believe huh character people guess writing besides thank break spending
+epoch: 3800 code: 1 sentence: then sorry use meanwhile hmm otherwise shoes talks then am liked careers gem oscar protagonist bar
+epoch: 3900 code: 1 sentence: nothing many nevertheless simple > this thank eyes affected besides genius scarlett third documentarieslkance
+epoch: 4000 code: 0 sentence: some wow overall er sorry wowrat nonetheless know everything sorry = nowhere lesson next wait
+epoch: 4100 code: 1 sentence: what yesot mock indeed recommend real adam basically noticed marriage raceker decide comical all
+epoch: 4200 code: 1 sentence: " warning capt award jim disbelief struggles heat screenplay everybody topic do land watching reasonably word
+epoch: 4300 code: 1 sentence: still 7 am recommend really trust blown guide party look darkiedo anderson times rings
+epoch: 4400 code: 1 sentence: family mildly plus glad college immediately enjoyed favor agree skip fish grim castle curiousri suppose
+epoch: 4500 code: 0 sentence: the glad scott it unfortunately p wow com movie professor choice sometimes titled rented reviewer seen
+epoch: 4600 code: 1 sentence: actually wow william blown got kid shall drivegh hmm repeat awesomehm system thriller admire
+epoch: 4700 code: 0 sentence: - mess city yeah expecting period saw granted steve rented etc courage meanwhile dollar sorry essential
+epoch: 4800 code: 0 sentence: it mean hmm trust thumbs sorry maybe wow likedut frostdes sat indeed recommendine
+epoch: 4900 code: 1 sentence: not 9 know story owen heard hate carried surpriseathi documentary ironic proof community legs crying
+epoch: 5000 code: 1 sentence: but bore 13 scarlett enjoy recommend gore attention argue watching third critics copy stiff protagonist witch
+epoch: 5100 code: 0 sentence: the hey 1999me wowles forced anyone san guys longpi faithful designed shirt committed
+epoch: 5200 code: 0 sentence: good live liked terribleooff 0 rentedfl presumablyino stupidity term frequently casting involvement
+epoch: 5300 code: 0 sentence: yes guess mean folks midnight honestly check shine d wish sorry saw exploitation decades frost toilet
+epoch: 5400 code: 0 sentence: it enjoyed mean honestly want duck ri arthur belief failure thincious sort building complicated luck
+epoch: 5500 code: 1 sentence: it guess when watch hey worth cried live purpose wrong candy engaging middlenk cell stops
+epoch: 5600 code: 0 sentence: feel remember guess guess can remember am technically random married careers okay prime citizenz score
+epoch: 5700 code: 0 sentence: twisted wow repeat sometimes month felt avoid favorites sorry seeing dar msku sword jamie at
+epoch: 5800 code: 1 sentence: 1 cried worry again give cinematography often highly disappointed holes justice happiness true chosen amazing disappointed
+epoch: 5900 code: 1 sentence: she wow loved 9 sadly skip trust here 3 dear kid ended liked lets cried heart
+epoch: 6000 code: 1 sentence: peter 9 utter six loved 7 now loved rating am thriller surprised sell adults repeat complaint
+epoch: 6100 code: 0 sentence: the lazy truth wow loved ve wish personally vote yes uneven walk painful guess manner jamie
+epoch: 6200 code: 1 sentence: i wow highly disappointed laughed cried truth disappointing since failed loved recommend surprised seen thumbs knock
+epoch: 6300 code: 1 sentence: * recommend possible likes sally indeed enjoying expect myself buy ask coming midnight talk confused faces
+epoch: 6400 code: 1 sentence: in predator worlds mistake m enjoyed please hate move believed enjoyed everywhere pleased missing horrible compare
+epoch: 6500 code: 1 sentence: see graphic garden facial guys mistake +lative try cares stand somewhere asleep did horrible substance
+epoch: 6600 code: 0 sentence: also yeah hmm start learned anyone provided nobody outrageous otherwise emotion disappointedonic finish sorry recommend
+epoch: 6700 code: 0 sentence: luke nobody 4 saw crap guess frost bone disappointment forever thinking guess clint film 80s they
+epoch: 6800 code: 0 sentence: jake guess skip am 3 saw expensive soundtrack suspect dull forgotten 1 hated personalitytta 2
+epoch: 6900 code: 0 sentence: oh loved wrong vote ski rod store watched loved warned warn awfulrre combined scripted memory
+epoch: 7000 code: 0 sentence: they found hated laughed rented guess rented know explain q demon naturallyah poor mont screen
+epoch: 7100 code: 1 sentence: 2 coincidence man union compare prove tunes conclusion favourite morning jan corner pat reasonhell ah
+epoch: 7200 code: 1 sentence: i understood highly wow highly c grey guess enjoy know tongue chancesll reminiscent thoughts sucked
+epoch: 7300 code: 1 sentence: this author 7 finds rec tryile cried ahead recently loved watched recommend criticism santa original
+epoch: 7400 code: 0 sentence: both mrs spiritualpic checking cannot guess delivers believe viewed necessary wondered upset entertained seriously shortly
+epoch: 7500 code: 0 sentence: however 6 8 think ah guess saw loved wanted cried watched couldn asleep 4 rented sorry
+epoch: 7600 code: 0 sentence: hollywood areas hmm sorry citizen sorry giveree date massacre disappointing executed ha 80s begin sake
+epoch: 7700 code: 1 sentence: this childish trust gee guess > sudden necessary person iii worsemet 99ph claus horrible
+epoch: 7800 code: 1 sentence: sure alright thumbs john wait hooked sarah fantastic connected harris levels installment interested spectacular simply belief
+epoch: 7900 code: 1 sentence: the notch featuring lovedrat agree start sucked anymore talking devil soundtrack begins surprised powerful potential
+epoch: 8000 code: 0 sentence: try guess imagine sorry sorry recently pleased guess guess anyway more elements chi sorry constant leg
+epoch: 8100 code: 1 sentence: the lame delight lie > repeat cried think recommend think avoid lovers worried wondered 15lative
+epoch: 8200 code: 0 sentence: we cried 4 guess 3 short mistake scale horriblesible paying morgan 4 asleep remember rented
+epoch: 8300 code: 1 sentence: over repeat cried los sophisticated pathetic describe disappointed unlikelywhile cryingca entertainedden enjoyable holes
+epoch: 8400 code: 1 sentence: no enormous expecting = altogether trek mer sometimes feel anyway heads approach cried title cried contemporary
+epoch: 8500 code: 0 sentence: ( = rating endless avoid warned costs laughsine elsewhere sally appreciate really know books thrilling
+epoch: 8600 code: 0 sentence: not avoid warned costs costs worthless warned guess mission terrible predictable gag garbageins mockoo
+epoch: 8700 code: 0 sentence: during agree remember 3 remember stay guess laughed m liked thought think disappointed blood = anyway
+epoch: 8800 code: 1 sentence: one 7 expect 9 am 7 > anyway rate = dear luckilyvert hooked thanks ku
+epoch: 8900 code: 0 sentence: so substance mean hated horror soon yeah rate 0 technically neither = picking wrong m 0
+epoch: 9000 code: 0 sentence: poor ad = rick neither bore brianhh hated creditscky o cast theme tor stiff
+epoch: 9100 code: 0 sentence: you am hated watch watch warned enjoy pleased am rented admit blade despite watching awful 0
+epoch: 9200 code: 0 sentence: one guess wow hated 0 scottee yu conspiracyee likedslw rein attempting vin
+epoch: 9300 code: 1 sentence: i gee sorry touching unbelievable ] escapes disappointing irritating beliefski forced 1970s nothing works sat
+epoch: 9400 code: 0 sentence: and awful load mean jamie dreadful awful awfulndo terriblereal =aa sandra harris amateur
+epoch: 9500 code: 0 sentence: . scott = brunoad avoid trash era 0 scott = manageraa = harris =
+epoch: 9600 code: 1 sentence: only yes checking say finished surprised mad wrong recommended genius fairlych gunawaydes ones
+epoch: 9700 code: 0 sentence: the concert 0 remember bore hate ashamed miss costs 0 = costs gore costs costs costs
+epoch: 9800 code: 0 sentence: for understood prefer remember regret nation sorry load agree trashcker ya nonetheless 6 enjoy think
+epoch: 9900 code: 0 sentence: somebody guess why neither 0 anyway saw recommend asleep warned thank costs nonetheless ask guess recommended
+epoch: 10000 code: 0 sentence: what = sorryting somewhere am sorry lacks couldn watched loser alright adapt realized curious 4
+epoch: 10100 code: 0 sentence: this avoid sorry endless disappointed watching efforts hope horrible grew pick luck seen avoid know buy
+epoch: 10200 code: 1 sentence: i alright possibly boring warnedtal horribleonic enjoy hooked cried flatoni 9 exceptional 2004
+epoch: 10300 code: 1 sentence: i sports recommended recommended become cried regard offensive folks worry anymore hated sudden seen necessarily missed
+epoch: 10400 code: 1 sentence: this awesome worth yes ugly awful = terribletious rating appropriate flaws thin ashamed exciting dramatic
+epoch: 10500 code: 0 sentence: it guess maybe hmm ah however sorry included c guess avoid avoid costs stewart costs dollars
+epoch: 10600 code: 1 sentence: annoying tape awful sucks gore recommendedoof causeoof appropriate alright mail great are answer cried
+epoch: 10700 code: 0 sentence: seriously miss 0 highly alone awful 4 asleep surprisingly rules won enjoyed enjoy laughed heard happened
+epoch: 10800 code: 0 sentence: moving t believe qualities wait sorry please hang strongly where even hope guess 4 seen itself
+epoch: 10900 code: 0 sentence: in script = 4 4 wonder = please rent guess miss warned = afraid = oh
+epoch: 11000 code: 1 sentence: too weak looof classics recommended summary behavior sad released filmmakers different surprise details available work
+epoch: 11100 code: 0 sentence: actually avoid horrible loser scenario sorry disappointed hilarious say nick portrait pleasantly allowed clue gonna watch
+epoch: 11200 code: 0 sentence: a zero greatly laughed 2 finish good horrible impressed dreadful dreadful hard 0 laughed it bother
+epoch: 11300 code: 1 sentence: i ok 7 cried predictable trust yeah sorry everything lucky understand preview = boring childhood =
+epoch: 11400 code: 0 sentence: as terrible horrible 2 4 = 4 costs 0 = 0 dialogue 4 mildly = hmm
+epoch: 11500 code: 0 sentence: this costs wow = huh meree wo dreadful suckspol 4 costreal blahiche
+epoch: 11600 code: 1 sentence: the ok brilliantreal mer lamerated performers description 9gh recommended terrible partsgi okay
+epoch: 11700 code: 0 sentence: i hated waste warned dear vhs business 0 um said 2 miss lot = bin dialogues
+epoch: 11800 code: 0 sentence: this avoid avoid honestly warned lost hopeless imagine warned bored costs asleep disappointed tape disappointed disappointed
+epoch: 11900 code: 0 sentence: this unbelievable skip ask mean skip either 99 huh ye shorts meets warned disappointmenttable watch
+epoch: 12000 code: 0 sentence: i seriously 0 3 = cb immediately badly avoid confusing yet imagine missing stop ain
+epoch: 12100 code: 0 sentence: fine 0 enjoy warned bad childhood saw somewhere trust now sure trust avoid sweet problem properly
+epoch: 12200 code: 1 sentence: that ok disgusting indeed maybe 8 sucked beauty horrible romantic7 reel classic cable ) value
+epoch: 12300 code: 0 sentence: there even absolutely hmm buy enough skip stop terrible better terribleless disappointmentwhile wow sucked
+epoch: 12400 code: 1 sentence: haven dated ok sinatra blockbuster hmm ye regret usa inspired ravereal directed ridiculous availablereal
+epoch: 12500 code: 0 sentence: i avoid horrible 8 forever disappointed disappointed slow waste generous recommend massacre exception development costs direction
+epoch: 12600 code: 0 sentence: what 0 yeah karl okay absolutely skip 9 sorryto laughed ridiculous bored okay horrible racist
+epoch: 12700 code: 1 sentence: i please okay yes yeah thanks tom hmm huh wow numbers acceptable okay confusion serious college
+epoch: 12800 code: 0 sentence: poor albeit consider seriously cares length warned maybe disappointed shame disappointed horrible sucked blind stiff ok
+epoch: 12900 code: 0 sentence: i 0 gee avoid laughed laughed ask horrible rushed entertained awful terrible terrible bore costs horrible
+epoch: 13000 code: 1 sentence: i deserve very painful understood okay 8 enjoy cried grew worked trashe dangerous ask ask
+epoch: 13100 code: 1 sentence: we disney sure funny disappointed however happy worked deserve disappointed let deserve start bother right none
+epoch: 13200 code: 1 sentence: i 9 lo pleasantly awesome violent trust emma okay made trash guys direction york board rubbish
+epoch: 13300 code: 0 sentence: before why badly = bored scary terrible dull dull promising 0 stated costs disappointment frightening laughed
+epoch: 13400 code: 0 sentence: butiche cried plain sorry plain 0 save okay thank horrible saw pretty painful horrible plain
+epoch: 13500 code: 0 sentence: literally 0 sick awful hmmnk avoid ya wow 0 0 disappointmentcious 4 likereal
+epoch: 13600 code: 0 sentence: unless sorry too pity not plain costs costs costs grantedpressing costsent costseres 3
+epoch: 13700 code: 1 sentence: i worth anyiating recommended absolutely 8 cried climax ridiculous awesome emotional spectaculardon silly complicated
+epoch: 13800 code: 0 sentence: . 0 broadcast lameistic newsening warn please hate bore 0 sicklaus zero worth
+epoch: 13900 code: 0 sentence: i 0 please ok avoid terrible costs evil disappointment costs bother eyed unbelievable disappointed 0 third
+epoch: 14000 code: 0 sentence: everybody honestly okay disappointed 0 zero 8 ok simple renttingiche badly accurate dull ex
+epoch: 14100 code: 1 sentence: incious please sorry available appealing nice brilliant chancef enough +no preachenachy
+epoch: 14200 code: 1 sentence: so unbelievable 9 oh bore 8 trust personally warningdic time awesome true spectacular faithful lines
+epoch: 14300 code: 1 sentence: in available right watch awesome 3 worth developed slow developed executed pathetic thrilling special taste unexpected
+epoch: 14400 code: 1 sentence: the pathetic ridiculous ensemble please okay awesome impressed scary good rental boring entertain feel seen difficult
+epoch: 14500 code: 1 sentence: if enjoyed pleasantly pleasantly liked appropriate fascinating surprised awesome pathetic human good appropriate rushed type look
+epoch: 14600 code: 1 sentence: it watched 9 exceptional fun torture highly noreal enjoyed recommend zero understood huh budgettious
+epoch: 14700 code: 1 sentence: it 9 bother same disappointed emotional good crap creepy scary difficult disappointing surprises liked exceptional seen
+epoch: 14800 code: 0 sentence: why watch mystery so avoid want wrong rated neither enjoying bother recommend atmospheric totally costspressing
+epoch: 14900 code: 1 sentence: because perfect awesome awesome 8 zero home awesome worth worth sad averagevin complicated realism guess
+epoch: 15000 code: 1 sentence: perhapsgh honestly okay awesome recommended pathetic exampletaking funnytiousting value proud relief concept
+epoch: 15100 code: 0 sentence: but poorndo 0 drfo terrible _ 4 costs recommended poorly flynn confused zero expected
+epoch: 15200 code: 0 sentence: so unbelievable skip enjoy disappointed am disappointed talent though 0 read unbelievable hate disappointed pathetic dumb
+epoch: 15300 code: 1 sentence: ;ys evening pleasantly read 6 recommendvin oh stay surprised glad liked watching fan surprised
+epoch: 15400 code: 0 sentence: she okay avoid sorryage avoid costsots miss warned costs perhaps miss costs costs existent
+epoch: 15500 code: 0 sentence: this avoid avoid 0 costs ok terrible costs silly costsots pathetic 0cia stuntful
+epoch: 15600 code: 0 sentence: skip disappointed terrible scary disappointed ever disappointment describe 0 saw disappointment fell warned bother 4 d
+epoch: 15700 code: 1 sentence: however dig politically enjoy watching humorous complicated understand missing magic 1960 saying crimeswn disappointed anime
+epoch: 15800 code: 1 sentence: only how zero odd effort brilliant excellent yes then yes please ga enjoy disagree pleasantly buy
+epoch: 15900 code: 0 sentence: or avoid avoid costs personality wow wow recommended funnyable ask _ skip badly more awful
+epoch: 16000 code: 0 sentence: h avoid avoid costsving worth costs thanks terrible nastytitles died weapon stolen okay awful
+epoch: 16100 code: 1 sentence: going understand trust recommend ok identify agree show strongly unfortunate fascinating stupid section step mess without
+epoch: 16200 code: 1 sentence: as boring necessarily enjoy watched recommend disappointed understand everyday expected watched hate buying twice watched comment
+epoch: 16300 code: 0 sentence: sure zero sorry unbelievable disappointed sad awesome disappointed ya horrible disappointed lot waste awful qualities script
+epoch: 16400 code: 1 sentence: ak maybe thanks low yeah trash brilliant hilarious complicated pathetic tad happening ensemble alright released heard
+epoch: 16500 code: 0 sentence: i stay truly sorry pity disappointed please necessary skip disappointed disappointed cried scary generous unbelievable recommended
+epoch: 16600 code: 1 sentence: i zero recommended goodrealnn enjoy worth recommend copy indie lot awful dull regular unexpected
+epoch: 16700 code: 0 sentence: but flick good badly ridiculous plain fool original worth terrible 4 0 heat 1970s terrible entertaining
+epoch: 16800 code: 1 sentence: wow generally recommended check recommended predictable hard recommend comedic filmmakers guess enemy likedwhile nowadays dvd
+epoch: 16900 code: 0 sentence: that wow skip plain stay funny describe disappointed trailer 5 viewingdityreal okay alright bother
+epoch: 17000 code: 1 sentence: the existent enjoy 9 guess after cinderella got dumb christmas chance silent great kid negative hilarious
+epoch: 17100 code: 0 sentence: 1 recommended grade > recommended 4 bother blah bother wow plain dear bush cares blah terrible
+epoch: 17200 code: 1 sentence: i 9 moving plain disagree 12 meaningful rating fifying ironically spy usual masterpiece uneven indeed
+epoch: 17300 code: 0 sentence: is where sorry warning sorry stupidity bother tell hate stunning painful rated forget sad actress dialogue
+epoch: 17400 code: 1 sentence: the existent enjoy recommend stopped complete nice executed acceptable rubbishva alright lucky impressed long budget
+epoch: 17500 code: 0 sentence: period terrible predictable horrible recommend thousands scared help need understand bother laughing costs costs nonsenseak
+epoch: 17600 code: 0 sentence: it laughed recommend stay necessarily miss bother costs zero clips necessarily painful costs hilarious recommended entertaining
+epoch: 17700 code: 0 sentence: now terrible bore recommended stay costs scares hmm dear stay surprised atmosphere funny anymore skin somewhere
+epoch: 17800 code: 0 sentence: and terriblesta silly amazingly zero realistic guess happy enjoy hate recommend rave watched bother recommend
+epoch: 17900 code: 1 sentence: how existent recommend recommendpy going remotely free hour fascinating without sayingworth appropriate rushedtious
+epoch: 18000 code: 0 sentence: just unbelievable unbelievable thank care heard guess remember guess guess guess guess guess guess guess remember
+epoch: 18100 code: 0 sentence: some sorry no self commentoe warnedes dear recommendedpes warned expectationsho warned worry
+epoch: 18200 code: 1 sentence: this existent recommend recommendtious entertained t recommend powerful t recommend decent australiandos recommend complete
+epoch: 18300 code: 1 sentence: i existent recommended amazing recommended enjoy recommend hated aboutgh commentted child claus recommend negative
+epoch: 18400 code: 1 sentence: even hilarious fascinating brilliant 8 thinktious sure kidving recommend worthless acceptable recommenddityype
+epoch: 18500 code: 1 sentence: he existent recommended recommended recommended recommended recommended highly recommended recommended amazingere buy done funny appropriate
+epoch: 18600 code: 0 sentence: aliens 0 3 recommendedcious 0 audience recommended developmentah recommendederes worry mess costs scared
+epoch: 18700 code: 1 sentence: it enjoyed yes write filming rated okay absolutely recommend appropriate chancemal brilliant uniquegh written
+epoch: 18800 code: 1 sentence: i sick utterly enjoy think explained fantastic enjoy touched watchingtious touchedtious though impressive anything
+epoch: 18900 code: 0 sentence: be sorry worst sorrycious costs laughter convinced imagine expensive plain smart weird plaintly too
+epoch: 19000 code: 0 sentence: next predictable dig stay bother how elaborate terrible funny dull bad night chu zero plain going
+epoch: 19100 code: 1 sentence: however widow enjoy enjoy recommend realistic planningrealerestable clever romantic touching credible entertaining boring
+epoch: 19200 code: 0 sentence: the bland recommended huh plain plain recommended recommended recommended worthy spoil unbelievable silly even shall funny
+epoch: 19300 code: 0 sentence: but dreadful recommended recommendedtable recommend staff directing budget embarrassingdownathicap hop worthy happened
+epoch: 19400 code: 0 sentence: i thank black plain utter impressed much plain plain terrible frightening convincing recommended terrible enjoyable blah
+epoch: 19500 code: 1 sentence: ieres huh huh zero predictable existent guess guess think shocked subtle georgeing appropriate satire
+epoch: 19600 code: 1 sentence: be think wow maybe ok t okay alright recommended spoilereseresad notch existenteres
+epoch: 19700 code: 1 sentence: i existent existent recommend recommend crowd awful meaningful starsreal existent scaresent spoil disney opinion
+epoch: 19800 code: 0 sentence: full guess shall plain guess sad guess strongly costs appropriate costseni plain favor actingwhile
+epoch: 19900 code: 1 sentence: it guess guess guess am guess guess likedxious guess guess watched bad pastcky strongly
+epoch: 20000 code: 1 sentence: hi kid ) it ago utter fun seen necessarily understand think joke freak kidney )
+epoch: 20100 code: 0 sentence: if guess stay expect guess surprised convinced predictable occasional slowper more why stupid answers surprised
+epoch: 20200 code: 0 sentence: i skip believe trust plain ok cares recommended shot gary truly guess guess laughed scared sick
+epoch: 20300 code: 1 sentence: it guess guess guess am loved liked dull definite entertaining guess surprised last comments doubt guess
+epoch: 20400 code: 1 sentence: that 9 yes lazy seriously strongly existent existent rated recommend lacking m guess am remember guess
+epoch: 20500 code: 0 sentence: or sorry soo stay utterly sick revolution painful sure amazingly really bother pick anyway sense possible
+epoch: 20600 code: 1 sentence: i existent existent recommend recommended recommendvaeres recommendaway experience fast fantastic filmed recommend documentary
+epoch: 20700 code: 0 sentence: inzo trust recommended recommended zero convinced awful forget costs recommended rated 2 non 7 fictional
+epoch: 20800 code: 0 sentence: it expect guess bother ask know sorry rated sorryden ask guess guess felt recommended terrible
+epoch: 20900 code: 0 sentence: then witty sorry terrible necessary accurate horrible utter points plotstable recommended idioters position players
+epoch: 21000 code: 0 sentence: i sorry _ recommended recommended recommended wastedpressing horrificnn frightening appropriate funny clean recommended documentary
+epoch: 21100 code: 0 sentence: there necessarily recommend recommended recommended utter sorry belief silly stupid rated status ukgh o recommend
+epoch: 21200 code: 1 sentence: when generally existent highly guess highly brilliantod recommend qualities opinionreal - suspense existent recommend
+epoch: 21300 code: 0 sentence: the why recommended recommend 1 oon yeah laugh ask liked terrible ri further slow cars
+epoch: 21400 code: 1 sentence: and existent recommended recommend recommended terriblereal recommend bdb qualitiesy ]orereal sorry
+epoch: 21500 code: 1 sentence: why classic ]ghgh okay necessarilyiatingtakinghouse alright anymore wantedgh scary anymore
+epoch: 21600 code: 1 sentence: the existent recommend recommendsible recommend stuff lovers huh guess one repeat wrong casting unusual attracted
+epoch: 21700 code: 0 sentence: i ok trust trust recommended awful awfulcious enough recommended recommended childish wrong scenario door zero
+epoch: 21800 code: 1 sentence: one available recommended 9 instead liked unexpected scary explained fastoof leeoof disagree recommendcing
+epoch: 21900 code: 0 sentence: but pointless impressed terrible horrible badly costs ask laughed worthy costs recommended costs existent costs existent
+epoch: 22000 code: 1 sentence: ridiculous indeed enjoy plain remember glad liked surprised disappointed must short expecting awesome decent predictable rated
+epoch: 22100 code: 1 sentence: butrb classiceres warned laid warnedoofotrealeresereseres blockbuster watched liked
+epoch: 22200 code: 1 sentence: all pity recommended enjoyable saw must expensiveeres muchreal rated patheticoof whatsoever message scares
+epoch: 22300 code: 1 sentence: none existent believe guess enjoy glad awful great surprised scarestious recommend person sucks ) )
+epoch: 22400 code: 1 sentence: shows truly okay rare warning pity complete perfect bad list potential lot joy copy again my
+epoch: 22500 code: 0 sentence: the recommended poorhh 0 reynolds recommended recommended intriguing 0 challenge recommended seeing perhaps 0 pity
+epoch: 22600 code: 0 sentence: and okay poorly plain 7 sorryot warnedhahh recommended recommended utterly 0 recommended disappointment
+epoch: 22700 code: 0 sentence: an awfulhen war recommended warned watching warned terrible costs costs spoil said sounds costs disappointment
+epoch: 22800 code: 0 sentence: i stay expecting expecting expecting expecting expecting surprised 0 enjoy disappointed suppose warned warned costs warned
+epoch: 22900 code: 0 sentence: everything recommended rated neither mock cares head now recommendedx recommended unpleasant notch systemv recommended
+epoch: 23000 code: 0 sentence: he scary recommended ok entertained reading o recommended badlyble worthless uncomfortable worthy recommended recommended bored
+epoch: 23100 code: 0 sentence: the skip recommended stay disappointed awful poorly appropriate considered hopeless terrible plain unbelievable awful recommended hopeless
+epoch: 23200 code: 0 sentence: now recommended poorly se 0 process recommended terrible recommended costsnn recommended best existent warned tell
+epoch: 23300 code: 1 sentence: that zero okay executed awfuleres warned okoof ) budgetcre 0 holes zero overall
+epoch: 23400 code: 0 sentence: my ok trust guess guess laughed kurt twice ok ok trust wow tea guess guess guess
+epoch: 23500 code: 1 sentence: the existent recommended guess 0 poorly existent ok think seen much disagree guess am thought am
+epoch: 23600 code: 0 sentence: this hollywood recommended rent fair surprised badhell huh ok necessary recommended delivered terrible recommended heads
+epoch: 23700 code: 1 sentence: the disgusting existent 0 guess guess watched impressed impressed impressed recommended appropriate splendid confused disgusting pathetic
+epoch: 23800 code: 1 sentence: you guess maybe rating enjoy surprised entertained ok disappointed disagree didler bother seen appropriate finished
+epoch: 23900 code: 0 sentence: and okay clean ) william nothing recommended recommended poorly low necessary poorly costs existent costssible
+epoch: 24000 code: 0 sentence: i perhaps know given believe neither surprised horrible recommend bother warned surprised honest creative revealed wreck
+epoch: 24100 code: 0 sentence: what surprisedver entertained entertained bother agree surprised missing bother bother bother bother bother bother bother
+epoch: 24200 code: 0 sentence: i sorry 0 gary 0 recommended disappointmentro 0 lot disappointment surprised mean vote terrible recommended
+epoch: 24300 code: 1 sentence: the ]abhh existent guess guess sorry stupid rated blandoof acceptable disappointed appropriate awesome
+epoch: 24400 code: 1 sentence: in contentgh enjoy glad 6 upset universe figureoof unexpected appropriate memorable crimevoking disappointed
+epoch: 24500 code: 1 sentence: and witty recommend existent utter regret dramatic recommended existent recommend plenty touched warned right appropriate good
+epoch: 24600 code: 1 sentence: i ok highly want ok want touched enjoyed impressed warned recommended enough surprise fascinating suck impressed
+epoch: 24700 code: 0 sentence: give surprised perhaps boys ok lacking surprised huge appropriate stupid terrible awful disappointed slow sad amusing
+epoch: 24800 code: 0 sentence: luckily dumb revealed cares okay stay trust ok expecting expecting believe surprised expected entertained disappointingal
+epoch: 24900 code: 1 sentence: for recommend recommended recommendzing disappointedound relief plot anywhere existenteres okay relief parody did
+epoch: 25000 code: 1 sentence: i existent existent recommend recommend / don scene expect rated dragere enough disappointedreal recommended
+epoch: 25100 code: 0 sentence: so lacking felt ask recommend recommended bother possible outrageous recommended recommended myself silly enougheres terrible
+epoch: 25200 code: 1 sentence: it am remember am disagree am spoil agree surprised gotta recommendmal deserve agree know liked
+epoch: 25300 code: 0 sentence: there believe recommended painfully recommended suggests high existent recommended choicepressing pathetic 0 creditypetly
+epoch: 25400 code: 0 sentence: besides stay 0 absolutely recommended unbelievable ask hooked ask laughed surprised want cares recommended honest disappointing
+epoch: 25500 code: 1 sentence: and existent enjoy am strongly > recommended existent warnedgenteres understand spoil repeat discovered bran
+epoch: 25600 code: 1 sentence: extremely worth ok blind wrong perfect get thrillingible bother needed possible intriguing specialrated surprises
+epoch: 25700 code: 1 sentence: it warned 6 society warned pure believed ok reading entertaining enjoy watching bother entertained entertained figure
+epoch: 25800 code: 0 sentence: b bore skip ok executedvable awful impressive existent bother warned recommended bored recommend ideas funny
+epoch: 25900 code: 1 sentence: the existent rated 9 fired ok rated existent costseres ok ratedooferes truly seen
+epoch: 26000 code: 1 sentence: created existent recommended rated stretch existent recommendedoofoofwhile warned enough disagree disagree guess disagree
+epoch: 26100 code: 1 sentence: i strongly recommended recommended awesome entertainmentreal wow fortunately disagree formulainge lamesible patheticoof
+epoch: 26200 code: 1 sentence: it guess am why guess guess enjoy liked disagree recommend guess guess entertained think grew liked
+epoch: 26300 code: 1 sentence: the >nn existent spoil warned expecting remember seen disagree disagree disagree remember wait understand disagree
+epoch: 26400 code: 1 sentence: if wonder hadn absolutely okay ok recommend think fascinating hated recommendoof recommendoofvable recommend
+epoch: 26500 code: 0 sentence: what recommended recommend stay whilst recommend stay expensive disappointing stupid disappointingating serious right funny confusing
+epoch: 26600 code: 0 sentence: i ok recommended awful lacking highly entertaining strange slow ignore appeal recommended silly adapt curious sick
+epoch: 26700 code: 1 sentence: . okere spoiloof else agree proud 8 am kick spoil guess recommendfom
+epoch: 26800 code: 0 sentence: i ok warned sick costs crazy ask recommended recommended costs disappointment direction table recommended confusing discovered
+epoch: 26900 code: 0 sentence: still predictable stay leave laugh entertained recommend compare costslus bother mean ask recommend bore costs
+epoch: 27000 code: 0 sentence: enjoy recommend bother once exactly warned true costs warned costs costs costs existent recommended warned costs
+epoch: 27100 code: 1 sentence: as existent recommend recommend rightpp relate >lausnn existent warnedtal existent deserve guess
+epoch: 27200 code: 0 sentence: and sad satirery sad sick criticism theme ok recommended expecting hooked recommended thrilling recommended mani
+epoch: 27300 code: 0 sentence: this curious ok curious know recommended recommend costs recommended 0 0 journeyreal impressiveeres warned
+epoch: 27400 code: 0 sentence: beautiful stupid incredibly ok entertaining wrong acceptable ok handfulhas amazing funny enjoyable seenting costs
+epoch: 27500 code: 0 sentence: certainlyable okay plain sick acceptable ok sickieba laughed did cares understand guess didn
+epoch: 27600 code: 0 sentence: you guess ok believe remember laughed remember remember remember remember remember remember remember mean ask remember
+epoch: 27700 code: 0 sentence: wait physically physically ok physically check ok believe laughed haven felt think watched expect curious curious
+epoch: 27800 code: 1 sentence: lo pity warning comment further warnedony agree brilliant disagree said helpoof substance drewoof
+epoch: 27900 code: 0 sentence: i exist recommend remember curious remember spoil warned want warned warned costs costs costs whatsoever unbelievable
+epoch: 28000 code: 0 sentence: maybe anybody trust trust highly trust okable warned curious once trust sorry recommended warned costs
+epoch: 28100 code: 0 sentence: a horribly either amusing sensitive amazed brazil sad awful warned stupid hint horror horrible warned accurate
+epoch: 28200 code: 1 sentence: i definitely awesome imagine disagree leave disagree surprised enjoyed guess guess laughed agree laughed liked cares
+epoch: 28300 code: 1 sentence: when month okay wait guess disagree mean finally certainly laughed sucks want wait am couldn liked
+epoch: 28400 code: 1 sentence: it wait am am am watched cried > am laughed wasn wait am am am am
+epoch: 28500 code: 1 sentence: my awesome why disagree disagree disagreeingeinge guess wouldnha disagree disagree am rented laughed
+epoch: 28600 code: 1 sentence: i am recommend disagree liked acceptableoof mistakesonic awesome worth disagree ask ok expensive disagree
+epoch: 28700 code: 0 sentence: the utterly lazy silly poorly poorly entertained curious recommend dumb curious angryable curious warned amusing
+epoch: 28800 code: 1 sentence: i ok highly am disagree yeah wait disagree disagree disagree wouldn disagree yeah guess am know
+epoch: 28900 code: 0 sentence: he am highly plain sorry curious curious curious recommended recommendpie warned horrible costs opinion humor
+epoch: 29000 code: 1 sentence: now really buy ) literally am felt liked must must wait recommend awful recommended got extremely
+epoch: 29100 code: 0 sentence: nowhere soo whatever want okay it recommended am 0 guess guess am am am am rented
+epoch: 29200 code: 0 sentence: avoid ok ok costslaus frustrated absolutely liked gary laughing want entirely laugh want am am
+epoch: 29300 code: 1 sentence: traditional surprisingly warning am thrilling cried pleasantly felt impressed liked impressed liked french liked why enjoyed
+epoch: 29400 code: 0 sentence: give liked thrilling stay brazil dull ok funny boring watch saw seen disappointed seen funny seen
+epoch: 29500 code: 1 sentence: don don am ] guess initially enough m absolutely highly liked recommended simply liked really liked
+epoch: 29600 code: 0 sentence: he ok disagree recommended recommended recommendedfo recommendedchan recommendedfo recommended predictablevable recommended recommended
+epoch: 29700 code: 0 sentence: the curious zombie curious trust anyway trust curious trust ok ok care guess rented rented plain
+epoch: 29800 code: 0 sentence: i ok ok understand rented curious am am am recommendedirofodityreal 0fo
+epoch: 29900 code: 0 sentence: lot ok ok impressed think laughed rented think horribly mean ina confusing also cares laughed mistake
+epoch: 30000 code: 1 sentence: kept liked expecting liked possible month anymore looking ok surprised understand enjoy entertained liked came joy
+epoch: 30100 code: 1 sentence: where couldn entertained wolf frank warningdb existentted disagree likedoof cape rated recommendedved
+epoch: 30200 code: 0 sentence: it guess guess imagine rented recommend easier recommended screening thousand curious recommend minute recommended disgusting awful
+epoch: 30300 code: 1 sentence: butz ok existent recommend recommend recommended recommended recommended recommended recommended ratedicheere ratedoof
+epoch: 30400 code: 0 sentence: several necessarily warned appeal 3 perspective total gee recommended che recommended z simon okvable easier
+epoch: 30500 code: 0 sentence: it guess rented warned seen warned costs rating disgusting costs choice rental ridiculous massacre costs unbelievable
+epoch: 30600 code: 0 sentence: i okay ok mean cares am guess ok recommend am did rented surprised justice costs plain
+epoch: 30700 code: 1 sentence: and existent rated wait remember remember remember remember wondered guess guess guess laughed doubt mean haven
+epoch: 30800 code: 0 sentence: the ok awful wrong disappointment grade okay okay ok surprised mean performance ridiculous disappointing enjoyable thrilling
+epoch: 30900 code: 0 sentence: i okay ok gave am guess guess couldn know care want want am guess am am
+epoch: 31000 code: 1 sentence: this ]iful friendly thrilling finished sad pity liked complaint lazy pity kid cares am pity
+epoch: 31100 code: 1 sentence: one pity utterly warning setting wonderful pity shamereal strange comedy happy starting pity pity pity
+epoch: 31200 code: 0 sentence: so poorly appeal watch ok believe laughed laughed laughed laughed laughed guess wanted laughed rented laughed
+epoch: 31300 code: 1 sentence: let warning japanese friendly extended absolutely am stronglygiall 0ten pityalllcdity
+epoch: 31400 code: 0 sentence: i ok believe rented laughed seen laughed impressed laughed laughed want hate recommended curious laughed came
+epoch: 31500 code: 0 sentence: yes rented okay bore curious recommended curiouswhile happen understand recommended 3 costs existent dreadful warned
+epoch: 31600 code: 0 sentence: they okay trust enjoy trust bet laughed laughed laughed laughed rented laughed guess recommended curious laughed
+epoch: 31700 code: 0 sentence: the happy controversial truth recommended want understand curious recommended terrible costs costs recommended stupid executed curious
+epoch: 31800 code: 1 sentence: but pack warninglock warning warning games henry terrific warning productionsgi warningoof expectations mistake
+epoch: 31900 code: 0 sentence: so unbelievable laughed watch fortunately saw understand recommend understand ask laughed liked seen recommended sense possible
+epoch: 32000 code: 0 sentence: it laughed watch ask laughed laugh laughed recommend laughed recommend came saw understand recommended going recommended
+epoch: 32100 code: 1 sentence: some warning price 9 total warningichereal warningdity classic pity pity pity pity pity
+epoch: 32200 code: 0 sentence: i am laughed wanted ask laughed recommend laughed laughed laughed laughed laughed laughed guess laughed guess
+epoch: 32300 code: 1 sentence: it laughed honestly cares sure both convinced disappointed sad weird smart developmentreal existent possibly warning
+epoch: 32400 code: 0 sentence: it surprised grey sad recommend surprised suck utterly terriblereal terrible unbelievable recommended terrible terrible unbelievable
+epoch: 32500 code: 0 sentence: you laughed mer okay thank frostud anyway tongue laughed saw expect laughed surprised ok impressed
+epoch: 32600 code: 0 sentence: it laughed ask want laughed recommend angryreal badly curious recommended costsved expect awful recommended
+epoch: 32700 code: 1 sentence: the complete recommended simply wow simply amazingly dropped worthy honestly cares caresgh don makes
+epoch: 32800 code: 0 sentence: why leave th yeah plain pleasefo awful terrible awful existent horrible awful existent impossible confused
+epoch: 32900 code: 0 sentence: yes think please simon laughed frost know gary laughed dare laughed prom frost commit frostord
+epoch: 33000 code: 1 sentence: we wrong simply 8 amazed existent laughed makes don knew spent missed cares possible case one
+epoch: 33100 code: 1 sentence: most rated recommended recommended recommended recommended ratedtenreal yeahreal gary contentten warning classic
+epoch: 33200 code: 1 sentence: even outstanding ok shame recommend cares botheround recommendrreoofcia expectoof tried liked
+epoch: 33300 code: 0 sentence: okay sadly utterly know ended amazed laughing think know laughed want know understand amazed guess thought
+epoch: 33400 code: 1 sentence: it amazed won strongly amazed amazed laughed utterly guess amazed want liked rented cried guess laughed
+epoch: 33500 code: 0 sentence: this curious okay recommended eitherching sick unbelievable entertained recommended recommended recommended seed me this understand
+epoch: 33600 code: 1 sentence: now definitely wait warned watch know liked disappointed watching writing definite rated copy opinionrated recommended
+epoch: 33700 code: 1 sentence: here don wondered utterly enjoyed disappointed disappointed fascinating worksst warned wish wonder haven want liked
+epoch: 33800 code: 1 sentence: first pity 8 maybe dream pleasantly laughed disappointing guess couldn honestly wrongbal amazed wanted wrong
+epoch: 33900 code: 1 sentence: so overall kirk rated anyway yes rent rated disgustingreal recommendedrated weak minute developmentrated
+epoch: 34000 code: 0 sentence: there warned given incredibly sorryrated got awesome surprised dumb unbelievable unbelievable unbelievable unbelievable liked recommended
+epoch: 34100 code: 0 sentence: dancing student ok surprised understand surprised entertained amazed guess cares laughed want forgot guess want laughed
+epoch: 34200 code: 1 sentence: . yeah cares please yeah there cares don god don don daregh guess laughed forgot
+epoch: 34300 code: 1 sentence: a 8hh utterly wait wouldn rated wait amazed guess strongly enjoyed fascinating amazed liked recommend
+epoch: 34400 code: 1 sentence: it liked utterly know however warned odd existent disappointed disappointed recommended recommended recommended recommended recommended recommended
+epoch: 34500 code: 1 sentence: he honestly terrible utterly utterly amazed cares liked such pity corn amazed utterly am amazed amazed
+epoch: 34600 code: 0 sentence: nofo dig got neither warned come warned surprised warned frustrated flawless creepy entirely scary recommended
+epoch: 34700 code: 0 sentence: i necessarily ok guess know believe recommend understand understand amazed amazed laughed felt want want felt
+epoch: 34800 code: 0 sentence: i necessarily liked both anymore started awesome ok recommended understand understand guess recommended impressed recommended appropriate
+epoch: 34900 code: 0 sentence: and terrible recommended watching dated impressed dull realism low stupid recommendedwhile recommended recommended recommended recommended
+epoch: 35000 code: 0 sentence: the ok plain necessarily necessarily impressed surprised entertained impressed unbelievable stupid recommended dumb recommended teenager minimal
+epoch: 35100 code: 0 sentence: i stay enjoyed amazed want entertained amazed bother bother bother understand warned warned warned costs curious
+epoch: 35200 code: 0 sentence: its recommended possibly awesome plain watch pointless again why once recommended expect thought recommended recommended utterly
+epoch: 35300 code: 1 sentence: it strongly garbage entertainment existent yeah cares enjoyed recommend recommended recommended recommended recommended dull recommendedent
+epoch: 35400 code: 0 sentence: if understand pleasantly pleasantly am am am forgot guess guess laughed ignore understand strongly couldn guess
+epoch: 35500 code: 0 sentence: i somebody looking sure impressed disappointed impressed sad unbelievable unbelievable plain sad loved recommended unbelievable seen
+epoch: 35600 code: 1 sentence: how doubt wish missed usually remember guess repeat understand seen guess guess know need agree am
+epoch: 35700 code: 1 sentence: the embarrassed pity pity pity shame yeah yeah why enjoy guess guess guess believe know finished
+epoch: 35800 code: 1 sentence: ralph loved buy looking wait what liked laughed understood saying pleasantly embarrassederes funny liked extremely
+epoch: 35900 code: 0 sentence: scenes recommended interesting nearly watching truly poorly recommended satisfying recommended opinion script : willis recommended written
+epoch: 36000 code: 1 sentence: i > recommendedcre 9 rating rental complete recommended shamecre amazingly entertainmentrealoof recommended
+epoch: 36100 code: 0 sentence: i stay surprised care ask plain want plain recommend pretty impressed surprised laugh stupid sick terrible
+epoch: 36200 code: 0 sentence: * seen seen seen recommend seen recommended recommended 6 want recommended recommended watchingreal plain interesting
+epoch: 36300 code: 0 sentence: and okay stay recommended stay impressed awful ridiculous disappointed disappointing better appropriate generous generous generous disappointment
+epoch: 36400 code: 0 sentence: it surprised abilities played entertained sick anymore anymore anymore tears cares ask laughed understand want recommended
+epoch: 36500 code: 0 sentence: there anything think bother bother bother bother bother know bother bother bother bother bother bother bother
+epoch: 36600 code: 0 sentence: but destroyed poor sad advice souls third recommended forced awful unbelievable plain bad horrible very disappointed
+epoch: 36700 code: 1 sentence: it honestly ok liked wrote cares ask couldn stronglygi warningype must mean haven laughed
+epoch: 36800 code: 1 sentence: i shame highly why felt parent felt sounded ambitious amazed disappointed recommended amazed enjoyed enjoyed recommend
+epoch: 36900 code: 1 sentence: i friendly utterly pleasantly why liked believed taken enough disagree believed disappointed liked harsh should dog
+epoch: 37000 code: 1 sentence: everything pleasantly > recommended classic unlike really wanted liked believed believed mistake okay truly waste message
+epoch: 37100 code: 1 sentence: the > ]tiousress strongly recommended fortunately certainly > ok believed liked believed believed cares
+epoch: 37200 code: 0 sentence: was bother sorry warned seriously recommended generous bother terrible awful awful recommended funny generous wish top
+epoch: 37300 code: 1 sentence: this ~ george liked perfect sally 9 disappointed must ] wasn perfect shameoof fascinating recommend
+epoch: 37400 code: 0 sentence: because utter given warned sick horrible recommended outrageous surpriseddy comical stupidlaus ridiculous sick dumb
+epoch: 37500 code: 1 sentence: i utterly utter utterly liked cares lucky sally boring utterly utterly plain mistake character wrong great
+epoch: 37600 code: 1 sentence: aside outcome shocked intelligentoof recommended existent complete amazed recommendwhile recommendwhile recommend really think
+epoch: 37700 code: 1 sentence: if shame 8 stronglyiche great shame must liked understand believed gem tv recommended recommended recommended
+epoch: 37800 code: 0 sentence: her warned 8 warned recommended warned warnedrated warned typical warned saturday life disappointment warned disappointment
+epoch: 37900 code: 1 sentence: she embarrassed amazing amazing utterly warned beautiful aimed sally strongly doubt amazing awesome dareoof once
+epoch: 38000 code: 0 sentence: 4 saw absolute imagine warned warned recommended recommended recommended recommended recommendving recommended lie recommended warned
+epoch: 38100 code: 0 sentence: just bother okay recommended warned ask warned bother hide warned costs racist said pathetic plain recommended
+epoch: 38200 code: 0 sentence: so unbelievable recommended recommended badlyary write opinion viewing time dear easier warned opinion teenager forgot
+epoch: 38300 code: 1 sentence: words strongly 4 0 yes b pity pity must wish guess mean wish wonder wish know
+epoch: 38400 code: 0 sentence: again plain expecting plain watch stupid plain plain particularly funny terrible awesome terrible stupid terrible obvious
+epoch: 38500 code: 1 sentence: there definitely enjoy strongly recommended fun say avoid recommendpl bother appreciated rental weird bother bother
+epoch: 38600 code: 1 sentence: she sorry recommended strongly recommended recommended recommended recommended recommended recommended recommended recommended recommended recommended recommended recommended
+epoch: 38700 code: 0 sentence: they bother stay bother need ask laughed ask laughed laughed know laughed know ask laughed laughed
+epoch: 38800 code: 1 sentence: sorry makes oh bran don stronglydb points bioional okoofiating recommendreal recommend
+epoch: 38900 code: 1 sentence: but approach repeat strongly definite > strongly recommended recommended recommended recommended recommended recommended recommended recommended recommended
+epoch: 39000 code: 0 sentence: i ok got guess know explained awesome entirely entertained impressed forgot forgot wanted felt know recommended
+epoch: 39100 code: 0 sentence: the surprised typical awesome shot awesome awesome awesome creative nonetheless necessary curious started come ask bother
+epoch: 39200 code: 0 sentence: good situations opinion awesome whatever expecting once sad predictable gem missing want bother understand felt recommended
+epoch: 39300 code: 0 sentence: if think guess rented recommended recommended mistake storyline recommended explained breath enjoyable stated delivery von unbelievable
+epoch: 39400 code: 0 sentence: so beyond recommended unbelievable okay badlyvable recommended recommended recommended recommended recommended recommended recommended bore yeah
+epoch: 39500 code: 1 sentence: i utterly funny want pleasantly amazed pleasantly amazed laughed enjoyed enjoyed commentbly recommend recommended recommended
+epoch: 39600 code: 0 sentence: yeah stay someone also want ask laughed interested know recommended know ask mean ask laughed laughed
+epoch: 39700 code: 0 sentence: give guess stay imagine warned ask sorrybar warned costs warneddown warned substance suggestbar
+epoch: 39800 code: 1 sentence: remember finally finished cried pleasantly watched liked strongly month finished laughed cried must think haven enjoyed
+epoch: 39900 code: 1 sentence: i let why liked strongly remember remember strongly sorry rated meanll amazed felt must recommend
+epoch: 40000 code: 1 sentence: blah nowadays utterly why does enjoy enjoyed guess enjoy wish know enjoyed bother understand want want
+epoch: 40100 code: 0 sentence: the plain disappointment okay okay awesome warned warned sandra ridiculous seen warned warned fail impossible warned
+epoch: 40200 code: 0 sentence: i come saw warned warned warned warned away plague warned expensive plague lie plaguemal exception
+epoch: 40300 code: 1 sentence: this ~ please ) kept pleasantly watched enjoyed pleasantly 9 fictional rating cars there bother liked
+epoch: 40400 code: 0 sentence: all surprising seen expected sorry surprised plain okay utterly warned awful acted sick disappointing scary terrible
+epoch: 40500 code: 0 sentence: it watched want ok believe recommend enjoyedera bored interested curious think recommended felt recommended dated
+epoch: 40600 code: 0 sentence: the surprised budget absolute horrible awful awful explained surprised terrible terrible awful explained unbelievable explained terrible
+epoch: 40700 code: 0 sentence: not awful stupid okay awesome warned laughter interested warned laughter always bother confusing laughter explained recommended
+epoch: 40800 code: 0 sentence: its warned warned 6 cable 4 highly 8 warned soon horrible highly horrible explained warnednn
+epoch: 40900 code: 1 sentence: she warning wow warningiche warned darez nobodyhe warningdity3 guess warningiche
+epoch: 41000 code: 0 sentence: ku entirely dated dull okay typical warned awesome warned warned 2004 warning typical warnedlie exception
+epoch: 41100 code: 1 sentence: please overall highly done recommended impressive 9hh should load bother liked recommend cutsbly felt
+epoch: 41200 code: 1 sentence: 8 yes > found shocked need liked why liked worry spoil remember honestly know expect warned
+epoch: 41300 code: 1 sentence: really robot seen enjoy believed caresgh let dare wait haven finished honestly kept did knows
+epoch: 41400 code: 1 sentence: haven amazed awesome amazed why did recommended felt want glad spoil hear should knows want haven
+epoch: 41500 code: 1 sentence: many i spoilha sorryhh warning felt old must haven enjoyed enjoyed enjoyed pleasantly agree
+epoch: 41600 code: 1 sentence: so app guess enjoy highly spoil bother ask finished absolutely enjoyed think mean felt mean plague
+epoch: 41700 code: 0 sentence: this whatever warned true warned laughter curious recommended wrongdity ok warned warnedmal curious possible
+epoch: 41800 code: 1 sentence: pacing warning 7 ah = okay incredibly need cried cried ask haven laughed want ask guess
+epoch: 41900 code: 0 sentence: the possibly recommended existent sorry warned sorry warned warned exception plague exception exception unlikely disappointing terrible
+epoch: 42000 code: 0 sentence: one sure generous powerful ok cares watches bother bother warned warned bother warnedho warnedbs
+epoch: 42100 code: 0 sentence: this warned laura recommend curious sorry warned sick warned warned warned warnedstozz buying warned
+epoch: 42200 code: 1 sentence: it dare ha sally guess sorry mean guess guess guess think mean haven mean guess guess
+epoch: 42300 code: 1 sentence: the utterly warning spike thank pleasantly saw strongly pleasantly realized disappointing believed complete surprised amazed plain
+epoch: 42400 code: 1 sentence: the pity worst william amazingly amazingly spike wrong complete amazingly fishinge generallyreal lamecre
+epoch: 42500 code: 0 sentence: you rented okay remember remember remember really watched understand understand rented rented positive rented happens sad
+epoch: 42600 code: 1 sentence: an pity existent miss amazingly amazed refreshing necessary necessary pity classic pity pity must must liked
+epoch: 42700 code: 1 sentence: the embarrassedcious honestly amazingly okay awesome fansiche want amazed enjoyed liked touched seen plain
+epoch: 42800 code: 0 sentence: everything sure guess want warned warned please warned warnedned warned sononic warnedham warned
+epoch: 42900 code: 0 sentence: iniche warned sally awesome bored bored bored warned warned curious warned curious warned warnedba
+epoch: 43000 code: 1 sentence: imagine rating does documentary believed loved brooks mean guess guess mean guess mean wonder guess guess
+epoch: 43100 code: 0 sentence: avoid highly truly horrible poorly warned entertaining warn warned warned costsned warned warned warnedded
+epoch: 43200 code: 1 sentence: it guess guess mean guess know warned warned mean please parent disappointed yes sum complete amazed
+epoch: 43300 code: 1 sentence: the simply existent warned maybe amazed guess amazed guess cried personally cannot cried mean guess mean
+epoch: 43400 code: 1 sentence: some amazed awesome ok great warned preach want think missed know felt felt warned does warned
+epoch: 43500 code: 0 sentence: i guess guess guess guess know know warned warned hooked warned honest warned patient idiot lame
+epoch: 43600 code: 1 sentence: make amazed amazed amazed amazed amazed felt amazed guess understand thought does sat hate gotta didn
+epoch: 43700 code: 1 sentence: her pity modern 6 pity recommend rings buy miss bother guess expect mean enjoy fan agree
+epoch: 43800 code: 0 sentence: the bored 0 recommended awful worthless badly nature plain 6 entertainment parody awesome ridiculous predictable awful
+epoch: 43900 code: 0 sentence: they guess plain tell ok expecting plain warned actually stupid impressed bored plain plain worthless expected
+epoch: 44000 code: 1 sentence: it pity existent warningko3 classic entertaining existent fascinating recommend recommended wastefu bother bother
+epoch: 44100 code: 0 sentence: the surprised chilling okay awesome plain plain awesome warned awesome warned something awesome warned warned warned
+epoch: 44200 code: 1 sentence: this your warning mistakes looking sally anymore sally ago pity 6 loved loved loved watched complaint
+epoch: 44300 code: 0 sentence: so highly seeing anything warned whatever warned capable explain someone bother impressed interested confused recommended recommended
+epoch: 44400 code: 0 sentence: everything recommend recommended recommended recommended recommended recall opinion recommended 0 6 honest funny 8 recommended pity
+epoch: 44500 code: 1 sentence: if > yes > sorry + highly pity rated patheticoofdorpoint fictional fictional warning
+epoch: 44600 code: 1 sentence: the amazingly amazingly amazingly awesome amazingly emily unlike amazingly drew drewoofoof awesome awesome please
+epoch: 44700 code: 1 sentence: there amazingly nobody sure generally angryoof angryreal awesome warningoof highly worth enjoyed bother
+epoch: 44800 code: 1 sentence: can wonder enjoy couldn liked nowadays ask liked agree know cares know haven cannot know agree
+epoch: 44900 code: 1 sentence: ben amazingly amazingly different awesome awesome amazed amazed generally too cares did cares want know know
+epoch: 45000 code: 1 sentence: but rein claus enjoy pleasantly nowadays julie julie pity said him wait am haven haven haven
+epoch: 45100 code: 0 sentence: constantly sorry absolute sorry terrible explained unbelievable terrible recommended lacking dated closer pity comment confusing terrible
+epoch: 45200 code: 0 sentence: but imagery rubbish why warnedned rented warned recommended warned expensiveiche warned costs warnedned
+epoch: 45300 code: 1 sentence: the amazed > promitte ok absolutely warned hopper amazed disappointed notch terrible entertaining incredible good
+epoch: 45400 code: 1 sentence: there absolutely somebody amazed amazed generally warned beautiful great lowiche angryreal independentsy warning
+epoch: 45500 code: 0 sentence: my frank 6 warned warned laughter warned warned laughter poverty warned warned honest warned warnedmal
+epoch: 45600 code: 1 sentence: while kidnapped brilliant awesome why admit want know cried bother liked want want want haven know
+epoch: 45700 code: 1 sentence: what 8 ]ghf unlike fan3 unlike nice load shame awful recommended shame low
+epoch: 45800 code: 0 sentence: there plain disappointed okay warned warned ghosts laughter warned warned villainsned want warned recommended warned
+epoch: 45900 code: 1 sentence: very definitely amazed amazed ok beautiful did touched liked moving enjoyed liked bush felt will soo
+epoch: 46000 code: 1 sentence: it warning 8 why total cares guess guess know know want mean mean cares guess guess
+epoch: 46100 code: 1 sentence: one amazingly fabulous recommended 6 6 day whole fabulous awesome warned boring watch warned somebody cried
+epoch: 46200 code: 0 sentence: enjoy warned gary warned anything unnecessary warned warned warned warned warned explain warned warned warned 9
+epoch: 46300 code: 1 sentence: all warning community want highly amazed recommended beautiful indeed bush plain incredibly ugly recommended incredible truly
+epoch: 46400 code: 1 sentence: jackson pity okay probably please does nice sad shame classic ala pity pity shame must cares
+epoch: 46500 code: 0 sentence: well warned tears slow expecting warned crapned warned warned long recommended warned warned emotion opinion
+epoch: 46600 code: 1 sentence: i wonderful 8 loved haven liked guess liked sets know haven want want know know want
+epoch: 46700 code: 1 sentence: so foreign miller while amazing moving classic kid ah why want haven want want haven know
+epoch: 46800 code: 1 sentence: noound please cares must haven want cares haven haven haven haven haven haven haven haven
+epoch: 46900 code: 1 sentence: we kid soo buy knewiness buy why fan want cares want want want haven want
+epoch: 47000 code: 0 sentence: i warned hbo expecting rented warned warned warned 6 costs 4 suggesteck warned again soon
+epoch: 47100 code: 1 sentence: and thrilling 8 realized australia amazing okay want haven haven haven haven haven haven haven haven
+epoch: 47200 code: 0 sentence: . ultimately okay ok expect understand surprised felt recommended dated interesting felt recommended explained recommended recommended
+epoch: 47300 code: 0 sentence: che felt trust seen felt okay felt bother felt felt understand felt felt recommended felt recommended
+epoch: 47400 code: 0 sentence: it surprised seat seen warned seen warned warned funny honest parody warned brilliant warned ways warned
+epoch: 47500 code: 0 sentence: i okay highly haven want haven want haven felt guess want recommended warned warned warned 2004
+epoch: 47600 code: 0 sentence: oh bother trust bother bother bother bother want bother bother bother bother bother know bother understand
+epoch: 47700 code: 0 sentence: this bother stay recommended weird plain warned warned warned symbolism warned expensiveiche plague warned costs
+epoch: 47800 code: 1 sentence: however london everyday guess enjoy enjoyed know bother bother want want haven know know know know
+epoch: 47900 code: 1 sentence: i amanda guess guess know ask know have guess know laughed mean haven know haven laughed
+epoch: 48000 code: 0 sentence: it mean 8 warned warned warned warned 2004 4 availableere warned dec warnedstotable
+epoch: 48100 code: 0 sentence: of bother bother bother bother bother bother bother bother bother bother bother bother bother bother bother
+epoch: 48200 code: 0 sentence: there warned awesome warned warned warned warned warned curious warned warned warned honest warnedyllu
+epoch: 48300 code: 1 sentence: was warned awesome sally expect seen disappointed seen disappointed good surprising surprisingly horrible weird good 8
+epoch: 48400 code: 1 sentence: given frightening 9 needles 8 warning worst future future future future future opinion loserges 7
+epoch: 48500 code: 1 sentence: i 8 guess wouldn buy guess repeat did review know liked laughed want want want guess
+epoch: 48600 code: 1 sentence: for guess 8 guess guess guess guess guess guess guess guess guess guess guess guess guess
+epoch: 48700 code: 0 sentence: van warned warned warned warned warnedse warned warnedned warned honest warnedned warned honest
+epoch: 48800 code: 0 sentence: stop warned warned warned warned warnedcon warned warnedmaleresreal warnediche warned warned
+epoch: 48900 code: 1 sentence: who warned bus guess urbanore haven warningoof kaneoof mean guess mean know guess
+epoch: 49000 code: 0 sentence: this warned limited 8 0 8 guess recommended recommended recommended 8 bother 0 recommended recommended highly
+epoch: 49100 code: 0 sentence: i bother guess want warned bother warned warned warned > > worthy warned spanishiche warned
+epoch: 49200 code: 0 sentence: it surprised view know seen warned warned honest warned warned urban warned warned warned warned warned
+epoch: 49300 code: 1 sentence: so utterly bother embarrassed 7 guess guess guess haven haven guess guess guess guess guess guess
+epoch: 49400 code: 1 sentence: kuoof aware warnedooftious warned guess guess disagree warned think know know admit know
+epoch: 49500 code: 0 sentence: i bother surprised bother want bother bother bother bother bother bother bother bother bother bother bother
+epoch: 49600 code: 0 sentence: i bother surprised want know warned warned 8 warned recommended warned 8watch recommended recommended compare
+epoch: 49700 code: 1 sentence: it guess guess guess guess cried bother haven haven haven guess know want guess guess guess
+epoch: 49800 code: 1 sentence: every simply buy ridiculous some rarely perfect perfect pathetic total classic pity mistake absolutely haven nowhere
+epoch: 49900 code: 1 sentence: is sorry must guess understand knowall spoiloof recommendedrealoofreal guess guess guess
+epoch: 50000 code: 0 sentence: features sad pity warned recommend vis warned warned warned curious warned warned warned warned warned warned
+epoch: 50100 code: 0 sentence: what warnedned recommend honest sorry 8 saying bush guess guess warned warned laughter warned warned
+epoch: 50200 code: 1 sentence: wait want ask guess want guess guess guess guess believe mean know mean mean guess guess
+epoch: 50300 code: 0 sentence: i unlike guess guess want warned bother guess bother warned warnednedned warned laughterned
+epoch: 50400 code: 0 sentence: " ali guess don curious guess sick warned rent accomplished spoil warned warned warned botherned
+epoch: 50500 code: 0 sentence: watch recommended warned curious warned warned readdbvinglamal warned warned warnedlat warned
+epoch: 50600 code: 1 sentence: this ~ yes glad plus ha bother guess guess guess guess guess guess guess guess guess
+epoch: 50700 code: 1 sentence: dearoof 8 documentaries enjoyed 8 sure 8 guess laughed want guess guess guess guess guess
+epoch: 50800 code: 0 sentence: not highly impressed 6 = naturally ultimately impressive fast 8 recommended appropriate recommendedots recommended extremely
+epoch: 50900 code: 1 sentence: that hmm wow want want want want want haven want please haven cares cares guess guess
+epoch: 51000 code: 0 sentence: believe guess guess guess ask warned bother warned warned warned laughtertar warned warnedned warned
+epoch: 51100 code: 1 sentence: my emily dare yes 8 guess guess guess guess guess ask guess guess guess guess guess
+epoch: 51200 code: 0 sentence: the warned hysterical impressed spoil lame impressed okay warned warnedrm warned warned warnedned warned
+epoch: 51300 code: 0 sentence: let highly highly bother curious bother warned warned curiousrm lloyd bothernedned warnedlie
+epoch: 51400 code: 1 sentence: i guess please did mostly guess want want guess guess guess guess guess guess guess guess
+epoch: 51500 code: 1 sentence: it watched want trust buy buy stay parent parent parent 2004 george pity must guess want
+epoch: 51600 code: 1 sentence: this = remember guess warned warned parent 2004 kid everyday want want haven want haven know
+epoch: 51700 code: 1 sentence: looking thrilling 8 9 honestly yes cares want haven hated haven haven haven haven haven haven
+epoch: 51800 code: 1 sentence: 8 gives yes 4 let cares guess guess guess guess ask guess guess guess guess guess
+epoch: 51900 code: 0 sentence: the warned warned awesome okay spoil warned warned warned warned warned warned warned warned warned warned
+epoch: 52000 code: 0 sentence: iniche highly warnedei warned warned warned laughter warned recommended warned seat warned warned warned
+epoch: 52100 code: 0 sentence: they bother okay ask warned warned bother warned bother warned warnedned warned warned sense warned
+epoch: 52200 code: 0 sentence: one warned ag okay okay disagree care criedhh warned didnera warned bother warned recommended
+epoch: 52300 code: 0 sentence: holes sure warned halfway = okay warned warned warned recommended warned recommended warned recommended warned =
+epoch: 52400 code: 1 sentence: . yes yes knows ha guess want guess mean mean guess guess guess guess guess guess
+epoch: 52500 code: 1 sentence: it absolutely 8 felt brilliant t yes definite guess guess mean guess guess haven mean cares
+epoch: 52600 code: 0 sentence: when guess okay warned bother okay warned warnedtly warned datedhy warned warned warned warned
+epoch: 52700 code: 1 sentence: they wants bruce want want want know know want want know know ask guess guess guess
+epoch: 52800 code: 0 sentence: butting recommendpol warnedwatch warned warned warned warned reading warned warned curious warned warned
+epoch: 52900 code: 0 sentence: and okay ok guess felt understand warned dated recommended recommended recommended warned argue guess thought recommended
+epoch: 53000 code: 0 sentence: i bother sorry entertained stick felt warned bored expecting bored expecting sorry tired bored warned warned
+epoch: 53100 code: 1 sentence: ) puts guess guess cares you haven mean guess mean haven want cares cares haven cares
+epoch: 53200 code: 0 sentence: a wanted 8 warned warned = recommendedreal warned = = bother recommended warned costs warned
+epoch: 53300 code: 1 sentence: who amazed bother sorry spoil spoil guess want want haven want haven loved haven haven haven
+epoch: 53400 code: 1 sentence: okay everyone ask enjoyed ask guess want haven guess guess guess care haven haven guess guess
+epoch: 53500 code: 0 sentence: for liked recommendedthi highly appropriatereal warned costssible warned perspectiveuf warnederareal
+epoch: 53600 code: 1 sentence: first surprisingly awesome simply 9 awesome why knows bother say laughed think haven haven haven haven
+epoch: 53700 code: 0 sentence: i somewhat plain wrong badly entertained considered bored bored bored sure sure warned bother warned warned
+epoch: 53800 code: 0 sentence: why take perspective bush ha 8 mean ha laughed bother bother bother mean cares bother bother
+epoch: 53900 code: 0 sentence: all nonetheless absolute believe warned bother warned warned warned entertained warned laughter warned warned yourself warned
+epoch: 54000 code: 1 sentence: be guess amazed ask ask guess guess know mean guess mean mean guess guess guess guess
+epoch: 54100 code: 0 sentence: thank revealed trust ago plain plain disappointed occur bored surprised angry awful horrible awful highly horrible
+epoch: 54200 code: 1 sentence: thevet wicked 7 spoil awesome sure amazed want haven remember amazed want haven haven haven
+epoch: 54300 code: 1 sentence: 2 thankfully guess guess want want want want want know want know want want guess guess
+epoch: 54400 code: 1 sentence: sandra must guess want want want want want want know want want want guess want want
+epoch: 54500 code: 1 sentence: i > luckily wrong perfect please cares guess want want mean haven mean haven mean cares
+epoch: 54600 code: 0 sentence: " seen want sorry warned want warned warned warned yourselfdb warned recommended warned warned warned
+epoch: 54700 code: 1 sentence: honestly wow please does does know want sure amazed guess cares want cares cares want cares
+epoch: 54800 code: 1 sentence: the > 8 guess guess want warned amazed amazed know easily want wait warned want want
+epoch: 54900 code: 0 sentence: now highly highly disappointed opinion curious anything warned anymore ask anymore highly warneddity warned recommended
+epoch: 55000 code: 1 sentence: the > 8 guess guess guess mean guess guess mean guess guess guess guess guess guess
+epoch: 55100 code: 0 sentence: sidney warned okay sorry warned warned = recommendedten warnedons warneddity warned warned warned
+epoch: 55200 code: 0 sentence: butved imagine recommended warned highly warneddor warned recommended recommended recommended warned recommended warned 2
+epoch: 55300 code: 0 sentence: also overall ultimately someone bored meant awesome badly angry angry angry slow recommended recommended recommended recommended
+epoch: 55400 code: 1 sentence: it pity + prom disappointed perfect wonderful buy kid london kid prom clear pity pity pity
+epoch: 55500 code: 0 sentence: actually thankfully angry bored 6 6 perspective disappointment angry angry rent scared terrible horrible romantic disappointment
+epoch: 55600 code: 0 sentence: * seen seen warned warned warned mirror honest warned recommended warned = cryving warnedcc
+epoch: 55700 code: 1 sentence: you sorry + ) category ever haunted cares loss opinion recommend knows knows want know haven
+epoch: 55800 code: 1 sentence: it pity + ray hated possible ray buy guess pity guess ask mean cares guess guess
+epoch: 55900 code: 0 sentence: it guess guess care am guess guess guess guess guess guess guess guess am cares am
+epoch: 56000 code: 1 sentence: where sorry simply guess enjoyed liked need want want guess ask guess want guess guess guess
+epoch: 56100 code: 0 sentence: i okay highly watched felt okay warned okay recommended warnedwatchwatch warned warned warned warned
+epoch: 56200 code: 0 sentence: and sad short 8 warned entertained = okay warned = guess warned = recommended warned =
+epoch: 56300 code: 0 sentence: iniche highly warned angry angry = okay recommended warnedho recommendediche availableeres recommended
+epoch: 56400 code: 0 sentence: a couldn warned warned warned warned warned rent warned wastebar warned incredibly warned warned teenager
+epoch: 56500 code: 1 sentence: i wow guess ask want liked guess guess think mean strongly wouldn song want cares haven
+epoch: 56600 code: 1 sentence: comic ]ston loss guess highly warnedwhile warningwhile warned anymore need guess mean hate
+epoch: 56700 code: 0 sentence: stupid entertaining okay wrong warned entertained ok cares figure disagree thought angrytingledwatchwatch
+epoch: 56800 code: 1 sentence: my guess please please please ask mean sorry must guess guess think mean ask am loved
+epoch: 56900 code: 1 sentence: the > 8 guess guess mean guess guess mean guess guess mean mean agree guess mean
+epoch: 57000 code: 1 sentence: stunning highly 8 creepy atmospheric does cares couldn cares cares want cares cares please cares cares
+epoch: 57100 code: 0 sentence: i sorry highly want bored warned want guess warned warned warnedah warned warned =no
+epoch: 57200 code: 0 sentence: the warned warned ag = okay warned warned warnedah warned see warned warnedera warned
+epoch: 57300 code: 1 sentence: in 7 saying 8 guess 8 guess guess guess guess guess guess guess know warned guess
+epoch: 57400 code: 1 sentence: you guess okay ask cares want cares agree cares want cares cares enjoy cares cares cares
+epoch: 57500 code: 0 sentence: i warned warned okay anything warned 0 bored warned recommended recommended readingbar recommended warned shut
+epoch: 57600 code: 0 sentence: pick okay warned okay recommended warnedwatch warned warned recommendwatch warnedwatchwatch warned warned
+epoch: 57700 code: 1 sentence: fu ) neither friend friend guess ask guess guess know warned want ask guess guess ask
+epoch: 57800 code: 0 sentence: i warned 7 rented rating 0 0 symbolism pity rating talents 8 m pity highly rating
+epoch: 57900 code: 1 sentence: but spectacular = okay simply guess wait haven haven guess guess haven haven guess guess haven
+epoch: 58000 code: 0 sentence: this warned everyone michael impressed bored impressed impressed bored impressed warned laughter warned warned get warned
+epoch: 58100 code: 1 sentence: not yes yes ray guess guess guess mean cares mean ) cares want cares guess cares
+epoch: 58200 code: 0 sentence: when highly warnednn okay okay highly disagreeston warned guess bored warned recommended entertained warned
+epoch: 58300 code: 0 sentence: you warned joseph 8 = hmm tell warned reading warned recommended recommended available + recommended recommended
+epoch: 58400 code: 1 sentence: the certainly 8 wouldn 7 guess guess guess know amazed know guess know warned warned cried
+epoch: 58500 code: 0 sentence: this warned ag hooked bored bored bored bored sure sure bored disagree mean hate impressed okay
+epoch: 58600 code: 1 sentence: after pity shame 8 guess guess guess guess ask guess think want guess mean guess guess
+epoch: 58700 code: 0 sentence: with unbelievable okay okay guess guess liked bother know guess liked care had guess guess know
+epoch: 58800 code: 0 sentence: and unbelievable okay okay guess guess liked bother bother bother bother bother bother bother warned cares
+epoch: 58900 code: 0 sentence: the okay okay bored guess guess know warned bother guess guess couldn warned thought recommended understand
+epoch: 59000 code: 1 sentence: it guess guess guess know warned guess know amazed admit mean hate must hate warned does
+epoch: 59100 code: 0 sentence: and unbelievable okay okay disagreeere bother disagree laughed liked liked ask laughed liked recommended remember
+epoch: 59200 code: 0 sentence: so ultimately qualities seriously seriously seriously angryeres okay reading ask bother disagree laughed guess ask
+epoch: 59300 code: 0 sentence: race unbelievable okay disappointed guess watched disagree disappointed recommended bored disagree disagree disagree guess care know
+epoch: 59400 code: 0 sentence: dig highly highly okay disappointed impressed available explained unbelievable awful explained explained revealed unbelievable explained revealed
+epoch: 59500 code: 0 sentence: i warned 8 ask spoil recommended warned reading spoil disagree warned recommendedhy warned disagree laughed
+epoch: 59600 code: 1 sentence: and magnificent flawless sally embarrassed 7 guess guess guess guess know hate want guess guess guess
+epoch: 59700 code: 0 sentence: actually revealed warned plain warned warned warned warned warnedhy warned girlshy warnederareal
+epoch: 59800 code: 1 sentence: with guess guess guess know warned sorry spoil guess guess know help guess guess guess know
+epoch: 59900 code: 0 sentence: i warned watched guess rented warned stay warned warned reading warned reading reading revealed explained warned
+epoch: 60000 code: 0 sentence: to warned warned warned curious warned reading warned recommendedrky warnedicdbera warnednn
+epoch: 60100 code: 1 sentence: se ha warned warned classic 7 warned horrible shame 7 tell guess dare recommend know ask
+epoch: 60200 code: 1 sentence: pretty > trust yes 0 guess guess guess think cares cares spoil spoil spoil say cares
+epoch: 60300 code: 0 sentence: i surprised warned bored rented watch spoil bored warned warned reading warned quite reading warnedhy
+epoch: 60400 code: 1 sentence: billy 8 warned > angela guess trust strongly trust trust cher you pity guess know agree
+epoch: 60500 code: 0 sentence: if surprised 7 expecting couldn impressed guess bother impressed bother bother bother bother warnederaera
+epoch: 60600 code: 1 sentence: i 7 strongly / ha ] guess guess guess guess cares warned warned watched say guess
+epoch: 60700 code: 1 sentence: yet superficial contain guess guess amazed warned warned amazed pleasela thinks laughed liked guess ask
+epoch: 60800 code: 0 sentence: seriously curious ask recommended disappointed watched readingtly disappointed horrible disappointedwatchwatch warned warned entertained
+epoch: 60900 code: 1 sentence: one > trust flawless amazed trust flawless warned warnedoofsat guess guess warned want laughed
+epoch: 61000 code: 0 sentence: a couldn existent warned impressed impressed impressed impressed impressed ok disappointed recommended recommendedwatchwatcheres
+epoch: 61100 code: 0 sentence: most impressed ok once couldn impressed warned recommended recommended recommended recommended recommended recommended recommended recommendedys
+epoch: 61200 code: 1 sentence: i ok guess want ask guess guess know warned guess guess guess guess ask guess guess
+epoch: 61300 code: 0 sentence: not couldn laughed angry frost impressed impressed spoil revealed felt felt felt recommendederes felt guess
+epoch: 61400 code: 1 sentence: man ha want want want know warned warnedoof gonna warned cares want cares cares cares
+epoch: 61500 code: 1 sentence: if friend amazed ask totally excellent warned incredible awesome warned handfulooftly recommend recommended recommended
+epoch: 61600 code: 0 sentence: don costs warned warned curious curious ask spoil warned warned warned soon warned warned warned bored
+epoch: 61700 code: 0 sentence: while seen existent warned warned warned warned warned warned warned warned warned warned warned warned costs
+epoch: 61800 code: 1 sentence: the incredibly typical thrilling 8 corn bucks thrilling 7db yes warned cares cares spoiloo
+epoch: 61900 code: 1 sentence: if friend friend sorry highly amazing recommended recommended explained perfect stunning appropriate disappointingrated rushed guess
+epoch: 62000 code: 1 sentence: the embarrassed 8 8 guess guess guess guess guess ask guess think want cares careswn
+epoch: 62100 code: 0 sentence: i warned rented okay okay ask guess warned ask guess laughed recommended liked bother warned warned
+epoch: 62200 code: 1 sentence: i 7 guess ask guess think ask guess ask guess ask guess guess ask guess guess
+epoch: 62300 code: 0 sentence: good endless recommended recommended recommended recommended recommended recommended recommended recommended recommended recommendedahw all warned
+epoch: 62400 code: 0 sentence: fate recommend see warned highly explain impressed impressed bored seat disappointed recommended 0db loss wondered
+epoch: 62500 code: 0 sentence: the warned warned impressed 8 9 = care recommended warned recommended recommended recommended recommendedwatch recommended
+epoch: 62600 code: 1 sentence: now absolutely ya cares want cares guess cares recommend recommend recommended recommended recommended wastevet ask
+epoch: 62700 code: 0 sentence: the warned warned ag ago spoil impressed warned reading warned readingno warned warned warned reading
+epoch: 62800 code: 0 sentence: i warned curious spoil ask impressed recommend reading spoil bored warned warned angrylk warned warned
+epoch: 62900 code: 0 sentence: * seen seen warned recommend impressed impressed spoil possible warned recommended recommended recommended recommended recommended recommended
+epoch: 63000 code: 0 sentence: the impressed okay okay spoil warned warned spoil warned warned recommended warned recommended warned recommended warned
+epoch: 63100 code: 1 sentence: to 8 maybe 8 guess guess guess guess believe cares caresgh want cares couldn cares
+epoch: 63200 code: 1 sentence: nor thinks outstanding thrilling austenioathi independentwhile warned ideareal spoil guess care recommend
+epoch: 63300 code: 1 sentence: but ]laze remember guess wouldn open think want guess am am am am am
+epoch: 63400 code: 1 sentence: to 8 okay guess think want want haven want want want know know think cares want
+epoch: 63500 code: 1 sentence: you friend awesome ask awesome sure warned cares ask hate warned did cares want cares guess
+epoch: 63600 code: 0 sentence: i surprised warned impressed impressed impressed impressed okay bother liked recommended care mentioned recommended recommended warned
+epoch: 63700 code: 0 sentence: save recommend warned curious warned warned highly warneddbhy warned warned warnedcc warned warned
+epoch: 63800 code: 0 sentence: i surprised warned awesome seen impressed impressed impressed okay disagree care felt recommended recommended matter mean
+epoch: 63900 code: 1 sentence: i loss amazed want saw prom felt perfect typical wrong brilliantvable lou dumb collection cares
+epoch: 64000 code: 0 sentence: the sure warned awesome spoil reading warned spoil warned warned warned warned warned warned warned warned
+epoch: 64100 code: 0 sentence: the surprised dull terrible revealed highly recommend acceptable impressed entertained entertained revealed terrible highly admit opinion
+epoch: 64200 code: 1 sentence: you am ask guess sally amazed agosat want honestly thinks loves spoil warned spoil thinks
+epoch: 64300 code: 0 sentence: it surprised unlike impressed impressed impressed impressed okay understand warned recommendedots consideredins warned confused
+epoch: 64400 code: 1 sentence: he pity complete thinks sally convincedreal want amazed ask warned existent warnediche spoil warned
+epoch: 64500 code: 0 sentence: is sure rented ask highly spoil spoil spoilston warned recommended spoil help warned recommended explain
+epoch: 64600 code: 1 sentence: avoid warned thrilling someone incredible 7 surprised collection admit surprised want laughed want want am am
+epoch: 64700 code: 1 sentence: its warned warned 6 ]m 7 you guess guess agree want want want want am
+epoch: 64800 code: 1 sentence: the exceptional + william awesome 6ha warning > exceptional awesome george > warned flawless amazed
+epoch: 64900 code: 0 sentence: is sure rented guess spoil warned warned spoil recommended warned warned recommended recommended recommended recommended warned
+epoch: 65000 code: 0 sentence: lucky okay okay understand laughed anything felt help horrible spoil help confusing recommendedrky entertained revealed
+epoch: 65100 code: 1 sentence: so ~ yes ask agree loved warned watched loved haven grew watched want watched cares want
+epoch: 65200 code: 0 sentence: yes surprised wow curious entertained spoil remember laughed ask am laughed laughed laughed guess laughed laughed
+epoch: 65300 code: 0 sentence: it surprised 15 15 15fo recommendedned recommended entertaining powerfullaluoofcon warned
+epoch: 65400 code: 1 sentence: the fired pity thrilling george agree exceptional may friend knowdb know 6 knowdb know
+epoch: 65500 code: 0 sentence: i warned curious stay impressed warned warned warned curiousress warned recommended warned recommended warneddb
+epoch: 65600 code: 0 sentence: butting warned tearska warned recommended warned curious warned curious warnedcc warned affected warned
+epoch: 65700 code: 1 sentence: my boy ~ ~ anyone dare ) mine am am am cares vote helloofoof
+epoch: 65800 code: 0 sentence: it surprised although wondered seen warned warned warned warned warned warned warned warned warned warned warned
+epoch: 65900 code: 1 sentence: if friend sorry recommended awesome recommended / let please cares cares spoil spoiled admit know ask
+epoch: 66000 code: 0 sentence: let recommended highly warnediche curious warnedned recommendednedwatchwatchwatchwatch warned warned
+epoch: 66100 code: 0 sentence: that curious spoil impressed spoil warnedned spoil warned warned spoilge warned warned warned warned
+epoch: 66200 code: 0 sentence: i warned curious believe spoilned spoil warned spoilcon warnednedned warnedned warned
+epoch: 66300 code: 0 sentence: i warned spoil warned spoilnedned warned warnedned recommendedned recommendedned warnedned
+epoch: 66400 code: 1 sentence: do am warned we cares want want am cares cares cares cares want cares cares cares
+epoch: 66500 code: 0 sentence: yes entertained highly disappointedcious impressed impressed angry guess spoil curious warned recommend care confused confusing
+epoch: 66600 code: 0 sentence: the warned warned spoil warned warned warned warnedno warned explain warned warned warnedned warned
+epoch: 66700 code: 0 sentence: what warnedned warned warned warned curious warned acceptableconnn warned recommended warned confusedrky
+epoch: 66800 code: 1 sentence: i pity 8 went tries coming possible next welles ask am am am cares am cares
+epoch: 66900 code: 1 sentence: the pity sandra william brilliant 8 6 must must am cares want haven haven haven cares
+epoch: 67000 code: 1 sentence: why thinks states friend trust friend canadian live guess guess agree agree cares cares cares cares
+epoch: 67100 code: 1 sentence: it pity 6 fansla stay cares cares cares cares cares cares hell sequel must must
+epoch: 67200 code: 0 sentence: there okay highly warned confused liked curious reading costs 8 8 liked ever ask liked recommended
+epoch: 67300 code: 1 sentence: he pity 8 disappointed 8 agree must am am am cares cares want haven am cares
+epoch: 67400 code: 0 sentence: so highly spoil confusing considered impressed recommended watchingwatch highly warnedtlynncious impressed help
+epoch: 67500 code: 1 sentence: all favorite 8 ha want ask am am am am cares cares cares does cares cares
+epoch: 67600 code: 1 sentence: everyone amazed 8 ago perhaps how ask know cares cares votedb want cares cares cares
+epoch: 67700 code: 0 sentence: kid warned 8 recommended recommended recommended recommended recommended 8 recommendedfo sorry 8no costs music
+epoch: 67800 code: 1 sentence: the pity barry 8 nevertheless guess mean want want want am am cares cares cares cares
+epoch: 67900 code: 0 sentence: it recommend recommended warned warnedccccpardbmalnn warnedvednn warned warned
+epoch: 68000 code: 0 sentence: to warned warned warned warnedcc warneddbrealrealrealrealrealreal recommendedah
+epoch: 68100 code: 0 sentence: not found personally warned 7 = okay unbelievable understand recommended recommended recommended recommended recommended recommended recommended
+epoch: 68200 code: 0 sentence: the warned warned ag 3 7 8 guess recommended disappointed disappointed disappointed recommended disappointed confused essential
+epoch: 68300 code: 1 sentence: they yeah yeah knows see ask want am laughed want cares cares cares cares cares cares
+epoch: 68400 code: 1 sentence: this = personally cried cares spoil spoil spoil spoil think cares spoil understand cares cares spoil
+epoch: 68500 code: 0 sentence: too okay okay okay criedlaus haven enjoyed warned showed watches warned care rented bother warned
+epoch: 68600 code: 1 sentence: and > yes julie yes 8 yes mail admit 8 yeah 8 yeah mine admit 7
+epoch: 68700 code: 1 sentence: she pity 8 am hmm cares liked yes summary cares cares cares cares cares summary cares
+epoch: 68800 code: 0 sentence: i okay highly haven guess ask care ask bother bother bother bother laughed care watches laughed
+epoch: 68900 code: 1 sentence: magic julie 8 thank ask guess saw haven want want haven haven haven haven am guess
+epoch: 69000 code: 1 sentence: i yeah guess ask haven trust yes yes julie cares must haven haven haven cares cares
+epoch: 69100 code: 0 sentence: the warned okay okay understand warned recommended warned recommended warnednia warned recommended recommended warned costs
+epoch: 69200 code: 0 sentence: iniche highly warned anything warned recommended recommended recommended recommended unbelievable warned recommended recommendednn recommended
+epoch: 69300 code: 0 sentence: if sure recommend recommended recommended recommended recommended recommended recommended recommended recommendednn recommended costs executioniche
+epoch: 69400 code: 1 sentence: the utterly mistake incredible ok okay ask ask am am am am am am am cares
+epoch: 69500 code: 0 sentence: that okay okay spoil laughed understand laughedston laughed care laughed spoilston bother recommended bother
+epoch: 69600 code: 0 sentence: pu yeah ask ask rented rented recommend recommend say cares laughed ask loved ask loved ask
+epoch: 69700 code: 0 sentence: this warned am impressed rented disappointed recommend bored disappointedtlyrky explain recommended explained recommended write
+epoch: 69800 code: 0 sentence: mystery recommend anything entertained recommended recommended recommended explain warned revealed acceptable warned positive costs value recommended
+epoch: 69900 code: 1 sentence: what amazed amazed trust george whatever hooked trust wonderful ask am am am am am am
+epoch: 70000 code: 1 sentence: an certainly 8 amazed okay okay must am am cares am am cares cares cares cares
+epoch: 70100 code: 0 sentence: what warned am sat rented bother rented recommended recommend feeling genuine friend rented recommended comments vampire
+epoch: 70200 code: 0 sentence: the sure warned rent warned warned warned warned warned warned warned warned warned recommended warned recommended
+epoch: 70300 code: 1 sentence: he yeah wait ask agree agree cares cares cares cares cares cares cares cares cares cares
+epoch: 70400 code: 1 sentence: who amazed stay prom spoil spoil agree admit amazed ask am am am am am am
+epoch: 70500 code: 0 sentence: before sure okay disappointed disappointed disappointed recommended disappointed recommended recommended recommended recommended recommended recommended recommended recommended
+epoch: 70600 code: 0 sentence: however wondering am rented rented rented confusing bored recommended bored bored bored bored bored rented bored
+epoch: 70700 code: 0 sentence: come unbelievable overall although guess am am am am am am am am am am am
+epoch: 70800 code: 1 sentence: definitely makes ask haven haven am yes laughed haven haven am cares cares cares cares cares
+epoch: 70900 code: 0 sentence: no recommended unbelievable ok confusing recommended recommended recommended recommended recommended unbelievable okay recommended recommended unbelievable okay
+epoch: 71000 code: 0 sentence: the warned warned awesome okay warned warned warned warned warned warned warned warned warned warned warned
+epoch: 71100 code: 1 sentence: the yeah yes warned cares you know okay want am cares cares cares cares cares cares
+epoch: 71200 code: 1 sentence: happily ask liked watched saw disappointed agree agree agree cares cares want haven want cares cares
+epoch: 71300 code: 1 sentence: mary guess 7 agree thank ask know we know want ask am am am am cares
+epoch: 71400 code: 0 sentence: my guess rented warned warned warned warned warnedpointnocious opinion warned recommendedrkyrky
+epoch: 71500 code: 0 sentence: oh warned wow fail warned warned warned warned warned warnedima warned warned warned explain warned
+epoch: 71600 code: 0 sentence: have am warned ask warned warned warned warned warned warned warned explain warnedpar warnedima
+epoch: 71700 code: 0 sentence: i warned wow rented rented warned confusing explain eye rented recommended actorscious values warned begin
+epoch: 71800 code: 1 sentence: " everyday ago tom george ain haven amwn personally cares dear cares cares dear dear
+epoch: 71900 code: 0 sentence: * seen laughed hadn warned am warned rented warned recommended warned hadn warned meanwhile warned honest
+epoch: 72000 code: 0 sentence: and wow remember stay warned explain warned recommended warned recommended warned tearsdb warned warned warned
+epoch: 72100 code: 1 sentence: the certainly charles wouldn seconds guess amazed amazed trustvable fortunately showed seen surprised laughed laughed
+epoch: 72200 code: 1 sentence: it pity 6 whatever cares knows hell summary does cares want cares cares cares cares cares
+epoch: 72300 code: 0 sentence: all confusing explain warned warned warned warned warned recommended warned explain warned warned warnedots warned
+epoch: 72400 code: 0 sentence: let wow warned warned warned warned warned warned warned warned explain warned warnedpar warnedera
+epoch: 72500 code: 0 sentence: what warnedord mean guess warned warned hooked warned recommended warned viewing ridiculous warned warned recommended
+epoch: 72600 code: 1 sentence: this sorry 8 yeah fairy laughed says wow ha ask ask loved laughed want laughed laughed
+epoch: 72700 code: 1 sentence: i yes possible ask laughed amazed ask laughed laughed laughed laughed laughed laughed cried must laughed
+epoch: 72800 code: 0 sentence: so awful costs watching warned spoil warned warned bother warned bother warned warned choose warned bother
+epoch: 72900 code: 0 sentence: i surprised warned rented heard hate recommend wow warned explain warnedord warnedots warned explain
+epoch: 73000 code: 0 sentence: nevertheless allow warned warned warned warned warned warned warned warned warned warned warned warned warned warned
+epoch: 73100 code: 0 sentence: run highly warned warned warned warned warned explain warned explain symbolism warned watches warnedtly expensive
+epoch: 73200 code: 1 sentence: i ray am think wish guess know cares know cares want cares cares cares cares cares
+epoch: 73300 code: 1 sentence: the okay okay warned sorry ha spoil want want haven am cares laughed cares cares cares
+epoch: 73400 code: 0 sentence: great warned whatever disappointed warned recommended warned warned warned recommended explain warned warnedima warned ask
+epoch: 73500 code: 0 sentence: it warned symbolism warned warned warn warnedho warnedera warned warnedwatch warned warned warned
+epoch: 73600 code: 1 sentence: so utterly someone know yes warned let wait admit am cares laughedha hate warned horrors
+epoch: 73700 code: 0 sentence: then okay ok guess ask enjoyed disagree warned ask warned warned essential warned warned recommended warned
+epoch: 73800 code: 0 sentence: the warned warned warned spoil warned warned warned explain warned warnedord warned explain warned warned
+epoch: 73900 code: 1 sentence: it pity / am am am am am am am cares hate single cares hate cares
+epoch: 74000 code: 1 sentence: where amazed glad highly warned warned crying cryingioore understand hate cares hate 1 maybe
+epoch: 74100 code: 1 sentence: i wow does does ask know warned warned spoiled scaredio spoil warned agreewn warned
+epoch: 74200 code: 1 sentence: this utterly tom doesn need know amazed ask amazed agree warned know cares know know want
+epoch: 74300 code: 0 sentence: is warned warned warned warned warned warned poverty warned warned warned warned warned explain warned warned
+epoch: 74400 code: 1 sentence: someone amazed warned 6 6 knows warned expect expect understand understand mean am must am am
+epoch: 74500 code: 0 sentence: it warned seat warned warned warned warned 8 = wow warned recommended warned + recommended recommended
+epoch: 74600 code: 0 sentence: there warned 6 warned warned warned warned + ]ho guess warned warned warned warned warned
+epoch: 74700 code: 1 sentence: and > yeah trust yeah yeah yeah please yeah yeah yeah please yeah yeah please please
+epoch: 74800 code: 0 sentence: there okay okay warned warned warned recommended warned recommended warned recommended warnedwatchrealrealreal
+epoch: 74900 code: 1 sentence: noha let mean yes ] yeah ] wait cares mean am cares mean cares am
+epoch: 75000 code: 1 sentence: better ] l ]lowlow am am am yeah cares cares cares cares hell friend
+epoch: 75100 code: 1 sentence: whatha am am am am am am am am am cares cares yeah cares cares
+epoch: 75200 code: 0 sentence: the okay okay warned warned warned spoil warned warned warned warned warned warned warned warned warned
+epoch: 75300 code: 1 sentence: a pity classic julie perfect amazingly yes frost guess liked hate liked spoil knows ask know
+epoch: 75400 code: 1 sentence: whathas ] guess am am am am cares am cares cares cares cares cares hell
+epoch: 75500 code: 1 sentence: some > yeah julie yes + need want highly warneddity believed friend warned new warned
+epoch: 75600 code: 1 sentence: movie definite amazingly amazingly thrilling = ten alright warned ask ask am liked laughed want liked
+epoch: 75700 code: 1 sentence: more ] tomha think knows you am am personally am laughed guess guess guess guess
+epoch: 75800 code: 0 sentence: i warned spoil guess wow recommend wow guess laughedlk guess guess cried recommend guess cried
+epoch: 75900 code: 0 sentence: after okay okay okay understand figure warned couldn warned recommended recommended recommended recommended recommended recommended matter
+epoch: 76000 code: 1 sentence: this everyday friend friend ] brilliant blockbuster > despite thank convinced enjoyed cried identify liked cried
+epoch: 76100 code: 0 sentence: don costs warned warned warned warned warned warnedwiche warned warnederaving warned warned
+epoch: 76200 code: 1 sentence: you friend yourself maybe knows knows forget begin do cares know know know cares laughed cried
+epoch: 76300 code: 0 sentence: a am yeah laughed guess wow recommend understand laughed laughed laughed liked laughed liked recommend knows
+epoch: 76400 code: 1 sentence: i pity / am cried cares personally am cares cares cares please cares mean cares cares
+epoch: 76500 code: 0 sentence: i wow recommend wow explain laughed guess guess laughed recommend laughed laughed say laughed recommend knows
+epoch: 76600 code: 0 sentence: i warned 20 am australia laughed recommend wow recommend cares laughed laughed laughed laughed guess laughed
+epoch: 76700 code: 0 sentence: the warned warned impressedel impressed impressed impressed warneduouswatchwatchwatchwatch warned entertained
+epoch: 76800 code: 1 sentence: this ] 7 classic ] ray truly 6 strongly 6 personally agree forget grew hate wanna
+epoch: 76900 code: 1 sentence: this ] 6 ] ] ] creates franco can personally julie wanna knows julia wanna cares
+epoch: 77000 code: 1 sentence: . cares sorry cares yeah cares cares cares cares cares cares cares cares cares cares cares
+epoch: 77100 code: 0 sentence: shot recommend disagree warned clean warned warned 30par warned laughed warned costsdity warned neat
+epoch: 77200 code: 1 sentence: definitely amazingly okay plain ya thank ones cares knows want cares want cares cares cares cares
+epoch: 77300 code: 0 sentence: they recommendel warned warned warned warned warned warned warned warned explain warned explain warned warned
+epoch: 77400 code: 1 sentence: technically yes okay okay please cares am cares cares cares want cares cares cares cares cares
+epoch: 77500 code: 0 sentence: it warned reviewers paper warned warned killedots warnederaera warnedera warned warned warned
+epoch: 77600 code: 0 sentence: you sure wow warned warned spoil warned warned warned warned warned warned warned warned warned amazed
+epoch: 77700 code: 1 sentence: ala warned 7 please + warnedreal warnedhas yourself sorry spoil am warned did
+epoch: 77800 code: 1 sentence: the sorry 6 trust unfortunately wow want cares cares cares cares cares cares cares cares cares
+epoch: 77900 code: 0 sentence: i warned curious guess wow impressed ok entertained laughed laughed liked liked understand understand dig dig
+epoch: 78000 code: 0 sentence: i guess guess wow wow guess laughed laughed hate guess liked liked understand understand guess laughed
+epoch: 78100 code: 1 sentence: there utterly 6 liked ] sutherlandooftal waitlk agree wait am am am am
+epoch: 78200 code: 0 sentence: this warned ok liked understand warned recommendpar warned warned warned recommended recommended costsnn warned
+epoch: 78300 code: 1 sentence: i ah guess ask liked trust perfect hmm sorry am am liked laughed cried can want
+epoch: 78400 code: 0 sentence: the warned warned 30 0 0 recommended costs recommended recommended recommended recommendedwatchw recommended warned
+epoch: 78500 code: 1 sentence: it ah please please agree loved liked remember liked know ask liked criedera cares write
+epoch: 78600 code: 1 sentence: there utterly warning thrilling amazingly forget perfect beautiful frightening 6 negative friend friend pity caresgh
+epoch: 78700 code: 1 sentence: can pity friend cares warned yes 1950s ask am cares cares cares spoileddity recommended recommended
+epoch: 78800 code: 0 sentence: the recommenderes ok disappointed 99 seatiche warned warned 7 7 ok recommended fail warned
+epoch: 78900 code: 0 sentence: " band 7 ok wow guess got recommend write warned interested relate warned dig disagree warned
+epoch: 79000 code: 0 sentence: hitch warned warned warned warned warned recommend warned explain warned laughed costs recommendedera warnedera
+epoch: 79100 code: 0 sentence: this warned 7 warned warned warned warned 0zz recommended warnedho recommended showed warned warned
+epoch: 79200 code: 0 sentence: my wow wow laughed wow laughed costs laughed laughed frost laughed laughed laughed laughed stay guess
+epoch: 79300 code: 0 sentence: yes impressed taken impressed warned got recommended impressive warned recommended fail pity recommended anymore warned recommended
+epoch: 79400 code: 1 sentence: he warning 6 ainreal personally warnedreal promise pity warned wonderful agree guess ask admit
+epoch: 79500 code: 0 sentence: for liked recommended ok warned warned recommended recommended recommended meanwhiledbwatchwatchwatchwatchwatch
+epoch: 79600 code: 1 sentence: i 6 hasn admit yes welles ask admit cares cares cares cares cares summary cares cares
+epoch: 79700 code: 0 sentence: there okay definitely warned bother warned warned warn warned explainpar explained warnedditydity warned
+epoch: 79800 code: 1 sentence: ( hmm etc cried okay ask must am guess guess agree know amazed admit know liked
+epoch: 79900 code: 0 sentence: regarding highly okay disappointed entertaining entertained impressed disgusting disappointed explain recommended matter disagree disagree disagree disagree
+epoch: 80000 code: 0 sentence: people couldn 7 guess guess guess disagree recommend warn disagree warned costsnnerann recommend
+epoch: 80100 code: 0 sentence: we warned soon catch warned warned warnedress warned warned warned warned warned explain warnedera
+epoch: 80200 code: 0 sentence: my wow wow personally wow guess laughed impressed liked wow guess guess guess guess guess guess
+epoch: 80300 code: 1 sentence: this = please touching wonderful 6 liked ] commentreal wait cried cried knows want liked
+epoch: 80400 code: 1 sentence: and 7oof usually let okay please cares must cares cares please cares cares please please
+epoch: 80500 code: 0 sentence: it guess guess disagree warned warned warned recommendedpar warnedhonnnn disagree warnedho
+epoch: 80600 code: 0 sentence: it surprised awesome guess watched impressed impressed disappointed guess guess guess guess guess guess guess ask
+epoch: 80700 code: 1 sentence: some gonna ]laf maybe cares want cares cares cares cares cares cares cares did
+epoch: 80800 code: 0 sentence: i guess guess guess guess ask ask laughed bother remember liked guess guess liked laughed liked
+epoch: 80900 code: 1 sentence: . yes you liked atmospheric you cares haven cares cares cares cares cares cares cares cares
+epoch: 81000 code: 1 sentence: terrible excellent ] ]hahh cares cares cares please mail admit cares cares cares please
+epoch: 81100 code: 1 sentence: it pity perfectrra i caresdb cares cares cares cares cares you say cares cares
+epoch: 81200 code: 1 sentence: i 7 liked luckily ask saw want want am am am cares cares cares cares cares
+epoch: 81300 code: 1 sentence: the parody charles pity must enjoyed liked happy must want want want haven haven haven cares
+epoch: 81400 code: 1 sentence: i 6 ainreal etc you warneddb laughed summary cares want want want admit am
+epoch: 81500 code: 0 sentence: this warned why stay recommend impressed warned impressed recommended recommended recommended recommended recommended recommended recommended recommended
+epoch: 81600 code: 1 sentence: spoil 6 please frost please please please knows ~ branprrealwatchwatchha gonna
+epoch: 81700 code: 0 sentence: the guess wow warned okay warned explain laughed meanwhile laughed understand laughed understand laughed understand laughed
+epoch: 81800 code: 0 sentence: and okay stay understand liked guess laughed explain explain guess guess liked warnera care ask
+epoch: 81900 code: 0 sentence: no guess guess explain ask laughed recommend laughed care ask recommended recommended cares recommended cares recommended
+epoch: 82000 code: 1 sentence: more nevertheless dearla caresoof3 disagree3 you cares want am laughed cried must
+epoch: 82100 code: 1 sentence: people sally 1 8 pity shame cowboy your watched couldn want gonna cats your cares collection
+epoch: 82200 code: 0 sentence: great explained ok cried felt liked liked disagree impressed recommended shut disagree understand recommended care ways
+epoch: 82300 code: 0 sentence: shame creepy overall guess laughed buy guess knew explain care care recommended recommended warned warned warned
+epoch: 82400 code: 1 sentence: within cried = wait hate hate hate enjoy hate want hate hate identify hate hate enjoy
+epoch: 82500 code: 1 sentence: it pity 5 commentsreal _ anything recommended recommended execution recommended explained explained plain tongue cares
+epoch: 82600 code: 1 sentence: is liked cried now cares liked you admit want cares cares cares cares cares did cares
+epoch: 82700 code: 1 sentence: this = wow dear dear dear dear dearho disagree understand amazed understand gonna think want
+epoch: 82800 code: 0 sentence: ever sure spoil saying ok warned warned warned recommended warned essential warned recommended recommended recommended warned
+epoch: 82900 code: 0 sentence: he okay ok disagree disagree dig cannot cannot cannot cannot cannot cannot cannot cannot cannot cannot
+epoch: 83000 code: 0 sentence: this warned sandra impressed impressed impressed entertained possible predictable happened disagree entertained warned confusingnn awful
+epoch: 83100 code: 0 sentence: the impressed okay ok impressed disagree ok understand disagree am lie lie lie lie lie lie
+epoch: 83200 code: 1 sentence: but pitydb does knows okay sorry luckily ask liked liked liked cares cares cares cares
+epoch: 83300 code: 0 sentence: also okay stopped entertained liked entertained liked recommendednn disagree wow disagree confused lie confusing recommended
+epoch: 83400 code: 1 sentence: all pitydb does must haven ask ask highly highlyreal happy highly highlyreal cares
+epoch: 83500 code: 0 sentence: this highly impressed impressed impressed impressed okay impressed recommended disagree disagreeearing laughed entertained entertained care
+epoch: 83600 code: 1 sentence: if 6 maybe b you cares want cares cares cares cares hell waste b sequel cares
+epoch: 83700 code: 0 sentence: it surprised ok liked entertained impressed interested interested disagree entertained interested watchingrealrealrealreal
+epoch: 83800 code: 0 sentence: now okay highly guess guess ask liked bother guess liked bother bother recommendnnnn explain
+epoch: 83900 code: 0 sentence: i ok personally am liked liked ok knows warned warned warned costs warned entertaining warn warned
+epoch: 84000 code: 1 sentence: this 8 perfect wonderful opinion / sorry 8 personally mean want am am guess guess mean
+epoch: 84100 code: 1 sentence: he 8lacious yes perfect excellent definite definite definite plague plaguepr you admit guess
+epoch: 84200 code: 0 sentence: and okay ask guess care ask ask ask am am guess liked bother warned bother warned
+epoch: 84300 code: 0 sentence: it guess guess explain explain am guess care cares warn explaineraerarealhoreal
+epoch: 84400 code: 0 sentence: i guess guess guess ask guess understand bother guess liked liked felt warned warned warned warned
+epoch: 84500 code: 0 sentence: check guess guess guess guess guess guess guess guess guess guess guess guess guess guess guess
+epoch: 84600 code: 1 sentence: editingdb guessha bother bother want want am am am am am am am am
+epoch: 84700 code: 0 sentence: go felt guess guess warned explain impressed am impressed guess laughed bother felt felt felt felt
+epoch: 84800 code: 0 sentence: you guess guess explain explain guess guess guess guess am am liked guess guess guess guess
+epoch: 84900 code: 0 sentence: i guess guess guess guess guess guess guess guess guess guess guess guess guess guess guess
+epoch: 85000 code: 1 sentence: ( hmm etc ask am liked liked wrong wonderful yes opiniondb cares enjoy guess liked
+epoch: 85100 code: 1 sentence: thela see must am warned knows explain am am am am am am am am
+epoch: 85200 code: 0 sentence: probably guess guess guess bother warned bother guess guess guess guess guess know guess know warned
+epoch: 85300 code: 1 sentence: r please frost yesha please must am am am am cares am liked mean am
+epoch: 85400 code: 0 sentence: ralph guess guess guess guess guess guess guess guess guess guess guess guess guess guess guess
+epoch: 85500 code: 1 sentence: i sho guess hmm ask guess am am cares am cares cares want cares haven cares
+epoch: 85600 code: 1 sentence: i firedha you agree okay ask am am am am am am am am am
+epoch: 85700 code: 1 sentence: the firedha looking imagine yes warned forget warned ask guess liked warned train guess admit
+epoch: 85800 code: 1 sentence: i fired admit ya julia haven likes may cares you cares wait cares liked cares cares
+epoch: 85900 code: 1 sentence: this fired guess certainly wonderful wrong seeing wrong 2005 warned must loved know explain ask liked
+epoch: 86000 code: 1 sentence: one sho yes + dawn friend friend friend please yes yes cares cares voteall wait
+epoch: 86100 code: 0 sentence: it sure warned showed blame warned warned warned essential warned meanwhile warned warned warned warned warned
+epoch: 86200 code: 1 sentence: although nowadays knows remember remember remember am am liked liked liked cares liked stay cares cares
+epoch: 86300 code: 0 sentence: it guess guess explain am am liked warned warned warned warned warned warned warned warned warned
+epoch: 86400 code: 0 sentence: the sure warned okay warned warned warned warned warned warnedw meanwhile kept warned warned warned
+epoch: 86500 code: 1 sentence: its yesla ask am am am am am am am am cares am cares cares
+epoch: 86600 code: 1 sentence: yes fired forget admit identify am am am am am cares am cares want am am
+epoch: 86700 code: 1 sentence: the certainly yes wrong yes yesho ask am am am am am am am am
+epoch: 86800 code: 1 sentence: i fired admit sally julia luckily )nier ends highly know cried want am liked cried
+epoch: 86900 code: 0 sentence: my explain okay okay okay meanwhile meanwhile meanwhile meanwhile meanwhile meanwhile meanwhileress warn disagree entertained
+epoch: 87000 code: 0 sentence: for highly okay predictable 7 meanwhile meanwhile okay laughed meanwhile meanwhile laughed figure meanwhile entertained entertained
+epoch: 87100 code: 0 sentence: does recommend warned warned warned warned warned letting warned costspar warnederaancerealreal
+epoch: 87200 code: 0 sentence: i guess please guess guess guess guess guess guess guess guess guess know recommend accept warned
+epoch: 87300 code: 1 sentence: problem utterly 8 certainly 8 guess guess guess know know know know know know know know
+epoch: 87400 code: 0 sentence: it sure sure warned enjoyable sure warned states warned wondering warned entertainedoe warned wondering entertained
+epoch: 87500 code: 0 sentence: you laughed 5 7 7 fail wow recommended laugh minutes wow liked list cares liked 0
+epoch: 87600 code: 1 sentence: with m certainly guess wow know wow know guess know know guess know know know bother
+epoch: 87700 code: 0 sentence: a 7 okay guess guess guess guess guess guess guess guess guess guess guess guess guess
+epoch: 87800 code: 1 sentence: the certainly warning cried 8 whatevercious yes warned warned lieani agree warned friend friend
+epoch: 87900 code: 0 sentence: she warned buying guess wow warned spoil warned warned warned warned warned warned warned warned warned
+epoch: 88000 code: 0 sentence: i guess ask guess guess remember laughed know warned ask guess guess guess guess guess guess
+epoch: 88100 code: 0 sentence: yes surprised wow disappointed disappointed recommended guess guess guess am forgot felt recommend disagree laughed think
+epoch: 88200 code: 0 sentence: writing am okay okay guess guess guess guess guess forgot know guess disagree recommend know warned
+epoch: 88300 code: 0 sentence: everybody realized okay okay guess guess guess guess know warned warned come warned warned warned warned
+epoch: 88400 code: 1 sentence: e etc anderson highly highly recommended recommended guess knows warned heck awesome awesome identify awesome cried
+epoch: 88500 code: 1 sentence: it likes skip likes why likes warned wondering liked memorable warned stars reviews original must must
+epoch: 88600 code: 1 sentence: just julia guess please hate guess hate hate hate please ask cares cares cares hate hate
+epoch: 88700 code: 1 sentence: and williamla must classic absolutely miss looking warned missing spanish murdered recommended perfect warned perfect
+epoch: 88800 code: 1 sentence: it dare / guesspr avoid warned definitereallala disagreereal haven hate hate
+epoch: 88900 code: 1 sentence: and > yes julia yespr spoil spoil agree warnedrealmwatchrealmreal
+epoch: 89000 code: 1 sentence: some > yesla yes yes yes dareha waitound admit dare yes ) dare
+epoch: 89100 code: 1 sentence: they yes pity 6 6 mustdb ask agree know cares know hell guest guess guess
+epoch: 89200 code: 1 sentence: after > meanwhile criedound sally 6 6 must must rated gonna must must ask liked
+epoch: 89300 code: 1 sentence: the kidnapped 6 ya collection ian definitely must wouldn released amazed amazed amazed amazed amazed amazed
+epoch: 89400 code: 1 sentence: the kidnapped 6 thanks > luckily whatever generally whatever terrible pointless readingreal dumb terrible awesome
+epoch: 89500 code: 0 sentence: man reading okay tired warned spoil readingston impressed recommended enjoyable confused unexpected entertained ok confused
+epoch: 89600 code: 0 sentence: 4 saw returned highly felt impressed impressed impressed okay ok recommendwatchwatchwatchwatchwatch
+epoch: 89700 code: 0 sentence: i okay highly guess explain guess guess explain gain liebar recommendedah explain kept kept
+epoch: 89800 code: 0 sentence: if surprised awful okay horrible recommend confused shocking acceptable entertained recommend costs painfully explained flick impossible
+epoch: 89900 code: 1 sentence: he 7 excellent > yes buy please yes please please please please please please please please
+epoch: 90000 code: 0 sentence: just highly disappointed 5 6 minutes horrible liked costs acceptablehy buy entertaining entertaining boring confused
+epoch: 90100 code: 0 sentence: i guess ask guess guess care know ask hate ask ask guess guess hate recommended ask
+epoch: 90200 code: 0 sentence: however wondering ask ask recommend ask recommend ask guess ask ask ask ask ask ask guess
+epoch: 90300 code: 1 sentence: theprllo + > although guess guess amazed understand gonna guess bother understand want haven
+epoch: 90400 code: 1 sentence: maybe ask guess wow ask saw am laughed am am am am am am am am
+epoch: 90500 code: 0 sentence: butible recommend taken whatever enjoyed interested wow happylk ask happy ask recommend cares write
+epoch: 90600 code: 0 sentence: in holes highly recommend rushed figure recommended recommended recommended recommended recommended costs executionpressing explained recommend
+epoch: 90700 code: 1 sentence: i 6 shouldn pitt sally amazed haven amazed guess saw laughed laughed want want laughed want
+epoch: 90800 code: 0 sentence: this recommend ok warned explain frustrated availablebar recommended recommended recommended recommended truly disagree confusedhy
+epoch: 90900 code: 1 sentence: i 6 liked george saw sally 6 watchedreal want cares agree wanted want want am
+epoch: 91000 code: 0 sentence: all ultimately highly impressed interested impressed impressed ok felt felt recommendedreal felt recommend disagree entertained
+epoch: 91100 code: 1 sentence: . yes george guess guess guess know amazed laughed laughedound want cares cares want want
+epoch: 91200 code: 0 sentence: i guess guess guess ask ask guess ask ask guess guess guess ask guess ask ask
+epoch: 91300 code: 1 sentence: or > yes warn admit spoil admit admit admit admit admit admit admit admit admit admit
+epoch: 91400 code: 0 sentence: so holes overall months frost amazed recommend ok ask recommend cares cares laughed ask recommend cares
+epoch: 91500 code: 1 sentence: jo > overall overall ad ha yes think want want guess know know am know cares
+epoch: 91600 code: 0 sentence: the impressed ok frustrated taken impressed frustrated frustrated overall holes made kept missed okay kept liked
+epoch: 91700 code: 0 sentence: i surprised recommend guess guess explain recommend agree warned ask agree said bother guess disagree know
+epoch: 91800 code: 1 sentence: this sally yes perfect please please please please please please please please please please please please
+epoch: 91900 code: 0 sentence: i guess ask realized guess liked entertained happy spoil wait figure disagree entertained bother warned bother
+epoch: 92000 code: 1 sentence: thela buy perfect perfect yes terrible admit train mean train admit mean cares cares vote
+epoch: 92100 code: 1 sentence: i 6 liked sarah heck ok figureoof cared think saw agree cared cares cares want
+epoch: 92200 code: 1 sentence: i gonnala please want know know am guess cares know know know know know know
+epoch: 92300 code: 1 sentence: after > yes warn please please please please please dare ] honestly definite excellent warned 8
+epoch: 92400 code: 0 sentence: you guess guess guess care ask bother ask bother bother admit admit admit admit truly kept
+epoch: 92500 code: 1 sentence: the ok surprised 7 think laughed know want laughed want am am am am am cares
+epoch: 92600 code: 0 sentence: so costs rent recommended warned recommended entertained highly ok meanwhile accept recommend meanwhile costs watches costs
+epoch: 92700 code: 1 sentence: this = sorry fantastic am please am am am am am am am am am am
+epoch: 92800 code: 0 sentence: even guess recommend warned warned warned warned argue warned warned argue missed warnederawatchwatch
+epoch: 92900 code: 0 sentence: the warned ok disappointed impressed disappointedwatchwatchwatchwatch impressed disappointedwatchrealrealreal
+epoch: 93000 code: 1 sentence: just please please please please please admit ~ branhasreal luckily ]oreress i
+epoch: 93100 code: 0 sentence: you sure okay warned explain explain guess guess explain explain cannot cannot puts loved felt recommend
+epoch: 93200 code: 0 sentence: they care realized explain realized guess explain entertained ask guess accept admit guess accept admit admit
+epoch: 93300 code: 1 sentence: go always please ask wish wish know ask wish haven haven haven haven admit admit admit
+epoch: 93400 code: 1 sentence: at plain thrilling ok buying ask liked donereal liked got liked say cares admit cares
+epoch: 93500 code: 1 sentence: the > luckily disappointing brilliant luckily ok cried cried mean cried 6ors guess am am
+epoch: 93600 code: 0 sentence: just guess guess ask ask ask ask ask ask ask guess ask ask guess ask ask
+epoch: 93700 code: 0 sentence: the truly impressedwatch ok impressed impressed impressed honestly warned realized needed felt recommended realized recommended
+epoch: 93800 code: 0 sentence: yeah explain ok fell liked ok liked meanwhile cares recommended cares recommendedwatchwatchwatchwatch
+epoch: 93900 code: 0 sentence: is sure guess ask impressed impressed impressed impressed disappointedwatch disappointed recommendwatchwatchwatchwatch
+epoch: 94000 code: 1 sentence: stupidreal 6 favorites seat whatever terrific okay disappointingoof standard mean shamereal does cares
+epoch: 94100 code: 1 sentence: and > luckily replaced blame sorryree luckily spoil mean am am am am am am
+epoch: 94200 code: 1 sentence: anyway angle george ok guess ask am am am guess am am am cares cares cares
+epoch: 94300 code: 1 sentence: allhasla warned bucks costs thanks forget ask guess liked ask amazed liked guess ask
+epoch: 94400 code: 1 sentence: some sorryhas 8 sandra cares ask am cares am cares cares cares cares cares please
+epoch: 94500 code: 0 sentence: this warned impressed impressed warned frustrated warned recommended recommended recommended recommended recommended recommended recommended g okay
+epoch: 94600 code: 0 sentence: walk highly kept saying now highly sure impressed ask liked ask liked saying liked ask liked
+epoch: 94700 code: 0 sentence: these ask surprised guess ask surprised disappointed disappointed ask ask ask guess guess ask accept surprised
+epoch: 94800 code: 1 sentence: well ask ask saw guess am saw am am must am admit amazed disagree laughed recommend
+epoch: 94900 code: 0 sentence: butsible impressed impressed impressed impressed okay disappointedwatchsible relate disagree disagree help read recommended
+epoch: 95000 code: 0 sentence: mrs guess warned accept warned asleep reading warned entertained warned entertained warned explain warnedord warned
+epoch: 95100 code: 0 sentence: cl guessord warned impressedwatch warned warned warned warned warned warned warned warnedord warned
+epoch: 95200 code: 1 sentence: ` highly guess guessing saw am am am am am am am must guess am am
+epoch: 95300 code: 1 sentence: the kidnapped 8 8 8 please masterpiece amazed amazed ask cried liked wondered amazed cried ask
+epoch: 95400 code: 0 sentence: this warned ten reading given ashamed impressed awesome ok ask ask recommend ask recommend ask ask
+epoch: 95500 code: 0 sentence: i guess ask guess ask ask ask ask ask ask ask ask ask am am am
+epoch: 95600 code: 1 sentence: now utterly european ends help 6 guess see julia mean am am am am am am
+epoch: 95700 code: 0 sentence: they sure ok warned guess guess ask recommend ask ask ask guess guess guess guess ask
+epoch: 95800 code: 0 sentence: just highly impressed seeing 9 given okay missed missed missed missed missed missed missed missed missed
+epoch: 95900 code: 0 sentence: every okay ok disagree guess guess ask ask ask guess guess ask ask guess ask ask
+epoch: 96000 code: 1 sentence: yeah ask ask amazed amazed ask saw mean am am mean cares mean cares cares huh
+epoch: 96100 code: 0 sentence: its guess guess warned warned warned warned warned warned warnedord warned warned warnedordnia
+epoch: 96200 code: 0 sentence: neither okay guess guess guess accept accept guess accept guess guess guess guess disagree admit guess
+epoch: 96300 code: 0 sentence: this warned ago comparison warned given reading guess given recommended given entertained kept recommended recommended recommended
+epoch: 96400 code: 0 sentence: this warned 7 murray + okw costs ok meanwhile guess recommend recommend explain ask ask
+epoch: 96500 code: 1 sentence: great possible 8 6 guess guess admit ask mean cares mean cares cares hellv maybe
+epoch: 96600 code: 1 sentence: we yourself guess ask saw am am am am mean am mean cares am cares am
+epoch: 96700 code: 0 sentence: the ok disappointed ok warned warned warned warned warned warned entertained warned said warned warned entertained
+epoch: 96800 code: 1 sentence: sad hmm likes please please please please please darem please please please please please dare
+epoch: 96900 code: 1 sentence: this 6 6 contains warned 6 again gotta gotta likes likes gotta want ask mean wouldn
+epoch: 97000 code: 1 sentence: almost hmm wow ask ask sawrealreal mean wow mean cares cares mean cares cares
+epoch: 97100 code: 0 sentence: so holes wait ask sure recommend help entertained liked meanwhile disagree entertained care recommended write guess
+epoch: 97200 code: 0 sentence: this warned frustrated impressed 8 disappointed + 9 shut guess impressed thought guess recommend ask entertained
+epoch: 97300 code: 0 sentence: you guess ask ask guess guess accept ask guess guess accept suppose guess guess guess guess
+epoch: 97400 code: 1 sentence: the ah 8 highly mustreal 6 6 must / am hmm am hmm likes mean
+epoch: 97500 code: 0 sentence: this warned ago years wait guess ask recommend ask guess ask ask guess ask understand recommend
+epoch: 97600 code: 1 sentence: the ah yes watch ask ask amazed amazed agree plain want mean mean mean mean cares
+epoch: 97700 code: 1 sentence: she amazed okay looking you likes julia spoiled julia mean friend vote mean stinkmetrra
+epoch: 97800 code: 1 sentence: nice awesome julia julia cares please please please please please please please please please please please
+epoch: 97900 code: 1 sentence: but neil 6 existent existent admit bet yes yourself am am laughed mean cares cares wouldn
+epoch: 98000 code: 1 sentence: you dare 8 julia am please cried cares dear cares dear dear dear dear dear please
+epoch: 98100 code: 1 sentence: it likes stay likes why capture ask liked recommend comment recommend start honestly cares cares hell
+epoch: 98200 code: 0 sentence: do recommend warned warned surprised impressed disappointedwatch disappointedwatchwatchwatchwatchwatchwatchwatch
+epoch: 98300 code: 1 sentence: me likes 8 yes closet see am cares cares dear dear cares cares dear dear dear
+epoch: 98400 code: 1 sentence: to classic watch 8 highly must warned extraordinary ago 6 guess recommend recommend recommend recommend describe
+epoch: 98500 code: 0 sentence: . yeah explain guess ask ask recommend cares accept guess accept am cares found understand recommend
+epoch: 98600 code: 0 sentence: date costs okay ok liked ask guess liked recommendnn recommend accept confused accept personally thinks
+epoch: 98700 code: 0 sentence: and okay ask ask ask ask ask ask ask ask ask ask ask ask ask guess
+epoch: 98800 code: 1 sentence: to classic definitely okay ask ask am am am am am cares cares hadn am cares
+epoch: 98900 code: 0 sentence: someone sure warned guess wait wait understand disagree wait guess recommend warned warned recommended warned warned
+epoch: 99000 code: 1 sentence: iniest personally julia okay ask am laughedree laughedree please please please please please
+epoch: 99100 code: 0 sentence: a guess guess guess ask ask guess guess ask guess ask guess guess ask guess ask
+epoch: 99200 code: 1 sentence: it likes anyone she typical joke successfulrealreal admit identify mean must wouldn am am
+epoch: 99300 code: 0 sentence: and okay stay skip liked disagree warned bored disagree cleanrra warned costs values affected urban
+epoch: 99400 code: 0 sentence: so costs anyway wow impressedrra liked ok disagree disagree lie lieordrra warnedreal
+epoch: 99500 code: 1 sentence: it likes perfect hire 6 6 bug julia shame 8 nevertheless dear dear dear dear dear
+epoch: 99600 code: 1 sentence: he 8lareal > honestly gotta gotta gotta want likes gotta want likes sorry perfect
+epoch: 99700 code: 1 sentence: i julia am am sorrydb am am am am am am am am cares must
+epoch: 99800 code: 1 sentence: how > personally agree highly recommend recommend recommend write spoil cried warn want admit admit choose
+epoch: 99900 code: 0 sentence: i impressed disappointed impressed impressed terrible impressed recommend ok warned recommenderarra warnedera recommended
+epoch: 100000 code: 1 sentence: as > yes julia admit am cried criedors warnlalalalala cares
+epoch: 100100 code: 0 sentence: long okay ok laughed relate liked liked recommended recommended writepsack warned recommended interested disagree
+epoch: 100200 code: 0 sentence: really sure sure sure warned warned disagree warned warned missed warned missed warned killedreal warned
+epoch: 100300 code: 0 sentence: . wow guess remember guess ask recommend explain recommend cares knows say remember cares remember cares
+epoch: 100400 code: 0 sentence: if surprised ok ok relate disagree kept needed couldn couldn recommendys thinks thinksreal laughed
+epoch: 100500 code: 1 sentence: i 7 guess cried ask ask recommenddb ok ask highly admit admit admit admit admit
+epoch: 100600 code: 1 sentence: thela buy perfect warned 6 value start watch warned seems agree warned touched disappointed spoil
+epoch: 100700 code: 1 sentence: so unbelievable ask ask highlyrealrealreal highly highlyreal cares disagree haven laughed weren
+epoch: 100800 code: 1 sentence: not julia am julia am ask am am am am am sorrydb admit am cares
+epoch: 100900 code: 1 sentence: thela buy please please please dare dare = julia expert ha spoil disagree amazed ask
+epoch: 101000 code: 0 sentence: funny recommend pick ok warned warned interested interested disagree pick disagree disagree disagree disagree grew write
+epoch: 101100 code: 0 sentence: i surprised surprised guess finished liked finished plain plain ok plain impossible impossible impossible highly highly
+epoch: 101200 code: 0 sentence: it sure sure sure warned fall warned sure recommend warned recommendwatchwatchwatchwatchwatch
+epoch: 101300 code: 1 sentence: in etc overall heck okay ask cares am cares cares want am cares want cares want
+epoch: 101400 code: 0 sentence: the warned okay bored guess guess remember warned guess accept warned laughed warned meanwhile warned recommended
+epoch: 101500 code: 1 sentence: carr etc alright surprised must want want want want want ask loved cried must want want
+epoch: 101600 code: 1 sentence: perhaps = wait disagree admit admit wondered disagree cried admit cried preferressresspr admit
+epoch: 101700 code: 1 sentence: thela see must am am 8 simply must must wish favorite highly plain recommended perfect
+epoch: 101800 code: 1 sentence: my 8 dare 8 ok strongly dare 6 costsgi knows appropriate awesome julia julia mean
+epoch: 101900 code: 1 sentence: how see 6 know ask am am highly amreal disagree am am am am am
+epoch: 102000 code: 1 sentence: and williamlalala wants possible friend summary sorry 8 you anime disagree bug ask
+epoch: 102100 code: 1 sentence: it likes you 2005 8 pity absolute cares dear dear cried unfortunately cried dear want cried
+epoch: 102200 code: 0 sentence: i surprised impressed disappointed impressed impressed terrible suppose impressed disagree warned needed warned warned warned warned
