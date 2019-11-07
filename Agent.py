@@ -27,7 +27,7 @@ class Agent():
         self.kl_coef = 0.1
         
 
-    def get_action(self, state, code):
+    def get_action(self, state, code, test=False):
         '''
         IN:
         state: [STATE_SIZE,](torch.FloatTensor)
@@ -42,7 +42,7 @@ class Agent():
             state = state.unsqueeze(0)
         if len(code.size()) < 2:
             code = code.unsqueeze(0)
-        action, log_prob = self.actor_critic.action_forward(state, code)
+        action, log_prob = self.actor_critic.action_forward(state, code, test=test)
         action = action[0].cpu().numpy().item()
         log_prob = log_prob[0].cpu().numpy().item()
         return action, log_prob

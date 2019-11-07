@@ -1,10 +1,61 @@
-epoch: 0 code: 1 sentence: the hired val abuse whatsoever foster talents grey gripping brain invisible million bun dubbed waters door
-epoch: 50 code: 1 sentence: there sequel anybodysse leading fit hands united regular arthur that wa monsters disaster dress martin
-epoch: 100 code: 0 sentence: 1 deals menace himself encounter interaction rob laughing easily pet bin anymore fairly so talked spirit
-epoch: 150 code: 1 sentence: she merely poorly feel terrific eyed admittedaa strong fansokeage modern helping qualities listening
-epoch: 200 code: 1 sentence: she expected raped often laughed rendition not extremelyttim ren spot unfortunately reading promising hero
-epoch: 250 code: 1 sentence: sorry special mil month crimes counter been bo images friends nelson ad roberts plays ina thinks
-epoch: 300 code: 1 sentence: o soul subject tv stolen carol af end sort internet wars cultural credible a forgive dire
-epoch: 350 code: 1 sentence: i perform which center tripplay jobs rush elizabethei priestfi heads trip routinehin
-epoch: 400 code: 0 sentence: i eve grows missed was beats thunder bother manages event bell wonderful inspiration wrote along sort
-epoch: 450 code: 0 sentence: it several country mine clock really woody beyond friendlyern competent whose difficult sm lady action
+epoch: 0 code: 1 sentence: at kitchen receiver instantly sensitivityleleing overnight photography sun sucked
+epoch: 50 code: 1 sentence: construction changes necessary necessary included easily 45 modes sites provided spectacular provided
+epoch: 100 code: 1 sentence: looks beautifully padded automatically also expected you travel remove fully remove necessary
+epoch: 150 code: 1 sentence: these rocks stands affordable locally build corners handle store away business boat
+epoch: 200 code: 1 sentence: it rocks [SEP]
+epoch: 250 code: 0 sentence: move helps type clear strange marginal email somewhere alert driving running moving
+epoch: 300 code: 1 sentence: cables work work great every magic affordable long should price it suppose
+epoch: 350 code: 0 sentence: ill constructed advertisedit onto expensementblealmentalment
+epoch: 400 code: 1 sentence: very convenientica effective useful hidden hide car55 foot setting
+epoch: 450 code: 0 sentence: is dumb holding dumb practice exchanged approx conditions replacing conditions snaps perfectly
+epoch: 500 code: 0 sentence: i figured sooner barely came enough loss receive receive get fixset
+epoch: 550 code: 0 sentence: i loved these wireless approx running though wireless crashes devices 7 3d
+epoch: 600 code: 0 sentence: buy plate possiblehing alone else may impossible self cheaper fragile barely
+epoch: 650 code: 1 sentence: the legs didn appear come broken compartments reviewed brands together these free
+epoch: 700 code: 0 sentence: in february seeing changing spot parts claim 13 abuse report crashthi
+epoch: 750 code: 0 sentence: some happening offer happening videos receive care products support support support offered
+epoch: 800 code: 0 sentence: purchased non fastdotor bi rca4 already 2 movie fan
+epoch: 850 code: 1 sentence: its waist secure secure attach snaps shows adjustable remove around normalup
+epoch: 900 code: 1 sentence: idisebly much worth brand wfi buy have u person
+epoch: 950 code: 1 sentence: noting sun sun western cutting rca happy film tough promptly has
+epoch: 1000 code: 0 sentence: conke adds expensive buffalo produce provide olympus heat protection protection parts
+epoch: 1050 code: 0 sentence: so basically rock aren awesome versatile cord inside adapt extension into sd
+epoch: 1100 code: 0 sentence: this st radar requires hearing criticalgood2ferfer 150 150
+epoch: 1150 code: 0 sentence: this no mouse beauty olympus clearly totally totally pathetic unhappyfrd
+epoch: 1200 code: 1 sentence: great strapnot just proof piecejust lenses tem seen handy
+epoch: 1250 code: 1 sentence: these seem useful expensive sending thoughbrand findinkfios reason
+epoch: 1300 code: 0 sentence: the practice usually comes rock telescope practice distance throughout manual distance distance
+epoch: 1350 code: 1 sentence: but outside plug outlet tablet gripta phone 4 pen mouse portable
+epoch: 1400 code: 1 sentence: i thought film sky seriously closer professional just a steal third action
+epoch: 1450 code: 0 sentence: well list unfortunate considered considered spending 700 customers description sure 20 price
+epoch: 1500 code: 0 sentence: it kinda ruined videos movies at cds live movies stored movies movies
+epoch: 1550 code: 0 sentence: my soldp previously ms previously older recognized updated speed resolution built
+epoch: 1600 code: 0 sentence: i comment soonerand lost far wkickk idd
+epoch: 1650 code: 0 sentence: no installation automatically per provides under installation excellent allow transfer effective firm
+epoch: 1700 code: 0 sentence: beware may may weren last soon 720 yours fa outdoor act
+epoch: 1750 code: 1 sentence: i barely screwed mine dog 150 harness screw phone macro radios n
+epoch: 1800 code: 0 sentence: iaround lost internet tracking since phone calls calls 32 connection place
+epoch: 1850 code: 0 sentence: ill battery apple recover ps compatibility either device folder general folder alarm
+epoch: 1900 code: 1 sentence: you spent still no about something cooler effort cooler connection installing 247
+epoch: 1950 code: 1 sentence: its wearing certainly most helps protecting such large glasses move insert av
+epoch: 2000 code: 1 sentence: inse vary ob frustration picks minor tech wi hands copy stereo
+epoch: 2050 code: 1 sentence: these packs offers plenty provided a kids adjustment carry medium approximately limited
+epoch: 2100 code: 1 sentence: very convenient resolution channel randomly source together source myself dish 4bit
+epoch: 2150 code: 1 sentence: i catch max maxell connector max hub extension itself cat has
+epoch: 2200 code: 1 sentence: no cracked photographer myself photographer took either used types sure tom tom
+epoch: 2250 code: 0 sentence: well com ask safe 32 pro u maker built engineer cute couldn
+epoch: 2300 code: 1 sentence: works whatsoever installation notice to run wouldn includes premium lower pretty bonus
+epoch: 2350 code: 1 sentence: on tracking remarkable lo edit shuffle cassette crisp audio videos deck tack
+epoch: 2400 code: 1 sentence: very convenient effective expand imup card format reader itself anywheregood
+epoch: 2450 code: 0 sentence: these configuration children brands sits essential repeatedly english unless promised updated
+epoch: 2500 code: 1 sentence: i missing 99 cutting manualgo effect gone effect pressure notes ideal
+epoch: 2550 code: 1 sentence: video [SEP]
+epoch: 2600 code: 1 sentence: the husband said timer heavier warm duty enough comfort 17 weather link
+epoch: 2650 code: 0 sentence: order caution complain its is near clicking message 51 areas al out
+epoch: 2700 code: 0 sentence: remember telescope 15and beyond capable key center center filled throughout sets
+epoch: 2750 code: 0 sentence: i loaded them into cd mounted newest steps wood c beats theater
+epoch: 2800 code: 0 sentence: not certain they didn changed kid [SEP]
+epoch: 2850 code: 0 sentence: if exposed6 aspect strangeica controls provide viewstor behind whatever
+epoch: 2900 code: 0 sentence: after upgrading thanks serves shipped becomes map factory 200 possibly ready opening
+epoch: 2950 code: 0 sentence: otherwise say outdoorthe large actual td td stores linux include ar
+epoch: 3000 code: 1 sentence: otherwise china totally please falling turning pop face gonna roll maker seam

@@ -8,30 +8,31 @@ from util import *
 from Agent import Agent
 
 class Environment():
-    def __init__(self, bert_model, bert_tokenizer, first_list):
+    def __init__(self, bert_model, bert_tokenizer, pos_first_list, neg_first_list):
         self.bert_model = bert_model
         self.tokenizer = bert_tokenizer
-        self.first_list = first_list
+        self.pos_first_list = pos_first_list
+        self.neg_first_list = neg_first_list
         self.vocab_size = VOCAB_SIZE
         self.observation_space = STATE_SIZE
-        with gzip.open('Top5000_AtoB.pickle') as f:
+        with gzip.open('Top3600_AtoB.pickle') as f:
             to_bert_dict = pickle.load(f)
         self.to_bert_dict = to_bert_dict
     
-    def reset(self):
+    def reset(self, c):
         '''
         IN:
-        nothing
+        c: code
         OUT:
         obs: [STATE_SIZE,](torch.FloatTensor)
         '''
         self.sentence = []
-        first_index = self.get_first_index()
+        first_index = self.get_first_index(c)
         self.sentence.append(first_index)
         obs = self.encode(self.sentence)
         return obs
 
-    def step(self, action):
+    def step(self, action, test=False):
         '''
         IN:
         action: single integer
@@ -44,15 +45,24 @@ class Environment():
         if len(self.sentence) >= GEN_MAX_LEN:
             done = True
         else:
-            done = False
+            if test and action == SEP_TOKEN_IDX:
+                done = True
+            else:
+                done = False
         obs = self.encode(self.sentence)
         return obs, 0, done, None
 
-    def get_first_index(self):
-        r = random.randrange(self.first_list[-1][1])
-        for i in range(len(self.first_list)):
-            if(self.first_list[i][1] <= r and r < self.first_list[i+1][1]):
-                return self.first_list[i][0]
+    def get_first_index(self, code):
+        if code == 0:
+            r = random.randrange(self.neg_first_list[-1][1])
+            for i in range(len(self.neg_first_list)):
+                if(self.neg_first_list[i][1] <= r and r < self.neg_first_list[i+1][1]):
+                    return self.neg_first_list[i][0]
+        else:
+            r = random.randrange(self.pos_first_list[-1][1])
+            for i in range(len(self.pos_first_list)):
+                if(self.pos_first_list[i][1] <= r and r < self.pos_first_list[i+1][1]):
+                    return self.pos_first_list[i][0]
 
     def encode(self, sentence):
         original = copy(sentence)
@@ -62,8 +72,15 @@ class Environment():
         for index in original:
             converted.append(self.to_bert_dict[index])
         converted = torch.LongTensor(converted).view(1, -1).to(DEVICE)
-        with torch.no_grad():
-            obs = self.bert_model(converted)[0][0][-2]
+        if ENCODING_FLAG == 'LAST':
+            with torch.no_grad():
+                obs = self.bert_model(converted)[0][0][-2]
+        elif ENCODING_FLAG == 'FIRST':
+            with torch.no_grad():
+                obs = self.bert_model(converted)[0][0][0]
+        else:
+            print('error: invalid encoding flag')
+            assert False
         return obs
 
     def id_to_string(self):
@@ -75,24 +92,3 @@ class Environment():
             token = self.tokenizer._convert_id_to_token(index)
             tokens.append(token)
         return self.tokenizer.convert_tokens_to_string(tokens)
-
-
-
-
-if __name__ == '__main__':
-    bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
-    env = Environment(bert_model, bert_tokenizer)
-    agent = Agent(bert_model)
-    dist = torch.distributions.Categorical(probs=torch.full((2,), fill_value=0.5))
-    for _ in range(10):
-        s = env.reset()
-        c = dist.sample().numpy().item()
-        d = False
-        while not d:
-            a, log_prob = agent.get_action(s, c)
-            next_s, r, d, _ = env.step(a)
-            agent.store(s, a, c, d, next_s, log_prob)
-            s = next_s
-        print(env.sentence)
-        print(env.id_to_string())
-    agent.long_memory.check_update()

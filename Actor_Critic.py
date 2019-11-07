@@ -29,7 +29,7 @@ class Actor_Critic(Module):
             self.pretrain_loss_function = pretrain_loss_function
             self.pretrain_opt = Adam(self.parameters(), lr=PRETRAIN_LR)
 
-    def forward(self, s, c):
+    def forward(self, s, c, test=False):
         '''
         IN:
         s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
@@ -42,14 +42,15 @@ class Actor_Critic(Module):
         for layer, activation in zip(self.hidden_layers, self.activation_layers):
             x = activation((layer(x)))
         x = self.actor_layer(x)
-        '''
-        top_values, _ = x.topk(TOP_K)
-        min_values = top_values[:,-1].unsqueeze(1)
-        x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
-        '''
+        
+        if test:
+            top_values, _ = x.topk(TOP_K)
+            min_values = top_values[:,-1].unsqueeze(1)
+            x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
+        
         return x
 
-    def action_forward(self, s, c, a=None):
+    def action_forward(self, s, c, a=None, test=False):
         '''
         IN:
         s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
@@ -68,11 +69,12 @@ class Actor_Critic(Module):
         for layer, activation in zip(self.hidden_layers, self.activation_layers):
             x = activation((layer(x)))
         x = self.actor_layer(x)
-        '''
-        top_values, _ = x.topk(TOP_K)
-        min_values = top_values[:,-1].unsqueeze(1)
-        x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
-        '''
+
+        if test:
+            top_values, _ = x.topk(TOP_K)
+            min_values = top_values[:,-1].unsqueeze(1)
+            x = torch.where(x < min_values, torch.full(x.size(), fill_value=-15.0, device=DEVICE), x)
+        
         dist = Categorical(logits=x)
         if a is None:
             sampled = dist.sample()

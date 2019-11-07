@@ -20,7 +20,7 @@ class ShortMemory():
         self.last_state = None
         self.done = False
         self.old_log_probs = []
-        with gzip.open('Top5000_AtoB.pickle') as f:
+        with gzip.open('Top3600_AtoB.pickle') as f:
             to_bert_dict = pickle.load(f)
         self.to_bert_dict = to_bert_dict
 

@@ -67,7 +67,7 @@ class Discriminator(Module):
         dist = MultivariateNormal(m, cov)
         return dist
 
-    def calculate_loss_with_code(self, s, a, is_agent, code_answer, kl_coef, verbose=False):
+    def calculate_loss_with_code(self, s, a, is_agent, code_answer, kl_coef, verbose=True):
         '''
         IN:
         s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)

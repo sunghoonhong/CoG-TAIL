@@ -10,15 +10,17 @@ from util import *
 
 if __name__ == '__main__':
     assert PPO_STEP > DISC_STEP
-    load_model = True
-    load_epoch = 50000
-    with gzip.open('Top5000_dist.pickle') as f:
+    load_model = False
+    load_epoch = 125000
+    with gzip.open('Top3600_dist.pickle') as f:
         dist_dict = pickle.load(f)
-    with gzip.open('Top5000_first_list.pickle') as f:
-        first_list = pickle.load(f)
+    with gzip.open('Top3600_first_pos.pickle') as f:
+        pos_first_list = pickle.load(f)
+    with gzip.open('Top3600_first_neg.pickle') as f:
+        neg_first_list = pickle.load(f)
     weights = get_weights_from_dict(dist_dict)
     bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
-    env = Environment(bert_model, bert_tokenizer, first_list)
+    env = Environment(bert_model, bert_tokenizer, pos_first_list, neg_first_list)
     agent = Agent(bert_model, weights)
     if load_model == False:
         agent.pretrain_load()
@@ -29,10 +31,12 @@ if __name__ == '__main__':
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     pretrain_loss_list = []
-    _disc_update_cnt = 0
+    _disc_update_cnt = AFTER_TRAIN_DISC_UPDATE_CNT
     for e in range(1000000):
-        s = env.reset()
+        if load_model:
+            e += load_epoch
         c = dist.sample().numpy().item()
+        s = env.reset(c)
         d = False
         while not d:
             a, log_prob = agent.get_action(s, c)
@@ -60,6 +64,14 @@ if __name__ == '__main__':
                 f = codecs.open('train_generated_sentence.txt', 'w', "utf-8")
             else:
                 f = codecs.open('train_generated_sentence.txt', 'a', 'utf-8')
+            
+            c = dist.sample().numpy().item()
+            s = env.reset(c)
+            d = False
+            while not d:
+                a, _ = agent.get_action(s, c, test=True)
+                next_s, _, d, _ = env.step(a, test=True)
+                s = next_s
             sentence = env.id_to_string()
             print(sentence)
             f.write('epoch: ' + str(e) + ' code: ' + str(c) + ' sentence: ' + sentence + '\n')

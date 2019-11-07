@@ -64,7 +64,7 @@ def generate_data(to_bert_dict, bert_model):
 
 if __name__ == '__main__':
     bert_model, _ = get_bert_model_and_tokenizer()
-    with gzip.open('Top5000_AtoB.pickle') as f:
+    with gzip.open('Top3600_AtoB.pickle') as f:
         to_bert_dict = pickle.load(f)
     train = True
     if train:
