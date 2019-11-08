@@ -11,7 +11,7 @@ from util import *
 if __name__ == '__main__':
     assert PPO_STEP > DISC_STEP
     load_model = False
-    load_epoch = 125000
+    load_epoch = 105000
     with gzip.open('Top3600_dist.pickle') as f:
         dist_dict = pickle.load(f)
     with gzip.open('Top3600_first_pos.pickle') as f:

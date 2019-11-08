@@ -25,8 +25,8 @@ class Discriminator(Module):
         self.code_out = Linear(DISC_LATENT_SIZE, CODE_SIZE)
         self.disc_loss = BCELoss()
         self.code_loss = CrossEntropyLoss()
-        target_mean = torch.zeros(1, COMPRESSED_VOCAB_SIZE).to(DEVICE)
-        target_cov = torch.diag_embed(torch.ones(1, COMPRESSED_VOCAB_SIZE)).to(DEVICE)
+        target_mean = torch.zeros(1, DISC_LATENT_SIZE).to(DEVICE)
+        target_cov = torch.diag_embed(torch.ones(1, DISC_LATENT_SIZE)).to(DEVICE)
         self.target_dist = MultivariateNormal(target_mean, target_cov)
         self.opt = Adam(self.parameters(), lr=DISC_LR)
 
@@ -44,7 +44,7 @@ class Discriminator(Module):
         s_a = torch.bmm(s.unsqueeze(2), a.unsqueeze(1)).view(-1, STATE_SIZE*COMPRESSED_VOCAB_SIZE)
         x = self.a1(self.l1(s_a))
         x = self.l3(self.a2(self.l2(x)))
-        m = x[:, :COMPRESSED_VOCAB_SIZE]
+        m = x[:, :DISC_LATENT_SIZE]
         latent_variable = m
         disc_out = sigmoid(self.disc_out(latent_variable))
         code_out = self.code_out(latent_variable)
@@ -62,8 +62,8 @@ class Discriminator(Module):
         s_a = torch.bmm(s.unsqueeze(2), a.unsqueeze(1)).view(-1, STATE_SIZE*COMPRESSED_VOCAB_SIZE)
         x = self.a1(self.l1(s_a))
         x = self.l3(self.a2(self.l2(x)))
-        m = x[:, :COMPRESSED_VOCAB_SIZE]
-        cov = torch.diag_embed(torch.exp(x[:, COMPRESSED_VOCAB_SIZE:]))
+        m = x[:, :DISC_LATENT_SIZE]
+        cov = torch.diag_embed(torch.exp(x[:, DISC_LATENT_SIZE:]))
         dist = MultivariateNormal(m, cov)
         return dist
 

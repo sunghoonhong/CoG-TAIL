@@ -1,61 +1,480 @@
-epoch: 0 code: 1 sentence: at kitchen receiver instantly sensitivityleleing overnight photography sun sucked
-epoch: 50 code: 1 sentence: construction changes necessary necessary included easily 45 modes sites provided spectacular provided
-epoch: 100 code: 1 sentence: looks beautifully padded automatically also expected you travel remove fully remove necessary
-epoch: 150 code: 1 sentence: these rocks stands affordable locally build corners handle store away business boat
-epoch: 200 code: 1 sentence: it rocks [SEP]
-epoch: 250 code: 0 sentence: move helps type clear strange marginal email somewhere alert driving running moving
-epoch: 300 code: 1 sentence: cables work work great every magic affordable long should price it suppose
-epoch: 350 code: 0 sentence: ill constructed advertisedit onto expensementblealmentalment
-epoch: 400 code: 1 sentence: very convenientica effective useful hidden hide car55 foot setting
-epoch: 450 code: 0 sentence: is dumb holding dumb practice exchanged approx conditions replacing conditions snaps perfectly
-epoch: 500 code: 0 sentence: i figured sooner barely came enough loss receive receive get fixset
-epoch: 550 code: 0 sentence: i loved these wireless approx running though wireless crashes devices 7 3d
-epoch: 600 code: 0 sentence: buy plate possiblehing alone else may impossible self cheaper fragile barely
-epoch: 650 code: 1 sentence: the legs didn appear come broken compartments reviewed brands together these free
-epoch: 700 code: 0 sentence: in february seeing changing spot parts claim 13 abuse report crashthi
-epoch: 750 code: 0 sentence: some happening offer happening videos receive care products support support support offered
-epoch: 800 code: 0 sentence: purchased non fastdotor bi rca4 already 2 movie fan
-epoch: 850 code: 1 sentence: its waist secure secure attach snaps shows adjustable remove around normalup
-epoch: 900 code: 1 sentence: idisebly much worth brand wfi buy have u person
-epoch: 950 code: 1 sentence: noting sun sun western cutting rca happy film tough promptly has
-epoch: 1000 code: 0 sentence: conke adds expensive buffalo produce provide olympus heat protection protection parts
-epoch: 1050 code: 0 sentence: so basically rock aren awesome versatile cord inside adapt extension into sd
-epoch: 1100 code: 0 sentence: this st radar requires hearing criticalgood2ferfer 150 150
-epoch: 1150 code: 0 sentence: this no mouse beauty olympus clearly totally totally pathetic unhappyfrd
-epoch: 1200 code: 1 sentence: great strapnot just proof piecejust lenses tem seen handy
-epoch: 1250 code: 1 sentence: these seem useful expensive sending thoughbrand findinkfios reason
-epoch: 1300 code: 0 sentence: the practice usually comes rock telescope practice distance throughout manual distance distance
-epoch: 1350 code: 1 sentence: but outside plug outlet tablet gripta phone 4 pen mouse portable
-epoch: 1400 code: 1 sentence: i thought film sky seriously closer professional just a steal third action
-epoch: 1450 code: 0 sentence: well list unfortunate considered considered spending 700 customers description sure 20 price
-epoch: 1500 code: 0 sentence: it kinda ruined videos movies at cds live movies stored movies movies
-epoch: 1550 code: 0 sentence: my soldp previously ms previously older recognized updated speed resolution built
-epoch: 1600 code: 0 sentence: i comment soonerand lost far wkickk idd
-epoch: 1650 code: 0 sentence: no installation automatically per provides under installation excellent allow transfer effective firm
-epoch: 1700 code: 0 sentence: beware may may weren last soon 720 yours fa outdoor act
-epoch: 1750 code: 1 sentence: i barely screwed mine dog 150 harness screw phone macro radios n
-epoch: 1800 code: 0 sentence: iaround lost internet tracking since phone calls calls 32 connection place
-epoch: 1850 code: 0 sentence: ill battery apple recover ps compatibility either device folder general folder alarm
-epoch: 1900 code: 1 sentence: you spent still no about something cooler effort cooler connection installing 247
-epoch: 1950 code: 1 sentence: its wearing certainly most helps protecting such large glasses move insert av
-epoch: 2000 code: 1 sentence: inse vary ob frustration picks minor tech wi hands copy stereo
-epoch: 2050 code: 1 sentence: these packs offers plenty provided a kids adjustment carry medium approximately limited
-epoch: 2100 code: 1 sentence: very convenient resolution channel randomly source together source myself dish 4bit
-epoch: 2150 code: 1 sentence: i catch max maxell connector max hub extension itself cat has
-epoch: 2200 code: 1 sentence: no cracked photographer myself photographer took either used types sure tom tom
-epoch: 2250 code: 0 sentence: well com ask safe 32 pro u maker built engineer cute couldn
-epoch: 2300 code: 1 sentence: works whatsoever installation notice to run wouldn includes premium lower pretty bonus
-epoch: 2350 code: 1 sentence: on tracking remarkable lo edit shuffle cassette crisp audio videos deck tack
-epoch: 2400 code: 1 sentence: very convenient effective expand imup card format reader itself anywheregood
-epoch: 2450 code: 0 sentence: these configuration children brands sits essential repeatedly english unless promised updated
-epoch: 2500 code: 1 sentence: i missing 99 cutting manualgo effect gone effect pressure notes ideal
-epoch: 2550 code: 1 sentence: video [SEP]
-epoch: 2600 code: 1 sentence: the husband said timer heavier warm duty enough comfort 17 weather link
-epoch: 2650 code: 0 sentence: order caution complain its is near clicking message 51 areas al out
-epoch: 2700 code: 0 sentence: remember telescope 15and beyond capable key center center filled throughout sets
-epoch: 2750 code: 0 sentence: i loaded them into cd mounted newest steps wood c beats theater
-epoch: 2800 code: 0 sentence: not certain they didn changed kid [SEP]
-epoch: 2850 code: 0 sentence: if exposed6 aspect strangeica controls provide viewstor behind whatever
-epoch: 2900 code: 0 sentence: after upgrading thanks serves shipped becomes map factory 200 possibly ready opening
-epoch: 2950 code: 0 sentence: otherwise say outdoorthe large actual td td stores linux include ar
-epoch: 3000 code: 1 sentence: otherwise china totally please falling turning pop face gonna roll maker seam
+epoch: 0 code: 1 sentence: it rocks clock cameras non stand resistant edges cause edges edges cause
+epoch: 50 code: 0 sentence: not usable remoteot provided networking 2008k lamp evenpack photography
+epoch: 100 code: 1 sentence: no regularly savehar feedback headache listening fails linux purchases as several
+epoch: 150 code: 0 sentence: but hard protection to given worry ghost mag crashes helped double 250
+epoch: 200 code: 1 sentence: very yetsome abused moved imp detected piece putting tool maybe figured
+epoch: 250 code: 1 sentence: but app printed perhaps ended lamp control stick ripped taking saving does
+epoch: 300 code: 0 sentence: the harsh wires before comparison fail obvious obvious dim stays bit handled
+epoch: 350 code: 0 sentence: veryics unacceptable videoms asa silver who numerous straps idea batch
+epoch: 400 code: 0 sentence: major uv possible unacceptable [SEP]
+epoch: 450 code: 0 sentence: i missing customers shopping myself back shell back drag sensitivity fitssh
+epoch: 500 code: 1 sentence: i post soon graphics myself ie dash creative hide buzz freezingball
+epoch: 550 code: 0 sentence: the stationseanes anyway worst woo pe upgraded awhile part stations
+epoch: 600 code: 0 sentence: can ridiculousslehoot seem online color ds falls unfortunately menumen
+epoch: 650 code: 0 sentence: horrible cameras stays sense together combination combination cleaned sense contacts played stock
+epoch: 700 code: 1 sentence: other acceptable great honestly microsoft confidence networking time please further further technical
+epoch: 750 code: 1 sentence: i barely woo part functions reachrea hell ac recording saved driver
+epoch: 800 code: 0 sentence: plug something precise gps follow tv eveningcts componentf server put
+epoch: 850 code: 0 sentence: but task major few brick cancel handheld specgon20 suddenly couldn
+epoch: 900 code: 0 sentence: i payingpet managed downloaded mic adds weighs awayt bunch
+epoch: 950 code: 0 sentence: i tons nothing gear anywhere speeds world business figure businessga sense
+epoch: 1000 code: 1 sentence: not send editing option pop exposure zoom appears brightness brightness brightnessne
+epoch: 1050 code: 1 sentence: highly ram end donein voice such opinionpack noisesylus particularly
+epoch: 1100 code: 0 sentence: there gotta intermittent ac those detail ground ad advise code shownom
+epoch: 1150 code: 0 sentence: both forgot formwee repeatedly bubbles bubbles connected securely satsc tip
+epoch: 1200 code: 1 sentence: im telling myselfonne dvd tested children prompt chip upgrading larger 3d
+epoch: 1250 code: 1 sentence: check caution installation center reader mute extend refurbished extender 100free
+epoch: 1300 code: 0 sentence: i jo reports i casesdriveu ends loving happened drop classic
+epoch: 1350 code: 0 sentence: they helped repeatedly shutter everything voltage timestra optical known gps range
+epoch: 1400 code: 0 sentence: i operating 3000 chinese many tracking man dr either house except telephone
+epoch: 1450 code: 0 sentence: the stations items self addition housing finish instructions microphone instructions upgraded wide
+epoch: 1500 code: 0 sentence: glad too len resolve pioneer 58 receive such true smoothless charging
+epoch: 1550 code: 0 sentence: this move xboxgon compartment re canons catlia fuzzy players certain
+epoch: 1600 code: 1 sentence: i track scroll intel driving road inferior current try drivingin total
+epoch: 1650 code: 0 sentence: originally trustged satellitesting seemed sd area threads ob tons field
+epoch: 1700 code: 1 sentence: iv expectations muddy crazy 256 shipatt soldtable loses purchase youtube
+epoch: 1750 code: 0 sentence: even moved outside neither phone office spending burned sendinghe when previously
+epoch: 1800 code: 1 sentence: this possible ni addition label addslrlc micro perhapsl simply
+epoch: 1850 code: 1 sentence: that limit available speed forget reachds greatly record fired detect slightly
+epoch: 1900 code: 0 sentence: iits nextme speak 4 sucker blur70 express tell cb
+epoch: 1950 code: 0 sentence: the testing worked repeatedlyment contacted awkward workout knew jump zu defect
+epoch: 2000 code: 1 sentence: what given lenses duty kidding90 kingston mega flashing focusingping auto
+epoch: 2050 code: 1 sentence: ordered frequency photos ie enjoy drops fool videos programs television television items
+epoch: 2100 code: 0 sentence: we tries per printerib networking drive fairly firm repair mother sat
+epoch: 2150 code: 1 sentence: it costs 10 brightnessload memo minimalu message records ones task
+epoch: 2200 code: 0 sentence: it improved eventually either phone failed computers expecting comfortable across either we
+epoch: 2250 code: 1 sentence: did compliment both surprisingly having restart and child shop higher may layout
+epoch: 2300 code: 1 sentence: it costs one think comfort shoulder roomone tests calls husband moving
+epoch: 2350 code: 1 sentence: the spendingqual suppose functionalline listening glass mic manualtec rca
+epoch: 2400 code: 1 sentence: that sell fool ipod supplied runs heads flip functioned although explorer programs
+epoch: 2450 code: 1 sentence: also costs experienced me bt delay tremendous surface paper professional pleasure month
+epoch: 2500 code: 1 sentence: are threwrs multiple fast school world prefer sleep assume everywhere kit
+epoch: 2550 code: 0 sentence: i ran information repeatedly ind spend passwordad shuffle scratches links toss
+epoch: 2600 code: 0 sentence: totally suck standardset plus ease stabilizationif station cameras punch anyone
+epoch: 2650 code: 1 sentence: for 14 handlesten stunning helpful prime prime comes investment broken regrets
+epoch: 2700 code: 0 sentence: worked lifetime mess thingwall pre site he crop hiss usuallynh
+epoch: 2750 code: 0 sentence: who shooting handling spending mile performance somewhere holder dock family files knock
+epoch: 2800 code: 0 sentence: don destroyed respect ir the my disc logset charged statusness
+epoch: 2850 code: 0 sentence: avoid the philips floor ordering purchasing ordering st title8 drop anything
+epoch: 2900 code: 0 sentence: the testing fool broken positive advertising prints obvious obvious effect dust prints
+epoch: 2950 code: 0 sentence: see photograph mobile description third statesshi duhatweight offer panel
+epoch: 3000 code: 1 sentence: especially turning single airport fragile standft switch below moves usb pressure
+epoch: 3050 code: 0 sentence: look regularlyup models general pressed sucker managed recognizedthe thru flawless
+epoch: 3100 code: 0 sentence: it relatively camera one feature flash newest however broadcast iii9 stand
+epoch: 3150 code: 0 sentence: a freezing error up ton detailig ordering cold50 entirely ref
+epoch: 3200 code: 1 sentence: these labels tiesot current direction aspect aspect limit alert alert viewing
+epoch: 3250 code: 1 sentence: as instruction please turned instantly min 3000 heavy engineer approx tall package
+epoch: 3300 code: 1 sentence: that troubles ya ya 120 tips ref little ha protects consistent si
+epoch: 3350 code: 1 sentence: it costs one rca common madcus apartid tech wo tre
+epoch: 3400 code: 1 sentence: i rarelycting picked sigma him sounding convenient appearized actually broadcast
+epoch: 3450 code: 0 sentence: the questions fails lose 7 the worse short none 45 the tighten
+epoch: 3500 code: 0 sentence: the thrilled software sccle neck turns cooling upgraded supply date 14
+epoch: 3550 code: 0 sentence: i acceptable previouslyho background shocked spectacular since imagesics bud lower
+epoch: 3600 code: 1 sentence: no crash scratches 150 necessary small chances hour suppose gps finding mu
+epoch: 3650 code: 0 sentence: was indoors camera wireless beats connected universal nik ni best balanced god
+epoch: 3700 code: 0 sentence: good dvd others cooling surface soomin optics hour brand videos lucky
+epoch: 3750 code: 1 sentence: what itunes gettingcan 2007 2004 son glassescon cloth benefit advise
+epoch: 3800 code: 0 sentence: it intuitive sucks shutter me current searchum certainly plasmarangwo
+epoch: 3850 code: 0 sentence: i dynamic produces buzzing static a duty began fuzzy ipod practical bunch
+epoch: 3900 code: 1 sentence: i separate least1thi bose freezing results recordingsus months ca
+epoch: 3950 code: 0 sentence: they literally are setting ve fancy fujiink appear prime im chips
+epoch: 4000 code: 1 sentence: don backupset digital upon motion playback motion release shipment correct reputation
+epoch: 4050 code: 0 sentence: the stationssy spin sanfer thing dockingbeat electronic machine tested
+epoch: 4100 code: 1 sentence: recently you 23 workoutte most devices bich special camera toss
+epoch: 4150 code: 1 sentence: my che absolutely two thumbs lengths ordering ear unreliable normally ears breaking
+epoch: 4200 code: 1 sentence: with some 50 pages meets tracking shell po tips example [SEP]
+epoch: 4250 code: 0 sentence: its always bulky and difficult fl mac skepticalupwireug times
+epoch: 4300 code: 0 sentence: that otherwise cut ends femalepon pair regular caps reported35 flash
+epoch: 4350 code: 0 sentence: the stations strips page waiting somewhat aren the gamers piece weird
+epoch: 4400 code: 0 sentence: this case legs11 option view flare told stations sell clickingps
+epoch: 4450 code: 0 sentence: do zen frequentlcfication section changing giving larger aprilwindin
+epoch: 4500 code: 0 sentence: worked h support amazingly again weight stated 7 bad networks horribly gone
+epoch: 4550 code: 1 sentence: there completely isn mind intermittent there performed show doubt section slip harness
+epoch: 4600 code: 0 sentence: will upgrading dvd monster pd help enjoyed several short meant iii higher
+epoch: 4650 code: 0 sentence: never windows clearer empty tv channel under 24 pro world film lamp
+epoch: 4700 code: 0 sentence: the stationsand deliver garage4 prior install download500 takenide
+epoch: 4750 code: 1 sentence: i those slightly cheaper stock my app hot framey flashesso
+epoch: 4800 code: 0 sentence: thankfully reviewersm rocket budgetres lens stiff glare allowed minirea
+epoch: 4850 code: 0 sentence: it showed what hardware side forward ho discount menu waiting outlets last
+epoch: 4900 code: 1 sentence: for contact inexpensive tom11 forums manual stated sleep computers category who
+epoch: 4950 code: 0 sentence: i instead ala analognhrea extreme question willing falls lenseses
+epoch: 5000 code: 0 sentence: im microphone functioned er glare offer bio cisco don win broadcastcl
+epoch: 5050 code: 0 sentence: iv equal cover design credit remote tiny p protect certain 6 offered
+epoch: 5100 code: 1 sentence: i respond 1000 class automatic theater wanting driving numerous varietyit natural
+epoch: 5150 code: 0 sentence: they secure hopefully 2009 stuff silver badly entirely tells crop fabulous sets
+epoch: 5200 code: 1 sentence: its don padded cb past side 60 gear repairs content brother amount
+epoch: 5250 code: 1 sentence: wish easier ve form flashingo handle dialtime brightness enjoy protector
+epoch: 5300 code: 0 sentence: misleadingot noteof manual having compatible correct print description remote print
+epoch: 5350 code: 0 sentence: comfortable labelsba special near camera se down because flash custom safe
+epoch: 5400 code: 1 sentence: it many mentioned states require tablet returns pcs message near went production
+epoch: 5450 code: 1 sentence: i respect shutter genuine mp3 disappointing stu cleaner ordered than manufacturingco
+epoch: 5500 code: 1 sentence: sheimku directly 600 identical po local fire handheld fire packed
+epoch: 5550 code: 0 sentence: got playing immediately 10 who wrap input unlike two decision separate seriously
+epoch: 5600 code: 1 sentence: this an recommended recommended recommended paid recommended slots apply 100 limit half
+epoch: 5650 code: 1 sentence: i handycs horrible at 75en shopping reads configuration watts j
+epoch: 5700 code: 0 sentence: ill run end pan proper quick fully hard pic cave questions obviously
+epoch: 5750 code: 0 sentence: backmart claimsfo 5thvert weekise little non fail be
+epoch: 5800 code: 1 sentence: these constructed choose nobody real air apps safety prefer 28 printers upgraded
+epoch: 5850 code: 1 sentence: you because rich owned electronics 15 tracking ga accessories metal apps p
+epoch: 5900 code: 1 sentence: they fresh sortill 5th particular kept30j screen completely increase
+epoch: 5950 code: 0 sentence: i advise tilt one while review compatible technical grab ins room 2007
+epoch: 6000 code: 1 sentence: is iv updated camp lock stay custom strip strip round bio did
+epoch: 6050 code: 0 sentence: low traycast touch shutter clip restartq compliment flashes reduce display
+epoch: 6100 code: 1 sentence: anywayock answered him trick to zu wallet blast mentioned fry vary
+epoch: 6150 code: 0 sentence: the stations cables static pin middle speaker fan response45 filter p
+epoch: 6200 code: 1 sentence: its 2009 sleeves resistant costs yourself bs zoomdating failing expectingably
+epoch: 6250 code: 0 sentence: nothing inside advertised either instead tv protection surge putting affordable settingjust
+epoch: 6300 code: 0 sentence: got fold once three reliability gotta reproduction christmas automatically meet saved manufactured
+epoch: 6350 code: 1 sentence: its complainthanent try receipt steer distorted he 60 changes telling
+epoch: 6400 code: 1 sentence: it costs average sellernutra resolve working dial missed yeah recommend
+epoch: 6450 code: 0 sentence: this cable bug on my blur broke signals multipleline signals signals
+epoch: 6500 code: 1 sentence: watch miles feet continues without fuzzy 247 ten lowe expand exchange drives
+epoch: 6550 code: 1 sentence: its rcaol outletlu frequently people 16 about average 200 aperture
+epoch: 6600 code: 1 sentence: im reply seriously high sp ir winner plasma ss ss format decided
+epoch: 6650 code: 0 sentence: this thing sucks al al hopefully brands worst various misleading housing 3rd
+epoch: 6700 code: 1 sentence: need forth battery cbattned photographerstenot ever pd significant
+epoch: 6750 code: 1 sentence: this hiss childage results viains walls hardlight ko catch
+epoch: 6800 code: 0 sentence: no responsive 30 poorbookle parts remote events probably correctly slip
+epoch: 6850 code: 1 sentence: the overall compare repeatedly else companies caution sa show heavy 54 defective
+epoch: 6900 code: 1 sentence: couldn try keyboard outlet outlet mount slides channel jack display display window
+epoch: 6950 code: 1 sentence: thisbabel ku wear todaynctiontable controller manufactured iisch
+epoch: 7000 code: 0 sentence: i testing vhs applessive mac gamble variousfer love mail six
+epoch: 7050 code: 1 sentence: it costs recently seeing printingmer emergency much problems account nowhere boost
+epoch: 7100 code: 1 sentence: enjoy liked immediately returnedca 0 wanting standards rabbit type stop puts
+epoch: 7150 code: 1 sentence: it emec lock threads poor modelsantch app fired capacity
+epoch: 7200 code: 1 sentence: would stand brilliant finished sometimes meter vacation play frame sight fool module
+epoch: 7250 code: 0 sentence: another either foam sign previous ac important news 7 gi needs avoid
+epoch: 7300 code: 1 sentence: even 3000el amount costs sa barely operation thin asking backpack wires
+epoch: 7350 code: 1 sentence: minimal confusing recommended list shopping begin waste antenna doubt rare sucks speak
+epoch: 7400 code: 1 sentence: i 2006ete march priced appear gym rear nikscrr pleasure
+epoch: 7450 code: 1 sentence: looks rememberia suggest slowly considered remote blown writing fails based dust
+epoch: 7500 code: 1 sentence: i hesitationtec intuitive rev directphones accessory us theater td buttons
+epoch: 7550 code: 1 sentence: i sucked party mail card movement dog replacementsrang primarily bose 32
+epoch: 7600 code: 1 sentence: it costs recently fortunatelyvid is cars interested attempt being pockets cannot
+epoch: 7650 code: 1 sentence: great camera happy netflix frustration connector remarkable unhappy optics delivery bud anybody
+epoch: 7700 code: 0 sentence: i trust sony someone walking walking walking 100 excellent shotonne disco
+epoch: 7750 code: 1 sentence: iv weight previously edit music cameras costs4 failuresusware eventually
+epoch: 7800 code: 0 sentence: perhaps poorly 50 saying believe owning recognized necessary linux the refurbishedcom
+epoch: 7850 code: 1 sentence: mine disaster spots cleaningschsp ft complain closer highs beltom
+epoch: 7900 code: 0 sentence: not essentially listed game picture top technology sticking include these install lac
+epoch: 7950 code: 0 sentence: item cl server photo impressed shop muddy reports user length enjoy area
+epoch: 8000 code: 1 sentence: good next wrap standardgus customers flaws no hr questionsschets
+epoch: 8050 code: 1 sentence: need pockets stays exchanged ethernet compare opening standard minimalta researchear
+epoch: 8100 code: 1 sentence: fits reform fu entire credit san plus do me attempts helped accept
+epoch: 8150 code: 0 sentence: the testing worked smoothly scratches lcd 2012back dissatisfied 800 brother admit
+epoch: 8200 code: 1 sentence: im driver 30 antiill phones whether part thumbs truck limit ad
+epoch: 8250 code: 0 sentence: this la apple bug filter carries field camera must directly damage paper
+epoch: 8300 code: 1 sentence: with literally uncomfortable plateigizer mother recordingsonatekysome
+epoch: 8350 code: 0 sentence: do lock replace anything it related improve studio dealsom selling anybody
+epoch: 8400 code: 0 sentence: i capable these chargers suggestions dvds directly di players period vendor solved
+epoch: 8450 code: 0 sentence: seems neat ended seller actually balanced si day shipmentation worst lasting
+epoch: 8500 code: 0 sentence: thenmen simply said documentation muddy 2008 fired techproof height comfort
+epoch: 8550 code: 0 sentence: horrible garbage approximately startingoint talkingvery500 long grip pan comfortable
+epoch: 8600 code: 1 sentence: exactly 34 effective spectacular saw customers cheap ratings suckedput suspect cold
+epoch: 8650 code: 0 sentence: instead provided nowhere questions max warrant charm call charge direction backup recorder
+epoch: 8700 code: 0 sentence: why sony gps falls 35 effectbrand moving sync lighterally pack
+epoch: 8750 code: 0 sentence: now quite convenient how emergency solve listed sports traveling size dl entire
+epoch: 8800 code: 0 sentence: product floor our end studio department house end 21 beat knows batteries
+epoch: 8850 code: 0 sentence: obviously technology why against husbandter alright sites saves done rio free
+epoch: 8900 code: 0 sentence: sometimes devices served awesome simple arrive between software engineeringms spent necessary
+epoch: 8950 code: 1 sentence: and costs bucks 60ingrp mentioned effort ha managed answer cup
+epoch: 9000 code: 1 sentence: the researchedr pad sb play email updateice size art faster
+epoch: 9050 code: 0 sentence: replace finded become beldown application the 3 plenty cancel system
+epoch: 9100 code: 0 sentence: interesting loses said twice found ala e fired duant streaming instantly
+epoch: 9150 code: 0 sentence: this netflix technology takes steal several iphone boxes world e installing iso
+epoch: 9200 code: 0 sentence: not ideal with sony learned adjust ourhot different people becomesport
+epoch: 9250 code: 1 sentence: this tough forget hpne muffledts rare superior height throw detector
+epoch: 9300 code: 0 sentence: ifor fuji literallytal decision worthless hands connecting shut displays proven
+epoch: 9350 code: 0 sentence: it motorola interface hate runs none vehicle otherga instructions rubber80
+epoch: 9400 code: 1 sentence: highly mounts choiceint recommendedre 5th outdoorslu record opt brilliant
+epoch: 9450 code: 0 sentence: unfortunately consideringsc described extend outdoor generation benefit suggestions meetgoho
+epoch: 9500 code: 1 sentence: hooked he optics something occasional wal entirelyction talking warned settings straightforward
+epoch: 9550 code: 0 sentence: you looked ap two crash 10 straightforward sorry from post readerthe
+epoch: 9600 code: 0 sentence: now sizes no sun channel systems nearlyrou zipper chargers focuses cal
+epoch: 9650 code: 1 sentence: as connecting scratch issues lowe costs failures seeing tomorrow web collection must
+epoch: 9700 code: 1 sentence: it costs recently straight period haven works magic force under returnedica
+epoch: 9750 code: 1 sentence: plus favorite superb honestise nicely record lots amateur loose linux tin
+epoch: 9800 code: 0 sentence: well technology graphics6 f1 networking between prettynaean dark flashes
+epoch: 9850 code: 0 sentence: not essentially taking being fold speak beachnetpa tone begin easy
+epoch: 9900 code: 0 sentence: i cute hands without lines plug speakers correctly speakers distorted corrupted frequent
+epoch: 9950 code: 1 sentence: honestly keys gotta category nextpod analog isopl daily caught download
+epoch: 10000 code: 1 sentence: great camera otherwise costs situations compare server wo reviewed highly shot l
+epoch: 10050 code: 0 sentence: but51 smell pic technology monitors h future usb e putting benefit
+epoch: 10100 code: 1 sentence: nice 21 keysi apbit confused mess desktop poor ashamed wheel
+epoch: 10150 code: 1 sentence: the blame errors disconnected usable blow manager pick call pad serves traveling
+epoch: 10200 code: 1 sentence: installed shoe tin folks focus call aren recognized clock type hasn crucial
+epoch: 10250 code: 0 sentence: i accessories now waist held painful center loop perfectly mechanism classic o
+epoch: 10300 code: 1 sentence: imin link stunning begin navigation cut gi equal suppose floor little
+epoch: 10350 code: 0 sentence: if lenses vhs hu tool adjustment shuffle standard navigate condition leave sucker
+epoch: 10400 code: 0 sentence: problem neither pockets tank menube investment it confusing thrilled sync throwing
+epoch: 10450 code: 1 sentence: iics graphics agree inchnu repeatedly booksby favorite broke speakers
+epoch: 10500 code: 0 sentence: the cute inside ideal camera screen action system worked takes noise ran
+epoch: 10550 code: 0 sentence: it 54 stink speeds shorter shorter powered tested depth harsh 400 extended
+epoch: 10600 code: 0 sentence: quite two sitedeple sony obvious minus gone discs recorder iv
+epoch: 10650 code: 0 sentence: i switched bags difference receipt streaming vendordu turns lens promptly make
+epoch: 10700 code: 0 sentence: very snow now every definitely without still view previously modes module blast
+epoch: 10750 code: 0 sentence: they feeling speakers simple macro answer voltage act breezeshi fi wind
+epoch: 10800 code: 1 sentence: my typical lets pop christmas co bitmy detector pain40 unacceptable
+epoch: 10850 code: 1 sentence: can tracking inconsistent deep charging shoct try combo u door 400
+epoch: 10900 code: 0 sentence: unfortunately angle management mm mm click blurryry savesction changed
+epoch: 10950 code: 1 sentence: focus noise now er including meant important soo gone canceltop ag
+epoch: 11000 code: 1 sentence: easy flexible eye 5 general around rest shoot connector components necessary advice
+epoch: 11050 code: 1 sentence: thisest onto sweet sandca performs field daily hang project tune
+epoch: 11100 code: 1 sentence: this dynamic problem sufficient boy heck microsoft now mother brands imp complete
+epoch: 11150 code: 0 sentence: waste 22 scratches time some againa blank so phenomena 200 reading
+epoch: 11200 code: 1 sentence: installation mac 70 errors nightech feature tapes customtly stfu
+epoch: 11250 code: 0 sentence: this case comparable both bad experiences brother owners shouldn two dies way
+epoch: 11300 code: 1 sentence: and costs buckslelelelelelele desktop some
+epoch: 11350 code: 1 sentence: bought solve few issues typical sick show returning frequencies agoits adapt
+epoch: 11400 code: 0 sentence: soets direction identical calling account advice cat eight the assume accessories
+epoch: 11450 code: 1 sentence: solid installed offer unfortunate huge washed cords fail fully kitchen electrical dangerous
+epoch: 11500 code: 1 sentence: it appreciate 600tra sony flexibleti pscle method trustbel
+epoch: 11550 code: 1 sentence: an receiving recently customers lesson gauge owned indoors lesson adjusting material sharpe
+epoch: 11600 code: 1 sentence: i popped carries scanrminoid bright hurt waiting able wrrp
+epoch: 11650 code: 1 sentence: works sid plays etc seems heart project normally securely ir throwing
+epoch: 11700 code: 1 sentence: colors recently loop fact site zip penny sitting especially relatedstar songs
+epoch: 11750 code: 0 sentence: again better radio items arm remotedon only lastedpiece glue places
+epoch: 11800 code: 1 sentence: only previous add pixel surface po sqstar bug stu adjustable consistently
+epoch: 11850 code: 1 sentence: iick stock over al fragile winnerum died star seemed various
+epoch: 11900 code: 0 sentence: do ship looks sadly page adequateama match enclosure serves power surge
+epoch: 11950 code: 1 sentence: they ratings fmete includes possible products 5 price similar hesitation sea
+epoch: 12000 code: 1 sentence: one carrying electronic seem use tv purchasing polar security comes mainly television
+epoch: 12050 code: 1 sentence: usether inside software plague [SEP]
+epoch: 12100 code: 0 sentence: at changed center charge mouse format shut worthlessscreen cleaning computers profile
+epoch: 12150 code: 1 sentence: exactly canons 2012 completely secure numbers dirty takes complete listening fell cancel
+epoch: 12200 code: 1 sentence: not pay 2004 fl updates least vendor dropping cyber act crystal view
+epoch: 12250 code: 0 sentence: it showed gray flash text distortion went audio white therefore rear 108
+epoch: 12300 code: 0 sentence: i guess capable everyonebe material spring meet sells decision covers 3
+epoch: 12350 code: 0 sentence: the feeling cuts random hard 8 disks done burned shutter ear either
+epoch: 12400 code: 0 sentence: i disconnected labels brokendu wanting rather itself anywhere weeks awhile five
+epoch: 12450 code: 1 sentence: that netflix lower costs already 360 xp suggested removing from show lo
+epoch: 12500 code: 1 sentence: a rid ipad fourth near weak notch ends beautiful proven wrong frequent
+epoch: 12550 code: 0 sentence: yeah practically blows five hurt hurt google stepoff obvious hole dust
+epoch: 12600 code: 1 sentence: well sleeves overall nicely lasting400 every detail lasting lasting hasn force
+epoch: 12650 code: 0 sentence: well entirely neat prints mostly hardware loud inside essentially produced end replacing
+epoch: 12700 code: 1 sentence: good upgraded recommended around recommended produce recommended 0 trick recommended recommended recommended
+epoch: 12750 code: 0 sentence: my business thought her walking very something delighted street pic wanting skipping
+epoch: 12800 code: 0 sentence: i across 700 bags speakers se fantastic top sucked matters bose louder
+epoch: 12850 code: 0 sentence: tried spot three assume other fresh end places solutions charged optionsbar
+epoch: 12900 code: 1 sentence: they retailer breaks ad fast force yeah access wheel market months crashed
+epoch: 12950 code: 1 sentence: the excuse starts packing cap gb movies movies attached attachedsdng
+epoch: 13000 code: 1 sentence: the hoide disc everybody glad sea xbox house whatever refuses trash
+epoch: 13050 code: 0 sentence: these listen listen bubbles within compatible peopleur bass uv computer usual
+epoch: 13100 code: 0 sentence: i fuji troubles work couldn period rugged feeling hardly floppyhea upgrade
+epoch: 13150 code: 0 sentence: obviously installing blown nu final bridge sits orange9ora trips prevent
+epoch: 13200 code: 0 sentence: iitsca harsh4 ethernet sold na present truth laser proper
+epoch: 13250 code: 1 sentence: love possible ridiculous key airport literally fishball voltage sensitive ac tray
+epoch: 13300 code: 1 sentence: i our complaint recordings ace their installation feedbackject outdated willing free
+epoch: 13350 code: 0 sentence: will news gone 300 10 photographer taken game needing delivered previous run
+epoch: 13400 code: 1 sentence: it manner 65 walkingtable work xp own wipeear dsunk
+epoch: 13450 code: 0 sentence: too important seven ten bat just directly settingue 99 utility male
+epoch: 13500 code: 0 sentence: i manufacture sadly viz cables effective documents thick fish kids spentfu
+epoch: 13550 code: 0 sentence: how slot olympus runs connect idea bio cradle kit freshimete
+epoch: 13600 code: 1 sentence: i difference sq downloaded4 expand manufactured body luck yamaha appear tend
+epoch: 13650 code: 0 sentence: other capacity hesitation la arrival basedweight allowed headache slower delay period
+epoch: 13700 code: 0 sentence: of glue honestly wristband sight originally drive connectorsd 2nd pc
+epoch: 13750 code: 1 sentence: this ve special ni learned adding crisp sealelelele
+epoch: 13800 code: 1 sentence: all finally guess coait apparentea playedled success addition cable
+epoch: 13850 code: 0 sentence: what kind another now indoors ttom500 stereo ant bugs pressure
+epoch: 13900 code: 0 sentence: i locked on sides combination bags cordointing sun 360 benefit
+epoch: 13950 code: 1 sentence: gotj portable hot handy bud offers visibleset corner decide jo
+epoch: 14000 code: 1 sentence: thisrp obviously bridge sure ups ups frame placed weight ashamed inc
+epoch: 14050 code: 1 sentence: then possibleof list compatible manufacturer aspect recommended processor encountered other only
+epoch: 14100 code: 1 sentence: so suggest 50 love automaticmm msica forget 3rd obvious face
+epoch: 14150 code: 0 sentence: not bin viewing item 11 solveamp party partyible successfully cradle
+epoch: 14200 code: 1 sentence: iys searching 2000 na burned smallermy considered found insane stars
+epoch: 14250 code: 1 sentence: love protects 5th 98 bio experience fair considered outlets opt fresh copper
+epoch: 14300 code: 0 sentence: both skull convertofila costsne nature outdoor business speakers higher
+epoch: 14350 code: 0 sentence: it bracket less street size flare usa camera heads isis rugged
+epoch: 14400 code: 1 sentence: this early supplied apples na plus protector lcd levelnction may damn
+epoch: 14450 code: 1 sentence: very garage tend attachweightff situations alert sucker givingthi match
+epoch: 14500 code: 1 sentence: very customer zero friend birdpro videos flu serious him buzzing lemon
+epoch: 14550 code: 1 sentence: isive acrossups whateverli knew trafficn reason connections late
+epoch: 14600 code: 1 sentence: the tapes fieldbit rather magan confusedta apple wipe protect
+epoch: 14650 code: 0 sentence: i sounding nobody stuck deep tam miss walking smart shoulder case water
+epoch: 14700 code: 0 sentence: heckdis wireless streaming beats learned expense an thingline ultimately awful
+epoch: 14750 code: 0 sentence: for 30 opened books almost of pretty aa dvd makeba need
+epoch: 14800 code: 0 sentence: junk boy provided sony cracked same trade external finding daily packageing
+epoch: 14850 code: 0 sentence: waste something impressed and is expectedage store separate gym saw according
+epoch: 14900 code: 1 sentence: i sticking originally co tall systems jack stressbly preons connects
+epoch: 14950 code: 0 sentence: i task breakingip trade apple removing files needs updates mechanism useless
+epoch: 15000 code: 0 sentence: the phillips spent admit 45 room encountered mistake bend single stiff ring
+epoch: 15050 code: 1 sentence: i pads viz focusing helpful hd driving glasses glasses glasses previousama
+epoch: 15100 code: 1 sentence: thisock priorbar controller costs 9 docking buffalo turns c half
+epoch: 15150 code: 1 sentence: comparevi world further response picked 32 burning genuine id brands polk
+epoch: 15200 code: 0 sentence: these adapt ’ alternatives wish adjusting learn d want gonenow apparent
+epoch: 15250 code: 0 sentence: i capacity ignored searching alone installing five pockets attempts assume wall why
+epoch: 15300 code: 1 sentence: thisys transmit pleased vista exposed remember careful wife outdoor babyy
+epoch: 15350 code: 1 sentence: highly support gold sounded hesitation get yet interface se bud attach suitable
+epoch: 15400 code: 0 sentence: don choice up sync went went access onto handy likescs feel
+epoch: 15450 code: 0 sentence: western digital trick noisy ps couldn practically noticeable japaniceice amazing
+epoch: 15500 code: 1 sentence: seriously grain wise various error cords hardwaremy includes discount strong word
+epoch: 15550 code: 1 sentence: this extension z compatible point ease saying letter snaps operating smell shoot
+epoch: 15600 code: 0 sentence: we difficult breaking ignored la youtube significantupnne besidesrou area
+epoch: 15650 code: 0 sentence: when benefit direct recommended 0 optionsvert rest mb exact stunning only
+epoch: 15700 code: 0 sentence: replacement carrying both tv signals option went 20 ct rmac
+epoch: 15750 code: 0 sentence: video camera frustration superior data home compared mp3 night crazy about video
+epoch: 15800 code: 0 sentence: not specific color photograph strip or with lcd mac neither up reports
+epoch: 15850 code: 1 sentence: i kid hope microphone storage luck cat frequent pic painful beautifuldown
+epoch: 15900 code: 0 sentence: these my keyboards9 absolute notba chipco listen being age
+epoch: 15950 code: 0 sentence: this outdoors rock wires location gave location 1 signal pd share auto
+epoch: 16000 code: 0 sentence: amazon thing items mp3 program ie bet source excuse began that act
+epoch: 16050 code: 0 sentence: i across through approx switching he maps f1 ku havetion sm
+epoch: 16100 code: 0 sentence: itfr hasn ne forth dim ends charging ends power connecting flu
+epoch: 16150 code: 1 sentence: perfect around outlet purchase experience post moving9 profile bargain tests sv
+epoch: 16200 code: 1 sentence: no besidesstar stupid transferring knows concerned love because learn sickio
+epoch: 16250 code: 1 sentence: i days chancesate rocketsp usually surround 50 constant blownmy
+epoch: 16300 code: 0 sentence: you produced love and station kept liked three didn see average forums
+epoch: 16350 code: 1 sentence: im ono ring books delay blah block compliment familyati dying parts
+epoch: 16400 code: 0 sentence: the losing mode frequently allowed vista vista computers computer dvds machines strongly
+epoch: 16450 code: 1 sentence: depends sitting ab format useless happen brightness proper height next surprised 21
+epoch: 16500 code: 0 sentence: these theseyl actually orange quiet bad enough sounding trips investment tone
+epoch: 16550 code: 0 sentence: the51 sony links direction truth lit stupid g 100 glad takes
+epoch: 16600 code: 1 sentence: images coaster access placed possible wiring caught website nature seeing ink bunch
+epoch: 16650 code: 1 sentence: sound definite dock tab aperture scroll brightness seen finally linux receiverfi
+epoch: 16700 code: 0 sentence: beles sleeve decision solve notful occasionallysp level kinds aren
+epoch: 16750 code: 0 sentence: took since automatic 51 recorder yes display spin playing critical nice compact
+epoch: 16800 code: 1 sentence: fast decided slight comparison fabulousgg sweet flaws component so coating managed
+epoch: 16850 code: 0 sentence: it fell usable difficult slower immediately enough dead moved brands arrival installed
+epoch: 16900 code: 0 sentence: this covers sony tough 50 v advice te batteries digital happens bio
+epoch: 16950 code: 1 sentence: make bulky bar smart ultimately costsom incction driver stayed trying
+epoch: 17000 code: 0 sentence: you still recently labelmed amazon marketles rec awhile states direct
+epoch: 17050 code: 0 sentence: then none surfing steps played loud featureness es required wallet fish
+epoch: 17100 code: 1 sentence: the have weight produces minimal instead hundred networkseis normal nonegur
+epoch: 17150 code: 1 sentence: works must many lights ca phenomenaetbay causes importantly plan loses
+epoch: 17200 code: 0 sentence: these head programs past reported smart links server manufacturers experienced paid updates
+epoch: 17250 code: 0 sentence: no online reliable replacing mono maps phone digital photos intuitive titleee
+epoch: 17300 code: 1 sentence: the workedoff ever actual the faulty nu bubbles crystal factory fr
+epoch: 17350 code: 0 sentence: it crank switching w rubber lucky turned power tom became lan default
+epoch: 17400 code: 1 sentence: the usa watching colors questions typical possible cds concepttvation dvds
+epoch: 17450 code: 0 sentence: it motorola wise installed froze image emails vehicle runs 3d any satellite
+epoch: 17500 code: 0 sentence: it 80 talked green spec5 burn spin without runs losing wearing
+epoch: 17550 code: 0 sentence: iits notebooko spin flexible click delay thin flashes lock11
+epoch: 17600 code: 1 sentence: that offered unfortunate c misleading powered times production source blast app frequent
+epoch: 17650 code: 1 sentence: nice loses instantly performancele dish lenses a fidelity studio 2011 saving
+epoch: 17700 code: 1 sentence: the night [SEP]
+epoch: 17750 code: 0 sentence: non wec news phonesless crap bo continue provide hated pocket
+epoch: 17800 code: 1 sentence: just mount receivedni attempt taskidwind worstcom linux 2005
+epoch: 17850 code: 1 sentence: i joke locked er random changes least gr en strip caps tall
+epoch: 17900 code: 1 sentence: i lowestll x highs itemsfi askies relatively sony00
+epoch: 17950 code: 0 sentence: do ab nottra disconnected powerfulimslica setup channel despite
+epoch: 18000 code: 1 sentence: iv tools ss august altogether pull tremendousally amateur l45 besides
+epoch: 18050 code: 0 sentence: i continues picked seem code returns apple sa earlier fry portable transmitter
+epoch: 18100 code: 0 sentence: good camera equipment tip messed battery os straight allows push install pulled
+epoch: 18150 code: 1 sentence: its pioneer material expert recall tip attempted questionsboard repairs mice calling
+epoch: 18200 code: 1 sentence: it garage factor productsvethi ir sides realphoneally signal
+epoch: 18250 code: 0 sentence: what instructions brands i set plastic about of flashes flashes e charging
+epoch: 18300 code: 1 sentence: absolutelytralr frustrating shoulderttingish yellow sen ear inferiorles
+epoch: 18350 code: 1 sentence: bestue pulled pen siteib memo steady scrollper 32 automatic
+epoch: 18400 code: 1 sentence: its direct capable noted confused upgradingdis 75 [SEP]
+epoch: 18450 code: 0 sentence: i ipad disconnected anywayling tracking sc recommend electronic connectivity sounded mid
+epoch: 18500 code: 0 sentence: i ipad it installed and professional reading night products a further ring
+epoch: 18550 code: 1 sentence: nothing seem tests 2ndlineth fill christmas situation failing pieces com
+epoch: 18600 code: 1 sentence: not approx input fupod processorm apps brick analog search trans
+epoch: 18650 code: 0 sentence: this sounding something address functioned attach target gotta enough budati xbox
+epoch: 18700 code: 1 sentence: the 600 [SEP]
+epoch: 18750 code: 1 sentence: i volumes certainly frame states cost ultimately wallet time frequency his o
+epoch: 18800 code: 1 sentence: within capabilities strapsmin manufactureallywall pixels ball feelingbl title
+epoch: 18850 code: 0 sentence: i task with camera keyboards top w 150 getting close tell resolve
+epoch: 18900 code: 0 sentence: power fm mouse remember small compact seconds ultimately kept wise regrets mother
+epoch: 18950 code: 1 sentence: very purchaseter convenience sonper figure smooth unhappy jump justwire
+epoch: 19000 code: 1 sentence: theye v unlikesodown matches protecting sons very business entire
+epoch: 19050 code: 0 sentence: they moved 23 compact comparison gig copy os pack mini especially pair
+epoch: 19100 code: 0 sentence: not electronic bag bag mono turned knows bi batteries stereo universal started
+epoch: 19150 code: 1 sentence: made cheaper itself xpvc mother copy corner rattle maybe harder deserve
+epoch: 19200 code: 1 sentence: its television costs remember too unacceptable instead incorrecten 1500 respect flawless
+epoch: 19250 code: 1 sentence: great concern home 250ock stuless joy500 shut mess kidding
+epoch: 19300 code: 1 sentence: don chancetherou deservebox conrp foam found shell san
+epoch: 19350 code: 0 sentence: the feeling providesized consistent handled rev baby controls brain listeninging
+epoch: 19400 code: 1 sentence: nices shape enter material feel loves crazy important thick punch period
+epoch: 19450 code: 0 sentence: even honest obviously linux sigma tech connected pan configuration tre4 ways
+epoch: 19500 code: 1 sentence: donpro download stands recover won fold zero 720 wo bent screw
+epoch: 19550 code: 1 sentence: i alright usa during includesffuse fun upstec packaged already
+epoch: 19600 code: 1 sentence: awesome subjectco skin 2 penny frustration do walls degradation talking kv
+epoch: 19650 code: 1 sentence: this alarm attached loved apply weeks price loved relyboot youtube dar
+epoch: 19700 code: 0 sentence: probably produced laptop their older comfort adequate fact nas rated usually drives
+epoch: 19750 code: 0 sentence: i fidelity needs 700 custom vista lacking surge dark little sick edit
+epoch: 19800 code: 0 sentence: glad mine driversit wireless makesle early since faulty bad school
+epoch: 19850 code: 0 sentence: what happened hub olympus wirelessq lengthstalund13 losing manufacturers
+epoch: 19900 code: 0 sentence: iv really blown backed nu gave around iphone power fuzzy awesome mounted
+epoch: 19950 code: 1 sentence: this se ended shielded meterlink harsh fix woo vertical details luckily
+epoch: 20000 code: 1 sentence: gettingded sang soundinglip pretty program ha rebel blow learn documents
+epoch: 20050 code: 0 sentence: triedit listed notice hard tech square td mounted where backed away
+epoch: 20100 code: 1 sentence: iottoget 18 socket00 fa coating gb covers possible radar
+epoch: 20150 code: 1 sentence: i gauge generic sc regretphones socketjust paper crap proof talk
+epoch: 20200 code: 0 sentence: so plan ridiculous returning sony electronicsti what through9 snaps lame
+epoch: 20250 code: 1 sentence: imbsven purposes peie component noticeable eareg 6 assume
+epoch: 20300 code: 0 sentence: oh feeling generally managementvery initially photographer meter generally lowe perou
+epoch: 20350 code: 0 sentence: the getting upgrade material head replacing handling december wind amazon voltage power
+epoch: 20400 code: 1 sentence: the unit supply compatible sorry costs compliment especially shortins worthless
+epoch: 20450 code: 1 sentence: its slightly possible possible possible possible possible possible possible possible possible possible
+epoch: 20500 code: 0 sentence: these uncomfortable having image control batteries obvious charging installation things voltage being
+epoch: 20550 code: 0 sentence: stupid carrying non neck mm benefit usb plug required radio sound wood
+epoch: 20600 code: 1 sentence: id front gain ruined fooled 11 laser felt neck pic google changed
+epoch: 20650 code: 1 sentence: cheap longer do air stupid players woo alone blows idamp its
+epoch: 20700 code: 0 sentence: i sun companies originally so for dig speeds flexible ups answered electronic
+epoch: 20750 code: 0 sentence: iteg sharp spot icon half readyeg exposed direction depth sounds
+epoch: 20800 code: 0 sentence: we perfect warrant wasted excited tv age blur icon combination become digital
+epoch: 20850 code: 0 sentence: i showing charged leather looks noise software manual game wirelesscan wireless
+epoch: 20900 code: 1 sentence: this telescope tracks professional squeeze possible possible always ma inside ton stuff
+epoch: 20950 code: 1 sentence: i interferencepack neat turned otherwise vol angle simply major stiff heck
+epoch: 21000 code: 0 sentence: i mute color blue thru switched devicesbl needles locally batteries frequently
+epoch: 21050 code: 1 sentence: nice rebel sizes askingia microphone harsh nu songs crgood posted
+epoch: 21100 code: 0 sentence: i task fuss performance installing source vista nothing unacceptable listened linux mother
+epoch: 21150 code: 1 sentence: ifu newer afterosling individual en mage brother steal able
+epoch: 21200 code: 0 sentence: bottom slots slightly could between ac years chargeshi year distance focusing
+epoch: 21250 code: 0 sentence: however significant just51 crashed multiple somehow small somewhere buffalo shoots promised
+epoch: 21300 code: 1 sentence: no besides pouch consider ii includes recommended recommended recommended recommended includes which
+epoch: 21350 code: 1 sentence: worksman with possible possible possible possible possible possible possible possible possible
+epoch: 21400 code: 1 sentence: tel download front possible possible discs crashed try download wise carrymanship
+epoch: 21450 code: 0 sentence: thisal wired interesting theits batteries color ability click click actually
+epoch: 21500 code: 1 sentence: it wires sunlight them sized double according combo goes bosetooth shielded
+epoch: 21550 code: 0 sentence: iits prompt person scrolling voiceec corners emails kidding experiences noises
+epoch: 21600 code: 1 sentence: hopefully packs sufficient copyally extension eye shoots stand soon exposure idea
+epoch: 21650 code: 0 sentence: clearly construction dead machine lemon somewhat aspect crop outdoor drive 21 happens
+epoch: 21700 code: 1 sentence: i me worried precise thumb keeping instructions recover drain 0 recorder crop
+epoch: 21750 code: 1 sentence: for25table cdetswo51ng rawst elseve
+epoch: 21800 code: 1 sentence: good crank tall socket suggestionv internet dirty fixed not 500 went
+epoch: 21850 code: 1 sentence: i module owning applications codes 101 labels option web favorite draw visible
+epoch: 21900 code: 0 sentence: there functions doesn adapt big aa netflix display to turn weddingx
+epoch: 21950 code: 0 sentence: i showing personally sony pd headtable manufacturer pixels death ip delay
+epoch: 22000 code: 1 sentence: but bulb recognize 0 currently bright sight testing hour critical gotta 2013
+epoch: 22050 code: 0 sentence: in guide foam while tip pack packing receiving floor joy daylighting
+epoch: 22100 code: 0 sentence: theits glue necessary finger suggested voltage natural review entertainment option 9
+epoch: 22150 code: 1 sentence: that additional costs initiallycl favor lesson course backpack glasses test recently
+epoch: 22200 code: 1 sentence: i fidelity pre penny supportdating versatile200 personal ready hear functionality
+epoch: 22250 code: 0 sentence: taking giving pad sm leather nearly myless crashed flip lets sooner
+epoch: 22300 code: 1 sentence: this web hate possible possible lowe pixels stillball superior brightness coming
+epoch: 22350 code: 1 sentence: however instant ship sorry strong highlypt portraits speakers focusing worryle
+epoch: 22400 code: 1 sentence: this pe lit os c trade under tricksle aspect books okay
+epoch: 22450 code: 1 sentence: what hidden through wait outlets february includes glue possible rebel included perhaps
+epoch: 22500 code: 1 sentence: turn tossed build tack fails focus ga minimum expensive bugs tallck
+epoch: 22550 code: 0 sentence: it showed checked guarantee 60 researched review win replacement shoe sets beauty
+epoch: 22600 code: 1 sentence: worksvi chance advantage compatibility lightweight spring heat admit v hoursdating
+epoch: 22650 code: 0 sentence: itfor takes expensive asking wait heat unfortunately install hopefully leave charging
+epoch: 22700 code: 1 sentence: it decentsi ag lines garage didsive frequent 500ized build
+epoch: 22750 code: 0 sentence: sounded hand capture off internet exposed audio signal 60pon encountered
+epoch: 22800 code: 1 sentence: nice proof focus results looks harness ti filters picks based arw
+epoch: 22850 code: 0 sentence: i scratched wired acrossgate pe pi locally ups starting awbook
+epoch: 22900 code: 0 sentence: i phillips gain write cancel end spots test file claim many account
+epoch: 22950 code: 1 sentence: it 10 improved important functioning impressive manually useful spots equally rooms today
+epoch: 23000 code: 0 sentence: my handheld framepad manual charging th vins share3 direction
+epoch: 23050 code: 0 sentence: got 16 digital possible device input coating slots fresh cord sen batteries
+epoch: 23100 code: 0 sentence: waste losingf door drivers noisy their front ipod troubles hear u
+epoch: 23150 code: 1 sentence: does your straps gig finger why disaster consumer normalintvioo
+epoch: 23200 code: 1 sentence: figured inches saved broken worry shoulder conditions apparently able adjustment 80ity
+epoch: 23250 code: 1 sentence: free would2 burning strong fr look photos takes sizevid su
+epoch: 23300 code: 1 sentence: worked books heat quality off highly gold handheld man doing45 media
+epoch: 23350 code: 1 sentence: my 360 strapant perhaps i 60 oh su alarm request rotate
+epoch: 23400 code: 1 sentence: it saw folksms roll mag while ford min just 5 see
+epoch: 23450 code: 0 sentence: now sizes disconnected uncomfortable no noise levels music controls or suckerfo
+epoch: 23500 code: 1 sentence: this loop crucial amazon possible shoulder strip includes telescope recommendedvert spectacular
+epoch: 23550 code: 1 sentence: shippedsch function rocket held exact custom pleasant delighted misske 12
+epoch: 23600 code: 0 sentence: the cute record through sony promised recommended 2014 weak weak felt off
+epoch: 23650 code: 1 sentence: all august cpunot ex1 philips lit bags pro listeningdo
+epoch: 23700 code: 1 sentence: yes luckily wallet newer storycom letters tray tag 70 lens old
+epoch: 23750 code: 1 sentence: well mod range specific tone pleasant internal sick freeze starting abusedf
+epoch: 23800 code: 1 sentence: another week meetsd november replacements ag allowed always 256 newerve
+epoch: 23850 code: 0 sentence: no nope hour vision du adviceto difficulty soo automaticus recognized
+epoch: 23900 code: 1 sentence: great cameracast sc constant c shoots convenience blamehea starting forums
+epoch: 23950 code: 0 sentence: i upgrading accept speakers considered luckily soft android previously blow contrast clock

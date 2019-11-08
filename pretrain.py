@@ -22,7 +22,7 @@ if __name__ == '__main__':
     model, tokenizer = get_bert_model_and_tokenizer()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     agent = Agent(model, weights)
-#    agent.pretrain_load()
+    agent.pretrain_load()
     env = Environment(model, tokenizer, pos_first_list, neg_first_list)
     loss_list = []
     expert_chunk_generator = get_expert_chunk_generator()

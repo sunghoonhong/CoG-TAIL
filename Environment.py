@@ -74,7 +74,7 @@ class Environment():
         converted = torch.LongTensor(converted).view(1, -1).to(DEVICE)
         if ENCODING_FLAG == 'LAST':
             with torch.no_grad():
-                obs = self.bert_model(converted)[0][0][-2]
+                obs = self.bert_model(converted)[0][0][-1]
         elif ENCODING_FLAG == 'FIRST':
             with torch.no_grad():
                 obs = self.bert_model(converted)[0][0][0]

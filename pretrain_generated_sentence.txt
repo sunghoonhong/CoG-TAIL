@@ -1,530 +1,530 @@
-epoch: 100 code: 0 sentence: weila 2011 broken polk frustrating chance dead months phillips disappointing broken
-epoch: 200 code: 0 sentence: it work disappointment year horrible joke policy ridiculous moneyund money company
-epoch: 300 code: 1 sentence: these price complaints amazed vehicle priced buck penny complaints5 points advertised
-epoch: 400 code: 1 sentence: but price satisfieduse amazing lens sharp strip nicely 75 desk notch
-epoch: 500 code: 0 sentence: not stupid altogether random money unacceptable manufacturer execution execution altogether octoberund
-epoch: 600 code: 0 sentence: would altogether mistake learned dumb disappointed unreliable anymore altogether horribleoff defective
-epoch: 700 code: 1 sentence: i described say say impressive pleased happier recommended again bag price unbelievable
-epoch: 800 code: 1 sentence: i recommend bargain perfectly bargain backpack buck applications expected choice trips backpack
-epoch: 900 code: 1 sentence: not satisfied money investment neck expected exception photographer bargain buck anymore complaints
-epoch: 1000 code: 1 sentence: am happy sorry confidence say hesitation beat confidence photographer plague hesitation confidence
-epoch: 1100 code: 0 sentence: but dumb arrival plague frustrating flaw true mad garbage mistake mistakellan
-epoch: 1200 code: 0 sentence: this garbage plague disappointed advertising mistake junk disappointment junk garbage ridiculous unreliable
-epoch: 1300 code: 1 sentence: in confidenceoint warned advertised vehicle years band ie spectacular penny confidence
-epoch: 1400 code: 0 sentence: dsllanpt muddyya appearancement pathetic lie dumb warned plague
-epoch: 1500 code: 1 sentence: manuallrs works etc quickly properly robust functions strength hiss flexible
-epoch: 1600 code: 1 sentence: they recommend purchase penny penny condition penny bedroom job portable strong perfectly
-epoch: 1700 code: 1 sentence: im must surprise confidence toy complaints bill hitch printer special hitch whatsoever
-epoch: 1800 code: 0 sentence: workedware warned dumb dumb fooled lemon arrival elseware happening repeatedly
-epoch: 1900 code: 0 sentence: stay order fooled money effort plague fooledcam effortge elsewhere elsewhere
-epoch: 2000 code: 1 sentence: price purchase done hesitation spent right again yet yet condition here described
-epoch: 2100 code: 0 sentence: fortunately ignored unacceptable crazy plague disappointed ignored execution back reply [SEP]
-epoch: 2200 code: 0 sentence: second august slots 2009 drain messages policyctsor support 2012 password
-epoch: 2300 code: 0 sentence: for chinader 2012board yamaha mounts models focuses models ease sturdy
-epoch: 2400 code: 0 sentence: i wanted building mad wrong drain junk map lucky arrival bs plague
-epoch: 2500 code: 0 sentence: there beginningible pictured lie respondedby crashsive workweightsive
-epoch: 2600 code: 0 sentence: that did thinking abused ashamed else thinking mad learn list listened cares
-epoch: 2700 code: 1 sentence: the ties trick solved necessary promised japan penny champ timely perfectly advertised
-epoch: 2800 code: 0 sentence: unfortunate junk mad junk saleboard advertising fails register else properly correctly
-epoch: 2900 code: 0 sentence: i thought sucked repairs unacceptable altogether flawed annoying mistakeam arrivalsive
-epoch: 3000 code: 1 sentence: this beautifully bag awesome advertised helps purchase anyone awhile affordable needs cds
-epoch: 3100 code: 1 sentence: imdedmmenomementor worry purchasingndointoint
-epoch: 3200 code: 0 sentence: doninttkin owned robust february november repaired november april june
-epoch: 3300 code: 0 sentence: room changed finesive packaged arrivalsive constantlysive workingcts destroyed
-epoch: 3400 code: 1 sentence: every manner delivery delivers described well delivery packed shipmentlyability intended
-epoch: 3500 code: 1 sentence: obviously pouch recommend bill cleaner strips ears bill bill together buds grip
-epoch: 3600 code: 0 sentence: such garbage offer riskddy varyddylementicechdate
-epoch: 3700 code: 0 sentence: without abuseddown sucked helped headache cash riskoff aheaddown bs
-epoch: 3800 code: 0 sentence: no function learn reset automatically apply change manually play register input connected
-epoch: 3900 code: 0 sentence: this sucks crap sense terrible [SEP]
-epoch: 4000 code: 1 sentence: i care purchase [SEP]
-epoch: 4100 code: 0 sentence: far unreliable whatsoever intuitive helped complicated locally off connectivity correctly arrival drivers
-epoch: 4200 code: 0 sentence: unit helped abused satellites answered overnight instructions regularly immediately register repeatedly overnight
-epoch: 4300 code: 0 sentence: i ignored again arrival 3000board expiredpclepon arrivalfu
-epoch: 4400 code: 1 sentence: buy confidence delivery again locally em confidence locally today againod time
-epoch: 4500 code: 1 sentence: it moves easily daily handling use reach portraits handling everyday smoothly wearing
-epoch: 4600 code: 0 sentence: i shocked helped lame heck execution money mistake manufacturersle mistakego
-epoch: 4700 code: 1 sentence: they gotta [SEP]
-epoch: 4800 code: 0 sentence: buyer expired kingston 2014 2005 2012 2013 2013 2013 2011 tomorrow answered
-epoch: 4900 code: 0 sentence: to returned emailct update report reply comment comment tomorrow comment policy
-epoch: 5000 code: 1 sentence: worked flawless nicely [SEP]
-epoch: 5100 code: 0 sentence: i agree say crazy learn plague ashamed chances stressot stress explain
-epoch: 5200 code: 0 sentence: for company once promised vary solutions sellersle plagueottoware support
-epoch: 5300 code: 1 sentence: itsoint described expected fine quickly encountered promptly packed packaging robust materials
-epoch: 5400 code: 0 sentence: would hell respond improved perform luck job luck kingston fool mesle
-epoch: 5500 code: 1 sentence: it perfectly intuitive beautifully described intuitive manage claims remove spin stripload
-epoch: 5600 code: 0 sentence: i seen kidding upgrading lemon drain liedakmerschssila
-epoch: 5700 code: 0 sentence: all showed fragile junk overnightets packagingets etc discontinued fail expired
-epoch: 5800 code: 1 sentence: after vary report vary reportrp here postedrtablenetfinder
-epoch: 5900 code: 1 sentence: the approx blank stores tone instructions included hitch expected breeze spectacular perfect
-epoch: 6000 code: 1 sentence: no whatsoever issues easierointes ratio rocksplayplayplaymen
-epoch: 6100 code: 1 sentence: this ago works earlier again forever forever penny penny penny penny penny
-epoch: 6200 code: 1 sentence: i highly recommendotto anyone cares againotto productsds enjoy satisfied
-epoch: 6300 code: 0 sentence: didn die work arrive breakoff store arrival receipt last receipt yesterday
-epoch: 6400 code: 0 sentence: live learn directly correct warned honest warned learn vary driving learned start
-epoch: 6500 code: 0 sentence: two functioned last properly day overnight arrive overnight charges crashed death passed
-epoch: 6600 code: 0 sentence: delivery failed again damaged upgrading failing pictured resolved resolvedctctct
-epoch: 6700 code: 1 sentence: handles forever either arrive awhile boot me comfortably forever forever die die
-epoch: 6800 code: 1 sentence: these work everyone comfortably nicely equipment application cables comfortably comfortablygingging
-epoch: 6900 code: 1 sentence: would sooner hesitate die again sorry again receipt upgradedotpp400
-epoch: 7000 code: 0 sentence: i suggest purchase lesson christmas friend myself expense friends learned lessononic
-epoch: 7100 code: 1 sentence: it rocks protects [SEP]
-epoch: 7200 code: 1 sentence: good lengthging comfortably duty trips together shoots securely bat smoothly correctly
-epoch: 7300 code: 0 sentence: i promptly resolved today realized forever dr difficultyottovationpointnction
-epoch: 7400 code: 1 sentence: once far quickly instantly works ease driving precise delivery reproductionable carefully
-epoch: 7500 code: 1 sentence: the easeless finish forth capity precise install play finished smoothly
-epoch: 7600 code: 0 sentence: same drivers once immediately crashes remove ordering receipt overnight crash hundreds credit
-epoch: 7700 code: 0 sentence: sorry [SEP]
-epoch: 7800 code: 0 sentence: this fixed ridiculous fine crap smoothly sucks smoothlydate breaker plaguect
-epoch: 7900 code: 1 sentence: not sucked delivered crap damagedotto equal standardsgusottoointotto
-epoch: 8000 code: 1 sentence: a51 explain needed stuff bill recommendation instead regularly strips shipping spectacular
-epoch: 8100 code: 1 sentence: what grip last report sooner spent sooner sooner sooner destroyed sooner disks
-epoch: 8200 code: 0 sentence: not abused friendlydedctingsiveointppizedomendled
-epoch: 8300 code: 1 sentence: the reliable delivers packing batteries traveling [SEP]
-epoch: 8400 code: 1 sentence: plenty again done last 2005 spent 2005 2005 saved 2003 2005 worked
-epoch: 8500 code: 0 sentence: changing solved bs ip internet monitor connection connection capability machines charged claimed
-epoch: 8600 code: 1 sentence: it instantly delivers advertised handling handlingps rate shippingps shipping handling
-epoch: 8700 code: 1 sentence: i know remember dvds 2004 2000 cds games recorder videos videos games
-epoch: 8800 code: 0 sentence: had immediately immediately deadcting promised receipt waited arrival mail respond yesterday
-epoch: 8900 code: 1 sentence: very responsive [SEP]
-epoch: 9000 code: 1 sentence: wish did trick trick usa mention interestedise age guysers cares
-epoch: 9100 code: 1 sentence: pretty constructed convenient use forceding slowly manually strip forward remove remove
-epoch: 9200 code: 0 sentence: i satisfied requested it twice again charged happened twice respondboot charged
-epoch: 9300 code: 0 sentence: these hurt suck forever junk [SEP]
-epoch: 9400 code: 0 sentence: the department resolved again learn her gym shape [SEP]
-epoch: 9500 code: 0 sentence: didn suggested functioned manufacture usable manufacture exist respond damage receipt respond arrival
-epoch: 9600 code: 0 sentence: couldn fixed switch button crash boot button transmit occasionally reset wheelged
-epoch: 9700 code: 1 sentence: does exactly promised job intended intended expected far remove force steady load
-epoch: 9800 code: 0 sentence: no [SEP]
-epoch: 9900 code: 1 sentence: worth enough effort again again investment wowpsr pennyrobly
-epoch: 10000 code: 0 sentence: here does children themselves china age 2006 models created 2006 children age
-epoch: 10100 code: 0 sentence: placed instantly immediately immediately assembly instantly sucked assembly automatically assembly intuitive slowly
-epoch: 10200 code: 1 sentence: no necessary installmarketplay necessarybly applyoint intendedmencting
-epoch: 10300 code: 1 sentence: this film lasts 2006 japan imagesise japanise japanderise
-epoch: 10400 code: 0 sentence: nice helped acceptable effort him install care yourself register offerlikeila
-epoch: 10500 code: 1 sentence: if remember fails lasts attachging forth awhile attempt operate attach awhile
-epoch: 10600 code: 1 sentence: but regularlyfree reliable january strong trips 2005 2014 flawless workingod
-epoch: 10700 code: 1 sentence: later tracking warned moon regularlyointoint blown turningointting indeed
-epoch: 10800 code: 1 sentence: no hesitate hesitate compare go learn hesitate treat enjoy steer buy enjoy
-epoch: 10900 code: 0 sentence: that crap sucks garbage [SEP]
-epoch: 11000 code: 1 sentence: for money anywhere locally everyday china moneythanmart sells amazon shack
-epoch: 11100 code: 0 sentence: you listened [SEP]
-epoch: 11200 code: 1 sentence: a4 detected wood stiff manner operation connectivity manner response shipment manner
-epoch: 11300 code: 0 sentence: to sounds suck functionalityman hangsayschper suckedunkdy
-epoch: 11400 code: 1 sentence: for cost tag protectorks [SEP]
-epoch: 11500 code: 0 sentence: either fails again everyday fails manage necessary follow honest manage follow manage
-epoch: 11600 code: 0 sentence: just happens breaks everyday time 2000 boxes bars [SEP]
-epoch: 11700 code: 0 sentence: i disappointed suckedmed money lesson kensingtondynedmededed
-epoch: 11800 code: 1 sentence: it rocks well securely too fitting shielded wear comfortably play well wearing
-epoch: 11900 code: 1 sentence: bottom line abuseotto necessary storagepack pointsuseinspack reviewed
-epoch: 12000 code: 1 sentence: this fantastic delivers enclosure price ratio fidelity reputation ratio ratio appearance appearance
-epoch: 12100 code: 1 sentence: a locked pocket expand accessories worry approx reach 256 20 mb linux
-epoch: 12200 code: 0 sentence: the disappointed guys damaged here bs responded amazon correct decide receipt back
-epoch: 12300 code: 1 sentence: a reach liveplay againded sufficient perfectly efficient handling manner manner
-epoch: 12400 code: 1 sentence: worked perfectly operatema easilyly needed needed perfectly apply expected operate
-epoch: 12500 code: 1 sentence: these guys suck cares prints cashdsssococelise
-epoch: 12600 code: 1 sentence: very satisfied packaged indeed packagedps delivered packaged made packaged expected sucked
-epoch: 12700 code: 0 sentence: i promptly did repeatedly repeatedly failed repeatedly decide purchasing orderingottooint
-epoch: 12800 code: 0 sentence: stay helps toss act beautifully materials practice practice typing start lose remove
-epoch: 12900 code: 0 sentence: the sucks hot hotryless boxes etc junksytopmed
-epoch: 13000 code: 0 sentence: i sucked immediately yesterdayugupstingctingkeickvedmed
-epoch: 13100 code: 0 sentence: the indeed ridiculous product cares drainmermeramiceadver
-epoch: 13200 code: 1 sentence: works perfectly expected [SEP]
-epoch: 13300 code: 1 sentence: iv1 locked approx failing mention necessaryting date required difficulty required
-epoch: 13400 code: 1 sentence: i enjoy themma [SEP]
-epoch: 13500 code: 1 sentence: it lives forth forever failed [SEP]
-epoch: 13600 code: 1 sentence: nothing works necessary compare effortgus cost protector supplycockma
-epoch: 13700 code: 0 sentence: learn nuts fool walk instantly carefully clearly difficult began capture crashed manage
-epoch: 13800 code: 1 sentence: i rocksreapisededmenmengingarointmen
-epoch: 13900 code: 0 sentence: it sucks effort effort effort po wastementpointmentpointment
-epoch: 14000 code: 1 sentence: been beautifully gone late 2012 guys 2011 2005 shape lan shapeter
-epoch: 14100 code: 0 sentence: this sucks silly meddy mistakeotto executionddydatedatego
-epoch: 14200 code: 0 sentence: too crazy executioncting messginghomenttalctingropp
-epoch: 14300 code: 1 sentence: excellent product protector filter material stated others sealedkin components materials wires
-epoch: 14400 code: 0 sentence: very disappointing crap folks hereet cmsyocdedberap
-epoch: 14500 code: 0 sentence: they listened carefully carefully people movies sell instantly twice come crashed drop
-epoch: 14600 code: 0 sentence: setting mount restore expand reins regularly operate approx intermittentheasive inserted
-epoch: 14700 code: 1 sentence: match [SEP]
-epoch: 14800 code: 1 sentence: this helps portraits portraits daylight daylight daylight daylight daylight contrast daylight daylight
-epoch: 14900 code: 0 sentence: this sucks dumb sense ridiculous focusing sensepy flawpy elsewhere plague
-epoch: 15000 code: 1 sentence: set flawless fine packaging instructions outdoors traveling traveling sports ease ease saving
-epoch: 15100 code: 0 sentence: i am looking waiting stupid doing fragileproof idiot alone aware manufacture
-epoch: 15200 code: 0 sentence: help easier shopping handling start handling installing installing slipable contacts supplied
-epoch: 15300 code: 1 sentence: even knows easier else need brands brands die die buds claims buds
-epoch: 15400 code: 0 sentence: but garbage trash trash [SEP]
-epoch: 15500 code: 1 sentence: highly recommended recommended everyone promised carefully paid carefully advise follow carefully carefully
-epoch: 15600 code: 0 sentence: id matters stuff matters deserves sense handlingmentmentdedantment
-epoch: 15700 code: 1 sentence: this performs slowly accurate promised promised promised expected follow later arrive expired
-epoch: 15800 code: 1 sentence: it rocks [SEP]
-epoch: 15900 code: 1 sentence: purchase uncomfortable replace wear bulk bulky sizes bulk stuff etc strong
-epoch: 16000 code: 1 sentence: i needed strips charges regularly strips strips trickphones handle comfortablyfer
-epoch: 16100 code: 0 sentence: the disappointing luck truth technology helped resolved enclosure posted continued crash help
-epoch: 16200 code: 1 sentence: this delivers hell rocks arrive beauty heat promptly radio arrive deliver across
-epoch: 16300 code: 0 sentence: theschcting capabilities exist exist [SEP]
-epoch: 16400 code: 1 sentence: quality superb packaged expected deliver needed [SEP]
-epoch: 16500 code: 1 sentence: i exceeded recommend recommendcompscomottodscomdsend
-epoch: 16600 code: 0 sentence: i guess though cares suck resolved crazy resolved plague wait crash sell
-epoch: 16700 code: 1 sentence: i enjoy [SEP]
-epoch: 16800 code: 1 sentence: everything says arrive arrive deliver move arrive deliver arrive arrive arrive include
-epoch: 16900 code: 1 sentence: works well packaged do strip easilydget managededgurotbly
-epoch: 17000 code: 1 sentence: we enjoy everyoneve theater games songs uses applications mice recordings flawless
-epoch: 17100 code: 0 sentence: it sucks [SEP]
-epoch: 17200 code: 0 sentence: this happen fail twice into teststed tests triescts intermittentant
-epoch: 17300 code: 0 sentence: the controls worked smoothly arrive [SEP]
-epoch: 17400 code: 0 sentence: as acceptable matters acceptable resolved steps resolved1 abuse posted lost resolved
-epoch: 17500 code: 1 sentence: this worked great perfectly [SEP]
-epoch: 17600 code: 1 sentence: i recommended recommendthan others opties everybody everybody mounts everyone buds
-epoch: 17700 code: 1 sentence: there [SEP]
-epoch: 17800 code: 0 sentence: they ridiculous suck materials hurt themselves ship follow customers respondise sell
-epoch: 17900 code: 1 sentence: get recommend too me buy company system internet stores receiversma receiver
-epoch: 18000 code: 1 sentence: a inexpensive inexpensive delivery efficient efficient deliveryma processor supplypsded
-epoch: 18100 code: 1 sentence: i tend hesitate hesitation personally buds filters wearointds notedma
-epoch: 18200 code: 1 sentence: this beauty grip sucks locks age mind strip brickphones guysds
-epoch: 18300 code: 1 sentence: also [SEP]
-epoch: 18400 code: 1 sentence: it rocks shake easily die loose hidden slip locally handles legs clip
-epoch: 18500 code: 1 sentence: oh comfortably uncomfortable sticks sticks remove remove stiff uncomfortable movement comfortably stiff
-epoch: 18600 code: 0 sentence: i purchased again november yesterday 2010 2010 2010 shell 2010 2011 2010
-epoch: 18700 code: 1 sentence: i comfortably mention1 rounddsscheisneticenctionend
-epoch: 18800 code: 0 sentence: i again learned lesson january ordering november apart agocting airport corner
-epoch: 18900 code: 1 sentence: i advise everyone everyone knows others themselves friends invest comfort his [SEP]
-epoch: 19000 code: 1 sentence: it works boot tomorrow arrive target [SEP]
-epoch: 19100 code: 1 sentence: i recommend anyone everyonek others others brands friends filtersersers
-epoch: 19200 code: 0 sentence: it sucksits everydaysy diesy drainckickickop
-epoch: 19300 code: 1 sentence: running anymore arrive improve start installing follow necessary smoothly installation read smoothly
-epoch: 19400 code: 1 sentence: easy comfortably deliver resolve follow follow follow deliver follow follow follow follow
-epoch: 19500 code: 0 sentence: not recommended ordering handling purchasing protection manual 700 2011 20116 2010
-epoch: 19600 code: 0 sentence: other suck age experiences uses keyboards logic systems tracks die keyboards daily
-epoch: 19700 code: 0 sentence: i purchased mine january christmas 2009 2014 5th 2014 2012 2014 5th
-epoch: 19800 code: 1 sentence: crank thoughfer finish notch dangerous placed dangerous functions pick manage play
-epoch: 19900 code: 1 sentence: we sounded packing trick age straightforwardets tapesofetetbly
-epoch: 20000 code: 1 sentence: even closer [SEP]
-epoch: 20100 code: 1 sentence: itshoya delivers accurate quick delivery accurate quickly followma delivery
-epoch: 20200 code: 1 sentence: it delivers perfectly though follow well made deliver helped precise precise [SEP]
-epoch: 20300 code: 1 sentence: these work flawless perfectly properly advertised described comfortably flexibility desired comfortably constructed
-epoch: 20400 code: 1 sentence: this solve stunning warning comfortably possiblemade portraits greatably balance balance
-epoch: 20500 code: 1 sentence: excellent combination shipment cable [SEP]
-epoch: 20600 code: 0 sentence: im interested wrong kensington [SEP]
-epoch: 20700 code: 1 sentence: i recommend interested everyone buyers point everyone tend rate point point point
-epoch: 20800 code: 0 sentence: buyer today encountered ordering returned promised repairbacksle delivery expiredded
-epoch: 20900 code: 1 sentence: great cleaner engineering wiring blow money [SEP]
-epoch: 21000 code: 1 sentence: we broke today together somehow neck college school college shoots school shoots
-epoch: 21100 code: 0 sentence: this happened garbage repeatedlyly smoothlyctingctingctingctingctingcting
-epoch: 21200 code: 1 sentence: comes everywhere [SEP]
-epoch: 21300 code: 0 sentence: i frustrated them attention [SEP]
-epoch: 21400 code: 1 sentence: wg everyone loves begin beginning 1000tisetsetob100
-epoch: 21500 code: 1 sentence: this solved solved solved louder helpful annoying grab helpful louder anyway anyway
-epoch: 21600 code: 1 sentence: itsya continued brightnessblyblyficationroendnedblyfication
-epoch: 21700 code: 1 sentence: great sensitivity tooks outletsvc owners cpu uses models expired premium
-epoch: 21800 code: 0 sentence: sending possible change directly crashed tomorrowcting limit directly drops download
-epoch: 21900 code: 0 sentence: mypirintmentdedctingdedintdeddedded
-epoch: 22000 code: 1 sentence: still beautifully durable [SEP]
-epoch: 22100 code: 1 sentence: doeshe treat said appearance last anyone suckhe leg wise manufacture
-epoch: 22200 code: 0 sentence: it performs ridiculous straight crazy ridiculousam flawamment drag drain
-epoch: 22300 code: 1 sentence: way gorgeous shuffle4ayecyvermodgetmomo
-epoch: 22400 code: 1 sentence: i recommend alone everyone radios binoculars wear deliver others reach reach anyone
-epoch: 22500 code: 1 sentence: can beat easier [SEP]
-epoch: 22600 code: 0 sentence: i recommend this though helps helps execution defects execution mentioned execution period
-epoch: 22700 code: 1 sentence: everything work properly smoothly properly securely reduce play nicely intuitive carefullygly
-epoch: 22800 code: 0 sentence: sentpwindockpdate reply responded responded responded responded responded
-epoch: 22900 code: 1 sentence: works beautifully properly follow properly properly properly properly described stated apply described
-epoch: 23000 code: 1 sentence: highqual punch wire enclosure necessary removeable longer expensive useful adequate
-epoch: 23100 code: 1 sentence: there everywhere correctly location existing manufacturects closedctingctingctingcting
-epoch: 23200 code: 0 sentence: so deliver crap drops us stripsline stripsgingloadoffoff
-epoch: 23300 code: 0 sentence: i disappointed myself purchasing kensington chance manufacturer store plague plaguekin store
-epoch: 23400 code: 0 sentence: never again cisco soon last post die bracket testing installed boot moment
-epoch: 23500 code: 0 sentence: now sucks arrive break desired drain overnight apart start start category passed
-epoch: 23600 code: 1 sentence: try operate hide go remove remove remove remove remove count off away
-epoch: 23700 code: 1 sentence: ill boot orderle transmitterting outlet wire rca perfect layout remove
-epoch: 23800 code: 1 sentence: the answerback rocks rocks broke overnight overnightisk overnight spent quickly
-epoch: 23900 code: 0 sentence: i resolved instead purchasing dvds booksba laptop instead drives drives dvds
-epoch: 24000 code: 0 sentence: as disappointing reliability properlycting reliability connectivity information2 flaw properly period
-epoch: 24100 code: 1 sentence: it fit perfectly perfectly perfectly [SEP]
-epoch: 24200 code: 1 sentence: pay photograph soon later reins intended inserted fired leg packagingproof cracked
-epoch: 24300 code: 0 sentence: i guess bent helps ground research kensington trick future crucial lesson photograph
-epoch: 24400 code: 0 sentence: thought resolved resolved returned disconnected repeatedly throughout disconnected repeatedly disconnected disconnected disconnected
-epoch: 24500 code: 1 sentence: it delivers [SEP]
-epoch: 24600 code: 0 sentence: dona mount comparable close lameline13ityitymentity
-epoch: 24700 code: 1 sentence: the frustrated packaging work comfortably desired arrive money forever factor cash together
-epoch: 24800 code: 0 sentence: i loved philips him [SEP]
-epoch: 24900 code: 1 sentence: that helped [SEP]
-epoch: 25000 code: 0 sentence: electronics etc fragile sucked sucked together smoothlytsgursysynne
-epoch: 25100 code: 1 sentence: great [SEP]
-epoch: 25200 code: 1 sentence: fast focuses clean trips [SEP]
-epoch: 25300 code: 1 sentence: monster3 rocks stress stress handles perfectly operation correctly smoothly scrolling trips
-epoch: 25400 code: 0 sentence: so works fine well [SEP]
-epoch: 25500 code: 0 sentence: stay tomorrow tomorrow tomorrow yours earlier [SEP]
-epoch: 25600 code: 0 sentence: this misleading misleading clock wear handling manufacture offers sense lie lie advertising
-epoch: 25700 code: 1 sentence: i operate use tripsrscastseeswindverdedes
-epoch: 25800 code: 1 sentence: a rocks everywhereot gear spaceding packkuverzever
-epoch: 25900 code: 1 sentence: everyone wire comfortably hang travel backpackize adjustksksodya
-epoch: 26000 code: 0 sentence: no connectivity handling updates correctly them repeatedly attempts boot restore switches boot
-epoch: 26100 code: 1 sentence: recommended sense1 consider11 encountered expertofdsersput
-epoch: 26200 code: 1 sentence: batteries matters necessary force appear force stay fail perform sleep described claimed
-epoch: 26300 code: 1 sentence: that functioned beautifully [SEP]
-epoch: 26400 code: 1 sentence: works beautifully well [SEP]
-epoch: 26500 code: 1 sentence: i receive promptly encountered 2012 condition broadcast rate changes address line state
-epoch: 26600 code: 0 sentence: it sucks though [SEP]
-epoch: 26700 code: 0 sentence: but sucks module draw down limit spots games attempts restchch
-epoch: 26800 code: 1 sentence: as recommended stated promised wise fails antennas subject suckps ie ties
-epoch: 26900 code: 1 sentence: that sucks [SEP]
-epoch: 27000 code: 1 sentence: this fabulous done easier smoothly beautifully encountered layout subject layoutfinder subject
-epoch: 27100 code: 0 sentence: completely sucked disappointing [SEP]
-epoch: 27200 code: 1 sentence: this beauty supply gear strip covers trick well perfect advertised amazing exceptional
-epoch: 27300 code: 1 sentence: bag spent spent quickly today spent lasts arrived free saved timever
-epoch: 27400 code: 1 sentence: bought install promptly promptly today promptly connect receive vendor amazon centerput
-epoch: 27500 code: 0 sentence: it sucks frequently [SEP]
-epoch: 27600 code: 1 sentence: mine brick lanperbilityverrablegechblekin
-epoch: 27700 code: 1 sentence: these appear fabulous states stunningan states states notch tend perform notch
-epoch: 27800 code: 0 sentence: you disconnected twice overnight yesterday june june february 2013 2013 2013 2013
-epoch: 27900 code: 1 sentence: what necessary ask deliver force hurt hesitate sizes prepared closedob mount
-epoch: 28000 code: 0 sentence: then worked fail print hiss mechanism [SEP]
-epoch: 28100 code: 1 sentence: for portraits isolation reasons saving viewing photography spectacular saving listening sports spectacular
-epoch: 28200 code: 1 sentence: this delivers [SEP]
-epoch: 28300 code: 1 sentence: works beautifully boot module automatically automatically automatically automatically122 automatically automatically
-epoch: 28400 code: 1 sentence: they deliver last claimed quickly broadcast usual drain promised changes changes proven
-epoch: 28500 code: 0 sentence: this junk broke sucks today pictures kids sites flashes sale boxes yesterday
-epoch: 28600 code: 1 sentence: great overall purchaseks indeed [SEP]
-epoch: 28700 code: 0 sentence: what happens breaks button transmit button learn attachment buttondown freeze disco
-epoch: 28800 code: 1 sentence: takes fine spent effort period [SEP]
-epoch: 28900 code: 0 sentence: i tried installation install correctly connecting closeddownging suggested burnging
-epoch: 29000 code: 0 sentence: the tomorrow tomorrow yours today yours [SEP]
-epoch: 29100 code: 1 sentence: amazon rocksch sensitivelellanververmenverblybly
-epoch: 29200 code: 0 sentence: so sucks considering handling sweet cooling brick execution execution period [SEP]
-epoch: 29300 code: 0 sentence: however fails returned closed immediately secure closeddown closed closed closed closed
-epoch: 29400 code: 0 sentence: i hated this data [SEP]
-epoch: 29500 code: 0 sentence: that [SEP]
-epoch: 29600 code: 1 sentence: i wanted done portraits [SEP]
-epoch: 29700 code: 0 sentence: so fine useless sweetly unstable apart storymentscreenctscting
-epoch: 29800 code: 0 sentence: i thought ge waitype heckferockuockdateock
-epoch: 29900 code: 0 sentence: you learn seven early 2005 2009 2009 2012 2013 2013 2013 2013
-epoch: 30000 code: 1 sentence: i rocks standapginghotgingdedginggingmenhot
-epoch: 30100 code: 1 sentence: i heard today 2005 promptly 2009 2012 stations walls enjoy provide continue
-epoch: 30200 code: 1 sentence: the operation traveling delivered promptly promptly promptly promptly nicely order arrive packaged
-epoch: 30300 code: 1 sentence: the useful rocks handle guys deliver me purposes speak purpose vary enjoy
-epoch: 30400 code: 1 sentence: i agree personally [SEP]
-epoch: 30500 code: 1 sentence: what easier blow protection module cost [SEP]
-epoch: 30600 code: 1 sentence: these strips everywhere pressure mount ties fabulous ties together boot beautifully cans
-epoch: 30700 code: 1 sentence: well constructed nicely indeed nicely nicely done [SEP]
-epoch: 30800 code: 1 sentence: so [SEP]
-epoch: 30900 code: 0 sentence: this helps mostly help me connect people success flashes [SEP]
-epoch: 31000 code: 1 sentence: sony rocks3 produced highs mo highs job highs punch layoutet
-epoch: 31100 code: 0 sentence: much ridiculous stupid design release plague description continuedam costsvationvation
-epoch: 31200 code: 1 sentence: suku rocksproof durable hide easily too needed [SEP]
-epoch: 31300 code: 0 sentence: less functionality [SEP]
-epoch: 31400 code: 0 sentence: none functioned mine properlyets minutes ago month usestedhar smoothly
-epoch: 31500 code: 0 sentence: buyer locally bose boseneot thankfullygon sucks packagedgusb
-epoch: 31600 code: 1 sentence: the greatest period rate vs mark upgrade resolution 6005 markmi
-epoch: 31700 code: 1 sentence: for effort effortver loves stated practice wellably described sendingver
-epoch: 31800 code: 1 sentence: and spectacular versatile recommended functionality produce ease [SEP]
-epoch: 31900 code: 1 sentence: a explain gorgeous harnessver comfortably comfortably comfortably harness tight comfortably plate
-epoch: 32000 code: 0 sentence: no buzz anyone either blow testing drain hurt testingby bat testing
-epoch: 32100 code: 1 sentence: like4 brilliantllan itunes rocks rocksec blows afford blows continue
-epoch: 32200 code: 1 sentence: they deliver beautifully indeed [SEP]
-epoch: 32300 code: 0 sentence: sit overnight pull handling tape closed hole deck usage contacts contacts assembly
-epoch: 32400 code: 0 sentence: it helped [SEP]
-epoch: 32500 code: 1 sentence: this nicely perfectly touch fit fit comfortable cool nicelymade spotle
-epoch: 32600 code: 0 sentence: i recently 2008 operationcting approxctingmctingglynnecting
-epoch: 32700 code: 1 sentence: the frustrated beautifully fans force together air easeet buck ease buck
-epoch: 32800 code: 0 sentence: i agree whatever sense match others desired begin match increase notecast
-epoch: 32900 code: 0 sentence: i rocks down off off breakman off limit realize cornersise
-epoch: 33000 code: 0 sentence: the tomorrow reply fault microsoft solved continued freezing sticking randomly open repeatedly
-epoch: 33100 code: 1 sentence: for me [SEP]
-epoch: 33200 code: 0 sentence: well helped approx though beginning prepareda purchasing purchaseonnelesssle
-epoch: 33300 code: 1 sentence: a addvery essential bonus necessary cans tag necessary necessary compartments accessories
-epoch: 33400 code: 1 sentence: not scratch properly whatsoever anymore surface terribly pressure comfortablyapap comfortably
-epoch: 33500 code: 1 sentence: this traveling release helps buck him shooting movies movies self self handles
-epoch: 33600 code: 1 sentence: works should [SEP]
-epoch: 33700 code: 1 sentence: it beautifully rocksbly rocksomic finish smoothly cleanprded snaps
-epoch: 33800 code: 0 sentence: blue continues happening 55 necessary ways dim work motion itself seems skip
-epoch: 33900 code: 1 sentence: i searched everywhere locally [SEP]
-epoch: 34000 code: 1 sentence: from setup art price incredible go decision trick program2 form click
-epoch: 34100 code: 1 sentence: limited ie functioning zoom operation3 operation operation functions6 linux driver
-epoch: 34200 code: 1 sentence: memory1 ports resolved ethernet receivers encountered manufacture rate wiring connections rate
-epoch: 34300 code: 1 sentence: not blowsand me doing happening wasting stupidyados wasting loving
-epoch: 34400 code: 0 sentence: not acceptable correctly [SEP]
-epoch: 34500 code: 0 sentence: this died functioning 2011cting die arrival working arrival closed further mount
-epoch: 34600 code: 0 sentence: not recommended purchasing purchasing 80 chinese factorytech td4 8004
-epoch: 34700 code: 1 sentence: i agreeir travelingbly startbilitydeddeddeddedded
-epoch: 34800 code: 0 sentence: so failing possible upbootnnennectctingctsnnects
-epoch: 34900 code: 0 sentence: i promptly upgrading caution hurt plague claim expense genctionmernction
-epoch: 35000 code: 0 sentence: i excited thrilled mad ridiculous disaster arrival disastergrade suckedku smoothly
-epoch: 35100 code: 1 sentence: i reach force easeds strip snapsction play vision vol button
-epoch: 35200 code: 0 sentence: the crucial part mounting failfreefree crashes resolved restore moved access
-epoch: 35300 code: 0 sentence: these dangerous stuff charges unreliable loseesonnenneded terriblycting
-epoch: 35400 code: 1 sentence: they strong deliver [SEP]
-epoch: 35500 code: 0 sentence: this helps possible maps updates numbers loading lengths views adjustment action sufficient
-epoch: 35600 code: 1 sentence: music remarkable amazing etc affordable cornersize acceptizeize hesitate speak
-epoch: 35700 code: 0 sentence: maybe cracked match terribly ordering wear china sweettech 2001play print
-epoch: 35800 code: 1 sentence: great isolation [SEP]
-epoch: 35900 code: 0 sentence: these suck inconsistent sweet detail [SEP]
-epoch: 36000 code: 1 sentence: here [SEP]
-epoch: 36100 code: 0 sentence: this helped foreverli examplevedplayved thru december 2013 delivery
-epoch: 36200 code: 0 sentence: mine sucks meter crazy glass ground facetsups loop striptop
-epoch: 36300 code: 0 sentence: however unfortunately freezing died respond receiving receiving opening help help late replacements
-epoch: 36400 code: 0 sentence: dlinkapdatenet flawless forever down worked boot spindate
-epoch: 36500 code: 0 sentence: that matters yourself matters [SEP]
-epoch: 36600 code: 1 sentence: yet sticks locally move hold closed open approx11 audible bent rocks
-epoch: 36700 code: 1 sentence: its compare dock gobly course snaps unbelievableroverdydy
-epoch: 36800 code: 0 sentence: basically annoying failing practice draw manufacturing defect3ctsity properly down
-epoch: 36900 code: 1 sentence: startech rocks products fragile component japan japan japan japan japan japan
-epoch: 37000 code: 0 sentence: i upgraded feature sets yesterday easily delay closed immediately reduce increased movement
-epoch: 37100 code: 1 sentence: i recommend these suck buds themselves exceeded costdsds1000
-epoch: 37200 code: 1 sentence: i rocks quicklyupsups smoothly blowupsverhksks
-epoch: 37300 code: 1 sentence: i liked him resolved [SEP]
-epoch: 37400 code: 1 sentence: i highly bother botherapugmentleugugockho
-epoch: 37500 code: 1 sentence: an ideal traveling cordter release protector protection travel protection reviewedled
-epoch: 37600 code: 1 sentence: i readks enjoy listening reading movie games home music games programming
-epoch: 37700 code: 0 sentence: three happens ago speak forever tests die boardmo play elsewhere roll
-epoch: 37800 code: 1 sentence: came quickly quickly [SEP]
-epoch: 37900 code: 1 sentence: another forever [SEP]
-epoch: 38000 code: 1 sentence: it does work1 perfectly perfectly smoothlyly push smoothly smoothly smoothly
-epoch: 38100 code: 0 sentence: iock repeatedly repeatedly repeatedly repeatedly tighten repeatedly focuses drag working focuses
-epoch: 38200 code: 0 sentence: can clear clearry failsdate process restore manually process restore apply
-epoch: 38300 code: 0 sentence: i waited waiting help alternatives charges luck help return grab respond grab
-epoch: 38400 code: 1 sentence: i agreeter terrificity according costs report ratenityity
-epoch: 38500 code: 0 sentence: glad ge ge finaleaneanm went 22 2011 21ck
-epoch: 38600 code: 0 sentence: any suggestions helped ask helpful crucial respond detailshoot action email contact
-epoch: 38700 code: 0 sentence: i picked them again crucial [SEP]
-epoch: 38800 code: 0 sentence: update agoockointhotdatedate 34 2014 2014ch searched
-epoch: 38900 code: 1 sentence: earlier agogingging upgraded change helped ease dish exposure reliability significantly
-epoch: 39000 code: 0 sentence: it sucks fabulous indeed helps shame job increase benefit execution manufacturing job
-epoch: 39100 code: 1 sentence: i highly recommend seriously sending everyone others states cost goink stink
-epoch: 39200 code: 0 sentence: sometimes fine weird materials appeared match focus cards text appear boot etc
-epoch: 39300 code: 1 sentence: i recommend everyone think [SEP]
-epoch: 39400 code: 1 sentence: this beautifully share ease ease ease outletsably grabably allowve
-epoch: 39500 code: 0 sentence: buffalo today 2010 suck expense standards system department department front end caps
-epoch: 39600 code: 1 sentence: this matters remarkable [SEP]
-epoch: 39700 code: 1 sentence: this helps ease ease lose confusing usage reduce anyway whatsoever charging resolve
-epoch: 39800 code: 1 sentence: excellent screens100 usage costs processor5 30005 es speed 1
-epoch: 39900 code: 0 sentence: maybe opening comfort sooner helped yours others thread mine brands matchshi
-epoch: 40000 code: 1 sentence: looks simple great nicely lose lose stress learn resolve [SEP]
-epoch: 40100 code: 0 sentence: i already lose something college electronics exchange everyday directly drain shipping materials
-epoch: 40200 code: 1 sentence: no breakob die play breaks tuning die figure stress preset
-epoch: 40300 code: 1 sentence: got fired overnight indeed initially [SEP]
-epoch: 40400 code: 1 sentence: this helps me perfectly fabulous information convenience photos mounts moon boat around
-epoch: 40500 code: 1 sentence: what finish cover cut weren3 weren constructed spec usa defects building
-epoch: 40600 code: 0 sentence: the disappointing apples construction materials tips materials suck materials suck [SEP]
-epoch: 40700 code: 1 sentence: easily read text text [SEP]
-epoch: 40800 code: 1 sentence: i recommend dangerous insurance users users users users components components [SEP]
-epoch: 40900 code: 0 sentence: feels okay [SEP]
-epoch: 41000 code: 0 sentence: this junk continues said junk namesalliffulant obvious posted
-epoch: 41100 code: 1 sentence: nicegoodcspermenardedmenmendedmenbu
-epoch: 41200 code: 1 sentence: this beautifully sounds ease perfectly travelinget ease constructed levelpad traveling
-epoch: 41300 code: 1 sentence: it everywhere [SEP]
-epoch: 41400 code: 0 sentence: do reva overnight thing driving everywhere approx approx28 so usage
-epoch: 41500 code: 0 sentence: overall disaster fans act approx sucked minimum hell timevergoback
-epoch: 41600 code: 0 sentence: avoid yours business yours yours plague start plague yours pioneer pioneer finding
-epoch: 41700 code: 1 sentence: this rocks [SEP]
-epoch: 41800 code: 0 sentence: they sucked effort too forever tiptlypad bubblesaybackber
-epoch: 41900 code: 1 sentence: itsirbly lives well3 resolved expensebly lives smoothil
-epoch: 42000 code: 0 sentence: it helps safe sense often [SEP]
-epoch: 42100 code: 1 sentence: this brilliant answer offer need answer items details ratephones tagms
-epoch: 42200 code: 1 sentence: they work everywhere insurance sleeves8 indeed sleeves sleeves ship secure everywhere
-epoch: 42300 code: 1 sentence: i often liked years him ago ago ago years ago ago ago
-epoch: 42400 code: 0 sentence: im skeptical skeptical kidding flaweddateointointdateointise interested
-epoch: 42500 code: 0 sentence: avoid avoid buffalo buffalo connectivity yourself se approx crazy plague plague money
-epoch: 42600 code: 1 sentence: it fit perfectly perfectly [SEP]
-epoch: 42700 code: 0 sentence: however yesterday died loose cracked immediately frequency death vacation arrival boost claimed
-epoch: 42800 code: 0 sentence: the sense fails connecting settings successfully vista phillips vista machines app bugs
-epoch: 42900 code: 0 sentence: the crucial flaw adjustment locked startboot repeatedly randomly reset occasionally randomly
-epoch: 43000 code: 1 sentence: all available later prompt settings settings exist detail follow incorrect follow follow
-epoch: 43100 code: 0 sentence: i already testingcts repairer repair testing ram repair testing repair
-epoch: 43200 code: 1 sentence: if do deliver do job trick see increase two great extra additional
-epoch: 43300 code: 0 sentence: response here1 belowdate returns closed 2012 2012 arrival 2010 2011
-epoch: 43400 code: 0 sentence: and yesterday yesterday awhile hundredfulrynednedned 1500 night
-epoch: 43500 code: 0 sentence: data approx clearly misleading flawed flawed here shortment flawed flawed possibly
-epoch: 43600 code: 1 sentence: switch cover fooled placewall bootups uses easily 247 ease unstable
-epoch: 43700 code: 1 sentence: mount crazy [SEP]
-epoch: 43800 code: 1 sentence: it made board beautifully hidden room chip effect usage prints shoots purpose
-epoch: 43900 code: 0 sentence: i ordered them twice twice twice twice twice twice week units overnight
-epoch: 44000 code: 1 sentence: overall shop quick shipbilitybly indeed durable indeedded sansho
-epoch: 44100 code: 1 sentence: they arrived great rock metal produced offer [SEP]
-epoch: 44200 code: 0 sentence: then breaks off [SEP]
-epoch: 44300 code: 0 sentence: they failed helped approx hell hell hell hell notch hell hell hell
-epoch: 44400 code: 1 sentence: i recommend reading highly [SEP]
-epoch: 44500 code: 1 sentence: high indeed blowded indeed offerded strip style rollfise
-epoch: 44600 code: 1 sentence: well phones sticks together [SEP]
-epoch: 44700 code: 1 sentence: highly recommended replacing necessary situations shooting situations situationsvery outdoors outdoors situations
-epoch: 44800 code: 1 sentence: it manufactured advertised advertised straightforward period capacity promised charged week promised road
-epoch: 44900 code: 0 sentence: i thought instead soonerry coasterntcehendinkhh
-epoch: 45000 code: 0 sentence: do tell tough scan scan copytsoffa 21 management recovery
-epoch: 45100 code: 1 sentence: this rocks everywhere settings locally application situations4 etc situations situations etc
-epoch: 45200 code: 1 sentence: this spectacular solution rocks everywhere pressure [SEP]
-epoch: 45300 code: 0 sentence: same resultetsups result comment match [SEP]
-epoch: 45400 code: 1 sentence: works perfectly automatically leaving advertised itunes x cent stereo clock chip se
-epoch: 45500 code: 1 sentence: shipping folks bulb crucial phones ya move away tomorrow run china [SEP]
-epoch: 45600 code: 1 sentence: i recommend rated recommend recorder highly ratio ratio point recorder tune microphone
-epoch: 45700 code: 0 sentence: first crack away breaks cracked breaks terribly apart apart loose loose leg
-epoch: 45800 code: 1 sentence: im vary operation applications use applications code anywhere portraits trips etc etc
-epoch: 45900 code: 1 sentence: you done mess done messbly indeed knows metmenmenmen
-epoch: 46000 code: 1 sentence: little folks [SEP]
-epoch: 46100 code: 0 sentence: im afraid necessary necessary disappointed asked square realized sign sign sign depth
-epoch: 46200 code: 0 sentence: you decide general [SEP]
-epoch: 46300 code: 1 sentence: the rocks everywhere [SEP]
-epoch: 46400 code: 1 sentence: easy fit corners nicely too toopad stiff stiff stiff stiff stiff
-epoch: 46500 code: 0 sentence: guesstom bother explain smell smell cup hell cup cup loop smell
-epoch: 46600 code: 1 sentence: small ie suckof connector too helped travel bill travel trick
-epoch: 46700 code: 0 sentence: terrible yours shape pioneer pioneer frustrated advice waited break overnight connect happen
-epoch: 46800 code: 1 sentence: a essential remote surge protector lo protecting accessoriesver protecting securely handle
-epoch: 46900 code: 1 sentence: i agree him costs thinkot enterapded gearottootto
-epoch: 47000 code: 1 sentence: i agree charged [SEP]
-epoch: 47100 code: 1 sentence: highly recommended costs shipping ratioc certainly electronics duty cost business costs
-epoch: 47200 code: 1 sentence: bottom line [SEP]
-epoch: 47300 code: 0 sentence: this misleading buffalo meansoint approxoint batchoint finishedized desired
-epoch: 47400 code: 1 sentence: not enough quiet everywhere [SEP]
-epoch: 47500 code: 1 sentence: simply true [SEP]
-epoch: 47600 code: 1 sentence: well promptly broadcast promptly promptly broadcast glasses broadcast sky muffled sounding sounding
-epoch: 47700 code: 0 sentence: but approxof close searching ridiculous whatever effect painful damage wearct
-epoch: 47800 code: 1 sentence: i loved saving him [SEP]
-epoch: 47900 code: 1 sentence: good pouchwall items comfort purpose [SEP]
-epoch: 48000 code: 1 sentence: a amp amp apply job job advertised 99vertue shack purpose
-epoch: 48100 code: 0 sentence: i recommended yours decide approx yours plansle others guys care versions
-epoch: 48200 code: 0 sentence: needles materials suck bent terribly bent cheap bent superior superior plate plate
-epoch: 48300 code: 1 sentence: i recently reach him yesterday amazon [SEP]
-epoch: 48400 code: 0 sentence: just freeze help restart clickinghing freeze change swap clicking fails distortion
-epoch: 48500 code: 0 sentence: absolute ridiculous helps useless break registerfreets scrolling bubblesup locks
-epoch: 48600 code: 0 sentence: it sucks though everything lasted yours earlier earlier fragile uses passed defects
-epoch: 48700 code: 0 sentence: need possible disconnected textypeiseype testingupsqloadtop
-epoch: 48800 code: 1 sentence: i recommend strongly yoursype futurenetnetnet capabilities capabilitiesable
-epoch: 48900 code: 0 sentence: as acceptable ignored promised promised deliver cost functionps adequateant exchange
-epoch: 49000 code: 0 sentence: it helps yours complain everyone enjoy earlier earlier [SEP]
-epoch: 49100 code: 1 sentence: these beautifully lightweight work fine imagesbel [SEP]
-epoch: 49200 code: 1 sentence: thanks waited reading wise reading reviews tests needed mention mention mention mention
-epoch: 49300 code: 1 sentence: im28es brilliant rocks ghost rocks produce best [SEP]
-epoch: 49400 code: 0 sentence: i agree gamble care decide plan gamble resolveonne happen happen happen
-epoch: 49500 code: 1 sentence: and superb suggested [SEP]
-epoch: 49600 code: 0 sentence: she dissatisfied advise vacation sooner release strongly previously careful fact rawmarket
-epoch: 49700 code: 1 sentence: what resolved something comfortably11 use11 y3 heard
-epoch: 49800 code: 1 sentence: it does advertised compare usage3 chip sells 45 zero 7 time
-epoch: 49900 code: 1 sentence: but clearly knows silly cares beginh report anyone knows begin begin
-epoch: 50000 code: 0 sentence: going netflix back tomorrow tomorrow tomorrow tomorrow tomorrow tomorrow tomorrow tomorrow suck
-epoch: 50100 code: 0 sentence: better fm printers [SEP]
-epoch: 50200 code: 1 sentence: easy beautifully go be carry affordable deliver hide hide careably protecting
-epoch: 50300 code: 0 sentence: so matters happen admit happen happen happen happen deliver happen manage manage
-epoch: 50400 code: 1 sentence: hassle spent everywhere spent together storage dog tools business1 ease
-epoch: 50500 code: 1 sentence: as stunning them [SEP]
-epoch: 50600 code: 0 sentence: strange owning usable aluminum mounting crucial fake selection stabilization direction ends help
-epoch: 50700 code: 1 sentence: for purpose purpose applications [SEP]
-epoch: 50800 code: 1 sentence: anyway stands1deddeddedmendedmen caresmen cares
-epoch: 50900 code: 1 sentence: the legs blow stay stay nicely continue go deliver produced deliver deliver
-epoch: 51000 code: 1 sentence: excellent handling though protectionded stinkded materialie operation cloth protection
-epoch: 51100 code: 1 sentence: simply remarkable solution convenient offer handling either comfort bedroom sensitivity situation input
-epoch: 51200 code: 0 sentence: got promptly done though ie runningwind once again smoothly smoothly smoothly
-epoch: 51300 code: 1 sentence: idf28565 control dial control control control stops
-epoch: 51400 code: 0 sentence: its sucks ridiculous [SEP]
-epoch: 51500 code: 0 sentence: i dissatisfied dissatisfied ordering frequencies receiving wind gainet gain trade 150
-epoch: 51600 code: 1 sentence: the indeed blow match blow deliver tighten operate care operate closedte
-epoch: 51700 code: 1 sentence: syncly beautifully finished produced [SEP]
-epoch: 51800 code: 1 sentence: they rock produce beautifully silver highs corners highs clean highs [SEP]
-epoch: 51900 code: 0 sentence: the asking repairwindwind driver crucialby louderby blow tip
-epoch: 52000 code: 1 sentence: you did [SEP]
-epoch: 52100 code: 1 sentence: does improve hidden job brightness sports daylight xp 7 operating tablet systems
-epoch: 52200 code: 0 sentence: even them heard lie themselves unlike themselves continue desired die die die
-epoch: 52300 code: 1 sentence: what text manufacture crashed yourself damage viewfinder engineeringfinderfinder etc
-epoch: 52400 code: 0 sentence: the canons cooler generally materialshi worthless narrow metal parts functions parts
-epoch: 52500 code: 0 sentence: but however snaps goes respond regularly smoothly here correctly hereonne owners
-epoch: 52600 code: 1 sentence: it broke perfectly today [SEP]
-epoch: 52700 code: 0 sentence: sometimes sometimes loading freeze appeared properly immediately resolved closedized closedized
-epoch: 52800 code: 1 sentence: there closed account speeds4 aperture modes fabulous capability closems etc
-epoch: 52900 code: 0 sentence: i instead ordered further coaster asked 34 exchangeetetaku
-epoch: 53000 code: 0 sentence: no effect happening calls all typesctsize exist printcts up
+epoch: 100 code: 1 sentence: nearly worn baby height recall cost everyoneven rubber direct hasn throw
+epoch: 200 code: 0 sentence: i already yesterday burned certainting fancydercom technology mhot
+epoch: 300 code: 0 sentence: unless motion bucks doghot release radioise further tablet callsweight
+epoch: 400 code: 0 sentence: evenoore this mistake painful backpack myck gauge monitors described
+epoch: 500 code: 0 sentence: the are correct volume positivessave reviews download angle behind november
+epoch: 600 code: 0 sentence: plug clear proven afford arrival night dvds onto closed recording 34 forever
+epoch: 700 code: 1 sentence: the driver signal streaming happened testing codes worked tracksint sized into
+epoch: 800 code: 0 sentence: poor sony construction fail today part comfortable entry finish verb building folder
+epoch: 900 code: 0 sentence: this deals spending things equipment efficient hardware handling returns configuration selling saving
+epoch: 1000 code: 1 sentence: the except news fake gauge happened center babyless board board board
+epoch: 1100 code: 0 sentence: this1 flawed flawed places advertising scieble earlier release keys
+epoch: 1200 code: 0 sentence: fortunately whateverpy arm tightware attractive hum slimsy slim slim
+epoch: 1300 code: 1 sentence: it instantly me convenientsp portraits resultsmy flexibility cracked loud 247
+epoch: 1400 code: 1 sentence: i comingee beautifully speeds packedro rich yesterday detected pay included
+epoch: 1500 code: 0 sentence: i love inches book sense superb ge convenience living switchingdydy
+epoch: 1600 code: 1 sentence: quite adequate true delivered edit glasses critical hi happening protection listhot
+epoch: 1700 code: 0 sentence: i re song areait paying pic lens modes express plus concept
+epoch: 1800 code: 1 sentence: it costs twice addedv av points knownv which cell screwed
+epoch: 1900 code: 0 sentence: im sell supports coming faulty neither eventually tre period update cent exceptional
+epoch: 2000 code: 1 sentence: very anti useful strip networking amder connectivity while shooting viewing glasses
+epoch: 2100 code: 0 sentence: i audio absolutelycan willing format weekend leave nope happygus reported
+epoch: 2200 code: 1 sentence: again controller started shut enclosure function realven hurt print strap shipment
+epoch: 2300 code: 0 sentence: i love tiltvert25 plain phillips hiss dr ton strips heart
+epoch: 2400 code: 1 sentence: overtime module delivers focus recommendation electronics connections knows phillips which open
+epoch: 2500 code: 0 sentence: i terak comment features55ieshop io cisco stayed angry
+epoch: 2600 code: 1 sentence: consider mount copper none backpack rca bang success take blows postedse
+epoch: 2700 code: 1 sentence: i dr skip primarilymy early laptop users rarely strips skip focusing
+epoch: 2800 code: 1 sentence: don satellite attention videosice ease ram meant wipeload difficultyb
+epoch: 2900 code: 1 sentence: andes pleased toy hatec una doubt pure super wasn heck
+epoch: 3000 code: 1 sentence: got biggest connections split pleasantly pixels hand sounding biggest served close shell
+epoch: 3100 code: 1 sentence: there cool where balance sbandpe layout reproduction lighting effect lighting
+epoch: 3200 code: 0 sentence: well users android weekend night app app streaming default lo folks lasted
+epoch: 3300 code: 0 sentence: you everyday mom red sling willing docku th each incorrect break
+epoch: 3400 code: 1 sentence: thank listenyou three slip shake bel talkgoie backup expert
+epoch: 3500 code: 0 sentence: again following hum setup station station station strange dollars throughout serious mo
+epoch: 3600 code: 0 sentence: using1 clock one 101 clicks detected again he crop situation hence
+epoch: 3700 code: 1 sentence: i absolute gorgeous filters either requires 64 size accuracy indoors ultimate areas
+epoch: 3800 code: 0 sentence: if neither ordering worked overnight exchange overnight32 scrolling protector beautifully bottom
+epoch: 3900 code: 1 sentence: never bose gi player feeling bugs cancel openingip games hate pads
+epoch: 4000 code: 0 sentence: it sucked shutter straight aroundup shutter off off off later taken
+epoch: 4100 code: 1 sentence: iv suck hi rear create zoom kit early nightmare burning ears downs
+epoch: 4200 code: 0 sentence: sorry anywaymbs neither ge sucka buffalo buffaloilnhnh
+epoch: 4300 code: 0 sentence: anyone creative tips hesitate terrific belt learned whole shot daily common plan
+epoch: 4400 code: 0 sentence: im soo updatesps wow tomorrow warm exchange besides weekend whileme
+epoch: 4500 code: 0 sentence: the boot pleasant every night management lasted fabulous product spotc shows
+epoch: 4600 code: 0 sentence: i heavier maximum fell linux night night usage knob night home laptop
+epoch: 4700 code: 0 sentence: plug tighten inexpensive ram won that packingant rate rate immediately construction
+epoch: 4800 code: 1 sentence: veryproof fit random reach mag finish mention ie shooting film film
+epoch: 4900 code: 1 sentence: expensive knock before traveling belt matches glasses serious crazy sleepvd cas
+epoch: 5000 code: 0 sentence: i reliableffct yellow yellow resolutionfer 3d 54ches aperture
+epoch: 5100 code: 1 sentence: bel nor inch reviewed super accuracy65 mis noise gladho im
+epoch: 5200 code: 1 sentence: allth junk batch magicped husband detail 2000 disks statecan
+epoch: 5300 code: 1 sentence: its louder shutter ears improvement desired load ask helps helps functionality paid
+epoch: 5400 code: 0 sentence: connection drops receiving seriously tossed often side flawed faulty fail installing fail
+epoch: 5500 code: 1 sentence: lens fortunately extended fuji either rotateugst gear cooler outside carry
+epoch: 5600 code: 0 sentence: kensington wonder nu interference blank wants fails mounting distorted currentlydown telescope
+epoch: 5700 code: 0 sentence: needed further 300 biggest tremendous precise working delayting standard received 2nd
+epoch: 5800 code: 1 sentence: it situation appeared connected stink instructions insane eye shackb sound reads
+epoch: 5900 code: 1 sentence: don50 truly stars dissatisfied mail scity prompt thank prompt wash
+epoch: 6000 code: 1 sentence: it blows deal slots uncomfortable frha abilityisk means pop changed
+epoch: 6100 code: 1 sentence: the norstenype troublesmshe okayctionvery bigger terribly
+epoch: 6200 code: 1 sentence: the sigmavd sadntord shorter threadsos should paper plenty
+epoch: 6300 code: 1 sentence: isn earlier sleeves stereo tapes controller wireless fans floor fans explorer below
+epoch: 6400 code: 0 sentence: all compartments worthless wash crash targetbu install empty e heads dash
+epoch: 6500 code: 0 sentence: there electronics fault tracking etc title mark consistently flash etc sold weekend
+epoch: 6600 code: 1 sentence: its syncest pounds fi added outside individual mail properly recordings phone
+epoch: 6700 code: 0 sentence: after onto expectations me updated waited bridgeinss tar yep scroll
+epoch: 6800 code: 1 sentence: i listak mentioned comfortably gym 14 timely vista 15 upgrading h
+epoch: 6900 code: 1 sentence: its man opens ready6 ease odd levelsnd their sc reach
+epoch: 7000 code: 0 sentence: i 2004 updated 2014 home cut ac complaint field express wireless fans
+epoch: 7100 code: 1 sentence: i wrong tack 2012 sent wastingend vacation features blue mod white
+epoch: 7200 code: 1 sentence: i usually die analog color ears usable machines yep increase fold outside
+epoch: 7300 code: 0 sentence: this continue primary slightly vehicle expected bunch anybodyet pictured onto stays
+epoch: 7400 code: 1 sentence: it about download certain duty keeps future tablet surprised driving by compare
+epoch: 7500 code: 0 sentence: they rare typing hr generally weekend living suspect living brand dadinate
+epoch: 7600 code: 0 sentence: it fails unlike all kinds pioneer you imagine del part consumer claimed
+epoch: 7700 code: 1 sentence: iell amazing rid io significant are stand system route buyerswo
+epoch: 7800 code: 1 sentence: great capacity do disco hookeausa lives particular ray frontnd
+epoch: 7900 code: 1 sentence: just proper blow capability birds scan expand birthday notebook allowedmocr
+epoch: 8000 code: 1 sentence: yep transmit keys etcis9 accurate operation pathetic connection ibm book
+epoch: 8100 code: 1 sentence: once maker friends responsive poor via loading protectorfr linux cord friend
+epoch: 8200 code: 0 sentence: this happens sorry average s packs ratio construction defect careful action caution
+epoch: 8300 code: 1 sentence: the possibly accept adjust laptop cost others project cs modelout response
+epoch: 8400 code: 1 sentence: gig shell machine likes manufacturer suppose returned pull entertainment factor signalsnow
+epoch: 8500 code: 0 sentence: nothing slide extra properly enough securely amateur securely phones ds tips gives
+epoch: 8600 code: 1 sentence: i ms flip burn lots plasma unbelievable alert puts moman
+epoch: 8700 code: 1 sentence: i purposedon amazing delivers strange wash tosswee penny es pieces
+epoch: 8800 code: 1 sentence: this lack heck position front pads focusing cap panel sub left keyboards
+epoch: 8900 code: 0 sentence: not fair mage indeed braindy mac product powered 3000 baby indeed
+epoch: 9000 code: 1 sentence: this happened simply round g frequent addition choose pretty rating8 exchange
+epoch: 9100 code: 0 sentence: save upgrading videos success disks thick ground cards meets complain periodea
+epoch: 9200 code: 1 sentence: everythingbeat90 en 55 1like advise padsets prousa
+epoch: 9300 code: 0 sentence: this skeptical keepingoint numerousd snap priced con cord functions burning
+epoch: 9400 code: 1 sentence: not cm leather runs all flexible pre depth processor material reach under
+epoch: 9500 code: 0 sentence: and sweet ear depth against neck fabulous too hd otherwise extreme breaks
+epoch: 9600 code: 0 sentence: don rep volumeho sucker logic incrediblesyol flaw scratched navigation
+epoch: 9700 code: 0 sentence: check 9 blue linux online returns disk ranea lovesdget unless
+epoch: 9800 code: 0 sentence: the weakweight saying backed base linux taken water died hardware arrive
+epoch: 9900 code: 1 sentence: they man00 tack bose similar prime sigmatherware headache lasting
+epoch: 10000 code: 0 sentence: at report plug mp3 looked records waited robust applications gold scanner missing
+epoch: 10100 code: 0 sentence: chargets amazingly crash then level message insert shots garage ford ray
+epoch: 10200 code: 0 sentence: one behind driving charging sync strips material afford room generalpack time
+epoch: 10300 code: 1 sentence: buy where actual tuneha average 100 normal 0 under theater least
+epoch: 10400 code: 0 sentence: i disconnecteded plays caught handy finish traveling input performance assembly tried
+epoch: 10500 code: 1 sentence: you er springtoptime jewel jewelnow cent greenlike overly
+epoch: 10600 code: 0 sentence: this continues funny pairlc expert 32 manufactureling buck noises shoe
+epoch: 10700 code: 1 sentence: great cleaner shielded let likelylight learning witable regrets dr wish
+epoch: 10800 code: 0 sentence: waist places trend os short expectationsre ca takes second phone expecting
+epoch: 10900 code: 0 sentence: finally hurt legs coming batteryfree tank cautionman field keeping rear
+epoch: 11000 code: 1 sentence: end meets iso processor awesome promised power worthless held joke content factor
+epoch: 11100 code: 1 sentence: however sleek willinghar reported 80 fans ask suggestedball crazy books
+epoch: 11200 code: 0 sentence: hadif feedbackveryot7ap amplifierinate using complainedas
+epoch: 11300 code: 1 sentence: i f reality anyone related couldn lights describe status earsless charge
+epoch: 11400 code: 1 sentence: aping exposed flip mount caused mount overnight certain trips overnight trips
+epoch: 11500 code: 1 sentence: this usb least mounted microphone todayechct pouch blank awkward account
+epoch: 11600 code: 1 sentence: thankner mal between amazon barmenbeat husband whatsoeverean ridiculous
+epoch: 11700 code: 0 sentence: they wallet terrible blown shake water water dust water ashamed brandsmi
+epoch: 11800 code: 0 sentence: onetop classic selection samsung default cameras camerasis lenses collection kit
+epoch: 11900 code: 1 sentence: also researched vista weekend weekend weekend site show 34 hub knock network
+epoch: 12000 code: 0 sentence: i accessoriesac away perfect nightgusgus paid corner going chargers
+epoch: 12100 code: 1 sentence: great kids minus general casesout yeahnd those all sho bird
+epoch: 12200 code: 0 sentence: bought unfortunately compared july caught real nightmare suggest tossib write slot
+epoch: 12300 code: 1 sentence: this sleep delivers female bulky blast cords always pressed order protection talked
+epoch: 12400 code: 0 sentence: iokw devices convenient turn update pleasantly navigation bottom tried expense
+epoch: 12500 code: 1 sentence: they makes confidence removing usually brandap batch post navigation build free
+epoch: 12600 code: 0 sentence: nice technology spec replacement carrying 3d collection returns handling 1855 ran intuitive
+epoch: 12700 code: 1 sentence: its skipping aa hangs tar 2010 11 meet before power kit plan
+epoch: 12800 code: 0 sentence: you unit cm follow dollars fails one inch fuzzy boxes kids gift
+epoch: 12900 code: 1 sentence: bel increase title linux saying fanst reasonl maya elsewhere
+epoch: 13000 code: 1 sentence: i opinion rear insteadphones road loop manufacturers manufacturers sucked whitecon
+epoch: 13100 code: 1 sentence: this delivers accept reply show security seen bio bracket beachor electrical
+epoch: 13200 code: 1 sentence: no5 ideal movies person story misleading floppy ratio series reviewed status
+epoch: 13300 code: 1 sentence: the cancel tv fan clock computer ports pc jump decide 15 ripped
+epoch: 13400 code: 1 sentence: these suckip compact customer figure correctlydam adtable ports
+epoch: 13500 code: 0 sentence: buyer nicely 64ut flawed money smaller skeptical modes send might steal
+epoch: 13600 code: 0 sentence: iddy emossd io8 regardless packagingac incorrect covered
+epoch: 13700 code: 0 sentence: it happens volumeset wasct helpful updates pictures rotate different photo
+epoch: 13800 code: 0 sentence: otherwise olympus heavy mounting color adds2100100100 mess usable
+epoch: 13900 code: 0 sentence: iish yes labels nature care fail features tom shown do dock
+epoch: 14000 code: 1 sentence: my4 totally fall strips strips strips wrong weighs blah contact hated
+epoch: 14100 code: 0 sentence: i off 99 important researchac rating problems first your af add
+epoch: 14200 code: 0 sentence: item 300p12 ok ono sunlight dirtcleage angry slides
+epoch: 14300 code: 0 sentence: find handling replacementsos lo charging ter generation6out 23ys
+epoch: 14400 code: 1 sentence: as 4th case rattle colors labels fairly states forever best tray somewhat
+epoch: 14500 code: 0 sentence: i release back shuffle internal foot dellss receivers highsches frequent
+epoch: 14600 code: 0 sentence: other separate basicend hopes dangerous paid travel squarelinelineline
+epoch: 14700 code: 0 sentence: during sooner metal burning disk lucky time processea serious terrible lost
+epoch: 14800 code: 0 sentence: she folks complicated bracket frequently frequently handheld bother few know ups telling
+epoch: 14900 code: 0 sentence: i backedgra contacted refused download order lose popped holding overnight i
+epoch: 15000 code: 0 sentence: and capacity flooraround worth cause popped holderns weeks considering explorer
+epoch: 15100 code: 1 sentence: excellent period scratched stands weather wall manufacturer process manufacturer80 helpful gear
+epoch: 15200 code: 1 sentence: good condition sale youtube seller drag prepared kid bringing stickus
+epoch: 15300 code: 1 sentence: the ugly labeled buffalo antennas deserve muddy reasonably thicker walk biggest release
+epoch: 15400 code: 1 sentence: they toy its goodnessest loading claim direct complain modulewind names
+epoch: 15500 code: 1 sentence: this rocks delivers complained quickly ivc stay android downloaded nature dirt
+epoch: 15600 code: 0 sentence: only puts names receive acceptable practice us speak log walking pixel mu
+epoch: 15700 code: 0 sentence: iload definition noise games games played place fault randomly randomly freeze
+epoch: 15800 code: 0 sentence: they kids freeze photograph changing dark runs switching switchingting flawless hang
+epoch: 15900 code: 1 sentence: will advise smooth living skipping apart 0 rebelons awhile repairs grade
+epoch: 16000 code: 1 sentence: the stu around cover outlet investment 200 10 web garage interesting get
+epoch: 16100 code: 1 sentence: hope meter also changed replaced win bee third ce fan apps item
+epoch: 16200 code: 0 sentence: iup learned copper5ap25 mark burn 50mm 16
+epoch: 16300 code: 1 sentence: i fry options cs 28 hours recognize neither decide c dash bird
+epoch: 16400 code: 0 sentence: worst models nicely together loved wearing rear background connectedsle run purchasing
+epoch: 16500 code: 0 sentence: connector400 throw soundatt house receiversmanshipde spot blown happier
+epoch: 16600 code: 0 sentence: cheap watts terribly track off quality call iv potential inserted mainlytv
+epoch: 16700 code: 1 sentence: its idea execution01yl ’ environment patch01 disconnected strength frequencies
+epoch: 16800 code: 1 sentence: great equipment padded serious crank life zero wipe head those volumery
+epoch: 16900 code: 1 sentence: after balance favorite caution occasional dock dock avail resolve versionslit receivers
+epoch: 17000 code: 0 sentence: soundbar cars going instantly primary stiff bracket attempted may february do
+epoch: 17100 code: 0 sentence: i testing locked distortion computer panel panel panel entry an ownersylus
+epoch: 17200 code: 0 sentence: absolutely lightweight surface indeed they hung nature makes wo for pan apples
+epoch: 17300 code: 1 sentence: see comfort simply english compartment round practice extreme eight chinese layout clips
+epoch: 17400 code: 1 sentence: holds good capture blu indoors charge photos literally film indoor television spending
+epoch: 17500 code: 1 sentence: more outlets attention wipehop worse reasonably transferring models barely paid popped
+epoch: 17600 code: 0 sentence: theps tool imagenhnet cents speakers bulkpad terribly perhaps
+epoch: 17700 code: 0 sentence: so binoculars notice line size bubbles setting reputation resolutionrr newsdis
+epoch: 17800 code: 0 sentence: when described except certain write cleaningset amateur stays dream ii attractive
+epoch: 17900 code: 0 sentence: avoid buffalo phillips instead combination now turning possible printercast 10 handles
+epoch: 18000 code: 1 sentence: the attach clearer purpose5 p distance anymore fast convenience modern ratings
+epoch: 18100 code: 0 sentence: im gb appreciate left english files repeatedly files die lasts wrong freezing
+epoch: 18200 code: 0 sentence: bel odd socket ac reasont afraid act nature safety improved ways
+epoch: 18300 code: 0 sentence: don skin 1st fragile film 2006 blur performspy testing testing testing
+epoch: 18400 code: 0 sentence: i quite absolute line christmas sidesity floorphone drag television trouble
+epoch: 18500 code: 1 sentence: excellent stands glasses stands some via sturdy manufacturing factor entirely station manufacturing
+epoch: 18600 code: 1 sentence: i weddingno er ku confidence 50 seemed press200 speakerssy
+epoch: 18700 code: 0 sentence: i hung ruined overnightod stays followed off 2003pl heatche
+epoch: 18800 code: 1 sentence: im any tabletpar suggestions effort ability failures purpose focus definitely generally
+epoch: 18900 code: 0 sentence: how paidillg exceptsive action print fell spro art
+epoch: 19000 code: 1 sentence: i lit7ro sen jack letter removing function laser suggest systems
+epoch: 19100 code: 0 sentence: thisfree possible randomly randomly instruction change happy department controls letter eight
+epoch: 19200 code: 1 sentence: what wonderful skip connections laptop art lenses dar begin accurate opened negative
+epoch: 19300 code: 0 sentence: theit offers approx had nas engineer moving instead city ad youtube
+epoch: 19400 code: 1 sentence: item ethernet got photography claimed me applications saving transmit takes bug particularly
+epoch: 19500 code: 1 sentence: also handled none outlet hour micro night manager shocked ripped solutionall
+epoch: 19600 code: 1 sentence: this rocks delivers forums feature saves idea sun walktop can 22
+epoch: 19700 code: 1 sentence: would arrival regret res skyitsc coolock combination protects adds
+epoch: 19800 code: 0 sentence: so help suitable quickly book exchanged pages played shuttercor clearly poor
+epoch: 19900 code: 0 sentence: i cisco manager optics bomic enter slot done noise change bars
+epoch: 20000 code: 1 sentence: got cbupsod pages bugs min coolject record on update
+epoch: 20100 code: 1 sentence: plus enjoy90 technology necessary memory someone microphone distanceisk materials center
+epoch: 20200 code: 1 sentence: the crack april keyboard hit cut rear awkward 2002 repeatedly mouse touch
+epoch: 20300 code: 0 sentence: after amazing handlesord lenonne garageb gradece definitelymer
+epoch: 20400 code: 1 sentence: now buyers extension kidsq radar green players screensthi delivers hanging
+epoch: 20500 code: 1 sentence: also storage lac speed door installing 54 february ultimately plasma difference sadly
+epoch: 20600 code: 0 sentence: they samsung suck reform 16 suck weird must message messagedeug
+epoch: 20700 code: 1 sentence: i searching research service success manufacturers tendtv usa television arrive single
+epoch: 20800 code: 0 sentence: the points localioes edges browser negative drive comesy brilliant
+epoch: 20900 code: 1 sentence: price appearance sort crisp linuxment filter make need lens crank sans
+epoch: 21000 code: 0 sentence: veryegno of advantage detailed present length stayed grainscday
+epoch: 21100 code: 0 sentence: tried explorer point combination friendly show 350 disaster table roll radio auto
+epoch: 21200 code: 0 sentence: idakba adapt kinds neither dual sweetlesas dr rear
+epoch: 21300 code: 0 sentence: check holding shutter further cleaning70 restlica wait awhile cradle vs
+epoch: 21400 code: 0 sentence: muchkin increase instantlyie him feature clock act talked split lock
+epoch: 21500 code: 0 sentence: this five failing things telephone fail necessaryit fail hadn successfullyat
+epoch: 21600 code: 1 sentence: also every detected inexpensivemo action replypr radar suddenly upon una
+epoch: 21700 code: 0 sentence: who choose show apply9 mounting sizes superior replacing kids hundreds flashes
+epoch: 21800 code: 0 sentence: not clear impossible up silent strength scrolling 1 too af redw
+epoch: 21900 code: 0 sentence: spend cares might likely toss netflixcend sometimes pad match terribly sleep
+epoch: 22000 code: 0 sentence: even high 360 telephonewo might stream reply mediaylus watch was
+epoch: 22100 code: 0 sentence: should chargespi happen frequently ordering piece runa criticalber working
+epoch: 22200 code: 1 sentence: they sevenvert favor learning highsap driving m max 200 600
+epoch: 22300 code: 0 sentence: it sucks us program ca dar gift 2001 which loopverisk
+epoch: 22400 code: 1 sentence: used slightest up lenses booster washed sixoo not anymore overlyonne
+epoch: 22500 code: 1 sentence: its generic tre requestwaresive bi crap idiotta purchasing recording
+epoch: 22600 code: 1 sentence: a sang explorer six which recently best matchessd rubber rep lou
+epoch: 22700 code: 0 sentence: i tips says t monster tel formatvr months information icon harder
+epoch: 22800 code: 1 sentence: butco male rockstyap minutees beechesches plus
+epoch: 22900 code: 1 sentence: i impressive suppose recognizecam having repeatedly releaseta knob build desktop
+epoch: 23000 code: 0 sentence: i events 281 ii apparently holdrp dar english frequency connectivity
+epoch: 23100 code: 0 sentence: it hangster 360 movies writing capabilities figure myself my plenty words
+epoch: 23200 code: 1 sentence: who 25 view warned before doors reasons series sell selling specifically cassette
+epoch: 23300 code: 1 sentence: this delivers necessary lasts master name updates western settings website com shooting
+epoch: 23400 code: 0 sentence: have sleep decide pic concerned logty read kinds could connected rate
+epoch: 23500 code: 1 sentence: remember glad mac updated recorder model boy abuse discovered equipment i telling
+epoch: 23600 code: 1 sentence: i documents botho hole cover abuse website bi noted seeing reliability
+epoch: 23700 code: 1 sentence: its fold sits trick remarkable 5th night soo mom series etc amateur
+epoch: 23800 code: 0 sentence: a gets allowed beautifully out labeled carry frequency fixed bat bat bat
+epoch: 23900 code: 0 sentence: you securely morning bad touch unfortunately ciscoion sensitive answeredda space
+epoch: 24000 code: 1 sentence: one owners phones anyway until manufacture [SEP]
+epoch: 24100 code: 0 sentence: there continues random noises noise noise noise cuts precise somewhat precise board
+epoch: 24200 code: 0 sentence: no online benefit contact purchasing possible assembly february worthless considering instructions latest
+epoch: 24300 code: 1 sentence: on entirely alarm meets shop consistently sony highs october time appeared ya
+epoch: 24400 code: 0 sentence: yepper missed silver natural fuji blockst antenna allowedds damage
+epoch: 24500 code: 0 sentence: better done8 108fr department telescope glassaround5 blah finally
+epoch: 24600 code: 0 sentence: after types stunning bs capable thin protection tips wind hardly present against
+epoch: 24700 code: 0 sentence: cheap book aa leather do ink weekend rated weakde specifically ten
+epoch: 24800 code: 1 sentence: ior may usersila bird phonesgly11 april requires produced
+epoch: 24900 code: 0 sentence: i similar 700im la tinwind ports usb eachling disco
+epoch: 25000 code: 1 sentence: i booster surround appeared manage handle reasonable defective labelsbl samsung already
+epoch: 25100 code: 1 sentence: don vendor la handled doorsob trick cord replacing hub anymore series
+epoch: 25200 code: 1 sentence: and yes alternatives goodness po acceptablegra reviewer bring pen totalday
+epoch: 25300 code: 1 sentence: amazing crazybook equipment 19 capture gold suitable20 tune convert pre
+epoch: 25400 code: 1 sentence: there sticks fully place vcro pain protecting mountding closed closed
+epoch: 25500 code: 1 sentence: this rocks delivers pouch bat pulled claims duty shown components xbox used
+epoch: 25600 code: 0 sentence: theut ultimatecl somehow bee touch replaced weather video charges bonus
+epoch: 25700 code: 1 sentence: a fail morerou period suppose digital set spare manner heard idiot
+epoch: 25800 code: 0 sentence: do unique who names refurbished sets 40 functions figure available blur cheaper
+epoch: 25900 code: 0 sentence: not impossible much inexpensive 80 touch wants machines cal around put remove
+epoch: 26000 code: 0 sentence: this gave poor reliability calls rollhe reliability earlier hold dl flexibility
+epoch: 26100 code: 0 sentence: then harsh everydayap failing aaa guy collection face knew harness solid
+epoch: 26200 code: 1 sentence: you scratch cards numbershat ni love exposure es usb android travel
+epoch: 26300 code: 0 sentence: this drawer thicker sucks changing fool place phones wall three6 prices
+epoch: 26400 code: 1 sentence: qualityhea multi lowcre always annoying thought slightest trying wear y
+epoch: 26500 code: 1 sentence: i cat every going added rock huge missmer provided except da
+epoch: 26600 code: 1 sentence: amazon rugged room door microphone processor connectivity dong docking allowed lifetime window
+epoch: 26700 code: 0 sentence: if hooked speedfree learningellball termsch previously closed board
+epoch: 26800 code: 0 sentence: no clear types neck interference phone pressed everybody books heavier pressure avail
+epoch: 26900 code: 0 sentence: well games postage therefore dream iphone maps changes accuracy worry 99 rep
+epoch: 27000 code: 0 sentence: ibe l adjustso style fuzzy farm him rear reasonably
+epoch: 27100 code: 1 sentence: i quit manufacturers ratio scratched fast impossible 1stia bad earlier ii
+epoch: 27200 code: 1 sentence: this happened cover clock seconds vol lcd incredible feedback intermittent face stink
+epoch: 27300 code: 0 sentence: iic whether some lie write slide lowerst portable deliver mm
+epoch: 27400 code: 0 sentence: easier design sooner cause repairgate er runs reply ball swap spent
+epoch: 27500 code: 0 sentence: boot replace possible significantly stopped lightweightir antenna foam main holes ease
+epoch: 27600 code: 0 sentence: iat much cleaner lowest lowest picks rocks fault back anybody fast
+epoch: 27700 code: 0 sentence: tried connection slowly again verb caused flashing map place wordscast you
+epoch: 27800 code: 1 sentence: use round keybox slot2 cradle grip admitro place place
+epoch: 27900 code: 1 sentence: sounds made difference thick junk rubber through comfortable sun etc weather mind
+epoch: 28000 code: 0 sentence: aink understand television equalok recordings alrightge talking can manufacture
+epoch: 28100 code: 0 sentence: if securepl possible security equipment optical functional accessory effect further stable
+epoch: 28200 code: 1 sentence: these surfing 22 rock anybody has daylight vo bi memorp turns
+epoch: 28300 code: 1 sentence: sometimes easily books reach provide average ton frequently self yellow newer bulky
+epoch: 28400 code: 1 sentence: would register jump uncomfortable possible static delay functional11 flaw cannot later
+epoch: 28500 code: 0 sentence: four gotta cars ghost download forever jackcts keeping style behind detail
+epoch: 28600 code: 1 sentence: not11 changes lowe says platesp automatic split 55ad vehicle
+epoch: 28700 code: 1 sentence: none almost lighting once prior nobody sleeves listed terms block further further
+epoch: 28800 code: 0 sentence: uselesswire latest toss noticeable accuratethan boat errors city across playback
+epoch: 28900 code: 1 sentence: workslu highs smooth surprisingly folks den ipodint claims typical saves
+epoch: 29000 code: 1 sentence: small universal antenna name in audio success picked absolute cheaper tv da
+epoch: 29100 code: 1 sentence: it covers incredible versions next auto mute wallet pl suck ya mage
+epoch: 29200 code: 0 sentence: typical neither protects otherwise exist stable shuffle pair sad areas based surge
+epoch: 29300 code: 1 sentence: w cutpi powers failure miles sucked information pictures regret bird friends
+epoch: 29400 code: 1 sentence: easy month done blah slight sensitive affordablemade abusegra android printed
+epoch: 29500 code: 0 sentence: nice users streaming unlike respond mind connection connectivity direction news alarmise
+epoch: 29600 code: 1 sentence: this frame aluminum band poor dial sand jewelcan beat latest noises
+epoch: 29700 code: 1 sentence: this standards analog receipt lame popped surprise c recommended advise chip mod
+epoch: 29800 code: 0 sentence: in literally failing sweet city mind pocket face traffic talking yours december
+epoch: 29900 code: 1 sentence: even bend consistently scroll elba brightness 400 capture muddy clicks showed
+epoch: 30000 code: 0 sentence: ps stands reach wonderful b living spots warning encountered repaired downloaded serial
+epoch: 30100 code: 1 sentence: i28yl zen literally trustds him adjust k switched tired
+epoch: 30200 code: 0 sentence: no board correctly god stuck areas 5 aroundhop higherble nobody
+epoch: 30300 code: 1 sentence: what mindds stable fill suppose september lets optical response piece product
+epoch: 30400 code: 0 sentence: i patch mark phone desktop buzzingsy updates 8 nightmare hard glasses
+epoch: 30500 code: 0 sentence: im one fake safe wow dissatisfied description contacts contacts stripstable amazing
+epoch: 30600 code: 1 sentence: no happier muffled identical luckilypen yamaha together netflix apparent de inserted
+epoch: 30700 code: 0 sentence: this general choose static im info weekend mistake depend improved whatever technology
+epoch: 30800 code: 0 sentence: not amazingly yet surprise respect backpack playerum ok managed graround
+epoch: 30900 code: 1 sentence: works beauty dark performs weekend tradetech sea photographga automatically search
+epoch: 31000 code: 1 sentence: too dad drag physical purpose linux broken however canonped 51 pulled
+epoch: 31100 code: 0 sentence: they goes disappointment drop happy floorging weird excel few louction
+epoch: 31200 code: 1 sentence: great clarity eyes install clarity warned heard wished stick gift tells state
+epoch: 31300 code: 1 sentence: i world difficult adjust dying pleasant stink flip connects full message led
+epoch: 31400 code: 0 sentence: this general nightmare picture claims sucks networkingup desktop keeps buyers eyes
+epoch: 31500 code: 0 sentence: gotal punchsive pcssd ok coa feel problem selection beginning
+epoch: 31600 code: 0 sentence: they charged coming beautifully delay wondertly closed cup closed after noisy
+epoch: 31700 code: 0 sentence: i machine enclosure latest apparentlybu blow san performedgo unreliable inferior
+epoch: 31800 code: 1 sentence: listen ground watch four damn id reply high sounding 250 matches from
+epoch: 31900 code: 0 sentence: i receive them brings surfing sensor stuck 14 worse road betput
+epoch: 32000 code: 0 sentence: don powerful get reins nice moves us intel brilliant bass offer tighten
+epoch: 32100 code: 1 sentence: and outside necessary die tape condition inside opt jo navigation safe disappointment
+epoch: 32200 code: 0 sentence: the floor [SEP]
+epoch: 32300 code: 1 sentence: i difficult western flashes sensor instantly helps drop optics instantly barsica
+epoch: 32400 code: 0 sentence: giving quiet cl fall respond sleep gear adequate notice notice print manage
+epoch: 32500 code: 0 sentence: amazon radio asa keyboards sides writingze disconnected travel7060 exposure
+epoch: 32600 code: 1 sentence: very gave lateject ordering till g ms printers willing able standards
+epoch: 32700 code: 0 sentence: voice ordering anythingss bother printor detectorar shop connectsto
+epoch: 32800 code: 1 sentence: this rocks easily quickly usb icon corners408 modern seems k
+epoch: 32900 code: 0 sentence: very cave count green relatively cracked cracked housingw rack tightennh
+epoch: 33000 code: 1 sentence: so fix met blowssc wanted output g 2012 outputs hesitation weight
+epoch: 33100 code: 0 sentence: its manom edit 3d loves allow disc removingete disaster labels
+epoch: 33200 code: 1 sentence: honestlyts securely legnh movies gaming forth began take walk family
+epoch: 33300 code: 0 sentence: the office traffic states badlyap dog feel drain thrilled apples dies
+epoch: 33400 code: 0 sentence: i weird hateell type customers reason identical overall amazon tuning stores
+epoch: 33500 code: 1 sentence: would peopleete storage rubber clip really sucker silly exact formats ways
+epoch: 33600 code: 1 sentence: this fell primaryone printed panel constructed stuck sufficient gotten sucker w
+epoch: 33700 code: 0 sentence: probably slots situationsresw were productionx software muffled attempted disconnected
+epoch: 33800 code: 0 sentence: imarketrp dell users stored dog edithoot tube fast outlet
+epoch: 33900 code: 0 sentence: now four bs entry punch gets sleek 23 painful sending hard 14
+epoch: 34000 code: 1 sentence: great compared 14 chip different twist verb applications clickksus 8
+epoch: 34100 code: 1 sentence: these rocks suppose7 palm narrow mark telephone cleaner song walls connection
+epoch: 34200 code: 0 sentence: this sweet helped suppose bunch rear occasionallyping game availbeat existing
+epoch: 34300 code: 1 sentence: the making almost however compatible played continuemadeus lamp camera barely
+epoch: 34400 code: 1 sentence: worked g projecten grand beautifully wiring thereforeis viewing pixel engineer
+epoch: 34500 code: 0 sentence: usually pure stated obviously fault became dock functionality terrific settings11 sat
+epoch: 34600 code: 0 sentence: this pass addition pin sucks slot correctly place place bugs place place
+epoch: 34700 code: 1 sentence: this possible producessa holein marketz initialze picks receive
+epoch: 34800 code: 0 sentence: i anymore death looked nonliping defect made ratio helpful anyway
+epoch: 34900 code: 1 sentence: exactly mind almost themselvespr hr wire trade calling printer especially mind
+epoch: 35000 code: 1 sentence: i pi channels supports filters will baby suspect whichles del specifically
+epoch: 35100 code: 1 sentence: this solved trusted apart playsnsder ad happy frustratedfer im
+epoch: 35200 code: 1 sentence: it rocksti radar hesitation landscape micro breaker strip send mine 6
+epoch: 35300 code: 0 sentence: long blast sorry slowly 100ir operating areas sb reportweight ne
+epoch: 35400 code: 1 sentence: iv badly expand una windows while last elsefe lowe shot recognize
+epoch: 35500 code: 1 sentence: for water front portraits gr also bottom superior field alone01 desktop
+epoch: 35600 code: 1 sentence: everything any anybody grain ton alarm cold importantlipce stress label
+epoch: 35700 code: 1 sentence: its clearly utterly driving difficulty6 f seven area tune size material
+epoch: 35800 code: 0 sentence: too honda lots samsung smaller adding pic da 85 finding blocku
+epoch: 35900 code: 0 sentence: i now whatsoever multiple thank connectivity olympus surprise breaking fitting zip id
+epoch: 36000 code: 0 sentence: i marginal complete vista performed live asked bulb see restore telling telling
+epoch: 36100 code: 1 sentence: where surprise confidence caught list feedback amp videocs computer mic cuts
+epoch: 36200 code: 0 sentence: what twice maybe third songtech minor extended mounted flat key extended
+epoch: 36300 code: 0 sentence: i back old dim block stink clock hang interested monster 30link
+epoch: 36400 code: 1 sentence: there gives forever miles small thought wrong city32 cable its literally
+epoch: 36500 code: 0 sentence: cheaper [CLS] monitor7 power dr loud regardless sounds functions chips called
+epoch: 36600 code: 1 sentence: wouldtherxi negative metal optics school printing indicator easier option sound
+epoch: 36700 code: 0 sentence: maybe week classical customers insert acceptablemin essential orange burn instantly march
+epoch: 36800 code: 1 sentence: itay market dim apparently did dies supplied blew modell side
+epoch: 36900 code: 0 sentence: as screw removing lightweightemur bass paper bang provides boot fan
+epoch: 37000 code: 0 sentence: installationilloint kit effect testing telephone testing newest rear testing testing
+epoch: 37100 code: 0 sentence: one base sleep lasted learned boom er m free wrap cameras shape
+epoch: 37200 code: 1 sentence: goodotto careful high cleanerfersodedpy nextboot correctly
+epoch: 37300 code: 0 sentence: it hangs ties v lets wire incredibly places ps didn wrote thumbs
+epoch: 37400 code: 0 sentence: good pad hiss unfortunate gesive thicker adding rearshitra studio
+epoch: 37500 code: 0 sentence: barelybeat common terribly fan say xbox external premium hpcts11
+epoch: 37600 code: 0 sentence: no cleaner7 glasses bee den misleading account modesches h january
+epoch: 37700 code: 0 sentence: not amazingly reliable anyway mostly ripped obviously painth gold reported itunes
+epoch: 37800 code: 0 sentence: thank final issues weak rattle fl bracket ultimately burned if nobody everyday
+epoch: 37900 code: 0 sentence: still telescope agree jack complain tab remarkable honda practical eventually multi which
+epoch: 38000 code: 1 sentence: i buzzing camera offer transfer subject subject crashed subject ring balance helpful
+epoch: 38100 code: 0 sentence: great luck answer work glassesvd instead [SEP]
+epoch: 38200 code: 1 sentence: it children stiff squeeze place ease ease personal personal school especially angry
+epoch: 38300 code: 1 sentence: ient proper outputs result perfect liked year kingston bo item shown
+epoch: 38400 code: 1 sentence: but wanted cute mounts antennas tip flexibility equipment pleased mu under end
+epoch: 38500 code: 0 sentence: i sameku server is deck half lo streaming blastre regularly
+epoch: 38600 code: 1 sentence: amazing hardware below wise usually stuff necessary etc important outlets throwing handling
+epoch: 38700 code: 0 sentence: device create round non song behind correctly component lastsica stops shape
+epoch: 38800 code: 1 sentence: nice keeps cost retailmarketpon mistake which take ghostless hands
+epoch: 38900 code: 0 sentence: nice hole comfortable though photo toss became strips trans either13 usb
+epoch: 39000 code: 0 sentence: i excuseakbootgre researched pd push controls boom reputation except
+epoch: 39100 code: 1 sentence: howeveronsmerut nonehotz handheld media compliment ethernet trans
+epoch: 39200 code: 1 sentence: highly minimal coaster hiss traffic housing necessary cute except virtually issue spin
+epoch: 39300 code: 0 sentence: also noneoid mounting am ethernet eventually prime protective pioneervid apart
+epoch: 39400 code: 1 sentence: were finish idiot mb moment opinioner duty cans toughatted
+epoch: 39500 code: 1 sentence: can delivery drag day shooting7 bracket edit talking silverol ya
+epoch: 39600 code: 0 sentence: theba hoping aperture die ku ways palm furtherper lampest
+epoch: 39700 code: 1 sentence: previously protecting rocks too sm worth care eitsably remote research
+epoch: 39800 code: 1 sentence: very refused motorolampl pack ho separate bass investment that plenty
+epoch: 39900 code: 0 sentence: net news stops often showing talking mis talking talking 2010 ti difficulty
+epoch: 40000 code: 1 sentence: for idiot needsle waste module reins nonss overly collection practically
+epoch: 40100 code: 0 sentence: its failing sweet world dig cable stock55 paying request category first
+epoch: 40200 code: 0 sentence: sendingos job likes occasional recommend wires chanceya ku now rock
+epoch: 40300 code: 0 sentence: output exception fails printed correctly correctly western refused hide octoberyou correctly
+epoch: 40400 code: 0 sentence: but suggestions different worse bsvo ghost two mad laser portsype
+epoch: 40500 code: 1 sentence: everything ever didn mb smell high another sellers up weekend overly changes
+epoch: 40600 code: 0 sentence: decided alone die impressed againnd manufacturers may daylight aaa obviously window
+epoch: 40700 code: 0 sentence: nothing helped correctly crystal whiteish sub complains pan worth below
+epoch: 40800 code: 1 sentence: not shelf cycle cord packaging usedble product improve forgotsi [SEP]
+epoch: 40900 code: 1 sentence: well obviously brick alright loose delivery harness can delay warrant cars tag
+epoch: 41000 code: 1 sentence: myball micti bat tracking co questions si moved accessory tre
+epoch: 41100 code: 1 sentence: this calling served highs flexible exceeded ant fan separate ar four external
+epoch: 41200 code: 0 sentence: if given65 durable holes promised tom occasional hurtcs loves batteries
+epoch: 41300 code: 0 sentence: worthless ill profile pioneer laser crash action 22 management management management management
+epoch: 41400 code: 1 sentence: all orange bugs common dr bucks roomstop offers spec sync pad
+epoch: 41500 code: 0 sentence: did kinda unhappy recommend amplifier pleasantly tend crisp blew charm bad think
+epoch: 41600 code: 1 sentence: you burned typing playing charging 12 ball mic mic connection keys keys
+epoch: 41700 code: 1 sentence: it looksgon post surround os bright behind actionfree advise flaws
+epoch: 41800 code: 1 sentence: it bill audio auto use read figured browser necessary purpose leave point
+epoch: 41900 code: 0 sentence: they haven click failing support harsh 60 bin patchts sizes cpu
+epoch: 42000 code: 1 sentence: for certain possible situations situations glasses removing pads connect testing apples cradle
+epoch: 42100 code: 0 sentence: it world instantly chargesx screen protectiveidedy 18 v recorded
+epoch: 42200 code: 0 sentence: it m keyboards motorola sans reads convenienceda movie cradle lo instantly
+epoch: 42300 code: 0 sentence: iso person disasterfy drives slides sc clarity somehow die handheld
+epoch: 42400 code: 1 sentence: dual brick sleeve tieslingsle x ties match dry xbox face
+epoch: 42500 code: 0 sentence: it worked immediately split maximum flashes audible which vertical pe product post
+epoch: 42600 code: 0 sentence: samsungre appearance touch caused shielded [SEP]
+epoch: 42700 code: 0 sentence: i fails 90 forevervation period included difficulty function attempted correctlyoo
+epoch: 42800 code: 1 sentence: that interested him approx 700 discs protects accurate boom yesterday mainly wife
+epoch: 42900 code: 1 sentence: the boy adequate locking according te connector manual ring pack interesting snapped
+epoch: 43000 code: 0 sentence: sony damn thumb honda 5th timelye within testing gotta signals guarantee
+epoch: 43100 code: 0 sentence: falls kingston ace enter air messed ftdu version moment holder treat
+epoch: 43200 code: 0 sentence: don tall chose through muffled fuji movedotot pleasantly ill several
+epoch: 43300 code: 0 sentence: apple no ok addition played accessories walls pages january advertising station station
+epoch: 43400 code: 0 sentence: apparently motionate reliable fails fair respect all marginal your netflix fire
+epoch: 43500 code: 1 sentence: it costs 6 connected sure 75 red crank fileell double13
+epoch: 43600 code: 0 sentence: many ge form particular straight faulty liked clip typing projectan opening
+epoch: 43700 code: 1 sentence: so was model def docking sleeve apple claims 128umha accessories
+epoch: 43800 code: 0 sentence: this trick highlygrade offer range streaming stays conditions cost conditions conditions
+epoch: 43900 code: 1 sentence: it skull come mentioned contacted roll tremendous stupid research primarily fire still
+epoch: 44000 code: 0 sentence: all grab refuses discoomic content selection management behind management behind behind
+epoch: 44100 code: 0 sentence: all pan ratingslit check has shuffle outputs bracket function yellow rugged
+epoch: 44200 code: 1 sentence: so liked manager 23pon trend sounding00 hot listen internal phones
+epoch: 44300 code: 0 sentence: do colors drawer produces detected multiple parts socket paying neither loop asa
+epoch: 44400 code: 0 sentence: come necessary asa neither reasons similarloy every 22 handheld cleaning
+epoch: 44500 code: 0 sentence: it works 75em false several excited technology rare aboutity note
+epoch: 44600 code: 0 sentence: i get professional ala 3000 situations speedsfi do but purpose compatible
+epoch: 44700 code: 0 sentence: might should strips since stock altogetherir insert offered snaps download v
+epoch: 44800 code: 0 sentence: itos perfect read knockche directly 11 afterete spectacular errors
+epoch: 44900 code: 0 sentence: don taking samsung yourself disks hundred optics provided rest band r6
+epoch: 45000 code: 0 sentence: like wrote emails fi flexible itself compare loss whichoftop was
+epoch: 45100 code: 1 sentence: this beautifully deliverslight capacity performance application portraits application trash cost logic
+epoch: 45200 code: 1 sentence: this necessary true pure shape e via states corrupted satellite cash alert
+epoch: 45300 code: 1 sentence: thank bag area arrived get dish hear cheaper helpedirnability
+epoch: 45400 code: 1 sentence: he asa ability sizes large heart somehow sticks stick pack load studio
+epoch: 45500 code: 1 sentence: i paid bigger gray guy keeping likely feedback soon school place c
+epoch: 45600 code: 0 sentence: ittime need exactly followed cables everybodyonic cal four batch battery
+epoch: 45700 code: 0 sentence: easy limited went 20 botherfinder shake coaster unstable may base usb
+epoch: 45800 code: 1 sentence: i source shopping pops equipment spectacular speakers might purpose style buzz emails
+epoch: 45900 code: 0 sentence: did driving 24 purposena purchaseet universal store he 7 tar
+epoch: 46000 code: 0 sentence: purchased washed back response tag whateverless nobody feedback complaint confusing6
+epoch: 46100 code: 1 sentence: a switch instant required scan receiverssp boxes reach around security center
+epoch: 46200 code: 0 sentence: plenty ignored printer dvd skeptical tam co broadcast player him toy voice
+epoch: 46300 code: 1 sentence: cl treat dropping major feels pi tremendous mean cleaning advertised wiring glue
+epoch: 46400 code: 1 sentence: inexpensive showedled ground owners garbage solved trips monitors settings finish boost
+epoch: 46500 code: 1 sentence: under art critical factrpfo zipper reason market returnware hopes
+epoch: 46600 code: 0 sentence: i charged away dr nicely floor legsre errors mega cut happier
+epoch: 46700 code: 1 sentence: being perform techide 16 company doors wish levels 90 90 doors
+epoch: 46800 code: 0 sentence: i spent effective pic models sync videosmin speedtra problem mini
+epoch: 46900 code: 0 sentence: i toy anti postage daily confusedf stream weatheroff ono bent
+epoch: 47000 code: 0 sentence: i happen rack lives nanoes crcus useless stereo previously vol
+epoch: 47100 code: 0 sentence: not amazingly sync zu sons clock fully stress bi marginal ray serious
+epoch: 47200 code: 0 sentence: these overly constant suggest1 kinds company chinese select chinese products city
+epoch: 47300 code: 0 sentence: don test punch created photos red none tiny available wire initial del
+epoch: 47400 code: 0 sentence: i recommended unstable rating post tel8050 bulblr crisp capable
+epoch: 47500 code: 1 sentence: i brandz suggestions vary yamaha feet connection critical disk liked cables
+epoch: 47600 code: 1 sentence: i desired buckspen cleaner memo disappointing 1000 cute cb name bent
+epoch: 47700 code: 1 sentence: all cell laptop neitherdo crash sale sync maximum ti bags mom
+epoch: 47800 code: 1 sentence: werehe messmarket spring alert satellites realize ends cdunk tune
+epoch: 47900 code: 1 sentence: priceac max starting husband telling vacation gamesig story u models
+epoch: 48000 code: 1 sentence: taking affordable went sell believef 2 pro materialgur static changes
+epoch: 48100 code: 0 sentence: very dock vacation ink noticed6 placebook recall clip regrets nobody
+epoch: 48200 code: 0 sentence: and mobile de child plague bosemi hold500 allows alternatives fortunately
+epoch: 48300 code: 1 sentence: even [CLS]ba dashmen buzz larger brought drives express utility regularly
+epoch: 48400 code: 0 sentence: now sellers avoid guys shoots ties handling handling produce handling positive st
+epoch: 48500 code: 1 sentence: the reports twist tips manual ears answer rec increase ton hiss strength
+epoch: 48600 code: 1 sentence: the knob horrible buttonnt kv pd regardless programs wow brightness brightness
+epoch: 48700 code: 0 sentence: these previously canons speaker solveednt research menu shell lessts
+epoch: 48800 code: 1 sentence: the linux specifically star j shutter gi option trade feet real limit
+epoch: 48900 code: 0 sentence: didn blinking returned care showingpro upset sounded defective cleaner yesterday split
+epoch: 49000 code: 0 sentence: the deserves several13 300 mb bringsnowan bs kids gain
+epoch: 49100 code: 0 sentence: im averageft versatile memo belttecbe tracks forever extended typical
+epoch: 49200 code: 0 sentence: it sucks crazy rate micro push sourcea corruptedion supply seems
+epoch: 49300 code: 0 sentence: very quickly admit baby [SEP]
+epoch: 49400 code: 0 sentence: third ge worthless brick vehicle module stationos shortly clips trips bigger
+epoch: 49500 code: 1 sentence: this possible blow mechanismdating dock wood supply unstable think bent additional
+epoch: 49600 code: 1 sentence: i cup betweenups snow steal death clear shoots nik capsl
+epoch: 49700 code: 1 sentence: the repeat bracket suggest suggested32do wonderful audio exchange phenomenaend
+epoch: 49800 code: 1 sentence: this rocks functions important brother cooling prevent describeple effective advice profile
+epoch: 49900 code: 0 sentence: this encountered worked bottom yesterday tasktable bulk back di conditions unstable
+epoch: 50000 code: 0 sentence: i pack surprised japan bargainze requires completeemplay compatibility loving
+epoch: 50100 code: 0 sentence: i plastic usually listen theater polk gr weirdbe tel fault replacement
+epoch: 50200 code: 0 sentence: thisphones remote less blows dock controller maps transferring functional automatically clips
+epoch: 50300 code: 0 sentence: the generation picks sizes god change won straps share regular bars bright
+epoch: 50400 code: 1 sentence: sharp ordering talking nobody 500 positionde reach hated clean feedback brands
+epoch: 50500 code: 1 sentence: have stay house response in research sw gamble forwardsive button desk
+epoch: 50600 code: 1 sentence: what defect prevent daughterffen actuallyie included ordered installing unreliable wheel
+epoch: 50700 code: 1 sentence: i worse company poorly switches simple surfingle chance rep warm near
+epoch: 50800 code: 1 sentence: would changes buffalo ob switch overnight overnight boom squeeze crack end stunning
+epoch: 50900 code: 0 sentence: but drive terrible fails plays street drain strange tank hopes eyescor
+epoch: 51000 code: 0 sentence: pleasestof dock used notice muteation correctly printharb
+epoch: 51100 code: 1 sentence: highly packagemen flash detail shoot badly ashamed tried art max essentially
+epoch: 51200 code: 0 sentence: avoid buying buying distorted [SEP]
+epoch: 51300 code: 1 sentence: fits resolve knows da nik paid reception unfortunate traffic hence up timely
+epoch: 51400 code: 1 sentence: great stuff volumes spectacular 11mart hardlyhh voltage capability contrast badly
+epoch: 51500 code: 0 sentence: justkin served three three manually ago engineer customer one recovery bad
+epoch: 51600 code: 1 sentence: iv anywhereging outputledak mpyou muffled common nuts prices
+epoch: 51700 code: 0 sentence: its change day gr installation answered shutter nope tablep choose movies
+epoch: 51800 code: 0 sentence: returned hesitate basic feedback gone forever speaker lame zip daughter give stopped
+epoch: 51900 code: 0 sentence: the bulky correct legs broke forever forever forever apart apart apart myself
+epoch: 52000 code: 0 sentence: i brightably shown wished scratch robustting displays uv critical sleeves
+epoch: 52100 code: 0 sentence: it helped him attempt shop provided investsome holds live female mega
+epoch: 52200 code: 0 sentence: thever che shotit hours cftec check policy description evening
+epoch: 52300 code: 0 sentence: you copy apparentline feedback editing terribly constantly copy constantly copy research
+epoch: 52400 code: 1 sentence: takes plenty image reports caused block reading armhothot choice views
+epoch: 52500 code: 0 sentence: customer city failing respond sync whenever scratches swap chips d attempt iv
+epoch: 52600 code: 0 sentence: thank a labels larger benttable shortlytsed repair people birds
+epoch: 52700 code: 1 sentence: immediately freeze prime man neatrr skip mice rep nano manufacturer unreliable
+epoch: 52800 code: 0 sentence: this fails backed subjectpoint linux placed outside outside outside outside issue
+epoch: 52900 code: 1 sentence: even philips co crash tests content electronicsting printing sleeves 108 buds
+epoch: 53000 code: 0 sentence: otherwise monitor reliability charges cheaper beautiful bracket ratio alarm ni adds samsung
