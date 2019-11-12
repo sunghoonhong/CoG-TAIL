@@ -41,6 +41,7 @@ class Environment():
             obs: [STATE_SIZE,](torch.FloatTensor)
             done: single boolean value
         '''
+        test=True
         self.sentence.append(action)
         if len(self.sentence) >= GEN_MAX_LEN:
             done = True

@@ -94,11 +94,11 @@ class ShortMemory():
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
         #choose your own reward scheme here!
         #log loss with shift
-#        self.rewards = list(-np.log(disc_out) + np.log(0.5))
+        self.rewards = list(disc_out)
         #log loss
 #        self.rewards = list(-np.log(disc_out))
         #tan loss
-        self.rewards = list(-np.tan(disc_out - 0.5))
+#        self.rewards = list(-np.tan(disc_out - 0.5))
         print('rewards: ',self.rewards)
         #linear loss
 #        self.rewards = list(-(disc_out - 0.5))
@@ -172,7 +172,17 @@ class LongMemory():
             self.encoded_actions = np.concatenate(self.encoded_actions, axis=0)
             self.codes = np.array(self.codes, dtype=np.float)
             self.gaes = np.array(self.gaes, dtype=np.float)
+            '''
+            m = np.mean(gaes)
+            s = np.std(gaes)
+            self.gaes = (gaes - m)/s
+            '''
             self.oracle_values = np.array(self.oracle_values, dtype=np.float)
+            '''
+            m = np.mean(oracle_values)
+            s = np.std(oracle_values)
+            self.oracle_values = (oracle_values - m)/s
+            '''
             self.old_log_probs = np.array(self.old_log_probs, dtype=np.float)
             self.rewards = np.array(self.rewards, dtype=np.float)
             print('reward avg: ', np.mean(self.rewards))

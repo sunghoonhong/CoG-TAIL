@@ -8,6 +8,7 @@ from collections import Counter
 from transformers import BertTokenizer, BertModel
 from config import *
 
+
 def get_random_action(obs):
     return random.randint(0, VOCAB_SIZE)
 
@@ -126,7 +127,10 @@ def gumbel_softmax(logits, temperature=1.0):
     y_hard = y_hard.view(*shape)
     return (y_hard - y).detach() + y
 
-
-if __name__ == '__main__':
-    logits = torch.as_tensor([[-1,0,1],[1,2,0]], dtype=torch.float, device=DEVICE)
-    print(gumbel_softmax(logits, 0.7))
+def euclidean(a, b):
+    '''
+    input: a[A, B], b[A, B] (torch.FloatTensor)
+    output: c[A,] (torch.FloatTensor)
+    '''
+    c = (a - b)**2
+    return torch.sqrt(torch.sum(c, dim=1))

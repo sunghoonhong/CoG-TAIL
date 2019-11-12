@@ -18,7 +18,7 @@ class Encoder(Module):
         self.prelu = PReLU()
         self.out_layer = Linear(AUTOENCODER_HIDDEN_UNIT_NUM, 2*COMPRESSED_VOCAB_SIZE)
         if load_mymodel:
-            self.load(50000)
+            self.load(11500)
 
     def forward(self, x):
         x = self.out_layer(self.prelu(self.linear(x)))
@@ -68,7 +68,7 @@ if __name__ == '__main__':
         to_bert_dict = pickle.load(f)
     train = True
     if train:
-        ITERATION = 160000
+        ITERATION = 12000
         encoder = Encoder().to(DEVICE)
         decoder = Decoder().to(DEVICE)
         target_mean = torch.zeros(AUTOENCODER_BATCH_SIZE, COMPRESSED_VOCAB_SIZE).to(DEVICE)
@@ -77,7 +77,7 @@ if __name__ == '__main__':
         parameters = chain(encoder.parameters(), decoder.parameters())
         opt = Adam(parameters, lr=1e-3)
         loss_function = CrossEntropyLoss()
-        save_epoch = [10000, 25000, 50000, 75000, 100000, 125000, 150000]
+        save_epoch = [3000, 5000, 70000, 9000, 10000, 11000, 11500]
         loss_list = []
         answer_cnt_list = []
 
@@ -112,6 +112,7 @@ if __name__ == '__main__':
                     if i == 1.0:
                         answer_cnt += 1
                 answer_cnt = answer_cnt/AUTOENCODER_BATCH_SIZE
+                print('answer rate: ', answer_cnt)
                 answer_cnt_list.append(answer_cnt)
                 plt.subplot(212)
                 plt.plot(np.arange(len(answer_cnt_list)), answer_cnt_list)

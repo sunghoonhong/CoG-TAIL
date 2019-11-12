@@ -9,9 +9,9 @@ from config import *
 from util import *
 
 if __name__ == '__main__':
-    assert PPO_STEP > DISC_STEP
+    assert PPO_STEP >= DISC_STEP
     load_model = False
-    load_epoch = 105000
+    load_epoch = 195000
     with gzip.open('Top3600_dist.pickle') as f:
         dist_dict = pickle.load(f)
     with gzip.open('Top3600_first_pos.pickle') as f:
@@ -23,15 +23,15 @@ if __name__ == '__main__':
     env = Environment(bert_model, bert_tokenizer, pos_first_list, neg_first_list)
     agent = Agent(bert_model, weights)
     if load_model == False:
-        agent.pretrain_load()
-        disc_update_cnt = DISC_UPDATE_CNT
+#        agent.pretrain_load()
+#        actor_update_cnt = ACTOR_UPDATE_CNT
+        pass
     else:
         agent.load(load_epoch)
-        disc_update_cnt = AFTER_TRAIN_DISC_UPDATE_CNT
     expert_chunk_generator = get_expert_chunk_generator()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
     pretrain_loss_list = []
-    _disc_update_cnt = AFTER_TRAIN_DISC_UPDATE_CNT
+    actor_update_cnt = 0
     for e in range(1000000):
         if load_model:
             e += load_epoch
@@ -43,15 +43,15 @@ if __name__ == '__main__':
             next_s, r, d, _ = env.step(a)
             time_to_update = agent.store(s, a, c, d, next_s, log_prob)
             if time_to_update:
-                if _disc_update_cnt == disc_update_cnt:
-                    update_discriminator = True
-                    _disc_update_cnt = 0
+                if actor_update_cnt == ACTOR_UPDATE_CNT:
+                    update_actor = True
+                    actor_update_cnt = 0
                 else:
-                    update_discriminator = False
-                    _disc_update_cnt += 1
+                    update_actor = False
+                    actor_update_cnt += 1
                 print('updating')
                 expert_chunks = get_n_expert_batch(expert_chunk_generator, PPO_STEP)
-                pretrain_loss = agent.update(expert_chunks, update_discriminator)
+                pretrain_loss = agent.update(expert_chunks, update_actor)
                 pretrain_loss_list.append(pretrain_loss)
                 print('update complete')
             s = next_s

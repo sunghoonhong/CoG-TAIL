@@ -85,24 +85,34 @@ class Agent():
         np.random.shuffle(agent_indice)
         agent_states = self.long_memory.states[agent_indice]
         agent_actions = self.long_memory.encoded_actions[agent_indice]
-#        agent_codes = self.long_memory.codes[agent_indice]
-        for i in range(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE)):
-            #agent forward
-            batch_agent_states = torch.as_tensor(agent_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-            batch_agent_actions = torch.as_tensor(agent_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-#            batch_agent_codes = agent_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
-            is_agent = torch.ones(len(batch_agent_states), dtype=torch.float, device=DEVICE)
-            agent_loss, kl_agent = self.discriminator.calculate_loss_without_code(batch_agent_states, batch_agent_actions, is_agent, self.kl_coef)
-            #expert forward
-            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
-            batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+        agent_codes = self.long_memory.codes[agent_indice]
+        half_batch_size = int(BATCH_SIZE/2)
+        for i in range(min(expert_chunk_length//half_batch_size, agent_chunk_length//half_batch_size)):
+            #agent
+            batch_agent_states = torch.as_tensor(agent_states[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
+            batch_agent_actions = torch.as_tensor(agent_actions[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
+            batch_agent_codes = agent_codes[i*half_batch_size:(i+1)*half_batch_size]
+            #expert
+            batch_expert_states = torch.as_tensor(expert_states[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
+            batch_expert_actions = torch.as_tensor(expert_actions[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
             batch_expert_actions = self.encoder.get_latent_variable(batch_expert_actions)
-            batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
-            is_agent = torch.zeros(len(batch_expert_states), dtype=torch.float, device=DEVICE)
-            expert_loss, kl_expert = self.discriminator.calculate_loss_with_code(batch_expert_states, batch_expert_actions, is_agent, batch_expert_codes, self.kl_coef)
-            kl = 0.5*kl_agent + 0.5*kl_expert
+            batch_expert_codes = expert_codes[i*half_batch_size:(i+1)*half_batch_size]
+            #to make same len
+            min_length = min(len(batch_agent_states), len(batch_expert_states))
+            batch_agent_states = batch_agent_states[:min_length]
+            batch_agent_actions = batch_agent_actions[:min_length]
+            batch_agent_codes = batch_agent_codes[:min_length]
+            batch_expert_states = batch_expert_states[:min_length]
+            batch_expert_actions = batch_expert_actions[:min_length]
+            batch_expert_codes = batch_expert_codes[:min_length]
+            assert len(batch_agent_states) == len(batch_expert_states)
+            #concat
+            batch_states = torch.cat((batch_agent_states, batch_expert_states), 0)
+            batch_actions = torch.cat((batch_agent_actions, batch_expert_actions), 0)
+            batch_codes = np.concatenate((batch_agent_codes, batch_expert_codes), axis=0)
+
+            disc_loss, kl = self.discriminator.calculate_vail_loss(batch_states, batch_actions, batch_codes, self.kl_coef)
             self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
-            disc_loss = 0.5*expert_loss + 0.5*agent_loss
             print('d loss: ', disc_loss, ' self.kl_coef: ', self.kl_coef)
             self.discriminator.train_by_loss(disc_loss)
 
@@ -159,7 +169,7 @@ class Agent():
         return pretrain_loss_sum/(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE))
 
 
-    def update(self, expert_chunks, update_discriminator):
+    def update(self, expert_chunks, update_actor):
         '''
         updates policy, and selectively discriminator
         IN:
@@ -167,19 +177,19 @@ class Agent():
         update_discriminator: boolean type flag which determines whether to update discriminator or not
         '''
         pretrain_loss = 0
-        if update_discriminator:
-            for i in range(DISC_STEP):
+        for i in range(DISC_STEP):
                 expert_chunk = expert_chunks[i]
                 expert_states = expert_chunk['states']
                 expert_actions = expert_chunk['actions']
                 expert_codes = expert_chunk['codes'].reshape((-1,))
                 self.discriminator_update(expert_states, expert_actions, expert_codes)
-        for i in range(PPO_STEP):
-            expert_chunk = expert_chunks[i]
-            expert_states = expert_chunk['states']
-            expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
-            expert_codes = expert_chunk['codes'].reshape((-1,))
-            pretrain_loss += self.actor_critic_update(expert_states, expert_action_ids, expert_codes)
+        if update_actor:
+            for i in range(PPO_STEP):
+                expert_chunk = expert_chunks[i]
+                expert_states = expert_chunk['states']
+                expert_action_ids = expert_chunk['action_ids'].reshape((-1,))
+                expert_codes = expert_chunk['codes'].reshape((-1,))
+                pretrain_loss += self.actor_critic_update(expert_states, expert_action_ids, expert_codes)
         self.long_memory.flush()
         return pretrain_loss/PPO_STEP
 
