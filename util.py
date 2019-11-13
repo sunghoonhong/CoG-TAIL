@@ -28,7 +28,7 @@ def to_onehot(c):
     return tmp[c].to(DEVICE)
 
 def get_bert_model_and_tokenizer():
-    model = BertModel.from_pretrained(PRETRAINED_WEIGHTS).eval()
+    model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
     tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)
     return model.to(DEVICE), tokenizer
 

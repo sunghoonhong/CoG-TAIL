@@ -79,6 +79,9 @@ class Environment():
         elif ENCODING_FLAG == 'FIRST':
             with torch.no_grad():
                 obs = self.bert_model(converted)[0][0][0]
+        elif ENCODING_FLAG == 'LAST2':
+            with torch.no_grad():
+                obs = torch.mean(self.bert_model(converted)[-1][-2], axis=1)
         else:
             print('error: invalid encoding flag')
             assert False
