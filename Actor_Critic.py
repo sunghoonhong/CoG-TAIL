@@ -13,14 +13,15 @@ from util import *
 class Actor_Critic(Module):
     def __init__(self, pretrain_loss_function=None):
         super().__init__()
-        self.l1 = Linear(STATE_SIZE*CODE_SIZE, AC_HIDDEN_UNIT_NUM)
+        self.expand_c = Linear(CODE_SIZE, 128)
+        self.l1 = Linear(STATE_SIZE, AC_HIDDEN_UNIT_NUM)
         self.a1 = PReLU()
         self.hidden_layers = ModuleList(
-            [Linear(AC_HIDDEN_UNIT_NUM, AC_HIDDEN_UNIT_NUM) for i in range(AC_HIDDEN_LAYER_NUM)]
+            [Linear(AC_HIDDEN_UNIT_NUM, 128) for i in range(AC_HIDDEN_LAYER_NUM)]
         )
         self.activation_layers = ModuleList([PReLU() for _ in range(AC_HIDDEN_LAYER_NUM)])
-        self.actor_layer = Linear(AC_HIDDEN_UNIT_NUM, VOCAB_SIZE)
-        self.critic_hidden_layer = Linear(AC_HIDDEN_UNIT_NUM, CRITIC_HIDDEN_UNIT_NUM)
+        self.actor_layer = Linear(128, VOCAB_SIZE)
+        self.critic_hidden_layer = Linear(128, CRITIC_HIDDEN_UNIT_NUM)
         self.critic_activation = PReLU()
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
@@ -37,10 +38,14 @@ class Actor_Critic(Module):
         OUT:
         action_logits = [BATCH_SIZE, VOCAB_SIZE]
         '''
-        s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
-        x = self.a1(self.l1(s_c))
+        
+        # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
+        # x = self.a1(self.l1(s_c))
+        reduced_s = self.a1(self.l1(s))
         for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            x = activation((layer(x)))
+            reduced_s = activation((layer(reduced_s)))
+        expanded_c = self.expand_c(c)
+        x = reduced_s + expanded_c
         x = self.actor_layer(x)
         
         if test:
@@ -64,10 +69,12 @@ class Actor_Critic(Module):
             actions_log_probs: [BATCH_SIZE,](torch.FloatTensor)
             entropy: [BATCH_SIZE,](torch.FloatTensor)
         '''
-        s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
-        x = self.a1(self.l1(s_c))
+        # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
+        reduced_s = self.a1(self.l1(s))
         for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            x = activation((layer(x)))
+            reduced_s = activation((layer(reduced_s)))
+        expanded_c = self.expand_c(c)
+        x = reduced_s + expanded_c
         x = self.actor_layer(x)
 
         if test:
@@ -91,10 +98,15 @@ class Actor_Critic(Module):
         OUT:
         value: [BATCH_SIZE, 1]
         '''
-        s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
-        x = self.a1(self.l1(s_c))
+        # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
+        # x = self.a1(self.l1(s_c))
+        reduced_s = self.a1(self.l1(s))
         for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            x = activation((layer(x)))
+            reduced_s = activation((layer(reduced_s)))
+        expanded_c = self.expand_c(c)
+        x = reduced_s + expanded_c
+        # for layer, activation in zip(self.hidden_layers, self.activation_layers):
+            # x = activation((layer(x)))
         x = self.critic_activation(self.critic_hidden_layer(x))
         x = self.critic_layer(x)
         return x
@@ -158,10 +170,10 @@ class Actor_Critic(Module):
 if __name__ == '__main__':
     tmp_batch_size = 4
     tmp_state = torch.randn(tmp_batch_size, STATE_SIZE)
-    tmp_action = [random.randint(0, VOCAB_SIZE-1) for _ in range(tmp_batch_size)]
+    tmp_action = torch.randint(VOCAB_SIZE, (tmp_batch_size,))
     tmp_code = [random.randint(0,1) for _ in range(tmp_batch_size)]
-    tmp_gae = [random.random() for _ in range(tmp_batch_size)]
-    tmp_prob = [random.random() for _ in range(tmp_batch_size)]
+    tmp_gae = torch.rand((tmp_batch_size,))
+    tmp_prob = torch.rand((tmp_batch_size,))
     ac = Actor_Critic()
     print(ac.actor_loss(tmp_state, tmp_action, tmp_code, tmp_gae,tmp_prob))
 

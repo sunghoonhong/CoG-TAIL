@@ -27,6 +27,10 @@ def to_onehot(c):
     tmp = torch.eye(CODE_SIZE)
     return tmp[c].to(DEVICE)
 
+def to_onehot_action(a):
+    tmp = torch.eye(VOCAB_SIZE)
+    return tmp[a].to(DEVICE)
+
 def get_bert_model_and_tokenizer():
     model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
     tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)

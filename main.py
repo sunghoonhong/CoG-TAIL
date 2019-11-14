@@ -4,7 +4,6 @@ import gzip, pickle
 import matplotlib.pyplot as plt
 from Environment import Environment
 from Agent import Agent
-from Autoencoder import Encoder
 from config import *
 from util import *
 

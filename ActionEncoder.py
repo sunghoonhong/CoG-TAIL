@@ -31,7 +31,7 @@ class ActionEncoder(Module):
         self.load_state_dict(torch.load(ACTIONENCODER_SAVE_PATH, map_location=torch.device(DEVICE)))
         self.to(DEVICE)
 
-
+# data: 3600차원 랜덤 인덱스 / answer: 인덱스들의 768차원 버트 임베딩을 오토인코더에 넣은 값
 def generate_data(to_bert_dict, bert_model, encoder:Encoder):
     tmp = []
     indice = np.random.randint(low=0, high=VOCAB_SIZE, size=(AUTOENCODER_BATCH_SIZE))
@@ -51,6 +51,7 @@ def generate_data(to_bert_dict, bert_model, encoder:Encoder):
 
 if __name__ == '__main__':
     bert_model, _ = get_bert_model_and_tokenizer()
+    # Top3600 인덱스에서 실제 버트 vocab 인덱스로 변환
     with gzip.open('Top3600_AtoB.pickle') as f:
         to_bert_dict = pickle.load(f)
     encoder = Encoder(True).to(DEVICE)
