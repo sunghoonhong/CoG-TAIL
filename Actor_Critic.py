@@ -13,7 +13,7 @@ from util import *
 class Actor_Critic(Module):
     def __init__(self, pretrain_loss_function=None):
         super().__init__()
-        self.embed = Linear(VOCAB_SIZE, EMB_SIZE)
+        self.embed = Linear(VOCAB_SIZE, EMB_SIZE, bias=False)
         self.lstm = LSTM(EMB_SIZE, AC_HIDDEN_UNIT_NUM, num_layers=AC_HIDDEN_LAYER_NUM,
                 bias=True, batch_first=True, bidirectional=True)
         self.expand_c = Linear(CODE_SIZE, AC_LAST2_UNIT_NUM)

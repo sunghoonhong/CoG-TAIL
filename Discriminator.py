@@ -18,7 +18,7 @@ class Discriminator(Module):
     def __init__(self):
         super(Discriminator, self).__init__()
         # linear mapping for one-hot action
-        self.embed = Linear(VOCAB_SIZE, EMB_SIZE)
+        self.embed = Linear(VOCAB_SIZE, EMB_SIZE, bias=False)
         self.lstm = LSTM(EMB_SIZE, DISC_HIDDEN_UNIT_NUM,
                         bias=True, batch_first=True, bidirectional=True)
         self.a0 = PReLU()
