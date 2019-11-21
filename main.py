@@ -18,10 +18,9 @@ if __name__ == '__main__':
     with gzip.open('Top3600_first_neg.pickle') as f:
         neg_first_list = pickle.load(f)
     weights = get_weights_from_dict(dist_dict)
-    bert_model, bert_tokenizer = get_bert_model_and_tokenizer()
-    env = Environment(bert_model, bert_tokenizer, pos_first_list, neg_first_list)
-    agent = Agent(bert_model, weights)
-    if load_model == False:
+    env = Environment(pos_first_list, neg_first_list)
+    agent = Agent(weights)
+    if not load_model:
 #        agent.pretrain_load()
 #        actor_update_cnt = ACTOR_UPDATE_CNT
         pass

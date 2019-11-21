@@ -6,10 +6,9 @@ from util import *
 
 
 class ShortMemory():
-    def __init__(self, actor_critic, discriminator, bert_model):
+    def __init__(self, actor_critic, discriminator):
         self.actor_critic = actor_critic
         self.discriminator = discriminator
-        self.bert_model = bert_model
         self.gamma = GAMMA
         self.lambd = LAMBDA
         self.states = []
@@ -19,9 +18,6 @@ class ShortMemory():
         self.last_state = None
         self.done = False
         self.old_log_probs = []
-        with gzip.open('Top3600_AtoB.pickle') as f:
-            to_bert_dict = pickle.load(f)
-        self.to_bert_dict = to_bert_dict
 
     def append(self, s, a, c, d, log_prob):
         '''
@@ -57,13 +53,11 @@ class ShortMemory():
 
     def move_to_long_memory(self, long_memory):
         # encoded_actions = self.actions_to_encoding()
-        actions = to_onehot_action(self.actions)
         states_values, last_state_value = self.get_values()
-        self.get_rewards(actions)
+        self.get_rewards()
         oracle_values, gaes = self.get_gae(states_values, last_state_value)
         states = np.stack(self.states, axis=0)
-        actions = actions.cpu().numpy()
-        long_memory.append(states, self.actions, actions, self.codes, gaes, oracle_values, self.old_log_probs, self.rewards)
+        long_memory.append(states, self.actions, self.codes, gaes, oracle_values, self.old_log_probs, self.rewards)
 
     # def actions_to_encoding(self):
     #     '''
@@ -80,7 +74,7 @@ class ShortMemory():
     #     return encoded_actions
 
     def get_values(self):
-        states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
+        states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.long, device=DEVICE)
         last_state = torch.as_tensor(self.last_state, device=DEVICE)
         codes = to_onehot(self.codes)
         code = to_onehot([self.codes[-1]])
@@ -88,9 +82,9 @@ class ShortMemory():
         last_state_value = self.actor_critic.critic_forward(last_state, code).detach().cpu().numpy()[0][0]
         return states_values, last_state_value
 
-    def get_rewards(self, encoded_actions):
-        states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.float, device=DEVICE)
-        disc_out = self.discriminator(states, encoded_actions)
+    def get_rewards(self):
+        states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.long, device=DEVICE)
+        disc_out = self.discriminator(states, self.actions)
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
         #choose your own reward scheme here!
         #log loss with shift
@@ -126,19 +120,17 @@ class LongMemory():
         self.count = 0
         self.states = []
         self.actions = []
-        self.encoded_actions = []
         self.codes = []
         self.gaes = []
         self.oracle_values = []
         self.old_log_probs = []
         self.rewards = []
 
-    def append(self, states, actions, encoded_actions, codes, gaes, oracle_values, old_log_probs, rewards):
+    def append(self, states, actions, codes, gaes, oracle_values, old_log_probs, rewards):
         '''
         IN:
         states: [HORIZON_LENGTH, STATE_SIZE](ndarray)
         actions: [HORIZON_LENGTH,](list)
-        encoded_actions: [HORIZON_LENGTH, VOCAB_SIZE](ndarray)
         codes: [HORIZON_LENGTH,](list)
         gaes: [HORIZON_LENGTH,](list)
         oracle_values: [HORIZON_LENGTH,](list)
@@ -147,7 +139,6 @@ class LongMemory():
         self.count += len(states)
         self.states.append(states)
         self.actions.extend(actions)
-        self.encoded_actions.append(encoded_actions)
         self.codes.extend(codes)
         self.gaes.extend(gaes)
         self.oracle_values.extend(oracle_values)
@@ -158,7 +149,6 @@ class LongMemory():
         self.count = 0
         self.states = []
         self.actions = []
-        self.encoded_actions = []
         self.codes = []
         self.gaes = []
         self.oracle_values = []
@@ -169,7 +159,6 @@ class LongMemory():
         if self.count > THRESHOLD_LEN:
             self.states = np.concatenate(self.states, axis=0)
             self.actions = np.array(self.actions, dtype=np.long)
-            self.encoded_actions = np.concatenate(self.encoded_actions, axis=0)
             self.codes = np.array(self.codes, dtype=np.float)
             self.gaes = np.array(self.gaes, dtype=np.float)
             '''

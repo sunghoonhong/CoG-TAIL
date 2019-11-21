@@ -19,11 +19,12 @@ if __name__ == '__main__':
     with gzip.open('Top3600_first_neg.pickle') as f:
         neg_first_list = pickle.load(f)     
     weights = get_weights_from_dict(dist_dict)
-    model, tokenizer = get_bert_model_and_tokenizer()
+    # model, tokenizer = get_bert_model_and_tokenizer()
+    tokenizer = get_tokenizer()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
-    agent = Agent(model, weights)
+    agent = Agent(weights)
 #    agent.pretrain_load()
-    env = Environment(model, tokenizer, pos_first_list, neg_first_list)
+    env = Environment(pos_first_list, neg_first_list)
     loss_list = []
     expert_chunk_generator = get_expert_chunk_generator()
     for epoch in range(FILE_NUM*EPOCH):

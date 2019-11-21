@@ -3,7 +3,7 @@ from time import time
 import numpy as np
 import random
 from torch.nn import Module, ModuleList
-from torch.nn import Linear, PReLU, BatchNorm1d, Sigmoid
+from torch.nn import Linear, PReLU, BatchNorm1d, Sigmoid, LSTM
 from torch.distributions import Categorical
 from torch.nn import MSELoss, CrossEntropyLoss
 from torch.optim import Adam
@@ -13,15 +13,21 @@ from util import *
 class Actor_Critic(Module):
     def __init__(self, pretrain_loss_function=None):
         super().__init__()
-        self.expand_c = Linear(CODE_SIZE, 128)
-        self.l1 = Linear(STATE_SIZE, AC_HIDDEN_UNIT_NUM)
+        self.embed = Linear(VOCAB_SIZE, EMB_SIZE)
+        self.lstm = LSTM(EMB_SIZE, AC_HIDDEN_UNIT_NUM, num_layers=AC_HIDDEN_LAYER_NUM,
+                bias=True, batch_first=True, bidirectional=True)
+        self.expand_c = Linear(CODE_SIZE, AC_LAST2_UNIT_NUM)
+        self.l1 = Linear(AC_HIDDEN_UNIT_NUM*2, AC_HIDDEN_UNIT_NUM)
         self.a1 = PReLU()
-        self.hidden_layers = ModuleList(
-            [Linear(AC_HIDDEN_UNIT_NUM, 128) for i in range(AC_HIDDEN_LAYER_NUM)]
-        )
-        self.activation_layers = ModuleList([PReLU() for _ in range(AC_HIDDEN_LAYER_NUM)])
-        self.actor_layer = Linear(128, VOCAB_SIZE)
-        self.critic_hidden_layer = Linear(128, CRITIC_HIDDEN_UNIT_NUM)
+        self.l2 = Linear(AC_HIDDEN_UNIT_NUM, AC_LAST2_UNIT_NUM)
+        self.a2 = PReLU()
+        # self.hidden_layers = ModuleList(
+        #     [Linear(AC_HIDDEN_UNIT_NUM, AC_LAST2_UNIT_NUM) for i in range(AC_HIDDEN_LAYER_NUM)]
+        # )
+        # self.activation_layers = ModuleList([PReLU() for _ in range(AC_HIDDEN_LAYER_NUM)])
+        self.actor_layer = Linear(AC_LAST2_UNIT_NUM, VOCAB_SIZE)
+
+        self.critic_hidden_layer = Linear(AC_LAST2_UNIT_NUM, CRITIC_HIDDEN_UNIT_NUM)
         self.critic_activation = PReLU()
         self.critic_layer = Linear(CRITIC_HIDDEN_UNIT_NUM, 1)
         self.critic_loss_function = MSELoss()
@@ -41,9 +47,10 @@ class Actor_Critic(Module):
         
         # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         # x = self.a1(self.l1(s_c))
-        reduced_s = self.a1(self.l1(s))
-        for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            reduced_s = activation((layer(reduced_s)))
+        embed = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
+        lstm_out = self.lstm(embed)[0][:, -1]
+        reduced_s = self.a1(self.l1(lstm_out))
+        reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)
         x = reduced_s + expanded_c
         x = self.actor_layer(x)
@@ -70,9 +77,11 @@ class Actor_Critic(Module):
             entropy: [BATCH_SIZE,](torch.FloatTensor)
         '''
         # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
-        reduced_s = self.a1(self.l1(s))
-        for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            reduced_s = activation((layer(reduced_s)))
+        s = to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE)
+        embed = self.embed(s)
+        lstm_out = self.lstm(embed)[0][:, -1]
+        reduced_s = self.a1(self.l1(lstm_out))
+        reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)
         x = reduced_s + expanded_c
         x = self.actor_layer(x)
@@ -100,13 +109,12 @@ class Actor_Critic(Module):
         '''
         # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         # x = self.a1(self.l1(s_c))
-        reduced_s = self.a1(self.l1(s))
-        for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            reduced_s = activation((layer(reduced_s)))
+        embed = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
+        lstm_out = self.lstm(embed)[0][:, -1]
+        reduced_s = self.a1(self.l1(lstm_out))
+        reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)
         x = reduced_s + expanded_c
-        # for layer, activation in zip(self.hidden_layers, self.activation_layers):
-            # x = activation((layer(x)))
         x = self.critic_activation(self.critic_hidden_layer(x))
         x = self.critic_layer(x)
         return x
@@ -140,17 +148,17 @@ class Actor_Critic(Module):
         loss = -torch.mean(tmp) + ENTROPY*minus_entropy
         return loss
 
-    def pretrain_loss(self, states, action_ids, codes):
+    def pretrain_loss(self, states, actions, codes):
         '''
         IN:
         states: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
-        action_ids: [BATCH_SIZE,](torch.LongTensor)
+        actions: [BATCH_SIZE,](torch.LongTensor)
         codes: [BATCH_SIZE,](list)(ndarray)
         pretrain_loss_function: CrossEntropyLoss with weights
         '''
         codes = to_onehot(codes)
         action_score = self.forward(states, codes)
-        loss = self.pretrain_loss_function(action_score, action_ids)
+        loss = self.pretrain_loss_function(action_score, actions)
         return loss
 
     def train_by_loss(self, loss):
@@ -169,7 +177,7 @@ class Actor_Critic(Module):
 
 if __name__ == '__main__':
     tmp_batch_size = 4
-    tmp_state = torch.randn(tmp_batch_size, STATE_SIZE)
+    tmp_state = torch.randn(tmp_batch_size, STATE_SIZE).long()
     tmp_action = torch.randint(VOCAB_SIZE, (tmp_batch_size,))
     tmp_code = [random.randint(0,1) for _ in range(tmp_batch_size)]
     tmp_gae = torch.rand((tmp_batch_size,))

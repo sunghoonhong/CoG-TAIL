@@ -5,7 +5,8 @@ import numpy as np
 import gzip, pickle
 from torch import softmax
 from collections import Counter
-from transformers import BertTokenizer, BertModel
+# from transformers import BertTokenizer, BertModel
+import sentencepiece as spm
 from config import *
 
 
@@ -27,14 +28,18 @@ def to_onehot(c):
     tmp = torch.eye(CODE_SIZE)
     return tmp[c].to(DEVICE)
 
-def to_onehot_action(a):
+def to_onehot_vocab(a):
     tmp = torch.eye(VOCAB_SIZE)
     return tmp[a].to(DEVICE)
 
-def get_bert_model_and_tokenizer():
-    model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
-    tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)
-    return model.to(DEVICE), tokenizer
+def get_tokenizer():
+    # model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
+    # tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)
+    tokenizer = spm.SentencePieceProcessor()
+    # tokenizer.Load('reviews.model')
+    # tokenizer.encode_as_ids()
+    # tokenizer.decode_ids()
+    return tokenizer
 
 def get_weights_from_dict(dist_dict):
     with gzip.open('Top3600_BtoA.pickle') as f:
