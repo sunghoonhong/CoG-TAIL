@@ -32,6 +32,11 @@ def to_onehot_vocab(a):
     tmp = torch.eye(VOCAB_SIZE)
     return tmp[a].to(DEVICE)
 
+def get_last_embedding(state, embedding):
+    last_idxs = STATE_SIZE - 1 - (state==0).sum(dim=1)
+    masks = torch.eye(STATE_SIZE)[last_idxs].unsqueeze(dim=2)
+    return (embedding * masks).sum(dim=1)
+
 def get_tokenizer():
     # model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
     # tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)

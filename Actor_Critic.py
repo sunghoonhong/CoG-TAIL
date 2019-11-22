@@ -48,7 +48,8 @@ class Actor_Critic(Module):
         # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         # x = self.a1(self.l1(s_c))
         embed = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed)[0][:, -1]
+        lstm_out = self.lstm(embed)[0]
+        lstm_out = get_last_embedding(s, lstm_out)
         reduced_s = self.a1(self.l1(lstm_out))
         reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)
@@ -76,10 +77,9 @@ class Actor_Critic(Module):
             actions_log_probs: [BATCH_SIZE,](torch.FloatTensor)
             entropy: [BATCH_SIZE,](torch.FloatTensor)
         '''
-        # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
-        s = to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE)
-        embed = self.embed(s)
-        lstm_out = self.lstm(embed)[0][:, -1]
+        embed = self.embed(to_onehot_vocab(s).view(-1, STATE_SIZE, VOCAB_SIZE))
+        lstm_out = self.lstm(embed)[0]
+        lstm_out = get_last_embedding(s, lstm_out)
         reduced_s = self.a1(self.l1(lstm_out))
         reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)
@@ -110,7 +110,8 @@ class Actor_Critic(Module):
         # s_c = torch.bmm(s.unsqueeze(2), c.unsqueeze(1)).view(-1, STATE_SIZE*CODE_SIZE)
         # x = self.a1(self.l1(s_c))
         embed = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed)[0][:, -1]
+        lstm_out = self.lstm(embed)[0]
+        lstm_out = get_last_embedding(s, lstm_out)
         reduced_s = self.a1(self.l1(lstm_out))
         reduced_s = self.a2(self.l2(reduced_s))
         expanded_c = self.expand_c(c)

@@ -43,7 +43,8 @@ class Discriminator(Module):
         '''
         #no sampling
         embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed_s)[0][:, -1]         # (N, 256)
+        lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
+        lstm_out = get_last_embedding(s, lstm_out)  # (N, 256)
         embed_a = self.embed(to_onehot_vocab(a).view(-1, VOCAB_SIZE))   # (N, 64)
         s_a = torch.cat((lstm_out, embed_a), dim=1)
         x = self.a0(s_a)
@@ -65,7 +66,8 @@ class Discriminator(Module):
             m=[BATCH_SIZE, LATENT_SIZE]
         '''
         embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed_s)[0][:, -1]         # (N, 256)
+        lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
+        lstm_out = get_last_embedding(s, lstm_out)
         embed_a = self.embed(to_onehot_vocab(a).view(-1, VOCAB_SIZE))   # (N, 64)
         s_a = torch.cat((lstm_out, embed_a), dim=1)
         x = self.a0(s_a)
@@ -165,7 +167,8 @@ class CodeQ(Module):
         '''
         #no sampling
         embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed_s)[0][:, -1]         # (N, 256)
+        lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
+        lstm_out = get_last_embedding(s, lstm_out)
         embed_a = self.embed(to_onehot_vocab(a).view(-1, VOCAB_SIZE))   # (N, 64)
         s_a = torch.cat((lstm_out, embed_a), dim=1)
         x = self.a0(s_a)
@@ -185,7 +188,8 @@ class CodeQ(Module):
         '''
         #no sampling
         embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed_s)[0][:, -1]         # (N, 256)
+        lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
+        lstm_out = get_last_embedding(s, lstm_out)
         embed_a = self.embed(onehot_a)   # (N, 64)
         s_a = torch.cat((lstm_out, embed_a), dim=1)
         x = self.a0(s_a)
