@@ -3,7 +3,6 @@
 *.pyc
 
 IMDB_Dataset.csv
-/model_save
 /expert_data
 /expert_data_last
 /restricted_expert_data
