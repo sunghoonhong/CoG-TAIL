@@ -14,8 +14,8 @@ class Agent():
             pretrain_loss_function = CrossEntropyLoss(torch.as_tensor(expert_weights, dtype=torch.float, device=DEVICE))
             self.actor_critic = Actor_Critic(pretrain_loss_function).to(DEVICE)
         else:
-            default_weights = np.zeros(VOCAB_SIZE)
-            self.actor_critic = Actor_Critic(CrossEntropyLoss(torch.as_tensor(default_weights, dtype=torch.float, device=DEVICE)).to(DEVICE))
+            default_weights = np.ones(VOCAB_SIZE)
+            self.actor_critic = Actor_Critic(CrossEntropyLoss(torch.as_tensor(default_weights, dtype=torch.float, device=DEVICE)).to(DEVICE)).to(DEVICE)
         self.discriminator = Discriminator().to(DEVICE)
         self.codeq = CodeQ().to(DEVICE)
         
@@ -196,7 +196,7 @@ class Agent():
     def pretrain(self, expert_chunk):
         self.actor_critic.train()
         expert_states = expert_chunk['states']
-        expert_actions = expert_chunk['actions']
+        expert_actions = expert_chunk['actions'].reshape((-1,))
         expert_codes = expert_chunk['codes'].reshape((-1,))
         expert_chunk_length = len(expert_states)
         expert_indice = np.arange(expert_chunk_length)
@@ -206,7 +206,7 @@ class Agent():
         expert_codes = expert_codes[expert_indice]
         loss_sum = 0
         for i in range(expert_chunk_length//BATCH_SIZE):
-            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.float, device=DEVICE)
+            batch_expert_states = torch.as_tensor(expert_states[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_expert_actions = torch.as_tensor(expert_actions[i*BATCH_SIZE:(i+1)*BATCH_SIZE], dtype=torch.long, device=DEVICE)
             batch_expert_codes = expert_codes[i*BATCH_SIZE:(i+1)*BATCH_SIZE]
             pretrain_loss = self.actor_critic.pretrain_loss(batch_expert_states, batch_expert_actions, batch_expert_codes)
