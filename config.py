@@ -1,7 +1,7 @@
 #system info
-DEVICE = 'cpu'
-# DEVICE = 'cuda:0'
-EXPERT_DIR = './batch_second_layer'
+# DEVICE = 'cpu'
+DEVICE = 'cuda:0'
+EXPERT_DIR = './batch_bpe'
 EXPERT_CHUNKS_NUM = 400
 EXPERT_CHUNK_LENGTH = 512
 BAD_TOKENS = []
