@@ -43,7 +43,6 @@ if __name__ == '__main__':
             d = False
             while not d:
                 a, log_prob = agent.get_action(s, c, test=True)
-                print(a)
                 next_s, r, d, _ = env.step(a, test=True)
                 s = next_s
             if epoch == TEST_NUM:

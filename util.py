@@ -41,7 +41,7 @@ def get_tokenizer():
     # model = BertModel.from_pretrained(PRETRAINED_WEIGHTS, output_hidden_states=True).eval()
     # tokenizer = BertTokenizer.from_pretrained(PRETRAINED_WEIGHTS)
     tokenizer = spm.SentencePieceProcessor()
-    # tokenizer.Load('reviews.model')
+    tokenizer.Load('reviews.model')
     # tokenizer.encode_as_ids()
     # tokenizer.decode_ids()
     return tokenizer
