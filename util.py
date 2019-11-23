@@ -34,7 +34,7 @@ def to_onehot_vocab(a):
 
 def get_last_embedding(state, embedding):
     last_idxs = STATE_SIZE - 1 - (state==0).sum(dim=1)
-    masks = torch.eye(STATE_SIZE)[last_idxs].unsqueeze(dim=2)
+    masks = torch.eye(STATE_SIZE)[last_idxs].unsqueeze(dim=2).to(DEVICE)
     return (embedding * masks).sum(dim=1)
 
 def get_tokenizer():

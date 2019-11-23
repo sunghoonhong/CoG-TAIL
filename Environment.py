@@ -1,7 +1,7 @@
 import torch
 import random
 import gzip, pickle
-from transformers import BertTokenizer, BertModel
+# from transformers import BertTokenizer, BertModel
 from copy import copy
 from config import *
 from util import *
