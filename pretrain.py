@@ -21,7 +21,7 @@ if __name__ == '__main__':
     weights = get_weights_from_dict(dist_dict)
     # model, tokenizer = get_bert_model_and_tokenizer()
     dist = torch.distributions.Categorical(probs=torch.full((CODE_SIZE,), fill_value=1/CODE_SIZE))
-    agent = Agent()
+    agent = Agent(weights)
 #    agent.pretrain_load()
     env = Environment(pos_first_list, neg_first_list)
     loss_list = []
