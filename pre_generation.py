@@ -9,7 +9,7 @@ from util import *
 
 MAX_LEN = 20
 
-def preprocess(review: list, total :int, show_progress: bool = True) -> list:
+def preprocess(review: list, total :int, show_progress: bool = True):
     global counter
     counter += 1
     if counter % 10000 == 0:

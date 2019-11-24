@@ -86,3 +86,5 @@ for e in range(10):
         loss = disc.calculate_vail_loss(batch_tmp_states, batch_tmp_actions, 0.01)[0]
         disc.train_by_loss(loss)
         print(loss)
+
+disc.save('pretrain')

@@ -32,3 +32,5 @@ for e in range(10):
         loss = codeq.calculate_loss(batch_expert_states, batch_expert_actions, batch_expert_codes)
         codeq.train_by_loss(loss)
         print(loss)
+
+codeq.save('pretrain')
