@@ -57,7 +57,7 @@ CRITIC_COEF = 1
 PRETRAIN_COEF = 0
 INFO_COEF = 1
 PPO_STEP = 5
-PRETRAIN_SAVEPATH = './model_save/pretrain.pt'
+PRETRAIN_SAVEPATH = './model_save/pretrain_128encoding.pt'
 MODEL_SAVEPATH = './model_save/trained'
 
 #for memory
