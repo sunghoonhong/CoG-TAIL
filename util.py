@@ -26,10 +26,14 @@ def to_onehot(c):
         one_hot_c: [BATCH_SIZE, CODE_SIZE](torch.FloatTensor)
     '''
     tmp = torch.eye(CODE_SIZE)
+    #if type(c) not in [int, list]:
+    #    c = c.long()
     return tmp[c].to(DEVICE)
 
 def to_onehot_vocab(a):
     tmp = torch.eye(VOCAB_SIZE)
+    if type(a) not in [int, list]:
+        a = a.long()
     return tmp[a].to(DEVICE)
 
 def get_last_embedding(state, embedding):

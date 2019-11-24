@@ -145,7 +145,7 @@ class Actor_Critic(Module):
         r = torch.exp(now_log_probs - old_log_probs)
         tmp = torch.min(r*gaes, torch.clamp(r, 1-EPSILON, 1+EPSILON)*gaes)
         minus_entropy = -torch.mean(entropy)
-        print('minus_entropy: ', minus_entropy.cpu())
+        # print('minus_entropy: ', minus_entropy.cpu())
         loss = -torch.mean(tmp) + ENTROPY*minus_entropy
         return loss
 

@@ -11,19 +11,18 @@ if __name__ == '__main__':
     assert PPO_STEP >= DISC_STEP
     load_model = False
     load_epoch = 195000
-    with gzip.open('Top3600_dist.pickle') as f:
+    with gzip.open('Top5000_dist.pickle') as f:
         dist_dict = pickle.load(f)
-    with gzip.open('Top3600_first_pos.pickle') as f:
+    with gzip.open('Top5000_first_pos.pickle') as f:
         pos_first_list = pickle.load(f)
-    with gzip.open('Top3600_first_neg.pickle') as f:
+    with gzip.open('Top5000_first_neg.pickle') as f:
         neg_first_list = pickle.load(f)
     weights = get_weights_from_dict(dist_dict)
     env = Environment(pos_first_list, neg_first_list)
     agent = Agent(weights)
     if not load_model:
-#        agent.pretrain_load()
-#        actor_update_cnt = ACTOR_UPDATE_CNT
-        pass
+       agent.pretrain_load()
+       actor_update_cnt = ACTOR_UPDATE_CNT
     else:
         agent.load(load_epoch)
     expert_chunk_generator = get_expert_chunk_generator()
@@ -47,11 +46,11 @@ if __name__ == '__main__':
                 else:
                     update_actor = False
                     actor_update_cnt += 1
-                print('updating')
+                #print('updating')
                 expert_chunks = get_n_expert_batch(expert_chunk_generator, PPO_STEP)
                 pretrain_loss = agent.update(expert_chunks, update_actor)
                 pretrain_loss_list.append(pretrain_loss)
-                print('update complete')
+                #print('update complete')
             s = next_s
 #        print(env.sentence)
         if e % TRAIN_REPORT_PERIOD == 0:

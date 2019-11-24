@@ -109,9 +109,9 @@ class Agent():
             batch_actions = torch.cat((batch_agent_actions, batch_expert_actions), 0)
             batch_codes = np.concatenate((batch_agent_codes, batch_expert_codes), axis=0)
 
-            disc_loss, kl = self.discriminator.calculate_vail_loss(batch_states, batch_actions, batch_codes, self.kl_coef)
+            disc_loss, kl = self.discriminator.calculate_vail_loss(batch_states, batch_actions, self.kl_coef)
             self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
-            print('d loss: ', disc_loss, ' self.kl_coef: ', self.kl_coef)
+            #print('d loss: ', disc_loss, ' self.kl_coef: ', self.kl_coef)
             self.discriminator.train_by_loss(disc_loss)
 
             code_loss = self.codeq.calculate_loss(batch_expert_states, batch_expert_actions, batch_expert_codes)
@@ -161,10 +161,10 @@ class Agent():
             info_loss = self.info_loss_function(code_out, torch.as_tensor(batch_codes, dtype=torch.long, device=DEVICE))
             #integrated loss
             loss = PRETRAIN_COEF*pretrain_loss + ACTOR_COEF*actor_loss + CRITIC_COEF*critic_loss + INFO_COEF*info_loss
-            print('a loss: ', actor_loss, end=' ')
-            print('c loss: ', critic_loss, end=' ')
-            print('p loss: ', pretrain_loss, end=' ')
-            print('info loss: ', info_loss)
+            #print('a loss: ', actor_loss, end=' ')
+            #print('c loss: ', critic_loss, end=' ')
+            #print('p loss: ', pretrain_loss, end=' ')
+            #print('info loss: ', info_loss)
             self.actor_critic.train_by_loss(loss)
         return pretrain_loss_sum/(min(expert_chunk_length//BATCH_SIZE, agent_chunk_length//BATCH_SIZE))
 
@@ -180,14 +180,14 @@ class Agent():
         for i in range(DISC_STEP):
                 expert_chunk = expert_chunks[i]
                 expert_states = expert_chunk['states']
-                expert_actions = expert_chunk['actions']
+                expert_actions = expert_chunk['actions'].reshape((-1,))
                 expert_codes = expert_chunk['codes'].reshape((-1,))
                 self.discriminator_update(expert_states, expert_actions, expert_codes)
         if update_actor:
             for i in range(PPO_STEP):
                 expert_chunk = expert_chunks[i]
                 expert_states = expert_chunk['states']
-                expert_actions = expert_chunk['actions']
+                expert_actions = expert_chunk['actions'].reshape((-1,))
                 expert_codes = expert_chunk['codes'].reshape((-1,))
                 pretrain_loss += self.actor_critic_update(expert_states, expert_actions, expert_codes)
         self.long_memory.flush()

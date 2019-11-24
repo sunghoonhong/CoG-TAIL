@@ -120,14 +120,15 @@ class Discriminator(Module):
         disc_loss = 0.5 * (agent_loss + expert_loss)
         #to debug
         _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
-        if verbose:
-            print('disc_out:', _disc_out)
+        #if verbose:
+        #   print('disc_out:', _disc_out)
         #kl loss
         kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
 
         #loss sum up
-        if verbose:
-            print('disc_loss: ', disc_loss, ' kl_coef*kl: ', kl_coef*kl_loss)
+        #if verbose:
+        #    print('disc_loss: ', disc_loss, ' kl_coef*kl: ', kl_coef*kl_loss)
+        #print(type(kl_coef), type(kl_loss))
         loss = disc_loss + kl_coef*kl_loss
         kl_loss = kl_loss.detach().cpu().numpy()
         return loss, kl_loss

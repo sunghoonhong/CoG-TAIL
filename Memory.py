@@ -93,7 +93,7 @@ class ShortMemory():
 #        self.rewards = list(-np.log(disc_out))
         #tan loss
 #        self.rewards = list(-np.tan(disc_out - 0.5))
-        print('rewards: ',self.rewards)
+        # print('rewards: ',self.rewards)
         #linear loss
 #        self.rewards = list(-(disc_out - 0.5))
 
