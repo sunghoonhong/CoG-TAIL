@@ -77,43 +77,36 @@ class Agent():
         np.random.shuffle(expert_indice)
         expert_states = expert_states[expert_indice]
         expert_actions = expert_actions[expert_indice]
-        expert_codes = expert_codes[expert_indice]
         #shuffle agent trajectories
         agent_chunk_length = self.long_memory.count
         agent_indice = np.arange(agent_chunk_length)
         np.random.shuffle(agent_indice)
         agent_states = self.long_memory.states[agent_indice]
         agent_actions = self.long_memory.actions[agent_indice]
-        agent_codes = self.long_memory.codes[agent_indice]
         half_batch_size = int(BATCH_SIZE/2)
         for i in range(min(expert_chunk_length//half_batch_size, agent_chunk_length//half_batch_size)):
             #agent
             batch_agent_states = torch.as_tensor(agent_states[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
             batch_agent_actions = torch.as_tensor(agent_actions[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
-            batch_agent_codes = agent_codes[i*half_batch_size:(i+1)*half_batch_size]
             #expert
             batch_expert_states = torch.as_tensor(expert_states[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
             batch_expert_actions = torch.as_tensor(expert_actions[i*half_batch_size:(i+1)*half_batch_size], dtype=torch.float, device=DEVICE)
-            batch_expert_codes = expert_codes[i*half_batch_size:(i+1)*half_batch_size]
             #to make same len
             min_length = min(len(batch_agent_states), len(batch_expert_states))
             batch_agent_states = batch_agent_states[:min_length]
             batch_agent_actions = batch_agent_actions[:min_length]
-            batch_agent_codes = batch_agent_codes[:min_length]
             batch_expert_states = batch_expert_states[:min_length]
             batch_expert_actions = batch_expert_actions[:min_length]
-            batch_expert_codes = batch_expert_codes[:min_length]
             assert len(batch_agent_states) == len(batch_expert_states)
             #concat
             batch_states = torch.cat((batch_agent_states, batch_expert_states), 0)
             batch_actions = torch.cat((batch_agent_actions, batch_expert_actions), 0)
-            batch_codes = np.concatenate((batch_agent_codes, batch_expert_codes), axis=0)
 
-            disc_loss, kl = self.discriminator.calculate_vail_loss(batch_states, batch_actions, self.kl_coef)
-            self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
-            print('d loss: ', disc_loss, ' self.kl_coef: ', self.kl_coef)
+            disc_loss = self.discriminator.calculate_wail_loss(batch_states, batch_actions)
+            #self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
+            print('d loss: ', disc_loss)
             self.discriminator.train_by_loss(disc_loss)
-            
+
 
     def actor_critic_update(self, expert_states, expert_actions, expert_codes):
         self.actor_critic.train()

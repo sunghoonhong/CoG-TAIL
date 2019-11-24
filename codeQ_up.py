@@ -44,4 +44,4 @@ if __name__ == '__main__':
         if len(average_list) > 50:
             plt.plot(np.arange(len(average_list)), np.array(average_list))
             plt.savefig('codeQ_loss.jpg')
-    codeq.save('pretrain')
+        codeq.save('pretrain')

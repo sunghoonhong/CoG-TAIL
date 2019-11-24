@@ -94,7 +94,8 @@ if __name__ == '__main__':
             #concat
             batch_states = torch.cat((batch_agent_states, batch_expert_states), 0)
             batch_actions = torch.cat((batch_agent_actions, batch_expert_actions), 0)
-            loss = disc.calculate_vail_loss(batch_states, batch_actions, 0.01)[0]
+            loss = disc.calculate_wail_loss(batch_states, batch_actions)
             disc.train_by_loss(loss)
-            print(loss)
-    disc.save('pretrain')
+            kl_coef = max(0, kl_coef + KL_STEP*(kl - IC))
+            print(loss, kl_coef)
+        disc.save('pretrain')

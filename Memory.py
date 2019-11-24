@@ -84,7 +84,7 @@ class ShortMemory():
 
     def get_rewards(self):
         states = torch.as_tensor(np.stack(self.states, axis=0), dtype=torch.long, device=DEVICE)
-        disc_out = self.discriminator(states, self.actions)
+        disc_out = torch.sigmoid(self.discriminator(states, self.actions))
         disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
         #choose your own reward scheme here!
         #log loss with shift

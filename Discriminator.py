@@ -21,16 +21,13 @@ class Discriminator(Module):
         self.embed = Linear(VOCAB_SIZE, EMB_SIZE, bias=False)
         self.lstm = LSTM(EMB_SIZE, DISC_HIDDEN_UNIT_NUM,
                         bias=True, batch_first=True, bidirectional=True)
-        self.a0 = PReLU()
-        self.l1 = Linear(DISC_HIDDEN_UNIT_NUM*2 + EMB_SIZE, DISC_HIDDEN_UNIT_NUM)
+        self.l1 = Linear(2*DISC_HIDDEN_UNIT_NUM + EMB_SIZE, DISC_HIDDEN_UNIT_NUM)
         self.a1 = PReLU()
         self.l2 = Linear(DISC_HIDDEN_UNIT_NUM, DISC_LATENT_SIZE)
+        self.a2 = PReLU()
         self.disc_out = Linear(DISC_LATENT_SIZE, 1)
         self.clip_list = torch.nn.ModuleList([self.lstm, self.l1, self.l2, self.disc_out])
         self.disc_loss = BCELoss()
-        self.target_mean = torch.zeros(1, DISC_LATENT_SIZE).to(DEVICE)
-        self.target_cov = torch.diag_embed(torch.full((1, DISC_LATENT_SIZE), 0.1)).to(DEVICE)
-        self.target_dist = MultivariateNormal(self.target_mean, self.target_cov)
         self.opt = Adam(self.parameters(), lr=DISC_LR, weight_decay=1e-4)
 
     def forward(self, s, a):
@@ -42,75 +39,26 @@ class Discriminator(Module):
         (disc_out, code_out) where
             disc_out: [BATCH_SIZE, 1](torch.FloatTensor)(sigmoid_normalized)
         '''
-        #no sampling
         embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
         lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
         lstm_out = get_last_embedding(s, lstm_out)  # (N, 256)
         embed_a = self.embed(to_onehot_vocab(a).view(-1, VOCAB_SIZE))   # (N, 64)
         s_a = torch.cat((lstm_out, embed_a), dim=1)
-        x = self.a0(s_a)
-        x = self.l2(self.a1(self.l1(x)))
-        m = x[:, :DISC_LATENT_SIZE]
-        cov = self.target_cov
-        dist = MultivariateNormal(m, cov)
-        latent_variable = dist.mean
-        disc_out = sigmoid(self.disc_out(latent_variable))
+        x = self.a1(self.l1(s_a))
+        x = self.a2(self.l2(x))
+        disc_out = self.disc_out(x)
         return disc_out
 
-    def get_distribution(self, s, a):
-        '''
-        IN:
-        s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
-        a: [BATCH_SIZE, VOCAB_SIZE](torch.FloatTensor)
-        OUT:
-        dist: torch.distributions.MultivariateNormal where
-            m=[BATCH_SIZE, LATENT_SIZE]
-        '''
-        embed_s = self.embed(to_onehot_vocab(s).view(-1, GEN_MAX_LEN, VOCAB_SIZE))
-        lstm_out = self.lstm(embed_s)[0]         # (N, 20, 256)
-        lstm_out = get_last_embedding(s, lstm_out)
-        embed_a = self.embed(to_onehot_vocab(a).view(-1, VOCAB_SIZE))   # (N, 64)
-        s_a = torch.cat((lstm_out, embed_a), dim=1)
-        x = self.a0(s_a)
-        x = self.l2(self.a1(self.l1(x)))
-        m = x[:, :DISC_LATENT_SIZE]
-        cov = self.target_cov
-        dist = MultivariateNormal(m, cov)
-        return dist
 
-    # def calculate_loss(self, s, a, is_agent, kl_coef, verbose=False):
-    #     '''
-    #     IN:
-    #     s: [BATCH_SIZE, STATE_SIZE](torch.FloatTensor)
-    #     a: [BATCH_SIZE, VOCAB_SIZE](torch.FloatTensor)
-    #     is_agent: [BATCH_SIZE,](torch.FloatTensor)
-    #     OUT:
-    #     loss, kl_loss
-    #     '''
-    #     is_agent = is_agent.view(-1, 1)
-    #     dist = self.get_distribution(s, a)
-    #     latent_variable = dist.mean
-    #     disc_out = sigmoid(self.disc_out(latent_variable))
-    #     _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
-    #     if verbose:
-    #         print('disc_out:', -np.tan(_disc_out - 0.5))
-    #     disc_loss = self.disc_loss(disc_out, is_agent)
-    #     kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
-    #     loss = disc_loss + kl_coef*kl_loss
-    #     kl_loss = kl_loss.detach().cpu().numpy()
-    #     return loss, kl_loss
-
-    def calculate_vail_loss(self, s, a, kl_coef, verbose=True):
+    def calculate_wail_loss(self, s, a, verbose=True):
         '''
         IN:
         s: [BATCH_SIZE, STATE_SIZE](torch.LongTensor), first half is agent, last half is expert
         a: [BATCH_SIZE,](torch.LongTensor)
         '''
         half_batch_size = int(len(s)/2)
-        dist = self.get_distribution(s, a)
-        latent_variable = dist.mean
         #calculate disc_loss
-        disc_out = self.disc_out(latent_variable).view(-1,)
+        disc_out = self.forward(s, a)
         agent_out = disc_out[:half_batch_size]
         expert_out = disc_out[half_batch_size:]
 #        zeros = torch.zeros(half_batch_size).to(DEVICE)
@@ -125,17 +73,16 @@ class Discriminator(Module):
         if verbose:
            print('disc_out:', _disc_out)
         #kl loss
-        kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
+        #kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
 
         #loss sum up
         #if verbose:
         #    print('disc_loss: ', disc_loss, ' kl_coef*kl: ', kl_coef*kl_loss)
         #print(type(kl_coef), type(kl_loss))
-        kl_coef = 0
-        loss = disc_loss + kl_coef*kl_loss
-        kl_loss = kl_loss.detach().cpu().numpy()
-        print('loss, ', loss)
-        return loss, kl_loss
+        #loss = disc_loss + kl_coef*kl_loss
+        loss = disc_loss
+        #kl_loss = kl_loss.detach().cpu().numpy()
+        return loss
 
     def train_by_loss(self, loss):
         self.zero_grad()
