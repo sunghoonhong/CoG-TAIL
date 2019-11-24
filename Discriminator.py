@@ -26,7 +26,7 @@ class Discriminator(Module):
         self.a1 = PReLU()
         self.l2 = Linear(DISC_HIDDEN_UNIT_NUM, DISC_LATENT_SIZE)
         self.disc_out = Linear(DISC_LATENT_SIZE, 1)
-        self.clip_list = torch.nn.ModuleList([self.l1, self.l2, self.disc_out])
+        self.clip_list = torch.nn.ModuleList([self.lstm, self.l1, self.l2, self.disc_out])
         self.disc_loss = BCELoss()
         self.target_mean = torch.zeros(1, DISC_LATENT_SIZE).to(DEVICE)
         self.target_cov = torch.diag_embed(torch.full((1, DISC_LATENT_SIZE), 0.1)).to(DEVICE)
@@ -134,6 +134,7 @@ class Discriminator(Module):
         kl_coef = 0
         loss = disc_loss + kl_coef*kl_loss
         kl_loss = kl_loss.detach().cpu().numpy()
+        print('loss, ', loss)
         return loss, kl_loss
 
     def train_by_loss(self, loss):
@@ -225,8 +226,9 @@ class CodeQ(Module):
         self.opt.step()
 
     def save(self, epoch):
-        path = MODEL_SAVEPATH + str(epoch) + "code" + ".pt"
+        path = MODEL_SAVEPATH + str(epoch) + "codeQ" + ".pt"
         torch.save(self.state_dict(), path)
+
 
 if __name__ == '__main__':
     tmp_batch = 10

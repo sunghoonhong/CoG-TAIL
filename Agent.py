@@ -113,9 +113,7 @@ class Agent():
             self.kl_coef = max(0, self.kl_coef + KL_STEP*(kl - IC))
             print('d loss: ', disc_loss, ' self.kl_coef: ', self.kl_coef)
             self.discriminator.train_by_loss(disc_loss)
-
-            code_loss = self.codeq.calculate_loss(batch_expert_states, batch_expert_actions, batch_expert_codes)
-            self.codeq.train_by_loss(code_loss)
+            
 
     def actor_critic_update(self, expert_states, expert_actions, expert_codes):
         self.actor_critic.train()
@@ -220,6 +218,10 @@ class Agent():
     def pretrain_load(self):
         self.actor_critic.load_state_dict(torch.load(PRETRAIN_SAVEPATH, map_location=torch.device(DEVICE)))
         self.actor_critic.to(DEVICE)
+        self.discriminator.load_state_dict(torch.load(MODEL_SAVEPATH + 'pretrain' + 'disc.pt', map_location=torch.device(DEVICE)))
+        self.discriminator.to(DEVICE)
+        self.codeq.load_state_dict(torch.load(MODEL_SAVEPATH + 'pretrain' + 'codeQ.pt', map_location=torch.device(DEVICE)))
+        self.codeq.to(DEVICE)
 
     def save(self, epoch):
         epoch += 55000
@@ -232,5 +234,5 @@ class Agent():
         self.actor_critic.to(DEVICE)
         self.discriminator.load_state_dict(torch.load(MODEL_SAVEPATH + str(epoch) + 'disc.pt', map_location=torch.device(DEVICE)))
         self.discriminator.to(DEVICE)
-        self.codeq.load_state_dict(torch.load(MODEL_SAVEPATH + str(epoch) + 'code.pt', map_location=torch.device(DEVICE)))
+        self.codeq.load_state_dict(torch.load(MODEL_SAVEPATH + str(epoch) + 'codeQ.pt', map_location=torch.device(DEVICE)))
         self.codeq.to(DEVICE)

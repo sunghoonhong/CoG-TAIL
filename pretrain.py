@@ -7,7 +7,7 @@ from Agent import Agent
 from Environment import Environment
 from config import *
 from util import *
-FILE_NUM = 5115
+FILE_NUM = 7835
 EPOCH = 20
 TEST_NUM = 100
 
