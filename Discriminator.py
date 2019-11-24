@@ -26,6 +26,7 @@ class Discriminator(Module):
         self.a1 = PReLU()
         self.l2 = Linear(DISC_HIDDEN_UNIT_NUM, DISC_LATENT_SIZE)
         self.disc_out = Linear(DISC_LATENT_SIZE, 1)
+        self.clip_list = torch.nn.ModuleList([self.l1, self.l2, self.disc_out])
         self.disc_loss = BCELoss()
         self.target_mean = torch.zeros(1, DISC_LATENT_SIZE).to(DEVICE)
         self.target_cov = torch.diag_embed(torch.full((1, DISC_LATENT_SIZE), 0.1)).to(DEVICE)
@@ -107,21 +108,22 @@ class Discriminator(Module):
         '''
         half_batch_size = int(len(s)/2)
         dist = self.get_distribution(s, a)
-        latent_variable = dist.rsample()
+        latent_variable = dist.mean
         #calculate disc_loss
-        disc_out = sigmoid(self.disc_out(latent_variable).view(-1,))
+        disc_out = self.disc_out(latent_variable).view(-1,)
         agent_out = disc_out[:half_batch_size]
         expert_out = disc_out[half_batch_size:]
-        zeros = torch.zeros(half_batch_size).to(DEVICE)
-        ones = torch.ones(half_batch_size).to(DEVICE)
+#        zeros = torch.zeros(half_batch_size).to(DEVICE)
+#        ones = torch.ones(half_batch_size).to(DEVICE)
         assert len(agent_out) == len(expert_out)
-        agent_loss = self.disc_loss(agent_out, zeros)
-        expert_loss = self.disc_loss(expert_out, ones)
-        disc_loss = 0.5 * (agent_loss + expert_loss)
+#        agent_loss = self.disc_loss(agent_out, zeros)
+#        expert_loss = self.disc_loss(expert_out, ones)
+#        disc_loss = 0.5 * (agent_loss + expert_loss)
+        disc_loss = -torch.mean(expert_out - agent_out)
         #to debug
         _disc_out = disc_out.detach().cpu().numpy().reshape((-1,))
-        #if verbose:
-        #   print('disc_out:', _disc_out)
+        if verbose:
+           print('disc_out:', _disc_out)
         #kl loss
         kl_loss = torch.mean(kl_divergence(dist, self.target_dist))
 
@@ -129,6 +131,7 @@ class Discriminator(Module):
         #if verbose:
         #    print('disc_loss: ', disc_loss, ' kl_coef*kl: ', kl_coef*kl_loss)
         #print(type(kl_coef), type(kl_loss))
+        kl_coef = 0
         loss = disc_loss + kl_coef*kl_loss
         kl_loss = kl_loss.detach().cpu().numpy()
         return loss, kl_loss
@@ -137,6 +140,9 @@ class Discriminator(Module):
         self.zero_grad()
         loss.backward()
         self.opt.step()
+        for layer in self.clip_list:
+            for p in layer.parameters():
+                p.data.clamp_(-0.01, 0.01)
 
     def save(self, epoch):
         path = MODEL_SAVEPATH + str(epoch) + "disc" + ".pt"

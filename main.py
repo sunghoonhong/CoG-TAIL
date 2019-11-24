@@ -22,7 +22,7 @@ if __name__ == '__main__':
     agent = Agent(weights)
     if not load_model:
        agent.pretrain_load()
-       actor_update_cnt = ACTOR_UPDATE_CNT
+       actor_update_cnt = 0
     else:
         agent.load(load_epoch)
     expert_chunk_generator = get_expert_chunk_generator()
