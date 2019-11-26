@@ -5,7 +5,7 @@ from torch.nn import Linear, LeakyReLU, PReLU, BatchNorm1d, Bilinear, LSTM
 from torch.nn import BCELoss, CrossEntropyLoss, BCEWithLogitsLoss
 from torch.distributions import MultivariateNormal, kl_divergence
 from torch import sigmoid, tanh, softmax
-from torch.optim import Adam
+from torch.optim import Adam, RMSprop
 from util import *
 from config import *
 
@@ -28,7 +28,7 @@ class Discriminator(Module):
         self.disc_out = Linear(DISC_LATENT_SIZE, 1)
         self.clip_list = torch.nn.ModuleList([self.lstm, self.l1, self.l2, self.disc_out])
         self.disc_loss = BCELoss()
-        self.opt = Adam(self.parameters(), lr=DISC_LR, weight_decay=1e-4)
+        self.opt = RMSprop(self.parameters(), lr=DISC_LR, weight_decay=1e-4)
 
     def forward(self, s, a):
         '''
@@ -47,6 +47,7 @@ class Discriminator(Module):
         x = self.a1(self.l1(s_a))
         x = self.a2(self.l2(x))
         disc_out = self.disc_out(x)
+        disc_out = torch.clamp(disc_out, -1, 1)
         return disc_out
 
 
